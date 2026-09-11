@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0a1628">
+<link rel="manifest" href="manifest.json">
+<title>Patho Pro — Medical MCQ Engine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink:#0a1628;--ink2:#1e3150;--ink3:#4a6080;--ink4:#8099b8;
+  --surf:#ffffff;--surf2:#f0f4fb;--surf3:#e2eaf6;
+  --bdr:#d4dff0;--bdr2:#b8cce4;
+  --blue:#1a4fd6;--blue2:#2563eb;--blue-lt:#eef4ff;--blue-glow:rgba(37,99,235,.2);
+  --ok:#059669;--ok-bg:#ecfdf5;--ok-ring:#a7f3d0;
+  --err:#dc2626;--err-bg:#fef2f2;--err-ring:#fecaca;
+  --warn:#d97706;--warn-bg:#fffbeb;
+  --gold:#f59e0b;--gold-bg:#fef3c7;--gold2:#b45309;
+  --xp:#7c3aed;--xp-bg:#f5f3ff;
+  --r:8px;--rm:14px;--rl:20px;--rxl:28px;
+  --sh-sm:0 1px 4px rgba(10,22,40,.08);
+  --sh:0 4px 18px rgba(10,22,40,.1),0 2px 4px rgba(10,22,40,.06);
+  --sh-lg:0 12px 44px rgba(10,22,40,.14),0 4px 12px rgba(10,22,40,.08);
+  --sh-blue:0 4px 22px rgba(37,99,235,.25);
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--surf2);color:var(--ink);min-height:100vh;overflow-x:hidden}
+#app{max-width:800px;margin:0 auto;min-height:100vh;background:var(--surf);display:flex;flex-direction:column;position:relative;box-shadow:var(--sh-lg)}
+.screen{display:none;flex-direction:column;flex:1}
+.screen.active{display:flex}
+.scroll-area{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:0 0 40px}
+.scroll-area::-webkit-scrollbar{width:4px}
+.scroll-area::-webkit-scrollbar-thumb{background:var(--bdr2);border-radius:2px}
+
+/* TOP BAR & XP */
+.top-bar{padding:12px 18px;background:var(--surf);border-bottom:1px solid var(--bdr);display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(16px)}
+.logo-text{font-family:'Playfair Display',serif;font-size:1.25rem;color:var(--ink);letter-spacing:-.02em}
+.logo-text span{color:var(--blue2)}
+.conn-badge{font-size:.65rem;font-weight:800;padding:3px 9px;border-radius:20px;background:var(--ok-bg);color:var(--ok);border:1px solid var(--ok-ring)}
+.xp-strip{background:linear-gradient(90deg,var(--ink),var(--ink2));padding:8px 18px;display:flex;align-items:center;gap:10px}
+.xp-info{flex:1}
+.xp-label-row{display:flex;justify-content:space-between;color:white;font-size:.72rem;font-weight:700;margin-bottom:4px}
+.xp-val{color:var(--gold)}
+.xp-bar-track{height:5px;background:rgba(255,255,255,.15);border-radius:3px}
+.xp-bar-fill{height:100%;background:var(--gold);border-radius:3px;transition:width .8s var(--ease)}
+.xp-level-badge{background:var(--gold);border-radius:8px;padding:4px 8px;text-align:center;min-width:42px;font-weight:900}
+
+/* HERO & STATS */
+.hero{padding:24px 18px 18px;background:linear-gradient(160deg,#eef4ff 0%,#f5f3ff 50%,#fafafa 100%);border-bottom:1px solid var(--bdr)}
+.hero-title{font-family:'Playfair Display',serif;font-size:1.6rem;line-height:1.2;margin-bottom:4px}
+.db-stats{display:flex;gap:8px;margin-top:14px}
+.db-stat{flex:1;background:white;border:1px solid var(--bdr);border-radius:var(--rm);padding:10px;text-align:center;box-shadow:var(--sh-sm)}
+.db-stat-num{font-size:1.3rem;font-weight:800;color:var(--blue)}
+.db-stat-lbl{font-size:.62rem;font-weight:700;color:var(--ink4);text-transform:uppercase}
+
+/* GLOBAL PERFORMANCE DASHBOARD */
+.global-stats-board{margin:14px 18px 0;background:var(--surf);border:2px solid var(--bdr2);border-radius:var(--rl);padding:16px}
+.global-stats-title{font-size:.85rem;font-weight:800;color:var(--ink);margin-bottom:12px;display:flex;align-items:center;gap:6px}
+.g-stat-grid{display:grid;grid-template-columns:repeat(2, 1fr);gap:10px}
+.g-stat-box{background:var(--surf2);padding:12px;border-radius:var(--rm);text-align:center;border:1px solid var(--bdr)}
+.g-val{font-size:1.4rem;font-weight:900;color:var(--ink)}
+.g-lbl{font-size:.65rem;font-weight:700;color:var(--ink4);text-transform:uppercase;margin-top:2px}
+
+/* SECTIONS & CHIPS */
+.section-block{padding:18px 18px 0}
+.filter-header-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.section-label{font-size:.68rem;font-weight:800;text-transform:uppercase;color:var(--ink4);display:flex;align-items:center;gap:6px}
+.toggle-all-link{font-size:.74rem;font-weight:700;color:var(--blue2);cursor:pointer;user-select:none}
+.pill-row, .chip-grid{display:flex;flex-wrap:wrap;gap:7px}
+.pill, .chip{padding:8px 15px;border-radius:50px;font-size:.84rem;font-weight:700;border:1.5px solid var(--bdr2);background:var(--surf);color:var(--ink2);cursor:pointer;transition:all .18s var(--ease);user-select:none}
+.pill.selected, .chip.selected{background:var(--blue);border-color:var(--blue);color:white;box-shadow:var(--sh-blue)}
+.chip.selected::before{content:'✓ ';font-size:.8rem;font-weight:900}
+
+/* MODE CARDS */
+.mode-toggle{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px; margin-top:10px}
+.mode-card{padding:14px 8px;border-radius:var(--rm);border:2px solid var(--bdr);background:var(--surf);cursor:pointer;text-align:center;transition:all .2s var(--ease)}
+.mode-card.selected{border-color:var(--blue);background:var(--blue-lt);box-shadow:var(--sh-blue)}
+.mode-icon{font-size:1.5rem;margin-bottom:6px}
+.mode-title{font-size:.8rem;font-weight:800;color:var(--ink)}
+
+/* EXPLANATION TOGGLE */
+.exp-toggle-row{display:flex;align-items:center;justify-content:space-between;margin-top:12px;padding:12px 14px;background:var(--surf2);border-radius:var(--rm);border:1px solid var(--bdr)}
+.exp-toggle-label{font-size:.84rem;font-weight:700;color:var(--ink2)}
+.toggle-switch{position:relative;width:42px;height:24px;cursor:pointer}
+.toggle-switch input{opacity:0;width:0;height:0}
+.toggle-slider{position:absolute;top:0;left:0;right:0;bottom:0;background:var(--bdr2);border-radius:12px;transition:.3s}
+.toggle-slider::before{content:'';position:absolute;width:18px;height:18px;left:3px;top:3px;background:white;border-radius:50%;transition:.3s;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.toggle-switch input:checked+.toggle-slider{background:var(--blue)}
+.toggle-switch input:checked+.toggle-slider::before{transform:translateX(18px)}
+
+/* ERROR BANNER */
+.error-banner{display:none;margin:12px 18px 0;padding:12px 14px;background:var(--err-bg);border:1px solid var(--err-ring);border-radius:var(--rm);font-size:.82rem;color:var(--err);font-weight:700;text-align:center}
+
+/* QUIZ UI */
+.quiz-top{display:flex;align-items:center;justify-content:space-between;padding:10px 18px 0}
+.q-timer-center{font-size:1.2rem;font-weight:900;color:var(--ink);text-align:center;padding:10px}
+.question-card{margin:12px 18px 0;padding:18px;background:var(--surf);border:1.5px solid var(--bdr);border-radius:var(--rl);box-shadow:var(--sh);position:relative}
+.q-tools{position:absolute;top:18px;right:18px;display:flex;gap:10px}
+.tool-btn{background:var(--surf2);border:none;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:1rem;box-shadow:var(--sh-sm)}
+.tool-btn.active{background:var(--gold-bg);color:var(--gold2)}
+.q-text{font-size:.94rem;font-weight:600;color:var(--ink);line-height:1.6;margin-top:8px}
+
+/* OPTIONS */
+.options-area{padding:12px 18px 0;display:flex;flex-direction:column;gap:9px}
+.opt{padding:14px 16px;border-radius:var(--rm);border:2px solid var(--bdr);background:var(--surf);cursor:pointer;font-weight:600;color:var(--ink2);display:flex;gap:12px;transition:all .2s}
+.opt.correct{border-color:var(--ok);background:var(--ok-bg)}
+.opt.incorrect{border-color:var(--err);background:var(--err-bg)}
+.opt.dimmed{opacity:.5; pointer-events:none;}
+
+/* EXPLANATION */
+.explanation-wrap{margin:12px 18px 0;display:none}
+.explanation-wrap.show{display:block}
+.explanation-card{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1.5px solid #fde68a;border-radius:var(--rl);padding:14px}
+
+/* BUTTONS */
+.btn-primary{width:100%;padding:16px;background:linear-gradient(135deg,var(--blue),#4f46e5);color:white;border:none;border-radius:var(--rm);font-size:.95rem;font-weight:800;cursor:pointer;margin-top:18px;box-shadow:var(--sh-blue)}
+.quiz-nav{display:flex;gap:8px;padding:14px 18px}
+.btn-nav{flex:1;padding:13px;background:var(--surf);border:1.5px solid var(--bdr2);border-radius:var(--rm);font-weight:800;cursor:pointer}
+
+/* RESULTS & ANALYZER */
+.results-hero{padding:24px 18px;background:var(--surf2);text-align:center;border-bottom:1px solid var(--bdr)}
+.radar-placeholder{width:120px;height:120px;border-radius:50%;background:conic-gradient(var(--ok) 0% 0%, var(--err) 0% 100%);margin:0 auto 12px;display:flex;align-items:center;justify-content:center;color:var(--ink);font-weight:900;font-size:1.8rem;box-shadow:inset 0 0 15px rgba(0,0,0,.1); border:6px solid white}
+.stats-row{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:14px 18px;border-bottom:1px solid var(--bdr)}
+
+/* MISSED CARDS FOR ANALYZER */
+.results-section{padding:16px 18px;border-bottom:1px solid var(--bdr)}
+.results-section-title{font-size:.75rem;font-weight:900;text-transform:uppercase;color:var(--ink4);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.missed-list{display:flex;flex-direction:column;gap:12px}
+.missed-card{background:var(--surf);border:1.5px solid var(--bdr);border-radius:var(--rm);overflow:hidden;box-shadow:var(--sh-sm)}
+.missed-card-header{padding:12px 14px;background:var(--surf2);border-bottom:1px solid var(--bdr);display:flex;gap:10px}
+.missed-q-num{width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:900;color:white;flex-shrink:0}
+.missed-q-num.right{background:var(--ok)}
+.missed-q-num.wrong{background:var(--err)}
+.missed-q-text{font-size:.85rem;font-weight:600;color:var(--ink);line-height:1.4}
+.missed-card-body{padding:12px 14px}
+.missed-ans-row{margin-bottom:8px; font-size:.8rem; font-weight:700; display:flex; flex-direction:column; gap:4px}
+.ans-label{font-size:.65rem; color:var(--ink4); text-transform:uppercase; letter-spacing:1px}
+.missed-why{font-size:.8rem;color:var(--ink3);line-height:1.5;margin-top:10px;padding-top:10px;border-top:1px dashed var(--bdr)}
+
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<div id="app">
+
+<!-- ===== SCREEN 1: SETUP DASHBOARD ===== -->
+<div id="screen-setup" class="screen active">
+  <div class="top-bar">
+    <div class="logo-text">Patho<span>Pro</span></div>
+    <div class="conn-badge">PWA ACTIVE</div>
+  </div>
+  
+  <div class="xp-strip">
+    <div class="xp-info">
+      <div class="xp-label-row"><span id="xp-rank-name">Medical Student</span><span id="xp-display">0 XP</span></div>
+      <div class="xp-bar-track"><div class="xp-bar-fill" id="xp-bar" style="width:0%"></div></div>
+    </div>
+    <div class="xp-level-badge"><div id="xp-level">1</div></div>
+  </div>
+
+  <div class="scroll-area">
+    <div class="hero">
+      <h1 class="hero-title">Configure Block</h1>
+      <div class="db-stats">
+        <div class="db-stat"><div class="db-stat-num" id="stat-total-db">0</div><div class="db-stat-lbl">Bank Total</div></div>
+        <div class="db-stat"><div class="db-stat-num" id="stat-available">0</div><div class="db-stat-lbl">Available Now</div></div>
+      </div>
+    </div>
+
+    <!-- GLOBAL PERFORMANCE DASHBOARD -->
+    <div class="global-stats-board">
+      <div class="global-stats-title">📊 System Rights & Wrongs (All-Time)</div>
+      <div class="g-stat-grid">
+        <div class="g-stat-box">
+          <div class="g-val" id="g-attempted">0</div>
+          <div class="g-lbl">Qs Attempted</div>
+        </div>
+        <div class="g-stat-box">
+          <div class="g-val" id="g-accuracy" style="color:var(--blue2)">0%</div>
+          <div class="g-lbl">Global Accuracy</div>
+        </div>
+        <div class="g-stat-box">
+          <div class="g-val" id="g-correct" style="color:var(--ok)">0</div>
+          <div class="g-lbl">Total Right</div>
+        </div>
+        <div class="g-stat-box">
+          <div class="g-val" id="g-wrong" style="color:var(--err)">0</div>
+          <div class="g-lbl">Total Wrong</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODE -->
+    <div class="section-block">
+      <div class="section-label">Study Mode</div>
+      <div class="mode-toggle">
+        <div class="mode-card selected" data-mode="timed" onclick="setMode(this, 'timed')">
+          <div class="mode-icon">⏱️</div><div class="mode-title">Standard</div>
+        </div>
+        <div class="mode-card" data-mode="learning" onclick="setMode(this, 'learning')">
+          <div class="mode-icon">📖</div><div class="mode-title">Tutor</div>
+        </div>
+        <div class="mode-card" data-mode="pomodoro" onclick="setMode(this, 'pomodoro')">
+          <div class="mode-icon">🍅</div><div class="mode-title">Focus (25/30)</div>
+        </div>
+      </div>
+      
+      <div class="exp-toggle-row">
+        <span class="exp-toggle-label">📚 Show explanations after answers</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="exp-toggle" checked>
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <!-- BLOCK SIZE & SRS -->
+    <div class="section-block">
+      <div class="section-label">Block Size & Retrieval</div>
+      <div class="pill-row" id="block-size-pills">
+        <div class="pill selected" data-size="10" onclick="setSize(this, 10)">10 Qs</div>
+        <div class="pill" data-size="20" onclick="setSize(this, 20)">20 Qs</div>
+        <div class="pill" data-size="40" onclick="setSize(this, 40)">40 Qs</div>
+        <div class="pill" data-size="srs" onclick="setSize(this, 'srs')" style="border-color:var(--xp); color:var(--xp)">🧠 Review Missed</div>
+      </div>
+    </div>
+
+    <!-- 4 MAIN SUBJECTS FILTER -->
+    <div class="section-block">
+      <div class="filter-header-row">
+        <div class="section-label" style="margin-bottom:0;flex:1">Subjects</div>
+        <span class="toggle-all-link" id="toggle-subjects">Toggle All</span>
+      </div>
+      <div class="chip-grid" id="subject-chips"></div>
+    </div>
+
+    <!-- TOPICS FILTER -->
+    <div class="section-block">
+      <div class="filter-header-row">
+        <div class="section-label" style="margin-bottom:0;flex:1">Chapters / Topics</div>
+        <span class="toggle-all-link" id="toggle-topics">Toggle All</span>
+      </div>
+      <div class="chip-grid" id="topic-chips"></div>
+    </div>
+
+    <!-- DIFFICULTY FILTER -->
+    <div class="section-block">
+      <div class="filter-header-row">
+        <div class="section-label" style="margin-bottom:0;flex:1">Difficulty</div>
+        <span class="toggle-all-link" id="toggle-diffs">Toggle All</span>
+      </div>
+      <div class="chip-grid" id="diff-chips"></div>
+    </div>
+
+    <!-- SOURCE FILTER -->
+    <div class="section-block">
+      <div class="filter-header-row">
+        <div class="section-label" style="margin-bottom:0;flex:1">Data Source</div>
+        <span class="toggle-all-link" id="toggle-sources">Toggle All</span>
+      </div>
+      <div class="chip-grid" id="source-chips"></div>
+    </div>
+
+    <div class="error-banner" id="error-banner">⚠️ No questions match your current filters.</div>
+
+    <div style="padding: 18px;">
+      <button class="btn-primary" onclick="startQuiz()">Start Engine</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SCREEN 2: QUIZ ===== -->
+<div id="screen-quiz" class="screen">
+  <div class="top-bar">
+    <span class="conn-badge" id="quiz-tag" style="background:var(--blue-lt);color:var(--blue2);border-color:var(--bdr2)">Topic</span>
+    <span style="font-weight:900; color:var(--ink4)" id="quiz-counter">1/20</span>
+  </div>
+  
+  <div class="scroll-area">
+    <div class="q-timer-center" id="block-timer-display">∞</div>
+    
+    <div class="question-card">
+      <div class="q-tools">
+        <button class="tool-btn" id="btn-bookmark" onclick="toggleBookmark()">🔖</button>
+      </div>
+      <div class="q-text" id="q-text">Loading clinical vignette...</div>
+    </div>
+
+    <div class="options-area" id="options-area"></div>
+
+    <div class="explanation-wrap" id="explanation-wrap">
+      <div class="explanation-card">
+        <div style="font-weight:800; margin-bottom:8px; color:var(--gold2)">💡 High-Yield Explanation</div>
+        <div id="exp-text" style="font-size:.86rem; line-height:1.6"></div>
+      </div>
+    </div>
+
+    <div class="quiz-nav">
+      <button class="btn-nav" onclick="endQuiz()" style="color:var(--err)">✕ End Block</button>
+      <button class="btn-nav hidden" id="btn-next" onclick="nextQuestion()" style="background:var(--blue);color:white;border-color:var(--blue)">Next →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SCREEN 3: RESULTS & ANALYZER ===== -->
+<div id="screen-results" class="screen">
+  <div class="top-bar">
+    <div class="logo-text">Block <span>Complete</span></div>
+    <button class="conn-badge" onclick="returnToSetup()" style="border:none; cursor:pointer">Home</button>
+  </div>
+  <div class="scroll-area">
+    <div class="results-hero">
+      <div class="radar-placeholder" id="block-ring-chart">0%</div>
+      <div style="font-size:1.2rem; font-weight:800; color:var(--ink)" id="block-score-text">0 / 0</div>
+      <p style="font-size:.8rem; color:var(--ink3); margin-top:4px">System Mastery Updated.</p>
+    </div>
+    
+    <div class="stats-row">
+      <div class="stat-card"><div class="stat-num green" id="stat-correct">0</div><div class="stat-lbl">Right</div></div>
+      <div class="stat-card"><div class="stat-num red" id="stat-incorrect">0</div><div class="stat-lbl">Wrong</div></div>
+    </div>
+
+    <!-- FULL QUESTION ANALYZER -->
+    <div class="results-section">
+      <div class="results-section-title">🔍 Detailed Question Analyzer</div>
+      <div class="missed-list" id="analyzer-list"></div>
+    </div>
+
+    <div style="padding:18px">
+      <button class="btn-primary" onclick="returnToSetup()">← Back to Dashboard</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- EXTERNAL DATABASE SCRIPT -->
+<script src="database.js"></script>
+
+<!-- APPLICATION LOGIC -->
+<script>
+const STORE_KEY = 'pathopro_v5_srs';
+let store = JSON.parse(localStorage.getItem(STORE_KEY)) || {
+  xp: 0, level: 1, qStats: {} 
+};
+
+let state = {
+  selectedSubjects: new Set(),
+  selectedTopics: new Set(),
+  selectedDiffs: new Set(),
+  selectedSources: new Set(),
+  showExp: true
+};
+
+let currentQuestions = [];
+let currentQIndex = 0;
+let currentBlockHistory = []; 
+let blockCorrect = 0;
+let blockWrong = 0;
+let isPomodoro = false;
+let isTutor = false;
+let selectedSize = 10;
+let blockTimer;
+
+// CORE 4 SUBJECT DEFINITIONS
+const FOUR_SUBJECTS = ["Pathology", "Community Med", "Ophthalmology", "ENT"];
+
+const COMM_MED_SUBJS = [
+  "community medicine", "smoking", "non-communicable disease", 
+  "sexually transmitted diseases", "school health", "drug abuse", 
+  "miscellaneous", "parasitology", "behavioural sciences", 
+  "mental health", "accidents", "entomology", "hospital waste",
+  "epidemiology", "biostatistics", "demography", "environment"
+];
+
+function normalizeDatabase() {
+  if (typeof masterDatabase === 'undefined' || !Array.isArray(masterDatabase)) {
+    alert("CRITICAL ERROR: database.js file not found or contains a syntax error. Make sure database.js is in the same folder.");
+    return;
+  }
+
+  masterDatabase.forEach((q, i) => {
+    if (!q.id) q.id = "q_" + i;
+    if (!q.options || q.options.length === 0) q.options = ["Option A", "Option B", "Option C", "Option D"];
+    if (typeof q.correct !== 'number') q.correct = 0;
+    if (!q.difficulty) q.difficulty = "Normal";
+    if (!q.source) q.source = "Standard Bank";
+    if (!q.explanation && !q.exp) q.explanation = "Review this key concept in your core textbook.";
+    if (q.exp && !q.explanation) q.explanation = q.exp;
+
+    // 4-Subject Engine Mapping
+    const rawSubj = (q.subject || "").trim();
+    const rawTopic = (q.topic || "").trim();
+    const combined = (rawSubj + " " + rawTopic).toLowerCase();
+
+    if (COMM_MED_SUBJS.some(s => combined.includes(s))) {
+      q.subject = "Community Med";
+      q.topic = rawTopic || (rawSubj.toLowerCase() === "community medicine" ? "General Comm Med" : rawSubj) || "General Comm Med";
+    } else if (combined.includes("ent") || combined.includes("otolaryng") || combined.includes("larynx") || combined.includes("ear")) {
+      q.subject = "ENT";
+      q.topic = rawTopic || (rawSubj && rawSubj !== "ENT" ? rawSubj : "General ENT");
+    } else if (combined.includes("ophth") || combined.includes("opthal") || combined.includes("eye") || combined.includes("cornea") || combined.includes("cataract") || combined.includes("glaucoma")) {
+      q.subject = "Ophthalmology";
+      q.topic = rawTopic || (rawSubj && !rawSubj.toLowerCase().includes("ophth") ? rawSubj : "General Ophthalmology");
+    } else {
+      q.subject = "Pathology";
+      q.topic = rawTopic || rawSubj || "General Pathology";
+    }
+  });
+}
+
+window.onload = function() {
+  normalizeDatabase();
+  initSetup();
+  updateDashboard();
+
+  document.getElementById('exp-toggle').addEventListener('change', (e) => {
+    state.showExp = e.target.checked;
+  });
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').catch(err => console.log("SW Error:", err));
+  }
+};
+
+// --- FILTER GENERATION & EVENT LISTENERS ---
+
+function initSetup() {
+  const diffs = [...new Set(masterDatabase.map(q => q.difficulty))].sort();
+  const sources = [...new Set(masterDatabase.map(q => q.source))].sort();
+
+  state.selectedSubjects = new Set(FOUR_SUBJECTS);
+  state.selectedDiffs = new Set(diffs);
+  state.selectedSources = new Set(sources);
+
+  renderSubjectChips();
+  refreshTopicsFromSubjects();
+
+  renderChips('diff-chips', diffs, state.selectedDiffs, updateAvailableStat);
+  renderChips('source-chips', sources, state.selectedSources, updateAvailableStat);
+
+  setupToggleAll('toggle-subjects', 'subject-chips', state.selectedSubjects, () => {
+    refreshTopicsFromSubjects();
+  });
+  setupToggleAll('toggle-topics', 'topic-chips', state.selectedTopics, updateAvailableStat);
+  setupToggleAll('toggle-diffs', 'diff-chips', state.selectedDiffs, updateAvailableStat);
+  setupToggleAll('toggle-sources', 'source-chips', state.selectedSources, updateAvailableStat);
+}
+
+function renderSubjectChips() {
+  const container = document.getElementById('subject-chips');
+  container.innerHTML = '';
+  FOUR_SUBJECTS.forEach(subj => {
+    const chip = document.createElement('div');
+    chip.className = 'chip ' + (state.selectedSubjects.has(subj) ? 'selected' : '');
+    chip.textContent = subj;
+    chip.dataset.val = subj;
+    chip.onclick = () => {
+      if (state.selectedSubjects.has(subj)) {
+        state.selectedSubjects.delete(subj);
+        chip.classList.remove('selected');
+      } else {
+        state.selectedSubjects.add(subj);
+        chip.classList.add('selected');
+      }
+      refreshTopicsFromSubjects();
+    };
+    container.appendChild(chip);
+  });
+}
+
+function refreshTopicsFromSubjects() {
+  const validTopics = [...new Set(masterDatabase
+      .filter(q => state.selectedSubjects.has(q.subject))
+      .map(q => q.topic))].sort();
+
+  state.selectedTopics.clear();
+  validTopics.forEach(t => state.selectedTopics.add(t));
+
+  renderChips('topic-chips', validTopics, state.selectedTopics, updateAvailableStat);
+  updateAvailableStat();
+}
+
+function renderChips(containerId, items, selectedSet, callback) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = '';
+  items.forEach(item => {
+    const chip = document.createElement('div');
+    chip.className = 'chip ' + (selectedSet.has(item) ? 'selected' : '');
+    chip.textContent = item;
+    chip.dataset.val = item;
+    chip.onclick = () => {
+      if (selectedSet.has(item)) {
+        selectedSet.delete(item);
+        chip.classList.remove('selected');
+      } else {
+        selectedSet.add(item);
+        chip.classList.add('selected');
+      }
+      if (callback) callback();
+    };
+    container.appendChild(chip);
+  });
+}
+
+function setupToggleAll(btnId, containerId, selectedSet, callback) {
+  const btn = document.getElementById(btnId);
+  btn.onclick = () => {
+    const chips = [...document.querySelectorAll('#' + containerId + ' .chip')];
+    const allItems = chips.map(c => c.dataset.val);
+    const allSelected = allItems.every(i => selectedSet.has(i));
+
+    if (allSelected) {
+      allItems.forEach(i => selectedSet.delete(i));
+      chips.forEach(c => c.classList.remove('selected'));
+    } else {
+      allItems.forEach(i => selectedSet.add(i));
+      chips.forEach(c => c.classList.add('selected'));
+    }
+    if (callback) callback();
+    updateAvailableStat();
+  };
+}
+
+function updateAvailableStat() {
+  const filtered = masterDatabase.filter(q => 
+      state.selectedSubjects.has(q.subject) &&
+      state.selectedTopics.has(q.topic) &&
+      state.selectedDiffs.has(q.difficulty) &&
+      state.selectedSources.has(q.source)
+  );
+
+  document.getElementById('stat-available').innerText = filtered.length;
+  document.getElementById('error-banner').style.display = filtered.length === 0 ? 'block' : 'none';
+  return filtered;
+}
+
+// --- STATS & XP DASHBOARD ---
+function updateDashboard() {
+  document.getElementById('xp-display').innerText = `${store.xp} XP`;
+  document.getElementById('xp-level').innerText = store.level;
+  document.getElementById('stat-total-db').innerText = masterDatabase.length;
+
+  let totalSeen = 0;
+  let totalCorrect = 0;
+
+  for (let key in store.qStats) {
+    totalSeen += store.qStats[key].timesSeen;
+    totalCorrect += store.qStats[key].correct;
+  }
+
+  let accuracy = totalSeen > 0 ? Math.round((totalCorrect / totalSeen) * 100) : 0;
+
+  document.getElementById('g-attempted').innerText = totalSeen;
+  document.getElementById('g-correct').innerText = totalCorrect;
+  document.getElementById('g-wrong').innerText = totalSeen - totalCorrect;
+  document.getElementById('g-accuracy').innerText = `${accuracy}%`;
+}
+
+function setMode(element, mode) {
+  document.querySelectorAll('.mode-card').forEach(c => c.classList.remove('selected'));
+  element.classList.add('selected');
+  isPomodoro = (mode === 'pomodoro');
+  isTutor = (mode === 'learning');
+}
+
+function setSize(element, size) {
+  document.querySelectorAll('#block-size-pills .pill').forEach(p => p.classList.remove('selected'));
+  element.classList.add('selected');
+  selectedSize = size;
+}
+
+// --- QUIZ ENGINE ---
+function startQuiz() {
+  const filteredDB = updateAvailableStat();
+
+  if (filteredDB.length === 0) {
+    document.getElementById('error-banner').style.display = 'block';
+    return;
+  }
+
+  document.getElementById('screen-setup').classList.remove('active');
+  document.getElementById('screen-quiz').classList.add('active');
+
+  currentBlockHistory = [];
+  blockCorrect = 0;
+  blockWrong = 0;
+  currentQIndex = 0;
+
+  if (selectedSize === 'srs') {
+    currentQuestions = filteredDB.filter(q => {
+      let stat = store.qStats[q.id];
+      return stat && (stat.correct < stat.timesSeen);
+    });
+    if (currentQuestions.length === 0) {
+      alert("You have no missed questions for these selections! Loading random block.");
+      currentQuestions = [...filteredDB].sort(() => 0.5 - Math.random()).slice(0, 10);
+    }
+  } else {
+    currentQuestions = [...filteredDB].sort(() => 0.5 - Math.random()).slice(0, selectedSize);
+  }
+
+  if (isPomodoro) {
+    startPomodoroTimer(25 * 60);
+  } else {
+    document.getElementById('block-timer-display').innerText = "∞";
+  }
+
+  loadQuestion();
+}
+
+function loadQuestion() {
+  const q = currentQuestions[currentQIndex];
+  document.getElementById('quiz-counter').innerText = `${currentQIndex + 1} / ${currentQuestions.length}`;
+  document.getElementById('quiz-tag').innerText = q.topic || q.subject;
+  document.getElementById('q-text').innerText = q.question;
+
+  const stat = store.qStats[q.id] || {};
+  const bkmkBtn = document.getElementById('btn-bookmark');
+  if (stat.isBookmarked) bkmkBtn.classList.add('active');
+  else bkmkBtn.classList.remove('active');
+
+  const optArea = document.getElementById('options-area');
+  optArea.innerHTML = '';
+  q.options.forEach((opt, idx) => {
+    let div = document.createElement('div');
+    div.className = 'opt';
+    div.innerHTML = `<div class="opt-letter">${String.fromCharCode(65 + idx)}</div> <div>${opt}</div>`;
+    div.onclick = () => selectOption(div, idx, q.correct);
+    optArea.appendChild(div);
+  });
+
+  document.getElementById('explanation-wrap').classList.remove('show');
+  document.getElementById('btn-next').classList.add('hidden');
+}
+
+function selectOption(element, selectedIdx, correctIdx) {
+  if (!document.getElementById('btn-next').classList.contains('hidden')) return;
+
+  const q = currentQuestions[currentQIndex];
+  const isCorrect = (selectedIdx === correctIdx);
+
+  currentBlockHistory.push({ questionData: q, userSelected: selectedIdx, isCorrect: isCorrect });
+
+  if (isCorrect) {
+    blockCorrect++;
+    element.classList.add('correct');
+    updateXP(50);
+  } else {
+    blockWrong++;
+    element.classList.add('incorrect');
+    const opts = document.querySelectorAll('.opt');
+    opts[correctIdx].classList.add('correct');
+    opts.forEach((o, i) => { if (i !== selectedIdx && i !== correctIdx) o.classList.add('dimmed'); });
+  }
+
+  if (!store.qStats[q.id]) store.qStats[q.id] = { timesSeen: 0, correct: 0, isBookmarked: false };
+  store.qStats[q.id].timesSeen++;
+  if (isCorrect) store.qStats[q.id].correct++;
+  localStorage.setItem(STORE_KEY, JSON.stringify(store));
+
+  if (state.showExp || isTutor) {
+    document.getElementById('exp-text').innerText = q.explanation;
+    document.getElementById('explanation-wrap').classList.add('show');
+  }
+
+  const nextBtn = document.getElementById('btn-next');
+  nextBtn.innerText = (currentQIndex === currentQuestions.length - 1) ? "Finish Block →" : "Next →";
+  nextBtn.classList.remove('hidden');
+}
+
+function nextQuestion() {
+  currentQIndex++;
+  if (currentQIndex >= currentQuestions.length) endQuiz();
+  else loadQuestion();
+}
+
+function toggleBookmark() {
+  const q = currentQuestions[currentQIndex];
+  if (!store.qStats[q.id]) store.qStats[q.id] = { timesSeen: 0, correct: 0, isBookmarked: false };
+  store.qStats[q.id].isBookmarked = !store.qStats[q.id].isBookmarked;
+  localStorage.setItem(STORE_KEY, JSON.stringify(store));
+  document.getElementById('btn-bookmark').classList.toggle('active');
+}
+
+function startPomodoroTimer(seconds) {
+  let time = seconds;
+  clearInterval(blockTimer);
+  blockTimer = setInterval(() => {
+    time--;
+    let m = Math.floor(time / 60);
+    let s = time % 60;
+    document.getElementById('block-timer-display').innerText = `${m}:${s < 10 ? '0' + s : s}`;
+    if (time <= 0) {
+      clearInterval(blockTimer);
+      alert("25-minute study block finished! Transitioning to your review session.");
+      endQuiz();
+    }
+  }, 1000);
+}
+
+function updateXP(amount) {
+  store.xp += amount;
+  if (store.xp > store.level * 1000) store.level++;
+  localStorage.setItem(STORE_KEY, JSON.stringify(store));
+}
+
+// --- DETAILED QUESTION ANALYZER ---
+function endQuiz() {
+  clearInterval(blockTimer);
+  document.getElementById('screen-quiz').classList.remove('active');
+  document.getElementById('screen-results').classList.add('active');
+
+  document.getElementById('stat-correct').innerText = blockCorrect;
+  document.getElementById('stat-incorrect').innerText = blockWrong;
+
+  let total = blockCorrect + blockWrong;
+  let pct = total > 0 ? Math.round((blockCorrect / total) * 100) : 0;
+
+  document.getElementById('block-ring-chart').innerText = `${pct}%`;
+  document.getElementById('block-ring-chart').style.background = `conic-gradient(var(--ok) 0% ${pct}%, var(--err) ${pct}% 100%)`;
+  document.getElementById('block-score-text').innerText = `${blockCorrect} / ${total} Correct`;
+
+  const analyzerList = document.getElementById('analyzer-list');
+  analyzerList.innerHTML = '';
+
+  currentBlockHistory.forEach((item, index) => {
+    const q = item.questionData;
+    const userAnsText = item.userSelected !== null ? q.options[item.userSelected] : "Skipped";
+    const correctAnsText = q.options[q.correct];
+
+    let cardHTML = `
+      <div class="missed-card">
+        <div class="missed-card-header">
+          <div class="missed-q-num ${item.isCorrect ? 'right' : 'wrong'}">${index + 1}</div>
+          <div class="missed-q-text">${q.question}</div>
+        </div>
+        <div class="missed-card-body">
+          <div class="missed-ans-row">
+            <span class="ans-label">Your Selection:</span>
+            <span style="color: ${item.isCorrect ? 'var(--ok)' : 'var(--err)'}">
+               ${item.isCorrect ? '✓' : '✗'} ${userAnsText}
+            </span>
+          </div>
+    `;
+
+    if (!item.isCorrect) {
+      cardHTML += `<div class="missed-ans-row"><span class="ans-label">Correct Option:</span><span style="color: var(--ok)">✓ ${correctAnsText}</span></div>`;
+    }
+
+    cardHTML += `
+          <div class="missed-why">
+            <strong>Key Learning Point:</strong><br/>
+            ${q.explanation}
+          </div>
+        </div>
+      </div>`;
+    analyzerList.innerHTML += cardHTML;
+  });
+}
+
+function returnToSetup() {
+  updateDashboard();
+  document.getElementById('screen-results').classList.remove('active');
+  document.getElementById('screen-setup').classList.add('active');
+  window.scrollTo(0, 0);
+}
+</script>
+</body>
+</html>
