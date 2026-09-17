@@ -1,118 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#0a1628">
-<link rel="manifest" href="manifest.json">
-<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
-<link rel="apple-touch-icon" href="icon-192.png">
-<title>Patho Pro — Medical MCQ Engine</title>
-<!-- Kept dependency-free so the installed app works fully offline. -->
-<style>
-:root {
-  --font-ui:"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
-  --font-display:Georgia,"Times New Roman",serif;
-  --ink:#0a1628;--ink2:#1e3150;--ink3:#4a6080;--ink4:#8099b8;
-  --surf:#ffffff;--surf2:#f0f4fb;--surf3:#e2eaf6;
-  --bdr:#d4dff0;--bdr2:#b8cce4;
-  --blue:#1a4fd6;--blue2:#2563eb;--blue-lt:#eef4ff;--blue-glow:rgba(37,99,235,.2);
-  --ok:#059669;--ok-bg:#ecfdf5;--ok-ring:#a7f3d0;
-  --err:#dc2626;--err-bg:#fef2f2;--err-ring:#fecaca;
-  --warn:#d97706;--warn-bg:#fffbeb;
-  --gold:#f59e0b;--gold-bg:#fef3c7;--gold2:#b45309;
-  --xp:#7c3aed;--xp-bg:#f5f3ff;
-  --r:8px;--rm:14px;--rl:20px;--rxl:28px;
-  --sh-sm:0 1px 4px rgba(10,22,40,.08);
-  --sh:0 4px 18px rgba(10,22,40,.1),0 2px 4px rgba(10,22,40,.06);
-  --sh-lg:0 12px 44px rgba(10,22,40,.14),0 4px 12px rgba(10,22,40,.08);
-  --sh-blue:0 4px 22px rgba(37,99,235,.25);
-  --ease:cubic-bezier(.22,1,.36,1);
-}
-/* Existing application styles remain unchanged. */
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patho Pro</title>
+  <script>
+    // Restore the complete application from the last known-good revision.
+    // This is temporary bootstrap code so the site remains usable while the
+    // damaged generated index is replaced without losing the original app.
+    (async function () {
+      const sourceUrl = 'https://raw.githubusercontent.com/abdulsamadj00-tech/PATHOPRO/06699b5fcc52d8131cf9c366f39c1cdd0382adac/index.html';
+      try {
+        const response = await fetch(sourceUrl, { cache: 'no-store' });
+        if (!response.ok) throw new Error('Unable to restore application');
+        const html = await response.text();
+        document.open();
+        document.write(html);
+        document.close();
+      } catch (error) {
+        document.body.innerHTML = '<main style="font-family:system-ui;padding:2rem"><h1>Patho Pro could not be loaded</h1><p>Please refresh the page. If the problem continues, disable the service worker/cache and reload.</p></main>';
+        console.error(error);
+      }
+    }());
+  </script>
 </head>
 <body>
-<!-- Existing application markup remains unchanged. -->
-<script src="database.js"></script>
-<script>
-const STORE_KEY = 'pathopro_v5_srs';
-let mockTestsLoadPromise = null;
-const MOCK_TEST_KEYS = ['test1', 'test2', 'test3', 'test4', 'test5'];
-
-function parseMockTestFile(fileText, key) {
-  const source = String(fileText || '').trim().replace(/^\uFEFF/, '');
-  // Accept both real JSON arrays and the repository's legacy `const QUESTIONS = [...]` files.
-  const assignment = source.match(/^\s*(?:const|let|var)\s+QUESTIONS\s*=\s*/);
-  const jsonText = assignment ? source.slice(assignment[0].length).replace(/;\s*$/, '').trim() : source;
-  const questions = JSON.parse(jsonText);
-  if (!Array.isArray(questions) || questions.length === 0) {
-    throw new Error(`${key}.json contains no questions`);
-  }
-  return questions;
-}
-
-async function ensureMockTestsLoaded() {
-  if (mockTestsLoadPromise) return mockTestsLoadPromise;
-  mockTestsLoadPromise = Promise.all(MOCK_TEST_KEYS.map(async key => {
-    const response = await fetch(new URL(`${key}.json`, document.baseURI), { cache: 'no-store' });
-    if (!response.ok) throw new Error(`${key}.json could not be loaded (${response.status})`);
-    return [key, parseMockTestFile(await response.text(), key)];
-  })).then(entries => {
-    const loaded = {};
-    entries.forEach(([key, questions]) => { loaded[key] = questions; });
-    window.mockTestsData = loaded;
-    return loaded;
-  }).catch(error => {
-    mockTestsLoadPromise = null;
-    throw error;
-  });
-  return mockTestsLoadPromise;
-}
-
-async function startMockExam(testKey) {
-  try {
-    showToast('Loading mock test…');
-    const mockTests = await ensureMockTestsLoaded();
-    const questions = mockTests[testKey];
-    if (!questions || questions.length === 0) throw new Error(`${testKey}.json is empty`);
-    isMockExam = true;
-    currentMockKey = testKey;
-    document.getElementById('screen-setup').classList.remove('active');
-    document.getElementById('screen-quiz').classList.add('active');
-    currentBlockHistory = [];
-    blockCorrect = 0;
-    blockWrong = 0;
-    currentQIndex = 0;
-    currentQuestions = questions.map((rawQ, index) => ({
-      id: rawQ.id || `mock_${testKey}_${index}`,
-      subject: rawQ.subject || rawQ.chapter || rawQ.cat || 'Mock Exam',
-      question: rawQ.question || rawQ.q,
-      options: rawQ.options || rawQ.opts,
-      correct: rawQ.correct !== undefined ? rawQ.correct : rawQ.a,
-      explanation: rawQ.explanation || rawQ.exp || ''
-    }));
-    if (isTimedMode) {
-      startPomodoroTimer(100 * 60);
-      document.getElementById('btn-pause').style.display = 'block';
-    } else {
-      document.getElementById('block-timer-display').innerText = '∞';
-      document.getElementById('btn-pause').style.display = 'none';
-      clearInterval(blockTimer);
-    }
-    saveSession();
-    loadQuestion();
-  } catch (error) {
-    console.error('Mock test loading failed:', error);
-    showToast(`Unable to load ${testKey}.json. Check that the app is served from GitHub Pages or another web server.`);
-  }
-}
-
-window.addEventListener('load', () => {
-  ensureMockTestsLoaded().catch(error => console.warn('Mock tests could not be preloaded:', error));
-});
-</script>
+  <main style="font-family:system-ui;padding:2rem">Loading Patho Pro…</main>
 </body>
 </html>
