@@ -1,8 +1,13 @@
-const CACHE_VERSION = 'pathopro-v4';
+const CACHE_VERSION = 'pathopro-v5';
 const ASSETS = [
   './',
   './index.html',
   './database.js',
+  './test1.json',
+  './test2.json',
+  './test3.json',
+  './test4.json',
+  './test5.json',
   './manifest.json',
   './icon-192.png',
   './icon-192-maskable.png',
