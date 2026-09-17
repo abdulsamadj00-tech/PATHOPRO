@@ -13,6 +13,8 @@
 <!-- Kept dependency-free so the installed app works fully offline. -->
 <style>
 :root {
+  --font-ui:"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+  --font-display:Georgia,"Times New Roman",serif;
   --ink:#0a1628;--ink2:#1e3150;--ink3:#4a6080;--ink4:#8099b8;
   --surf:#ffffff;--surf2:#f0f4fb;--surf3:#e2eaf6;
   --bdr:#d4dff0;--bdr2:#b8cce4;
@@ -64,9 +66,15 @@
   --bdr:#4c3366;--bdr2:#6b4a8a;
   --blue:#e879f9;--blue2:#f0abfc;--blue-lt:rgba(232,121,249,.15);--blue-glow:rgba(232,121,249,.3);
 }
+.theme-midnight,.theme-ocean,.theme-forest,.theme-sunset,.theme-rose{color-scheme:dark}
+.theme-midnight .hero,.theme-ocean .hero,.theme-forest .hero,.theme-sunset .hero,.theme-rose .hero{background:linear-gradient(145deg,var(--surf2),var(--surf));color:var(--ink)}
+.theme-midnight .db-stat,.theme-ocean .db-stat,.theme-forest .db-stat,.theme-sunset .db-stat,.theme-rose .db-stat{background:var(--surf);border-color:var(--bdr)}
+.theme-midnight .explanation-card,.theme-ocean .explanation-card,.theme-forest .explanation-card,.theme-sunset .explanation-card,.theme-rose .explanation-card{background:var(--surf2);border-color:var(--bdr2);color:var(--ink)}
+.theme-midnight .radar-placeholder,.theme-ocean .radar-placeholder,.theme-forest .radar-placeholder,.theme-sunset .radar-placeholder,.theme-rose .radar-placeholder{border-color:var(--surf)}
+.theme-midnight .pause-overlay,.theme-ocean .pause-overlay,.theme-forest .pause-overlay,.theme-sunset .pause-overlay,.theme-rose .pause-overlay{background:rgba(2,6,23,.82)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html{scroll-behavior:smooth}
-body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--surf2);color:var(--ink);min-height:100vh;overflow-x:hidden}
+body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--surf2);color:var(--ink);min-height:100vh;overflow-x:hidden}
 #app{max-width:800px;margin:0 auto;min-height:100vh;background:var(--surf);display:flex;flex-direction:column;position:relative;box-shadow:var(--sh-lg)}
 .screen{display:none;flex-direction:column;flex:1}
 .screen.active{display:flex}
@@ -76,7 +84,7 @@ body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--surf2
 
 /* TOP BAR & XP */
 .top-bar{padding:12px 18px;background:var(--surf);border-bottom:1px solid var(--bdr);display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(16px)}
-.logo-text{font-family:'Playfair Display',serif;font-size:1.25rem;color:var(--ink);letter-spacing:-.02em}
+.logo-text{font-family:var(--font-display);font-size:1.25rem;color:var(--ink);letter-spacing:-.02em}
 .logo-text span{color:var(--blue2)}
 .header-actions{display:flex;gap:12px;align-items:center}
 .icon-btn{background:none;border:none;font-size:1.2rem;cursor:pointer;color:var(--ink3);transition:color .2s;padding:0}
@@ -92,7 +100,7 @@ body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--surf2
 
 /* HERO & STATS */
 .hero{padding:24px 18px 18px;background:linear-gradient(160deg,#eef4ff 0%,#f5f3ff 50%,#fafafa 100%);border-bottom:1px solid var(--bdr)}
-.hero-title{font-family:'Playfair Display',serif;font-size:1.6rem;line-height:1.2;margin-bottom:4px}
+.hero-title{font-family:var(--font-display);font-size:1.6rem;line-height:1.2;margin-bottom:4px}
 .db-stats{display:flex;gap:8px;margin-top:14px}
 .db-stat{flex:1;background:white;border:1px solid var(--bdr);border-radius:var(--rm);padding:10px;text-align:center;box-shadow:var(--sh-sm)}
 .db-stat-num{font-size:1.3rem;font-weight:800;color:var(--blue)}
@@ -887,12 +895,43 @@ function escapeHTML(value) {
   })[char]);
 }
 
+// Mock exams are stored as separate files so each test can be updated independently.
+// The existing files use a JavaScript assignment despite their .json extension, so
+// this loader extracts the array safely instead of executing the file as a script.
+let mockTestsLoadPromise = null;
+async function ensureMockTestsLoaded() {
+  if (mockTestsLoadPromise) return mockTestsLoadPromise;
+
+  mockTestsLoadPromise = Promise.all(['test1', 'test2', 'test3', 'test4', 'test5'].map(async key => {
+    const response = await fetch(`./${key}.json`);
+    if (!response.ok) throw new Error(`${key} could not be loaded`);
+
+    const fileText = (await response.text()).trim();
+    const jsonText = fileText
+      .replace(/^\s*const\s+QUESTIONS\s*=\s*/, '')
+      .replace(/;\s*$/, '');
+    const questions = JSON.parse(jsonText);
+    if (!Array.isArray(questions) || questions.length === 0) {
+      throw new Error(`${key} contains no questions`);
+    }
+    return [key, questions];
+  })).then(entries => {
+    entries.forEach(([key, questions]) => { mockTestsData[key] = questions; });
+  }).catch(error => {
+    mockTestsLoadPromise = null;
+    throw error;
+  });
+
+  return mockTestsLoadPromise;
+}
+
 window.onload = function() {
   normalizeDatabase();
   initSetup();
   applyPreferences();
   updateDashboard();
   updateStreak();
+  ensureMockTestsLoaded().catch(error => console.warn('Mock tests could not be preloaded:', error));
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(err => console.log("SW Error:", err));
@@ -1474,7 +1513,15 @@ function startPomodoroTimer(seconds) {
   }, 1000);
 }
 
-function startMockExam(testKey) {
+async function startMockExam(testKey) {
+  try {
+    showToast('Loading mock test…');
+    await ensureMockTestsLoaded();
+  } catch (error) {
+    showToast('Unable to load this mock test. Please try again.');
+    return;
+  }
+
   if (typeof mockTestsData === 'undefined' || !mockTestsData[testKey] || mockTestsData[testKey].length === 0) {
     showToast("Mock test " + testKey + " is not available yet.");
     return;
