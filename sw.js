@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'pathopro-v5';
+const CACHE_VERSION = 'pathopro-v6';
 const ASSETS = [
   './',
   './index.html',
