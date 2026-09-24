@@ -292,6 +292,43 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
 /* BACK BUTTON */
 .btn-back{background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--ink3);padding:0;margin-right:8px;transition:color .2s}
 .btn-back:hover{color:var(--ink)}
+
+.accordion-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  padding: 12px 16px;
+  background: var(--surface);
+  border-radius: 12px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: var(--ink);
+  /* border: 1px solid var(--bdr); */
+  transition: all 0.2s;
+}
+.accordion-header:hover {
+  background: var(--surface2);
+}
+.accordion-header::after {
+  content: '▼';
+  font-size: 0.8rem;
+  transition: transform 0.3s;
+  color: var(--ink3);
+}
+.accordion-header.active::after {
+  transform: rotate(180deg);
+}
+.accordion-content {
+  display: none;
+  padding: 4px 0 16px 0;
+  animation: fadeIn 0.3s ease;
+}
+.accordion-content.active {
+  display: block;
+}
+
 </style>
 </head>
 <body>
@@ -303,6 +340,7 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
   <div class="top-bar">
     <div class="logo-text">Patho<span>Pro</span></div>
     <div class="header-actions">
+      <button class="icon-btn" onclick="openHistory()" title="History">🕒</button>
       <button class="icon-btn" onclick="openBookmarks()" title="Bookmarks">🔖</button>
       <button class="icon-btn" onclick="openThemePicker()" id="btn-theme" title="Theme">🎨</button>
       <button class="icon-btn" onclick="toggleMute()" id="btn-mute">🔊</button>
@@ -328,7 +366,7 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
 
     <!-- GLOBAL PERFORMANCE DASHBOARD -->
     <div class="global-stats-board">
-      <div class="global-stats-title">📊 Performance Dashboard</div>
+      <div class="accordion-header" onclick="toggleAccordion(this)">📊 Performance Dashboard</div><div class="accordion-content">
       <div class="g-stat-grid">
         <div class="g-stat-box">
           <div class="g-val" id="g-attempted">0</div>
@@ -357,24 +395,31 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
       </div>
     </div>
 
+    </div>
+    <!-- WEAK TOPICS SECTION -->
+    <div class="global-stats-board" style="border-color:var(--err)">
+      <div class="global-stats-title" style="color:var(--err)">🚨 Priority Focus Areas (Weakest Topics)</div>
+      <div id="weak-topics-list" style="font-size:0.9rem; line-height:1.5;">Take more quizzes to generate your personalized weakness report.</div>
+    </div>
+
     <!-- ANALYTICS CHART -->
     <div class="global-stats-board" style="border-color:var(--blue2)">
-      <div class="global-stats-title">📈 Subject Accuracy</div>
+      <div class="accordion-header" onclick="toggleAccordion(this)">📈 Subject Accuracy</div><div class="accordion-content">
       <canvas id="accuracyChart" height="200"></canvas>
       <div class="progress-ring-label" id="accuracy-summary" aria-live="polite"></div>
     </div>
 
-    <!-- TROPHY ROOM -->
+    </div><!-- TROPHY ROOM -->
     <div class="trophy-board">
-      <div class="global-stats-title" style="color:var(--gold2)">🏆 Trophy Room</div>
+      <div class="accordion-header" onclick="toggleAccordion(this)" style="color:var(--gold2)">🏆 Trophy Room</div><div class="accordion-content">
       <div class="badge-grid" id="badge-grid-container">
         <!-- Badges generated via JS -->
       </div>
     </div>
 
-    <!-- MODE -->
+    </div><!-- MODE -->
     <div class="section-block">
-      <div class="section-label">Study Mode</div>
+      <div class="accordion-header active" onclick="toggleAccordion(this)">Study Mode</div><div class="accordion-content active">
       <div class="mode-toggle">
         <div class="mode-card selected" data-mode="tutor" onclick="setMode(this, 'tutor')">
           <div class="mode-icon">👨‍🏫</div><div class="mode-title">Tutor Mode</div>
@@ -383,11 +428,11 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
           <div class="mode-icon">⏱️</div><div class="mode-title">Timed Mode</div>
         </div>
       </div>
-    </div>
+    </div></div>
 
     <!-- MOCK EXAM SECTION -->
     <div class="section-block">
-      <div class="section-label">Pathoma Mock Exams (120 Qs, 100 mins)</div>
+      <div class="accordion-header active" onclick="toggleAccordion(this)">Pathoma Mock Exams (120 Qs, 100 mins)</div><div class="accordion-content active">
       <div class="pill-row" id="mock-exam-pills" style="margin-top:8px">
         <div class="pill" data-mock="test1" onclick="startMockExam('test1')">Test 1</div>
         <div class="pill" data-mock="test2" onclick="startMockExam('test2')">Test 2</div>
@@ -395,11 +440,11 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
         <div class="pill" data-mock="test4" onclick="startMockExam('test4')">Test 4</div>
         <div class="pill" data-mock="test5" onclick="startMockExam('test5')">Test 5</div>
       </div>
-    </div>
+    </div></div>
 
     <!-- BLOCK SIZE & SRS -->
     <div class="section-block">
-      <div class="section-label">Block Size & Retrieval</div>
+      <div class="accordion-header active" onclick="toggleAccordion(this)">Block Size & Retrieval</div><div class="accordion-content active">
       <div class="pill-row" id="block-size-pills">
         <div class="pill selected" data-size="10" onclick="setSize(this, 10)">10 Qs</div>
         <div class="pill" data-size="20" onclick="setSize(this, 20)">20 Qs</div>
@@ -408,49 +453,37 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
         <div class="pill" data-size="unseen" onclick="setSize(this, 'unseen')" style="border-color:var(--ok); color:var(--ok)">✨ Only Unseen</div>
         <div class="pill" data-size="bookmarked" onclick="setSize(this, 'bookmarked')" style="border-color:var(--gold2); color:var(--gold2)">🔖 Bookmarked</div>
       </div>
-    </div>
+    </div></div>
 
     <!-- 4 MAIN SUBJECTS FILTER -->
     <div class="section-block">
-      <div class="filter-header-row">
-        <div class="section-label" style="margin-bottom:0;flex:1">Subjects</div>
-        <span class="toggle-all-link" id="toggle-subjects">Toggle All</span>
-      </div>
+      <div class="accordion-header" onclick="toggleAccordion(this)"><div style="flex:1">Subjects</div><span class="toggle-all-link" onclick="event.stopPropagation();" id="toggle-subjects">Toggle All</span></div><div class="accordion-content">
       <div class="chip-grid" id="subject-chips"></div>
-    </div>
+    </div></div>
 
     <!-- TOPICS FILTER -->
     <div class="section-block">
-      <div class="filter-header-row">
-        <div class="section-label" style="margin-bottom:0;flex:1">Chapters / Topics</div>
-        <span class="toggle-all-link" id="toggle-topics">Toggle All</span>
-      </div>
+      <div class="accordion-header" onclick="toggleAccordion(this)"><div style="flex:1">Chapters / Topics</div><span class="toggle-all-link" onclick="event.stopPropagation();" id="toggle-topics">Toggle All</span></div><div class="accordion-content">
       <div class="chip-grid" id="topic-chips"></div>
-    </div>
+    </div></div>
 
     <!-- DIFFICULTY FILTER -->
     <div class="section-block">
-      <div class="filter-header-row">
-        <div class="section-label" style="margin-bottom:0;flex:1">Difficulty</div>
-        <span class="toggle-all-link" id="toggle-diffs">Toggle All</span>
-      </div>
+      <div class="accordion-header" onclick="toggleAccordion(this)"><div style="flex:1">Difficulty</div><span class="toggle-all-link" onclick="event.stopPropagation();" id="toggle-diffs">Toggle All</span></div><div class="accordion-content">
       <div class="chip-grid" id="diff-chips"></div>
-    </div>
+    </div></div>
 
     <!-- SOURCE FILTER -->
     <div class="section-block">
-      <div class="filter-header-row">
-        <div class="section-label" style="margin-bottom:0;flex:1">Data Source</div>
-        <span class="toggle-all-link" id="toggle-sources">Toggle All</span>
-      </div>
+      <div class="accordion-header" onclick="toggleAccordion(this)"><div style="flex:1">Data Source</div><span class="toggle-all-link" onclick="event.stopPropagation();" id="toggle-sources">Toggle All</span></div><div class="accordion-content">
       <div class="chip-grid" id="source-chips"></div>
-    </div>
+    </div></div>
 
     <div class="error-banner" id="error-banner">⚠️ No questions match your current filters.</div>
 
     <!-- SETTINGS -->
     <div class="settings-section">
-      <div class="global-stats-title">⚙️ Settings</div>
+      <div class="accordion-header" onclick="toggleAccordion(this)">⚙️ Settings</div><div class="accordion-content">
       <div class="settings-row">
         <span class="settings-row-label">📤 Export Progress</span>
         <button class="btn-secondary" onclick="exportProgress()">Download JSON</button>
@@ -466,8 +499,10 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
       </div>
     </div>
 
-    <div style="padding: 18px;">
-      <button class="btn-primary" onclick="startQuiz()">Start Engine</button>
+    </div><div style="padding: 18px; display: flex; flex-direction: column; gap: 10px;">
+      <button class="btn-primary" onclick="startQuiz()" style="width: 100%; padding: 16px; font-size: 1.2rem; margin-bottom: 8px;">🚀 Create New Test (Start Engine)</button>
+      <button id="btn-resume-block" class="btn-secondary" onclick="restoreSession()" style="display: none; background: var(--warn); color: #000; border-color: var(--warn); width: 100%; padding: 12px; font-size: 1.1rem; margin-bottom: 8px;">⏸️ Resume Suspended Block</button>
+      <button class="btn-secondary" onclick="openHistory()" style="width: 100%;">🕒 View Past Test Reports</button>
     </div>
   </div>
 </div>
@@ -498,9 +533,11 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
     </div>
     
     <div class="question-card">
-      <div class="q-tools-wrap">
+      <div class="q-tools-wrap" style="flex-wrap:wrap">
         <button class="tool-btn" id="btn-flag" onclick="toggleFlag()">🚩 Flag</button>
         <button class="tool-btn" id="btn-bookmark" onclick="toggleBookmark()">🔖 Bookmark</button>
+        <button class="tool-btn" onclick="askAI('chatgpt')" style="color:#10a37f; font-weight:bold;">🤖 ChatGPT</button>
+        <button class="tool-btn" onclick="askAI('claude')" style="color:#d97757; font-weight:bold;">🤖 Claude</button>
         <button class="tool-btn" id="btn-report" onclick="reportQuestion()" style="color:var(--err)">🚩 Report</button>
       </div>
       <div class="q-text" id="q-text">Loading clinical vignette...</div>
@@ -516,7 +553,8 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
     </div>
 
     <div class="quiz-nav">
-      <button class="btn-nav" onclick="endQuiz()" style="color:var(--err)">✕ End</button>
+      <button class="btn-nav" onclick="endQuiz()" style="color:var(--err)">⏹️ End</button>
+      <button class="btn-nav" onclick="suspendQuiz()" style="color:var(--warn)">⏸️ Suspend</button>
       <button class="btn-nav" id="btn-prev" onclick="prevQuestion()" style="display:none">← Prev</button>
       <button class="btn-nav hidden" id="btn-next" onclick="nextQuestion()" style="background:var(--blue);color:white;border-color:var(--blue)">Next → <span class="kbd-hint">[Enter]</span></button>
     </div>
@@ -568,6 +606,21 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
   </div>
 </div>
 
+<!-- ===== SCREEN 5: HISTORY BROWSER ===== -->
+<div id="screen-history" class="screen">
+  <div class="top-bar">
+    <button class="btn-back" onclick="returnToSetup()">←</button>
+    <div class="logo-text">🕒 <span>Test History</span></div>
+    <button class="conn-badge" onclick="returnToSetup()" style="border:none; cursor:pointer">Home</button>
+  </div>
+  <div class="scroll-area">
+    <div class="results-section">
+      <div class="global-stats-title">Past Results</div>
+      <div class="missed-list" id="history-list"></div>
+    </div>
+  </div>
+</div>
+
 <!-- THEME PICKER MODAL -->
 <div class="theme-modal-overlay" id="theme-modal-overlay" onclick="closeThemePicker(event)">
   <div class="theme-modal">
@@ -601,7 +654,14 @@ body{font-family:var(--font-ui);font-size:16px;line-height:1.5;background:var(--
 </div>
 
 <!-- EXTERNAL DATABASE SCRIPT -->
-<script src="database.js"></script>
+<script src="database.js">
+function toggleAccordion(el) {
+  el.classList.toggle('active');
+  const content = el.nextElementSibling;
+  content.classList.toggle('active');
+}
+
+</script>
 
 <!-- APPLICATION LOGIC -->
 <script>
@@ -620,6 +680,7 @@ let store = loadStore();
 if (!store.preferences) store.preferences = { theme: 'dark', mute: false };
 if (!store.badges) store.badges = [];
 if (!store.streak) store.streak = { lastDate: null, count: 0 };
+if (!store.testHistory) store.testHistory = [];
 if (typeof store.activeSession === 'undefined') store.activeSession = null;
 
 const ALL_THEMES = ['dark','light','midnight','ocean','forest','sunset','rose'];
@@ -979,13 +1040,10 @@ window.onload = function() {
     if (e.key === 'ArrowLeft') prevQuestion();
   });
 
-  // Auto-resume Session
+  // UWorld-style Auto-resume Button Logic
   if (store.activeSession) {
-    if (confirm("You have an active quiz session. Do you want to resume?")) {
-      restoreSession();
-    } else {
-      clearSession();
-    }
+    const resumeBtn = document.getElementById('btn-resume-block');
+    if(resumeBtn) resumeBtn.style.display = 'block';
   }
 };
 
@@ -1178,6 +1236,41 @@ function updateDashboard() {
   });
   const summary = document.getElementById('accuracy-summary');
   if (summary) summary.textContent = labels.map((label, index) => `${label}: ${data[index]}%`).join(' · ');
+
+
+  // Calculate Weak Topics
+  let topicStats = {};
+  for (let key in store.qStats) {
+    let stat = store.qStats[key];
+    let qObj = masterDatabase.find(q => q.id === key);
+    if (qObj && qObj.topic) {
+      if (!topicStats[qObj.topic]) topicStats[qObj.topic] = { seen: 0, correct: 0 };
+      topicStats[qObj.topic].seen += stat.timesSeen;
+      topicStats[qObj.topic].correct += stat.correct;
+    }
+  }
+
+  let topicArr = Object.keys(topicStats).map(t => {
+    return { name: t, seen: topicStats[t].seen, correct: topicStats[t].correct, acc: Math.round((topicStats[t].correct / topicStats[t].seen) * 100) };
+  }).filter(t => t.seen >= 3); // Minimum 3 attempts to rank
+
+  topicArr.sort((a, b) => a.acc - b.acc);
+  
+  const weakListEl = document.getElementById('weak-topics-list');
+  if (weakListEl) {
+    if (topicArr.length > 0) {
+      let html = '';
+      topicArr.slice(0, 5).forEach((t, i) => {
+        html += `<div style="display:flex;justify-content:space-between;border-bottom:1px solid var(--bdr);padding:6px 0;">
+          <span>${i+1}. <strong>${t.name}</strong></span>
+          <span style="color:var(--err);font-weight:bold">${t.acc}%</span>
+        </div>`;
+      });
+      weakListEl.innerHTML = html;
+    } else {
+      weakListEl.innerHTML = 'Take more quizzes to generate your personalized weakness report.';
+    }
+  }
 
   const chartCanvas = document.getElementById('accuracyChart');
   if (chartCanvas && !window.Chart) chartCanvas.hidden = true;
@@ -1571,6 +1664,43 @@ async function startMockExam(testKey) {
   loadQuestion();
 }
 
+
+function askAI(aiType, qId = null) {
+  let qObj = currentQuestions ? currentQuestions[currentQIndex] : null;
+  
+  if (qId) {
+    qObj = masterDatabase.find(q => q.id === qId);
+  }
+
+  if (!qObj) return;
+
+  const prompt = `I am studying for my medical board exams. I am reviewing the following question:
+
+Question: ${qObj.question}
+
+Options:
+${qObj.options.map((opt, i) => String.fromCharCode(65+i) + '. ' + opt).join('\n')}
+
+Correct Answer: ${qObj.options[qObj.correct]}
+Provided Explanation: ${qObj.explanation}
+
+Act as an expert medical tutor. 
+1. Explain the core concept tested here in a simple, easy-to-understand way.
+2. Explain specifically why the correct answer is right and why each of the other options are wrong.
+3. Provide 3-5 high-yield bullet points related to this topic that are frequently tested on medical board exams.`;
+
+  navigator.clipboard.writeText(prompt).then(() => {
+    if (aiType === 'chatgpt') {
+      window.open('https://chatgpt.com/?q=' + encodeURIComponent(prompt), '_blank');
+    } else {
+      showToast("✅ Professional prompt copied to clipboard! Paste it into Claude.");
+      setTimeout(() => { window.open('https://claude.ai/new', '_blank'); }, 1500);
+    }
+  }).catch(err => {
+    alert("Clipboard copy failed. Please grant permission.");
+  });
+}
+
 function reportQuestion() {
   const q = currentQuestions[currentQIndex];
   const reason = prompt("Why are you reporting this question?", "e.g. Typo, wrong answer, unclear");
@@ -1679,6 +1809,18 @@ function endQuiz() {
   const analyzerList = document.getElementById('analyzer-list');
   analyzerList.innerHTML = '';
 
+  store.testHistory.unshift({
+    id: Date.now(),
+    date: new Date().toLocaleString(),
+    correct: blockCorrect,
+    total: total,
+    pct: pct,
+    mode: isMockExam ? 'Mock Exam' : (isTimedMode ? 'Timed' : 'Tutor'),
+    history: JSON.parse(JSON.stringify(currentBlockHistory))
+  });
+  if(store.testHistory.length > 50) store.testHistory.pop();
+  localStorage.setItem(STORE_KEY, JSON.stringify(store));
+
   currentBlockHistory.forEach((item, index) => {
     const q = item.questionData;
     const userAnsText = item.userSelected !== null ? q.options[item.userSelected] : "Skipped";
@@ -1704,6 +1846,10 @@ function endQuiz() {
     }
 
     cardHTML += `
+          <div style="display:flex;gap:10px;margin-top:10px;margin-bottom:10px;">
+            <button class="btn-secondary" style="color:#10a37f; border-color:#10a37f; padding:6px 12px; font-size:0.8rem;" onclick="askAI('chatgpt', '${q.id}')">🤖 Learn with ChatGPT</button>
+            <button class="btn-secondary" style="color:#d97757; border-color:#d97757; padding:6px 12px; font-size:0.8rem;" onclick="askAI('claude', '${q.id}')">🤖 Learn with Claude</button>
+          </div>
           <div class="missed-why">
             <strong>Key Learning Point:</strong><br/>
             ${escapeHTML(q.explanation)}
@@ -1714,8 +1860,21 @@ function endQuiz() {
   });
 }
 
+
+function suspendQuiz() {
+  saveSession(); // ensure saved
+  returnToSetup();
+}
+
 function returnToSetup() {
   updateDashboard();
+  
+  const resumeBtn = document.getElementById('btn-resume-block');
+  if(resumeBtn) {
+    if (store.activeSession) resumeBtn.style.display = 'block';
+    else resumeBtn.style.display = 'none';
+  }
+
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById('screen-setup').classList.add('active');
   window.scrollTo(0, 0);
@@ -1829,6 +1988,61 @@ function openBookmarks() {
       </div>`;
   });
 }
+function openHistory() {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-history').classList.add('active');
+  const list = document.getElementById('history-list');
+  
+  if (!store.testHistory || store.testHistory.length === 0) {
+    list.innerHTML = '<div class="bookmark-empty" style="text-align:center;padding:40px;color:var(--ink3)">🕒 No past tests recorded yet.<br>Complete a quiz to see your history here.</div>';
+    return;
+  }
+  
+  let html = '';
+  store.testHistory.forEach(test => {
+    html += `
+      <div class="missed-card" style="cursor:pointer" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display==='none' ? 'block' : 'none'">
+        <div class="missed-card-header" style="justify-content:space-between">
+          <div style="font-weight:700">🕒 ${test.date}</div>
+          <div style="color:var(--ink4);font-size:0.9rem">${test.mode}</div>
+        </div>
+        <div class="missed-card-body" style="display:flex; justify-content:space-between; align-items:center;">
+          <div style="font-size:1.4rem; font-weight:800; color:${test.pct >= 70 ? 'var(--ok)' : (test.pct >= 50 ? 'var(--warn)' : 'var(--err)')}">${test.pct}%</div>
+          <div style="color:var(--ink3)">${test.correct} / ${test.total} Correct</div>
+          <div style="font-size:0.8rem; color:var(--blue2)">Tap to view details ⬇️</div>
+        </div>
+      </div>
+      <div class="test-details" style="display:none; padding:10px 0 20px 20px; border-left:2px solid var(--bdr);">
+    `;
+    
+    if (test.history) {
+      test.history.forEach((item, index) => {
+        const q = item.questionData;
+        const userAns = item.userSelected !== null ? q.options[item.userSelected] : "Skipped";
+        html += `
+          <div style="margin-bottom:12px; font-size:0.9rem;">
+            <div style="font-weight:600; margin-bottom:4px;">${index + 1}. ${escapeHTML(q.question.substring(0, 80))}...</div>
+            <div style="color:${item.isCorrect ? 'var(--ok)' : 'var(--err)'}">${item.isCorrect ? '✓' : '✗'} Your Answer: ${escapeHTML(userAns)}</div>
+            <div style="margin-top:6px;">
+              <button class="btn-secondary" style="color:#10a37f; border-color:#10a37f; padding:4px 8px; font-size:0.75rem;" onclick="askAI('chatgpt', '${q.id}')">🤖 Ask ChatGPT</button>
+              <button class="btn-secondary" style="color:#d97757; border-color:#d97757; padding:4px 8px; font-size:0.75rem;" onclick="askAI('claude', '${q.id}')">🤖 Ask Claude</button>
+            </div>
+          </div>
+        `;
+      });
+    }
+    
+    html += `</div>`;
+  });
+  list.innerHTML = html;
+}
+
+function toggleAccordion(el) {
+  el.classList.toggle('active');
+  const content = el.nextElementSibling;
+  content.classList.toggle('active');
+}
+
 </script>
 </body>
 </html>
