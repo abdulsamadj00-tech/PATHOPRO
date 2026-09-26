@@ -365,7 +365,7 @@ const masterDatabase = [
   "question": "According to Wilson and Jungner criteria, which of the following is an essential requirement before initiating a mass screening program for a disease?",
   "options": [
    "The disease must be curable in all cases",
-   "The disease should have a recognizable latent or early symptomatic stage",
+   "The disease should have a recognizable early symptomatic stage",
    "The test must have 100% sensitivity and specificity",
    "Screening must be voluntary only for high-income groups",
    "The disease must be highly prevalent worldwide"
@@ -671,7 +671,7 @@ const masterDatabase = [
   "question": "Which of the following best describes passive disease surveillance?",
   "options": [
    "Health workers actively visit households to search for cases",
-   "Cases are reported routinely by health facilities as part of standard reporting systems",
+   "Cases are reported routinely by health facilities",
    "Only laboratory-confirmed cases are ever counted",
    "Data is collected only during declared outbreaks",
    "Surveillance conducted exclusively through media reports"
@@ -722,7 +722,7 @@ const masterDatabase = [
   "question": "Two countries have different age structures. To fairly compare mortality rates between them without age structure distorting the comparison, which technique should be used?",
   "options": [
    "Calculate crude death rates directly",
-   "Age standardization (direct or indirect method)",
+   "Age standardization",
    "Calculate case fatality rate instead",
    "Use proportional mortality rate only",
    "Compare only infant mortality rates"
@@ -926,7 +926,7 @@ const masterDatabase = [
   "question": "The 'clinical iceberg' phenomenon in epidemiology refers to?",
   "options": [
    "Only severe cases of disease being reported to health authorities",
-   "The majority of disease existing in subclinical or undiagnosed form, with only a minority presenting as overt clinical illness",
+   "The majority of disease existing in subclinical or undiagnosed form",
    "Diseases that occur predominantly in cold climates",
    "A method of calculating disease prevalence using stratified sampling",
    "The visible portion of an epidemic curve during outbreak investigation"
@@ -1097,7 +1097,7 @@ const masterDatabase = [
   "options": [
    "Simple point-source epidemic only",
    "Continuous common-source epidemic only",
-   "Mixed epidemic (point source followed by secondary propagated spread)",
+   "Mixed epidemic",
    "Non-epidemic endemic baseline",
    "Sporadic isolated case pattern"
   ],
@@ -1250,7 +1250,7 @@ const masterDatabase = [
   "options": [
    "Only the experimental treatment throughout the study",
    "Only the placebo throughout the study",
-   "Both the experimental treatment and the control/placebo in sequence, separated by a washout period",
+   "Both the experimental treatment and the control/placebo in sequence",
    "A randomly assigned single treatment with no follow-up",
    "Two different diseases treated simultaneously"
   ],
@@ -1266,7 +1266,7 @@ const masterDatabase = [
   "question": "Population attributable risk (PAR) is useful in public health planning primarily because it estimates?",
   "options": [
    "The relative risk of disease in exposed individuals only",
-   "The proportion of disease in the entire population that could be prevented if the exposure were eliminated",
+   "The proportion of disease in the entire population",
    "The case fatality rate of a disease",
    "The sensitivity of a screening test",
    "The incidence rate in unexposed individuals only"
@@ -1283,7 +1283,7 @@ const masterDatabase = [
   "question": "The stage of disease natural history during which pathological changes have begun but the person remains asymptomatic and it can only be detected by special screening tests is called the?",
   "options": [
    "Stage of susceptibility",
-   "Stage of subclinical (presymptomatic) disease",
+   "Stage of subclinical disease",
    "Stage of clinical disease",
    "Stage of disability",
    "Stage of recovery"
@@ -1351,7 +1351,7 @@ const masterDatabase = [
   "question": "In a case-control study of a rare disease, the odds ratio is often used as a valid approximation of the relative risk. This approximation holds true because?",
   "options": [
    "Case-control studies always have equal numbers of cases and controls",
-   "When disease is rare, the odds of disease approximate the probability (risk) of disease closely",
+   "When disease is rare, the odds of disease approximate the probability of disease closely",
    "Odds ratio and relative risk are mathematically identical formulas in all situations",
    "Case-control studies measure incidence directly like cohort studies",
    "Relative risk cannot be calculated in any study design other than case-control"
@@ -1521,7 +1521,7 @@ const masterDatabase = [
   "question": "Body temperature measured in degrees Celsius is an example of which scale of measurement, and why does it NOT qualify as a ratio scale?",
   "options": [
    "Ordinal scale, because categories are ranked",
-   "Interval scale, because zero degrees Celsius does not represent a true absence of temperature/heat",
+   "Interval scale",
    "Nominal scale, because temperature has no numeric meaning",
    "Ratio scale, because it has equal intervals",
    "Ordinal scale, because there is no absolute zero"
@@ -1538,7 +1538,7 @@ const masterDatabase = [
   "question": "Standard error of the mean (SEM) differs from standard deviation (SD) primarily in that SEM?",
   "options": [
    "Describes the spread of individual data points around the sample mean",
-   "Describes the precision of the sample mean as an estimate of the true population mean, and decreases as sample size increases",
+   "Describes the precision of the sample mean as an estimate of the true population mean",
    "Is always numerically larger than the standard deviation",
    "Cannot be calculated from the standard deviation",
    "Is used only in qualitative research"
@@ -1606,7 +1606,7 @@ const masterDatabase = [
   "question": "Which of the following best distinguishes regression analysis from correlation analysis?",
   "options": [
    "Correlation can predict values of one variable from another, while regression cannot",
-   "Regression establishes a predictive mathematical equation between a dependent and independent variable, while correlation only measures the strength/direction of association",
+   "Regression establishes a predictive mathematical equation between a dependent and independent variable",
    "Correlation requires two dependent variables, while regression requires two independent variables",
    "Regression is used exclusively for categorical variables",
    "There is no meaningful difference between the two methods"
@@ -1726,7 +1726,7 @@ const masterDatabase = [
   "options": [
    "There is a 3% probability that the null hypothesis is true",
    "There is a 97% probability that the alternative hypothesis is true",
-   "Assuming the null hypothesis is true, there is a 3% probability of observing results this extreme or more extreme by chance alone",
+   "Assuming the null hypothesis is true",
    "The treatment difference is clinically significant",
    "The study has adequate statistical power"
   ],
@@ -1742,7 +1742,7 @@ const masterDatabase = [
   "question": "A study reports the relative risk of disease with a 95% confidence interval of 0.8 to 1.5. The correct interpretation regarding statistical significance is?",
   "options": [
    "The result is statistically significant because RR is greater than 0.8",
-   "The result is NOT statistically significant because the confidence interval includes 1.0 (the null value)",
+   "The result is NOT statistically significant because the confidence interval includes 1.0",
    "The result is highly statistically significant because the interval is wide",
    "The confidence interval has no bearing on statistical significance",
    "The relative risk must be exactly 1.15, the midpoint"
@@ -1759,7 +1759,7 @@ const masterDatabase = [
   "question": "A 95% confidence interval for a mean is best interpreted as?",
   "options": [
    "95% of individual data points fall within this range",
-   "If the study were repeated many times, 95% of such calculated intervals would contain the true population parameter",
+   "If the study were repeated many times",
    "There is a 95% chance the sample mean equals the population mean exactly",
    "The interval guarantees the true value lies within it with 100% certainty",
    "95% of study participants agreed with the result"
@@ -1980,7 +1980,7 @@ const masterDatabase = [
   "question": "In the sample size formula for estimating a proportion, n = Z^2 x p x (1-p) / d^2, what does 'd' represent?",
   "options": [
    "The design effect",
-   "The absolute precision (margin of error) desired",
+   "The absolute precision desired",
    "The expected dropout rate",
    "The confidence level",
    "The population size"
@@ -1997,7 +1997,7 @@ const masterDatabase = [
   "question": "A box-and-whisker plot is particularly useful for displaying which aspect of a data set?",
   "options": [
    "Only the arithmetic mean",
-   "The five-number summary: minimum, first quartile, median, third quartile, and maximum",
+   "The five-number summary",
    "Correlation between two variables",
    "Frequency distribution of categorical data only",
    "Time trends over multiple years"
@@ -2082,7 +2082,7 @@ const masterDatabase = [
   "question": "The geometric mean is particularly useful and preferred over the arithmetic mean when analyzing which type of data?",
   "options": [
    "Normally distributed continuous data with no skew",
-   "Data that follows a multiplicative or exponential pattern, such as antibody titers or bacterial growth rates",
+   "Data that follows a multiplicative or exponential pattern",
    "Purely categorical/nominal data",
    "Ordinal ranked data such as pain scores",
    "Data with a large number of zero values"
@@ -2217,7 +2217,7 @@ const masterDatabase = [
   "difficulty": "Hard",
   "question": "Statistical power of a study refers to the probability of?",
   "options": [
-   "Correctly rejecting a false null hypothesis (detecting a true effect when one exists)",
+   "Correctly rejecting a false null hypothesis",
    "Correctly accepting a true null hypothesis",
    "Committing a Type I error",
    "Committing a Type II error",
@@ -2269,7 +2269,7 @@ const masterDatabase = [
   "question": "A key visual difference between a bar chart and a histogram is that a bar chart typically has?",
   "options": [
    "Bars touching each other, like a histogram",
-   "Gaps between bars, since it represents discrete/categorical data rather than continuous class intervals",
+   "Gaps between bars for discrete data",
    "No axes labels required",
    "Only vertical bars, never horizontal",
    "Exactly five categories always"
@@ -2286,7 +2286,7 @@ const masterDatabase = [
   "question": "A very large clinical trial finds that a new drug reduces blood pressure by an average of 1 mmHg compared to placebo, with a p-value of 0.001. This illustrates the important concept that?",
   "options": [
    "Statistical significance always implies clinical importance",
-   "A statistically significant result can still be clinically unimportant/meaningless if the effect size is trivially small",
+   "A statistically significant result can still be clinically unimportant/meaningless",
    "P-values less than 0.001 are always clinically meaningful",
    "Large sample sizes reduce the chance of statistical significance",
    "This result proves the drug has no real effect at all"
@@ -2319,7 +2319,7 @@ const masterDatabase = [
   "difficulty": "Normal",
   "question": "The harmonic mean is most appropriately used for averaging which type of data?",
   "options": [
-   "Rates and ratios, such as speeds or rates of events over varying time periods",
+   "Rates and ratios",
    "Simple counts of categorical events",
    "Nominal data categories",
    "Ordinal ranked pain scores",
@@ -2473,7 +2473,7 @@ const masterDatabase = [
   "question": "Total Fertility Rate (TFR) is defined as?",
   "options": [
    "The number of live births per 1000 mid-year population in a year",
-   "The average number of children a woman would have during her reproductive lifespan if she experienced current age-specific fertility rates",
+   "The average number of children a woman would have during her reproductive lifespan",
    "The number of live births per 1000 women aged 15-49 years",
    "The ratio of male to female births",
    "The number of pregnancies per married woman"
@@ -2490,7 +2490,7 @@ const masterDatabase = [
   "question": "Net Reproduction Rate (NRR) differs from Gross Reproduction Rate (GRR) in that NRR additionally accounts for?",
   "options": [
    "Only male births",
-   "Mortality of women before completing their reproductive years",
+   "Mortality before completing reproductive years",
    "Total population size of the country",
    "Age at marriage only",
    "Contraceptive prevalence rate"
@@ -2507,7 +2507,7 @@ const masterDatabase = [
   "question": "An NRR (Net Reproduction Rate) value of exactly 1.0 indicates that?",
   "options": [
    "The population is doubling every generation",
-   "Each generation of women is exactly replacing itself in the next generation",
+   "Each generation is exactly replacing itself",
    "The population will decline rapidly",
    "There is zero fertility in the population",
    "The death rate exceeds the birth rate"
@@ -2541,7 +2541,7 @@ const masterDatabase = [
   "question": "A national census is best defined as?",
   "options": [
    "Continuous ongoing registration of births and deaths",
-   "A complete count/enumeration of every individual in a country at a specific point in time",
+   "A complete count of every individual at a specific point in time",
    "A sample survey of a small representative population subset",
    "Registration of only migration events",
    "A survey conducted exclusively in urban areas"
@@ -2643,7 +2643,7 @@ const masterDatabase = [
   "question": "The Copper-T intrauterine contraceptive device (IUCD) primarily prevents pregnancy mainly through which mechanism?",
   "options": [
    "Suppressing ovulation hormonally",
-   "Creating a local inflammatory/spermicidal environment in the uterus that is toxic to sperm and prevents fertilization",
+   "Creating a local inflammatory environment in the uterus",
    "Acting as a permanent surgical sterilization method",
    "Blocking the fallopian tubes physically",
    "Preventing implantation only, with no effect on fertilization at all"
@@ -2677,7 +2677,7 @@ const masterDatabase = [
   "question": "Vasectomy, as a method of permanent contraception in males, works by?",
   "options": [
    "Removing the testes entirely",
-   "Blocking/cutting the vas deferens to prevent sperm from being included in ejaculate",
+   "Blocking/cutting the vas deferens",
    "Suppressing testosterone production",
    "Preventing erection",
    "Destroying sperm production in the testes"
@@ -2745,7 +2745,7 @@ const masterDatabase = [
   "question": "General Fertility Rate (GFR) is calculated as the number of live births per 1000?",
   "options": [
    "Total mid-year population",
-   "Women aged 15-49 years (reproductive age group)",
+   "Women aged 15-49 years",
    "Married women only",
    "Women aged 20-35 years only",
    "Total number of pregnancies"
@@ -2762,7 +2762,7 @@ const masterDatabase = [
   "question": "A population pyramid showing a distinct 'bulge' in the 20-30 year age group compared to adjacent age groups, in an otherwise typical developing country pyramid, most likely reflects?",
   "options": [
    "A sudden decline in birth rate 20-30 years ago",
-   "A 'youth bulge' resulting from a period of previously high fertility now entering young adulthood",
+   "A 'youth bulge'",
    "Significant emigration of this age group",
    "An epidemic that selectively killed younger children",
    "Data collection error only"
@@ -2796,7 +2796,7 @@ const masterDatabase = [
   "question": "The Lactational Amenorrhea Method (LAM) as a temporary contraceptive method is effective only when which THREE conditions are simultaneously met?",
   "options": [
    "Baby is over 12 months old, mother is exclusively breastfeeding, and menstruation has returned",
-   "Baby is under 6 months old, mother is exclusively (or nearly exclusively) breastfeeding, and menstruation has not yet returned",
+   "Baby is under 6 months old, mother is exclusively breastfeeding, and menstruation has not yet returned",
    "Mother uses any breastfeeding pattern regardless of frequency, baby is any age, and mother is not menstruating",
    "Baby is formula-fed exclusively and mother has irregular periods",
    "Mother had a cesarean delivery and baby is under 3 months old"
@@ -2864,7 +2864,7 @@ const masterDatabase = [
   "question": "Even after achieving replacement-level fertility (TFR of about 2.1), a country's population may continue to grow for several more decades due to a phenomenon called?",
   "options": [
    "Demographic dividend",
-   "Population momentum, due to a large existing proportion of young people entering reproductive age",
+   "Population momentum",
    "Population inversion",
    "Zero population growth immediately",
    "Negative population growth"
@@ -2881,7 +2881,7 @@ const masterDatabase = [
   "question": "A key disadvantage of Depot Medroxyprogesterone Acetate (DMPA) injectable contraception, given every 3 months, is that it may cause?",
   "options": [
    "Immediate return of fertility after discontinuation",
-   "Delayed return of fertility, sometimes taking several months after the last injection",
+   "Delayed return of fertility",
    "Increased risk of ectopic pregnancy during use",
    "Protection against sexually transmitted infections",
    "Permanent, irreversible infertility"
@@ -2932,7 +2932,7 @@ const masterDatabase = [
   "question": "Which of the following is considered a 'de jure' method of census enumeration?",
   "options": [
    "Counting people based on where they are physically present on the night of the census",
-   "Counting people based on their usual/legal place of residence, regardless of where they are on census night",
+   "Counting people",
    "Counting only citizens and excluding all foreign residents",
    "Counting only registered voters",
    "Counting people based on their birthplace only"
@@ -2983,7 +2983,7 @@ const masterDatabase = [
   "question": "A steadily declining Total Fertility Rate (TFR) in a country over successive decades primarily reflects?",
   "options": [
    "Increasing infant mortality rate",
-   "Declining average number of children born per woman over her reproductive lifetime",
+   "Declining average number of children born per woman",
    "Increasing maternal mortality ratio",
    "Declining life expectancy",
    "Increasing crude death rate"
@@ -3002,7 +3002,7 @@ const masterDatabase = [
    "Male condom",
    "Diaphragm with spermicide",
    "Combined oral contraceptive pills (with typical, imperfect use)",
-   "Copper-T IUCD / hormonal implant (long-acting reversible contraceptives)",
+   "Copper-T IUCD / hormonal implant",
    "Withdrawal (coitus interruptus)"
   ],
   "correct": 3,
@@ -3119,7 +3119,7 @@ const masterDatabase = [
   "question": "Routine iron and folic acid supplementation is recommended for all pregnant women primarily to prevent?",
   "options": [
    "Gestational diabetes",
-   "Maternal and fetal anemia, and neural tube defects (folic acid)",
+   "Maternal and fetal anemia",
    "Pre-eclampsia",
    "Postpartum depression",
    "Gestational hypertension"
@@ -3255,7 +3255,7 @@ const masterDatabase = [
   "question": "The Integrated Management of Neonatal and Childhood Illness (IMNCI) strategy primarily aims to?",
   "options": [
    "Focus exclusively on hospital-based tertiary care for sick children",
-   "Provide a standardized, simplified approach for frontline health workers to assess, classify, and manage common childhood illnesses at first-level facilities",
+   "Standardized approach for managing common childhood illnesses",
    "Replace the need for immunization programs entirely",
    "Only address malnutrition, excluding infectious diseases",
    "Focus solely on children older than 5 years"
@@ -3357,7 +3357,7 @@ const masterDatabase = [
   "question": "When introducing complementary foods at 6 months of age, which of the following is a correct principle of appropriate complementary feeding?",
   "options": [
    "Foods should be thin and watery to ease digestion",
-   "Foods should be nutrient-dense, appropriately thick, and gradually increased in variety and quantity while continuing breastfeeding",
+   "Foods should be nutrient-dense",
    "Breastfeeding should be stopped immediately once complementary foods begin",
    "Only fruit juices should be given for the first month of complementary feeding",
    "Salt and sugar should be added liberally to make food palatable"
@@ -3374,7 +3374,7 @@ const masterDatabase = [
   "question": "Colostrum, the first milk produced after delivery, is particularly valuable for the newborn because it is rich in?",
   "options": [
    "Fat content only, for calorie needs",
-   "Immunoglobulins (particularly IgA) providing passive immunity",
+   "Immunoglobulins providing passive immunity",
    "Refined sugars",
    "Artificial vitamins",
    "Iron only"
@@ -3442,7 +3442,7 @@ const masterDatabase = [
   "question": "High-dose Vitamin A supplementation is provided periodically to children aged 6 months to 5 years primarily to reduce?",
   "options": [
    "Risk of neural tube defects",
-   "Childhood mortality from measles and diarrheal disease, and prevent xerophthalmia/night blindness",
+   "Childhood mortality and xerophthalmia",
    "Risk of neonatal tetanus",
    "Rates of childhood obesity",
    "Risk of congenital heart disease"
@@ -3459,7 +3459,7 @@ const masterDatabase = [
   "question": "Perinatal mortality rate includes which of the following in its definition?",
   "options": [
    "Only deaths occurring in the first 28 days of life (neonatal deaths)",
-   "Stillbirths (fetal deaths after 28 weeks gestation) plus early neonatal deaths (within first 7 days of life)",
+   "Stillbirths plus early neonatal deaths",
    "Only maternal deaths during childbirth",
    "Deaths of children under 5 years from all causes",
    "Only stillbirths, excluding any live-born deaths"
@@ -3477,7 +3477,7 @@ const masterDatabase = [
   "options": [
    "Sneezing occasionally",
    "Passing meconium within first 24 hours of life",
-   "Fast breathing (more than 60 breaths per minute), chest indrawing, or poor feeding",
+   "Fast breathing, chest indrawing, or poor feeding",
    "Mild physiological jaundice appearing on day 3, resolving by day 7-10",
    "Crying when hungry"
   ],
@@ -3510,7 +3510,7 @@ const masterDatabase = [
   "question": "The concept of 'reproductive rights,' as recognized internationally (e.g., ICPD Cairo 1994), primarily emphasizes that individuals and couples have the right to?",
   "options": [
    "Have as many children as the state mandates",
-   "Decide freely and responsibly the number, spacing, and timing of their children, and have access to information and means to do so",
+   "Decide freely and responsibly the number",
    "Access reproductive health services only if they can afford private care",
    "Be denied family planning information for religious reasons universally",
    "Have no say in their own reproductive decisions"
@@ -3528,7 +3528,7 @@ const masterDatabase = [
   "options": [
    "Cesarean section capability",
    "Blood transfusion services",
-   "Parenteral administration of antibiotics, oxytocics, and anticonvulsants; manual removal of placenta; and assisted vaginal delivery, but NOT surgery or blood transfusion",
+   "Parenteral medications and assisted delivery",
    "Neonatal intensive care with ventilator support",
    "Advanced fetal surgery"
   ],
@@ -3544,7 +3544,7 @@ const masterDatabase = [
   "question": "Kangaroo Mother Care (KMC), recommended for low birth weight and preterm infants, primarily involves?",
   "options": [
    "Placing the infant in an incubator at all times without maternal contact",
-   "Prolonged skin-to-skin contact between mother (or caregiver) and infant, along with exclusive breastfeeding and early discharge support",
+   "Prolonged skin-to-skin contact between mother and infant",
    "Formula feeding exclusively instead of breastfeeding",
    "Delaying all physical contact until the infant reaches normal birth weight",
    "Isolating the infant from all family members to reduce infection risk"
@@ -3561,7 +3561,7 @@ const masterDatabase = [
   "question": "A key advantage of Inactivated Polio Vaccine (IPV) over Oral Polio Vaccine (OPV) is that IPV?",
   "options": [
    "Provides better mucosal/intestinal immunity",
-   "Cannot cause vaccine-associated paralytic poliomyelitis (VAPP), since it contains no live virus",
+   "Cannot cause vaccine-associated paralytic poliomyelitis",
    "Is cheaper and easier to administer",
    "Requires no cold chain maintenance",
    "Provides herd immunity more effectively than OPV"
@@ -3578,7 +3578,7 @@ const masterDatabase = [
   "question": "WHO growth standards/charts (used for monitoring child growth) are based on data collected from?",
   "options": [
    "Only children from high-income countries",
-   "A multi-country study of healthy, breastfed children raised under optimal conditions, representing how children SHOULD grow",
+   "A multi-country study of healthy",
    "Only malnourished children to set a low baseline",
    "Adult population data extrapolated to children",
    "Only children with chronic diseases"
@@ -3595,7 +3595,7 @@ const masterDatabase = [
   "question": "A child with a height-for-age Z-score below -2 but a normal weight-for-height Z-score is classified as?",
   "options": [
    "Wasted but not stunted",
-   "Stunted but not wasted, reflecting chronic malnutrition",
+   "Stunted but not wasted",
    "Both wasted and stunted",
    "Overweight",
    "Normally nourished"
@@ -3663,7 +3663,7 @@ const masterDatabase = [
   "question": "The proportion of deliveries attended by a skilled birth attendant (doctor, nurse, or midwife with specific training) is considered an important indicator because it reflects?",
   "options": [
    "The literacy rate of the mother",
-   "Access to and utilization of quality maternal health services, closely linked to reduced maternal and neonatal mortality",
+   "Access to quality maternal health services",
    "The economic status of the country only",
    "The total fertility rate",
    "The nutritional status of the population"
@@ -3714,7 +3714,7 @@ const masterDatabase = [
   "question": "Prevention of Mother-to-Child Transmission (PMTCT) programs for HIV-positive pregnant women primarily include which key intervention?",
   "options": [
    "Withholding all treatment until after delivery",
-   "Antiretroviral therapy during pregnancy, labor, and postpartum, plus infant prophylaxis and appropriate infant feeding counseling",
+   "Antiretroviral therapy during pregnancy",
    "Avoiding any antenatal care visits to reduce stigma",
    "Mandatory cesarean section for all HIV-positive women regardless of viral load",
    "Complete avoidance of breastfeeding in all cases universally"
@@ -3765,7 +3765,7 @@ const masterDatabase = [
   "question": "A community health worker records that a village has a very high proportion of children who are 'stunted' (chronically low height-for-age) but relatively few who are acutely 'wasted.' This pattern most likely reflects?",
   "options": [
    "A recent acute famine or food shortage only",
-   "Chronic, long-standing undernutrition and repeated infections over time, rather than a recent acute food crisis",
+   "Chronic, long-standing undernutrition and repeated infections over time,",
    "Excellent nutritional status overall",
    "A recent disease outbreak causing acute weight loss",
    "Genetic factors exclusively, unrelated to nutrition"
@@ -3782,7 +3782,7 @@ const masterDatabase = [
   "question": "Active management of the third stage of labor (AMTSL), used to prevent postpartum hemorrhage, includes which key component?",
   "options": [
    "Delaying uterotonic administration until 1 hour after delivery",
-   "Prophylactic administration of a uterotonic drug (e.g., oxytocin) immediately after delivery of the baby, controlled cord traction, and uterine massage",
+   "Prophylactic administration of a uterotonic drug",
    "Avoiding all uterotonic medications to allow natural physiological delivery of placenta",
    "Immediate cesarean section for all deliveries",
    "Withholding cord clamping indefinitely"
@@ -3799,7 +3799,7 @@ const masterDatabase = [
   "question": "The 'warm chain' concept in newborn care refers to a series of linked practices/interventions aimed at?",
   "options": [
    "Keeping vaccines at appropriate cold temperatures during transport",
-   "Preventing hypothermia in the newborn from birth through the postnatal period via linked warming practices (drying, skin-to-skin contact, delayed bathing, appropriate clothing)",
+   "Preventing hypothermia in the newborn from birth through the postnatal period via linked warming practices",
    "Warming maternal blood before transfusion",
    "Heating formula milk to body temperature before feeding",
    "Keeping the delivery room at maximum possible temperature regardless of comfort"
@@ -3850,7 +3850,7 @@ const masterDatabase = [
   "question": "Vaccines like OPV and measles vaccine are particularly heat-sensitive, while BCG and measles vaccines (among others) are also light-sensitive. The 'cold chain' system in immunization refers to?",
   "options": [
    "A chain of custody for vaccine legal documentation",
-   "A system of storage and transport that maintains vaccines within the recommended temperature range from manufacture to administration",
+   "A system maintaining vaccines within the recommended temperature range",
    "A schedule for vaccinating children in order of age",
    "A financial supply chain for purchasing vaccines",
    "A method for cooling the child's arm before injection"
@@ -3952,7 +3952,7 @@ const masterDatabase = [
   "question": "Scurvy, caused by vitamin C deficiency, classically presents with which of the following findings?",
   "options": [
    "Bone deformities like bowed legs",
-   "Bleeding gums, perifollicular hemorrhages, and poor wound healing",
+   "Bleeding gums",
    "Night blindness",
    "Peripheral neuropathy with foot drop",
    "Goiter"
@@ -3969,7 +3969,7 @@ const masterDatabase = [
   "question": "Rickets in children, caused by vitamin D deficiency, classically presents with which skeletal finding?",
   "options": [
    "Bilateral pitting edema",
-   "Bowing of legs (genu varum), rachitic rosary, and delayed fontanelle closure",
+   "Bowing of legs",
    "Bleeding gums",
    "Foamy conjunctival patches",
    "Goiter"
@@ -4020,7 +4020,7 @@ const masterDatabase = [
   "question": "A 'balanced diet' is best defined as one that?",
   "options": [
    "Contains only proteins and fats, excluding carbohydrates",
-   "Provides all essential nutrients (carbohydrates, proteins, fats, vitamins, minerals, water) in adequate proportions to meet the body's needs",
+   "Provides all essential nutrients in adequate proportions to meet the body's needs",
    "Consists exclusively of vegetables and fruits",
    "Provides excess calories to promote rapid growth",
    "Contains only vitamin and mineral supplements without whole foods"
@@ -4070,7 +4070,7 @@ const masterDatabase = [
   "difficulty": "Normal",
   "question": "Food fortification differs from food enrichment in that fortification refers to?",
   "options": [
-   "Adding nutrients that were never originally present in that food (or restoring to a higher-than-original level) to address a public health need",
+   "Adding nutrients that were never originally present in that food to address a public health need",
    "Restoring nutrients lost during food processing back to their original naturally occurring levels only",
    "Removing harmful contaminants from food",
    "Adding only artificial coloring and flavoring to food",
@@ -4088,7 +4088,7 @@ const masterDatabase = [
   "question": "Recommended Dietary Allowance (RDA) is defined as the daily nutrient intake level that is sufficient to meet the requirements of?",
   "options": [
    "The average person only, with no safety margin",
-   "Nearly all (approximately 97-98%) healthy individuals in a specific population group",
+   "Nearly all healthy individuals in a specific population group",
    "Only individuals with a specific disease",
    "The single individual with the absolute lowest requirement",
    "Only athletes with high physical activity levels"
@@ -4105,7 +4105,7 @@ const masterDatabase = [
   "question": "Dietary fiber, though not digested or absorbed by the human gut, provides health benefits primarily by?",
   "options": [
    "Providing a major source of calories and energy",
-   "Promoting bowel regularity, aiding in glycemic control, and supporting healthy gut microbiota",
+   "Promoting bowel regularity",
    "Directly supplying essential amino acids",
    "Serving as the primary source of vitamin D",
    "Preventing all forms of cancer completely and absolutely"
@@ -4156,7 +4156,7 @@ const masterDatabase = [
   "question": "Nutrition surveillance systems are primarily established to?",
   "options": [
    "Treat individual malnourished children directly at the community level",
-   "Continuously monitor the nutritional status of a population over time to detect trends, identify at-risk groups, and guide policy/program decisions",
+   "Continuously monitor nutritional status to detect trends and guide policy",
    "Replace the need for clinical nutrition assessment entirely",
    "Focus exclusively on adult obesity trends",
    "Serve only as a one-time cross-sectional survey with no follow-up"
@@ -4190,7 +4190,7 @@ const masterDatabase = [
   "question": "'Dry beriberi,' also caused by thiamine deficiency, primarily presents with?",
   "options": [
    "High-output cardiac failure",
-   "Symmetric peripheral neuropathy with sensory and motor deficits, muscle wasting, and foot drop",
+   "Symmetric peripheral neuropathy with sensorimotor deficits",
    "Bleeding gums",
    "Corneal xerosis",
    "Bilateral pitting edema as the dominant feature"
@@ -4207,7 +4207,7 @@ const masterDatabase = [
   "question": "Vitamin K is essential for the synthesis of which of the following?",
   "options": [
    "Collagen for connective tissue",
-   "Clotting factors II, VII, IX, and X in the liver",
+   "Clotting factors II",
    "Hemoglobin",
    "Thyroid hormone",
    "Melanin"
@@ -4224,7 +4224,7 @@ const masterDatabase = [
   "question": "Newborns are routinely given vitamin K injection shortly after birth primarily to prevent?",
   "options": [
    "Neonatal jaundice",
-   "Vitamin K deficiency bleeding (hemorrhagic disease of the newborn)",
+   "Vitamin K deficiency bleeding",
    "Neonatal sepsis",
    "Congenital hypothyroidism",
    "Neural tube defects"
@@ -4275,7 +4275,7 @@ const masterDatabase = [
   "question": "'Growth faltering' in an infant, identified through serial growth monitoring, refers to?",
   "options": [
    "A single low weight measurement at one time point",
-   "A flattening or downward deviation of the growth curve over successive measurements, indicating inadequate growth velocity",
+   "A flattening or downward deviation of the growth curve over successive measurements",
    "Rapid weight gain exceeding normal expected patterns",
    "Normal minor fluctuations in weight from illness that quickly resolve",
    "A permanent, irreversible condition with no possibility of recovery"
@@ -4292,7 +4292,7 @@ const masterDatabase = [
   "question": "Which of the following best describes the role of Lady Health Workers (LHWs) in Pakistan's national nutrition and health programs at the community level?",
   "options": [
    "They perform only hospital-based surgical procedures",
-   "They provide doorstep community-based health education, growth monitoring, family planning counseling, and basic preventive/promotive health services",
+   "Provide community-based health education and basic preventive health services",
    "They exclusively manage tertiary care hospital wards",
    "They are responsible only for vaccine manufacturing",
    "They replace the need for any physician involvement in primary care entirely"
@@ -4308,7 +4308,7 @@ const masterDatabase = [
   "difficulty": "Hard",
   "question": "The term 'double burden of malnutrition,' increasingly relevant in developing countries including Pakistan, refers to?",
   "options": [
-   "The coexistence of undernutrition (e.g., stunting) and overnutrition (overweight/obesity) within the same population, household, or even individual",
+   "The coexistence of undernutrition",
    "Two separate simultaneous famines occurring in different regions",
    "The combined burden of malaria and malnutrition together",
    "Malnutrition affecting both males and females equally",
@@ -4326,7 +4326,7 @@ const masterDatabase = [
   "question": "Weight-for-height (or weight-for-length) index is primarily used to assess which type of malnutrition, and reflects what timeframe of nutritional insult?",
   "options": [
    "Chronic malnutrition (stunting) over years",
-   "Acute malnutrition (wasting), reflecting recent/current nutritional deprivation",
+   "Acute malnutrition",
    "Long-term genetic growth potential",
    "Micronutrient deficiency specifically",
    "Overnutrition exclusively, never used for undernutrition"
@@ -4343,7 +4343,7 @@ const masterDatabase = [
   "question": "Ready-to-Use Therapeutic Food (RUTF), such as fortified peanut-based paste, is primarily used in the community-based management of?",
   "options": [
    "Mild malnutrition in well, ambulatory children",
-   "Severe acute malnutrition (SAM) without medical complications, in an outpatient/community setting",
+   "Severe acute malnutrition without medical complications",
    "Only adult obesity management",
    "Vitamin D deficiency exclusively",
    "Only inpatient hospital-based severe malnutrition with complications"
@@ -4394,7 +4394,7 @@ const masterDatabase = [
   "question": "Adequate calcium intake throughout childhood and adolescence is particularly important because this period represents?",
   "options": [
    "The only time in life calcium is needed",
-   "The critical window for achieving peak bone mass, which influences later-life osteoporosis risk",
+   "The critical window for achieving peak bone mass",
    "A period when calcium is not absorbed by the body",
    "A time when calcium requirements are lower than in adulthood",
    "A period unrelated to future bone health"
@@ -4428,7 +4428,7 @@ const masterDatabase = [
   "question": "A 'complete protein' food source is defined as one that contains?",
   "options": [
    "Only carbohydrates and no protein at all",
-   "All nine essential amino acids in adequate proportions required by the human body",
+   "All nine essential amino acids in adequate proportions",
    "Only non-essential amino acids",
    "No fat content whatsoever",
    "Only plant-based amino acids"
@@ -4445,7 +4445,7 @@ const masterDatabase = [
   "question": "Vitamin B12 deficiency classically causes megaloblastic anemia along with which distinctive additional feature not seen in simple folate deficiency?",
   "options": [
    "Microcytic anemia",
-   "Subacute combined degeneration of the spinal cord (neurological deficits)",
+   "Subacute combined degeneration of the spinal cord",
    "Bleeding gums",
    "Bone pain and deformity",
    "Goiter"
@@ -4462,7 +4462,7 @@ const masterDatabase = [
   "question": "Basal Metabolic Rate (BMR) refers to the minimum amount of energy required by the body to maintain essential physiological functions while?",
   "options": [
    "Engaged in vigorous physical exercise",
-   "At complete physical and mental rest, in a post-absorptive state (fasting), in a thermoneutral environment",
+   "At complete physical and mental rest",
    "Actively digesting a large meal",
    "Sleeping only during REM sleep specifically",
    "Engaged in any form of activity, including walking"
@@ -4479,7 +4479,7 @@ const masterDatabase = [
   "question": "According to WHO/national recommendations, adequately iodized salt for household consumption should typically contain iodine at a level of approximately?",
   "options": [
    "0.1 ppm",
-   "15-40 ppm (parts per million), varying by national standards",
+   "15-40 ppm, varying by national standards",
    "500 ppm",
    "No specific standard exists",
    "1000 ppm"
@@ -4496,7 +4496,7 @@ const masterDatabase = [
   "question": "Phytates, commonly found in whole grains and legumes, are considered 'antinutrients' primarily because they?",
   "options": [
    "Provide excess calories leading to obesity",
-   "Bind to minerals like iron and zinc, reducing their bioavailability and absorption",
+   "Bind to minerals like iron and zinc",
    "Cause immediate severe allergic reactions in all individuals",
    "Are toxic and cause immediate poisoning",
    "Increase vitamin C absorption significantly"
@@ -4513,7 +4513,7 @@ const masterDatabase = [
   "question": "Trans fatty acids, commonly found in partially hydrogenated vegetable oils used in processed/fried foods, are of particular public health concern because they?",
   "options": [
    "Lower LDL cholesterol and raise HDL cholesterol, improving cardiovascular risk profile",
-   "Raise LDL ('bad') cholesterol and lower HDL ('good') cholesterol, increasing cardiovascular disease risk",
+   "Raise LDL cholesterol and lower HDL cholesterol, increasing cardiovascular disease risk",
    "Have no effect on cardiovascular health whatsoever",
    "Are essential nutrients required in the diet",
    "Are only found in fruits and vegetables"
@@ -4530,7 +4530,7 @@ const masterDatabase = [
   "question": "Malnutrition rates often peak during the weaning period (roughly 6 months to 2 years of age) in developing countries primarily due to?",
   "options": [
    "Excessive breastfeeding continuing beyond 6 months",
-   "Inadequate, nutritionally poor complementary foods combined with increased exposure to infections from environmental contamination during this transition period",
+   "Nutritionally poor complementary foods combined with increased infection exposure",
    "Overly rapid growth requiring less nutrition than infancy",
    "Decreased susceptibility to infections during this age",
    "Excess caloric intake during weaning leading to obesity"
@@ -4547,7 +4547,7 @@ const masterDatabase = [
   "question": "Which of the following anthropometric measurements is LEAST useful for assessing nutritional status in an edematous child with kwashiorkor?",
   "options": [
    "Height/length measurement",
-   "Weight measurement (may be falsely elevated by fluid retention)",
+   "Weight measurement",
    "Mid-upper arm circumference",
    "Clinical examination for edema itself",
    "Assessment of hair and skin changes"
@@ -4564,7 +4564,7 @@ const masterDatabase = [
   "question": "Supplementary feeding programs targeting moderately malnourished children in the community typically aim to provide additional nutrient-dense food?",
   "options": [
    "As a complete replacement for the family's regular home diet",
-   "As an addition to (not a replacement for) the regular home diet, to bridge the nutritional gap",
+   "As an addition to the regular home diet, to bridge the nutritional gap",
    "Only during religious fasting periods",
    "Exclusively to adult family members instead of the malnourished child",
    "Only after the child has already recovered fully from malnutrition"
@@ -4581,7 +4581,7 @@ const masterDatabase = [
   "question": "National weekly iron-folic acid supplementation programs for adolescent girls are implemented primarily to?",
   "options": [
    "Treat existing severe anemia only in hospitalized patients",
-   "Prevent and reduce the high prevalence of iron deficiency anemia among adolescent girls, improving their health before potential future pregnancies",
+   "Reduce prevalence of iron deficiency anemia among adolescent girls",
    "Address vitamin D deficiency",
    "Prevent iodine deficiency disorders",
    "Treat protein energy malnutrition specifically"
@@ -4598,7 +4598,7 @@ const masterDatabase = [
   "question": "Aflatoxin contamination, commonly affecting improperly stored grains, nuts (especially peanuts), and cereals, is primarily produced by which source and poses which major health risk?",
   "options": [
    "Bacterial contamination causing acute diarrhea only",
-   "Fungal (mold) contamination (Aspergillus species) associated with hepatocellular carcinoma risk with chronic exposure",
+   "Fungal contamination associated with hepatocellular carcinoma risk with chronic exposure",
    "Viral contamination causing hepatitis A",
    "Parasitic contamination causing anemia",
    "Heavy metal contamination causing neurological damage"
@@ -4666,7 +4666,7 @@ const masterDatabase = [
   "question": "Consuming vitamin C-rich foods (like citrus fruits) alongside iron-rich plant foods (like lentils) is recommended because vitamin C?",
   "options": [
    "Destroys the iron content of the food",
-   "Enhances the absorption of non-heme (plant-based) iron in the gut",
+   "Enhances the absorption of non-heme iron in the gut",
    "Has no effect on iron absorption",
    "Only affects heme iron absorption from meat sources",
    "Decreases overall nutrient absorption when combined"
@@ -4717,7 +4717,7 @@ const masterDatabase = [
   "question": "The 'nutrition transition' refers to the shift in dietary patterns typically observed as countries undergo economic development and urbanization, characterized by a shift toward?",
   "options": [
    "Traditional diets high in fiber and low in processed foods becoming more common",
-   "Diets higher in processed foods, refined sugars, and saturated fats, alongside decreasing physical activity",
+   "Diets higher in processed foods",
    "Universal improvement in nutritional status with no negative health consequences",
    "Complete elimination of undernutrition as a public health concern",
    "Decreased consumption of animal products universally"
@@ -4734,7 +4734,7 @@ const masterDatabase = [
   "question": "Chlorination of drinking water is the most widely used method of disinfection primarily because it provides?",
   "options": [
    "Immediate but non-residual protection only",
-   "Residual protective effect against recontamination during storage and distribution, in addition to killing pathogens",
+   "Residual protective effect against recontamination",
    "Removal of all dissolved heavy metals",
    "Removal of excess fluoride",
    "Improved taste without any disinfection value"
@@ -4751,7 +4751,7 @@ const masterDatabase = [
   "question": "Boiling water at a rolling boil for at least 1 minute is an effective household method of water purification because it?",
   "options": [
    "Removes all dissolved chemical contaminants like arsenic and fluoride",
-   "Kills disease-causing microorganisms including bacteria, viruses, and parasites through heat",
+   "Kills disease-causing microorganisms including bacteria",
    "Adds beneficial minerals to the water",
    "Provides long-lasting residual protection against recontamination",
    "Removes suspended sediment and turbidity"
@@ -4768,7 +4768,7 @@ const masterDatabase = [
   "question": "The presence of E. coli in a water sample is used as an indicator organism primarily because it indicates?",
   "options": [
    "Direct presence of viral pathogens specifically",
-   "Recent fecal contamination of the water source, suggesting possible presence of other pathogenic organisms",
+   "Recent fecal contamination of the water source",
    "Excess chlorine in the water",
    "High mineral content",
    "Presence of heavy metal contamination"
@@ -4802,7 +4802,7 @@ const masterDatabase = [
   "question": "In emergency or low-resource settings where chlorination tablets are unavailable, the SODIS (Solar Water Disinfection) method uses which mechanism to purify water?",
   "options": [
    "Boiling water using electric heaters",
-   "Exposing water in clear plastic bottles to direct sunlight for several hours, using UV radiation and heat to kill pathogens",
+   "Exposing water to direct sunlight in clear plastic bottles",
    "Adding activated charcoal to absorb pathogens",
    "Freezing water to kill bacteria",
    "Adding excess salt to the water"
@@ -4854,7 +4854,7 @@ const masterDatabase = [
   "options": [
    "Safely managed sanitation",
    "Basic sanitation service",
-   "Limited sanitation service (due to sharing)",
+   "Limited sanitation service",
    "Open defecation",
    "No sanitation service at all"
   ],
@@ -4870,7 +4870,7 @@ const masterDatabase = [
   "question": "Indoor air pollution from burning solid biomass fuels (wood, dung, crop residue) for cooking, common in rural households, is a major risk factor for which health condition?",
   "options": [
    "Skin cancer",
-   "Chronic obstructive pulmonary disease (COPD) and acute respiratory infections, particularly in women and young children",
+   "Chronic obstructive pulmonary disease and acute respiratory infections",
    "Osteoporosis",
    "Peptic ulcer disease",
    "Diabetes mellitus"
@@ -4887,7 +4887,7 @@ const masterDatabase = [
   "question": "Particulate matter with diameter less than 2.5 micrometers (PM2.5) is of particular health concern compared to larger particles because it can?",
   "options": [
    "Only affect the upper respiratory tract, causing mild irritation",
-   "Penetrate deep into the lung alveoli and even enter the bloodstream, causing cardiovascular and respiratory disease",
+   "Penetrate deep into the lung alveoli and even enter the bloodstream",
    "Be completely filtered out by nasal hair",
    "Only cause cosmetic skin discoloration",
    "Have no association with any chronic disease"
@@ -4904,7 +4904,7 @@ const masterDatabase = [
   "question": "Improper disposal of solid waste in urban areas, allowing accumulation of garbage, primarily creates public health risk by?",
   "options": [
    "Directly causing genetic mutations in nearby residents",
-   "Providing breeding grounds for disease vectors (flies, rodents, mosquitoes) that transmit various infectious diseases",
+   "Providing breeding grounds for disease vectors that transmit various infectious diseases",
    "Improving overall air quality",
    "Increasing groundwater recharge safely",
    "Having no association with any disease transmission"
@@ -4938,7 +4938,7 @@ const masterDatabase = [
   "question": "Overcrowded housing conditions are associated with increased risk of transmission of which type of disease?",
   "options": [
    "Non-communicable chronic diseases exclusively",
-   "Airborne and contact-transmitted communicable diseases, such as tuberculosis and respiratory infections",
+   "Airborne and contact-transmitted communicable diseases",
    "Genetic disorders",
    "Nutritional deficiency diseases exclusively",
    "Cardiovascular disease exclusively, with no infectious disease link"
@@ -4955,7 +4955,7 @@ const masterDatabase = [
   "question": "Adequate natural ventilation in a room is important for health primarily because it helps to?",
   "options": [
    "Increase room temperature significantly",
-   "Dilute and remove indoor air contaminants, humidity, and pathogens, improving indoor air quality",
+   "Dilute and remove indoor air contaminants",
    "Eliminate the need for any window cleaning",
    "Increase noise pollution levels",
    "Prevent all forms of vector-borne disease transmission"
@@ -5006,7 +5006,7 @@ const masterDatabase = [
   "question": "Trachoma and scabies are classified as 'water-washed' diseases because their transmission is primarily related to?",
   "options": [
    "Ingestion of contaminated water",
-   "Inadequate quantity of water available for personal and domestic hygiene, rather than water quality",
+   "Inadequate quantity of water available for personal and domestic hygiene",
    "An aquatic snail intermediate host",
    "Mosquito breeding in stagnant water",
    "Direct chemical contamination of water"
@@ -5023,7 +5023,7 @@ const masterDatabase = [
   "question": "Ionizing radiation exposure (e.g., from X-rays or nuclear sources) poses health risks primarily through which mechanism?",
   "options": [
    "Direct thermal burns only, with no cellular damage",
-   "Damage to cellular DNA, potentially leading to mutations, cancer, and other radiation-related health effects",
+   "Damage to cellular DNA",
    "Only causing temporary skin redness with no long-term effects",
    "Improving immune system function",
    "Having no dose-dependent relationship with health effects"
@@ -5057,7 +5057,7 @@ const masterDatabase = [
   "question": "The 'greenhouse effect,' driving global climate change, is primarily caused by increased atmospheric concentration of which type of gases?",
   "options": [
    "Noble gases like helium and neon",
-   "Greenhouse gases such as carbon dioxide, methane, and nitrous oxide, which trap heat in the atmosphere",
+   "Greenhouse gases such as carbon dioxide",
    "Pure oxygen and nitrogen only",
    "Radioactive isotopes released from nuclear power plants",
    "Ozone-depleting chlorofluorocarbons exclusively, unrelated to any other gases"
@@ -5074,7 +5074,7 @@ const masterDatabase = [
   "question": "Sanitary landfilling, as a method of solid waste disposal, differs from an open dump primarily in that sanitary landfills incorporate?",
   "options": [
    "No engineering controls whatsoever, identical to open dumping",
-   "Engineered liners, leachate collection systems, and daily soil covering to prevent environmental contamination",
+   "Engineered liners, leachate collection systems, and daily soil covering",
    "Direct discharge of waste into nearby rivers",
    "Burning of all waste without any residue management",
    "Storage of waste indefinitely without any covering"
@@ -5092,7 +5092,7 @@ const masterDatabase = [
   "options": [
    "Black bags along with general household waste",
    "Yellow bags along with other infectious waste",
-   "Puncture-proof, leak-proof containers, typically color-coded (often white or specific sharps containers)",
+   "Puncture-proof",
    "Any available plastic bag, regardless of design",
    "Directly into open drains for easy disposal"
   ],
@@ -5108,7 +5108,7 @@ const masterDatabase = [
   "question": "An Air Quality Index (AQI) value in the 'hazardous' category primarily indicates that?",
   "options": [
    "Air quality is excellent with no health concerns for anyone",
-   "Air pollution levels pose serious health risks to the entire population, including healthy individuals, warranting avoidance of outdoor activity",
+   "Air pollution levels pose serious health risks to the entire population",
    "Only sensitive groups need to take minor precautions, with no risk to healthy people",
    "The measurement is unreliable and should be disregarded",
    "AQI has no relationship to actual health outcomes"
@@ -5125,7 +5125,7 @@ const masterDatabase = [
   "question": "Source reduction, as a method of mosquito vector control (e.g., for dengue/malaria prevention), primarily involves?",
   "options": [
    "Spraying insecticide directly onto adult mosquitoes only",
-   "Eliminating or reducing mosquito breeding sites, such as stagnant water in containers, tires, and other collections",
+   "Eliminating or reducing mosquito breeding sites",
    "Distributing bed nets exclusively, with no environmental modification",
    "Vaccinating the entire population against the mosquito-borne disease",
    "Treating only clinically confirmed cases of the disease"
@@ -5142,7 +5142,7 @@ const masterDatabase = [
   "question": "According to basic housing health standards, adequate cross-ventilation and sufficient window/floor area ratio in a dwelling are important primarily to ensure?",
   "options": [
    "Increased rental value of the property only",
-   "Adequate natural light, air circulation, and reduced risk of dampness/mold and indoor pollutant accumulation",
+   "Adequate natural light",
    "Reduced structural stability of the building",
    "Increased risk of insect infestation",
    "No relationship to occupant health"
@@ -5159,7 +5159,7 @@ const masterDatabase = [
   "question": "Which of the following best distinguishes 'disinfection' from 'sterilization'?",
   "options": [
    "Disinfection eliminates all forms of microbial life including spores, while sterilization does not",
-   "Disinfection eliminates most pathogenic microorganisms but not necessarily all bacterial spores, while sterilization eliminates all forms of microbial life including spores",
+   "Disinfection eliminates most pathogenic microorganisms but not necessarily all bacterial spores",
    "Sterilization and disinfection are identical processes with no meaningful difference",
    "Disinfection is only used for water, while sterilization is only used for surgical instruments",
    "Sterilization refers only to heat-based methods, while disinfection refers only to chemical methods"
@@ -5193,7 +5193,7 @@ const masterDatabase = [
   "question": "An Environmental Impact Assessment (EIA), required before major development or industrial projects in many countries, primarily serves to?",
   "options": [
    "Guarantee that no project will ever cause any environmental harm",
-   "Systematically evaluate and predict the potential environmental and health impacts of a proposed project before it is approved, allowing for informed decision-making and mitigation planning",
+   "Evaluate and predict potential environmental and health impacts of a project",
    "Replace the need for any environmental regulation after project approval",
    "Focus exclusively on economic profitability of the project",
    "Only be conducted after project completion, as a post-hoc evaluation"
@@ -5210,7 +5210,7 @@ const masterDatabase = [
   "question": "Chronic lead exposure in children, often from contaminated water, paint, or soil, is of particular concern because it primarily causes?",
   "options": [
    "Improved cognitive development",
-   "Neurodevelopmental impairment, including reduced IQ, with no known safe threshold level",
+   "Neurodevelopmental impairment",
    "Enhanced bone growth and density",
    "Immediate, reversible symptoms only with complete recovery guaranteed",
    "Only affects adults, with no risk to children"
@@ -5227,7 +5227,7 @@ const masterDatabase = [
   "question": "'Sick Building Syndrome' refers to a situation where?",
   "options": [
    "A specific, identifiable infectious pathogen is found causing illness in building occupants",
-   "Building occupants experience acute health/comfort symptoms (headache, fatigue, irritation) linked to time spent in the building, without a single specific identifiable cause",
+   "Building occupants experience acute health/comfort symptoms linked to time spent in the building",
    "The building has structural/architectural collapse risk",
    "Only elderly occupants are affected, never younger individuals",
    "The building has been condemned by authorities for demolition"
@@ -5244,7 +5244,7 @@ const masterDatabase = [
   "question": "Depletion of the stratospheric ozone layer, historically linked to chlorofluorocarbon (CFC) emissions, is of health concern primarily because it leads to?",
   "options": [
    "Decreased UV radiation reaching the Earth's surface",
-   "Increased UV radiation reaching Earth's surface, raising risks of skin cancer, cataracts, and immune suppression",
+   "Increased UV radiation raising risks of skin cancer and cataracts",
    "Global cooling effects only",
    "Improved air quality worldwide",
    "No known health effects at all"
@@ -5261,7 +5261,7 @@ const masterDatabase = [
   "question": "Community exposure to industrial air pollutants (e.g., sulfur dioxide from a nearby factory) affecting residents living near the facility, as opposed to workers inside the factory, is best categorized under which type of health concern?",
   "options": [
    "Occupational health exclusively, unrelated to environmental health",
-   "Environmental (community) health, since it involves ambient exposure of the general public living near a pollution source",
+   "Environmental (community) health",
    "Personal hygiene issue only",
    "Purely a legal/regulatory matter with no health relevance",
    "Nutritional deficiency concern"
@@ -5278,7 +5278,7 @@ const masterDatabase = [
   "question": "Community water fluoridation, at appropriately controlled levels, is implemented as a public health measure primarily to?",
   "options": [
    "Treat existing severe dental caries in adults exclusively",
-   "Prevent dental caries (cavities), particularly benefiting children during tooth development",
+   "Prevent dental caries",
    "Increase overall water hardness",
    "Remove bacterial contamination from water",
    "Replace the need for any personal dental hygiene practices"
@@ -5295,7 +5295,7 @@ const masterDatabase = [
   "question": "Biochemical Oxygen Demand (BOD) of water is used as an indicator of?",
   "options": [
    "The concentration of dissolved heavy metals",
-   "The degree of organic pollution in water, based on the oxygen consumed by microorganisms decomposing organic matter",
+   "The degree of organic pollution",
    "The pH level of the water",
    "The temperature of the water source",
    "The concentration of dissolved fluoride"
@@ -5312,7 +5312,7 @@ const masterDatabase = [
   "question": "The Reed Odor-Free Earth Closet (ROEC) and Sanplat latrine models are examples of which broader category of sanitation technology, suitable for areas without piped water/sewerage?",
   "options": [
    "Water-carriage sewerage systems",
-   "On-site sanitation systems (non-water carriage, dry or pit-based)",
+   "On-site sanitation systems",
    "Advanced tertiary sewage treatment plants",
    "Combined sewer overflow systems",
    "Centralized municipal wastewater treatment"
@@ -5363,7 +5363,7 @@ const masterDatabase = [
   "question": "An infant fed formula prepared with well water containing high nitrate levels develops cyanosis and is diagnosed with methemoglobinemia ('blue baby syndrome'). This condition occurs because nitrate?",
   "options": [
    "Directly blocks oxygen entry into the lungs",
-   "Is converted to nitrite in the infant's gut, which oxidizes hemoglobin to methemoglobin, impairing oxygen-carrying capacity",
+   "Conversion to nitrite",
    "Causes direct damage to the heart muscle",
    "Causes severe allergic anaphylaxis",
    "Has no established link to this condition"
@@ -5414,7 +5414,7 @@ const masterDatabase = [
   "question": "In water chlorination, 'breakpoint chlorination' refers to the point at which?",
   "options": [
    "All chlorine added is immediately destroyed with no effect",
-   "Sufficient chlorine has been added to satisfy the chlorine demand (reacting with organic matter and ammonia) such that further additions result in free residual chlorine available for continued disinfection",
+   "Sufficient chlorine added such that further additions yield free residual chlorine",
    "Water becomes unsafe to drink due to excess chlorine",
    "The water source must be changed entirely",
    "Chlorination is no longer effective at any concentration"
@@ -5431,7 +5431,7 @@ const masterDatabase = [
   "question": "Anopheles mosquitoes, the vector for malaria, typically breed in which type of water body?",
   "options": [
    "Only heavily polluted, stagnant sewage water",
-   "Clean, relatively still fresh water, such as ponds, slow-moving streams, and rain-water collections",
+   "Clean, relatively still fresh water",
    "Only saltwater/marine environments",
    "Only fast-flowing rivers with strong currents",
    "Only inside human dwellings, never outdoors"
@@ -5465,7 +5465,7 @@ const masterDatabase = [
   "question": "Chronic arsenic exposure through contaminated groundwater, a significant problem in parts of South Asia, is associated with which long-term health effect?",
   "options": [
    "Improved skin health with no adverse effects",
-   "Skin lesions (hyperpigmentation, hyperkeratosis) and increased risk of skin, bladder, and lung cancers",
+   "Skin lesions and increased risk of skin, bladder, and lung cancers",
    "Immediate death within hours of any exposure regardless of dose",
    "Enhanced immune function",
    "No association with any cancer risk"
@@ -5499,7 +5499,7 @@ const masterDatabase = [
   "question": "According to WHO, 'environmental sanitation' broadly encompasses control of which of the following factors in man's physical environment that could exercise a deleterious effect on health?",
   "options": [
    "Only excreta and sewage disposal, with no other components",
-   "Water supply, excreta/sewage disposal, refuse disposal, vector control, food hygiene, housing, and other environmental factors affecting health",
+   "Water supply, sewage disposal, vector control, and food hygiene",
    "Only air pollution control",
    "Only occupational safety measures within factories",
    "Only vaccination programs"
@@ -5516,7 +5516,7 @@ const masterDatabase = [
   "question": "According to WHO/UNICEF JMP standards, 'basic' drinking water service is defined as?",
   "options": [
    "Water from an unimproved source located more than 30 minutes round trip away",
-   "Drinking water from an improved source, with collection time of 30 minutes or less for a round trip, including queuing",
+   "Drinking water from an improved source",
    "Only piped water directly into the home, with no other source qualifying",
    "Bottled water exclusively, regardless of any other source available",
    "Water requiring more than 1 hour round trip collection time"
@@ -5550,7 +5550,7 @@ const masterDatabase = [
   "question": "Ultraviolet (UV) light disinfection of water is effective at killing microorganisms but has which notable limitation compared to chlorination?",
   "options": [
    "It leaves a harmful chemical residue in the water",
-   "It provides no residual disinfection effect, so treated water can become recontaminated after treatment if not properly stored",
+   "It provides no residual disinfection effect",
    "It cannot kill any bacteria at all",
    "It requires the water to be boiled first",
    "It is more expensive than all other methods with no advantages"
@@ -5567,7 +5567,7 @@ const masterDatabase = [
   "question": "According to global health estimates, inadequate water, sanitation, and hygiene (WASH) is a major contributing risk factor primarily for which category of disease burden?",
   "options": [
    "Cardiovascular disease",
-   "Diarrheal diseases and certain neglected tropical diseases (e.g., soil-transmitted helminths, schistosomiasis)",
+   "Diarrheal diseases and certain neglected tropical diseases",
    "Cancer of all types equally",
    "Mental health disorders exclusively",
    "Genetic disorders"
@@ -5601,7 +5601,7 @@ const masterDatabase = [
   "question": "Pulmonary tuberculosis is primarily transmitted from person to person through?",
   "options": [
    "Contaminated food and water",
-   "Airborne droplet nuclei from coughing, sneezing, or talking by an infectious person",
+   "Airborne droplet nuclei",
    "Direct skin contact",
    "Sexual contact",
    "Insect vector bites"
@@ -5652,7 +5652,7 @@ const masterDatabase = [
   "question": "BCG vaccination in children provides the most reliable protection against which form of tuberculosis?",
   "options": [
    "Adult pulmonary tuberculosis specifically",
-   "Severe disseminated forms of childhood TB, such as TB meningitis and miliary TB",
+   "Severe disseminated forms of childhood TB",
    "Multidrug-resistant TB specifically",
    "Latent TB infection reactivation in adults",
    "All forms of TB with equal, complete protection"
@@ -5703,7 +5703,7 @@ const masterDatabase = [
   "question": "HIV infection significantly increases the risk of developing active tuberculosis primarily because HIV?",
   "options": [
    "Directly causes structural lung damage independent of any immune effect",
-   "Progressively weakens cell-mediated immunity, impairing the body's ability to contain latent TB infection and prevent reactivation/progression to active disease",
+   "Progressively weakens cell-mediated immunity",
    "Has no relationship with TB risk",
    "Only affects TB transmission risk, not susceptibility to developing disease after exposure",
    "Causes TB drug resistance directly through viral genetic interaction"
@@ -5720,7 +5720,7 @@ const masterDatabase = [
   "question": "For diagnosing pulmonary TB by sputum smear microscopy, how many sputum samples are typically recommended for optimal case detection according to standard national TB program guidelines?",
   "options": [
    "Single sample only",
-   "Two samples (spot and early morning, per updated WHO guidance) or traditionally three samples",
+   "Two samples or traditionally three samples",
    "Ten samples over 10 consecutive days",
    "Only samples collected during nighttime",
    "Samples are never used; only blood tests are recommended"
@@ -5736,7 +5736,7 @@ const masterDatabase = [
   "difficulty": "Hard",
   "question": "A person with latent TB infection (LTBI), as opposed to active TB disease, is characterized by which of the following?",
   "options": [
-   "Positive tuberculin skin test or IGRA, but no symptoms, normal chest X-ray, and non-infectious to others",
+   "Positive tuberculin skin test or IGRA",
    "Active cough, fever, weight loss, and positive sputum smear",
    "High infectiousness to close contacts",
    "Requires the full standard multidrug active TB treatment regimen",
@@ -5754,7 +5754,7 @@ const masterDatabase = [
   "question": "When a new smear-positive pulmonary TB case is diagnosed, national TB programs recommend screening of close household contacts primarily to?",
   "options": [
    "Immediately start all contacts on full multidrug TB treatment regardless of symptoms or test results",
-   "Identify additional active TB cases early among contacts and consider preventive therapy for those with latent infection, particularly young children and immunocompromised contacts",
+   "Identify additional active TB cases and consider preventive therapy for contacts",
    "Avoid any further contact tracing once one case is identified",
    "Only screen contacts if they specifically request it themselves",
    "Focus exclusively on contacts living more than 1 km away"
@@ -5771,7 +5771,7 @@ const masterDatabase = [
   "question": "Pakistan ranks among the countries with a high burden of tuberculosis globally. Which of the following is a recognized major risk factor contributing to TB transmission and disease burden in such high-burden settings?",
   "options": [
    "Excellent nutritional status of the general population",
-   "Overcrowded living conditions, poverty, malnutrition, and inadequate access to healthcare/diagnosis",
+   "Overcrowded living conditions",
    "Universal access to advanced TB diagnostics for all citizens",
    "Very low population density nationwide",
    "Complete absence of HIV in the population"
@@ -5822,7 +5822,7 @@ const masterDatabase = [
   "question": "HIV is primarily transmitted through which of the following routes?",
   "options": [
    "Casual contact like shaking hands or sharing utensils",
-   "Sexual contact, blood/blood products, and mother-to-child transmission (during pregnancy, delivery, or breastfeeding)",
+   "Sexual contact, blood, and mother-to-child transmission",
    "Airborne droplet transmission",
    "Contaminated food and water",
    "Insect vector bites (like mosquitoes)"
@@ -5839,7 +5839,7 @@ const masterDatabase = [
   "question": "According to WHO testing strategy, a reactive result on an initial HIV rapid test should be confirmed by?",
   "options": [
    "Accepting the single test result as final, with no further testing needed",
-   "A second, different rapid test (using a different antigen/format) as part of a sequential testing algorithm before confirming HIV-positive status",
+   "A second, different rapid test",
    "Repeating the exact same test kit only, without using a different assay",
    "Only a Western blot test, with no other confirmatory methods accepted",
    "No confirmation is needed; result reporting is optional"
@@ -5873,7 +5873,7 @@ const masterDatabase = [
   "question": "The 'window period' in HIV infection refers to the time interval between?",
   "options": [
    "Initial infection and development of full-blown AIDS",
-   "Initial infection with HIV and the point at which the infection becomes detectable by available testing methods (e.g., antibody or antigen tests)",
+   "Initial infection and detectability by available testing methods",
    "Diagnosis of HIV and death",
    "Start of antiretroviral therapy and viral suppression",
    "Birth and first HIV exposure"
@@ -5890,7 +5890,7 @@ const masterDatabase = [
   "question": "Syndromic management of sexually transmitted infections, recommended by WHO particularly in resource-limited settings, involves?",
   "options": [
    "Waiting for definitive laboratory confirmation before starting any treatment",
-   "Treating based on recognizable symptom patterns (syndromes) with a standardized flowchart-based approach, covering the most likely causative organisms, without requiring lab confirmation first",
+   "Treating based on recognizable symptom patterns with a standardized flowchart-based approach",
    "Only treating patients who can afford expensive laboratory testing",
    "Referring all patients to tertiary care without any primary-level treatment",
    "Using a single antibiotic for all STI syndromes regardless of presentation"
@@ -5908,7 +5908,7 @@ const masterDatabase = [
   "options": [
    "Only when CD4 count falls below 200 cells/mm3",
    "Only after the patient develops an AIDS-defining opportunistic infection",
-   "As soon as possible after diagnosis, for all people living with HIV regardless of CD4 count or clinical stage ('treat all' approach)",
+   "As soon as possible after diagnosis",
    "Only in pregnant women, with no recommendation for other groups",
    "Only when the patient specifically requests it after being told treatment is optional"
   ],
@@ -5924,7 +5924,7 @@ const masterDatabase = [
   "question": "A healthcare worker sustains a needlestick injury from a needle used on an HIV-positive patient. HIV post-exposure prophylaxis (PEP), if indicated, should ideally be started within which timeframe for maximum effectiveness?",
   "options": [
    "Within 30 days, with no urgency needed",
-   "As soon as possible, ideally within 72 hours (and even sooner is better) after exposure",
+   "As soon as possible, ideally within 72 hours after exposure",
    "Only after confirming the exposed person is HIV-negative via testing conducted weeks later",
    "There is no time-sensitivity; PEP works equally well starting at any time",
    "Only if started more than one week after exposure"
@@ -5975,7 +5975,7 @@ const masterDatabase = [
   "question": "'Universal precautions' in infection control, relevant to preventing bloodborne pathogen transmission including HIV and Hepatitis B/C in healthcare settings, are based on the principle that?",
   "options": [
    "Only patients with a KNOWN diagnosis of a bloodborne infection require protective precautions",
-   "All patients' blood and certain body fluids should be treated as potentially infectious, regardless of known or presumed infection status, requiring consistent protective measures for all patients",
+   "All patients' blood and certain body fluids should be treated as potentially infectious",
    "Precautions are only necessary for surgical procedures, not routine clinical care",
    "Gloves alone provide complete protection with no other precautions needed",
    "Universal precautions apply only to laboratory staff, not clinical healthcare workers"
@@ -5992,7 +5992,7 @@ const masterDatabase = [
   "question": "Pre-test and post-test counseling, as part of HIV Voluntary Counseling and Testing (VCT) services, primarily aims to?",
   "options": [
    "Pressure individuals into testing against their will",
-   "Provide informed consent information, address concerns, and support appropriate risk-reduction behavior and coping regardless of test result",
+   "Provide informed consent information",
    "Only be provided if the test result turns out positive",
    "Replace the need for any actual laboratory testing",
    "Focus exclusively on statistical epidemiological data collection, without individual patient support"
@@ -6026,7 +6026,7 @@ const masterDatabase = [
   "question": "Mandatory screening of all donated blood for HIV, Hepatitis B, Hepatitis C, and syphilis before transfusion is a critical public health measure primarily to?",
   "options": [
    "Improve the taste and appearance of donated blood",
-   "Prevent transfusion-transmitted infections, protecting blood recipients from these bloodborne pathogens",
+   "Prevent transfusion-transmitted infections",
    "Increase the total volume of blood collected",
    "Reduce the cost of blood collection and processing",
    "Replace the need for donor history screening entirely"
@@ -6043,7 +6043,7 @@ const masterDatabase = [
   "question": "Malaria is transmitted to humans through the bite of which specific mosquito genus, and caused by which type of organism?",
   "options": [
    "Aedes mosquito; caused by a virus",
-   "Female Anopheles mosquito; caused by Plasmodium species (a protozoan parasite)",
+   "Female Anopheles mosquito; caused by Plasmodium species",
    "Culex mosquito; caused by bacteria",
    "Male Anopheles mosquito; caused by a fungus",
    "Aedes mosquito; caused by Plasmodium species"
@@ -6060,7 +6060,7 @@ const masterDatabase = [
   "question": "The classic clinical presentation of malaria includes a paroxysm consisting of which sequential stages?",
   "options": [
    "Only continuous high fever with no distinct stages",
-   "Cold stage (rigors), hot stage (high fever), and sweating stage (defervescence), occurring in a cyclical pattern",
+   "Cold stage, hot stage, and sweating stage, occurring in a cyclical pattern",
    "Only a sweating stage, without any preceding fever or chills",
    "Rash followed by joint pain, with no fever involvement",
    "Persistent diarrhea without any fever component"
@@ -6077,7 +6077,7 @@ const masterDatabase = [
   "question": "The gold standard laboratory method for diagnosing malaria and identifying the specific Plasmodium species is?",
   "options": [
    "Complete blood count alone",
-   "Peripheral blood smear (thick and thin films) examined microscopically with Giemsa staining",
+   "Peripheral blood smear examined microscopically",
    "Chest X-ray",
    "Urine dipstick test",
    "Stool microscopy"
@@ -6094,7 +6094,7 @@ const masterDatabase = [
   "question": "According to WHO guidelines, uncomplicated Plasmodium falciparum malaria should be treated with?",
   "options": [
    "Chloroquine monotherapy as first-line treatment universally",
-   "Artemisinin-based Combination Therapy (ACT), reflecting widespread chloroquine resistance in P. falciparum",
+   "Artemisinin-based Combination Therapy, reflecting widespread chloroquine resistance in P. falciparum",
    "A single dose of any antibiotic",
    "No specific treatment; malaria is expected to resolve spontaneously without medication",
    "Only symptomatic treatment with paracetamol, without antimalarial drugs"
@@ -6128,7 +6128,7 @@ const masterDatabase = [
   "question": "Indoor Residual Spraying (IRS), a key malaria vector control strategy, involves?",
   "options": [
    "Spraying insecticide on standing water bodies to kill larvae",
-   "Applying long-lasting insecticide to the interior walls and ceilings of houses, killing adult mosquitoes that rest on these surfaces after feeding",
+   "Applying long-lasting insecticide to the interior walls and ceilings of houses",
    "Spraying insecticide directly onto human skin as a repellent",
    "Fumigating entire outdoor agricultural fields",
    "Distributing oral antimalarial drugs to the entire population regardless of infection status"
@@ -6145,7 +6145,7 @@ const masterDatabase = [
   "question": "Cerebral malaria, a severe and life-threatening complication of P. falciparum infection, is characterized primarily by?",
   "options": [
    "Mild headache with full consciousness maintained throughout",
-   "Altered consciousness/coma, often accompanied by seizures, resulting from sequestration of infected red blood cells in cerebral microvasculature",
+   "Altered consciousness/coma",
    "Simple joint pain without any neurological involvement",
    "Complete recovery without any specific treatment required",
    "A skin rash as the primary defining feature"
@@ -6162,7 +6162,7 @@ const masterDatabase = [
   "question": "Dengue fever is transmitted by which mosquito species, known for its characteristic daytime biting behavior?",
   "options": [
    "Anopheles mosquito, biting primarily at night",
-   "Aedes aegypti mosquito, biting primarily during daytime hours",
+   "Aedes aegypti mosquito",
    "Culex mosquito, biting at dusk only",
    "Mansonia mosquito, biting underwater",
    "Sandfly, transmitting through nocturnal bites"
@@ -6196,7 +6196,7 @@ const masterDatabase = [
   "question": "Severe dengue (previously called dengue hemorrhagic fever/dengue shock syndrome) is more likely to occur with which scenario?",
   "options": [
    "First-ever dengue infection in a person with no prior exposure",
-   "Secondary dengue infection with a different dengue virus serotype than the primary infection, due to antibody-dependent enhancement",
+   "Secondary dengue infection with a different dengue virus serotype than the primary infection",
    "Complete absence of any dengue virus exposure",
    "Infection with a non-dengue virus entirely unrelated to Aedes mosquitoes",
    "Vaccination against dengue always causes severe dengue in all recipients"
@@ -6213,7 +6213,7 @@ const masterDatabase = [
   "question": "Since Aedes mosquitoes breed preferentially in small collections of clean, stagnant water (like water storage containers, flower pots, and discarded tires), the most effective community-level dengue prevention strategy focuses on?",
   "options": [
    "Mass vaccination as the sole primary prevention strategy for the entire population",
-   "Source reduction: eliminating or regularly emptying/covering water-holding containers to prevent mosquito breeding, combined with community engagement",
+   "Source reduction",
    "Treating only confirmed dengue patients, with no vector control activities",
    "Spraying insecticide exclusively on large water bodies like rivers and lakes",
    "Distributing antimalarial drugs prophylactically to prevent dengue"
@@ -6247,7 +6247,7 @@ const masterDatabase = [
   "question": "Hepatitis B virus, unlike Hepatitis A, is primarily transmitted through which routes?",
   "options": [
    "Fecal-oral route exclusively, like Hepatitis A",
-   "Blood/blood products, sexual contact, and perinatal (mother-to-child) transmission",
+   "Blood/blood products",
    "Airborne droplet transmission exclusively",
    "Only through mosquito bites",
    "Only through contaminated water sources"
@@ -6264,7 +6264,7 @@ const masterDatabase = [
   "question": "To prevent perinatal (mother-to-child) transmission of Hepatitis B, WHO recommends that infants born to Hepatitis B-infected mothers receive which intervention as soon as possible after birth (within 24 hours)?",
   "options": [
    "No specific intervention is needed at birth; wait until 6 weeks for first vaccine dose",
-   "Hepatitis B vaccine birth dose, ideally combined with Hepatitis B immunoglobulin (HBIG) if available",
+   "Hepatitis B vaccine birth dose, ideally combined with Hepatitis B immunoglobulin if available",
    "Only oral rehydration solution",
    "BCG vaccine only, with no Hepatitis B-specific intervention",
    "Antiretroviral therapy for HIV, regardless of HIV status"
@@ -6281,7 +6281,7 @@ const masterDatabase = [
   "question": "Hepatitis C virus infection is of particular public health concern in Pakistan due to its association with which long-term complications if left untreated?",
   "options": [
    "No long-term complications; the virus always clears spontaneously",
-   "Chronic liver disease, cirrhosis, and hepatocellular carcinoma in a significant proportion of chronically infected individuals",
+   "Chronic liver disease",
    "Only mild, self-limiting acute illness with no chronic carrier state possible",
    "Complete immunity to all other viral infections",
    "Guaranteed complete cure without any treatment in all cases"
@@ -6298,7 +6298,7 @@ const masterDatabase = [
   "question": "Hepatitis E virus infection, transmitted via the fecal-oral route similar to Hepatitis A, is of particular concern because it carries a notably high risk of fulminant hepatic failure and mortality specifically in which population group?",
   "options": [
    "Elderly men over 70 years",
-   "Pregnant women, particularly during the third trimester",
+   "Pregnant women",
    "Prepubertal children",
    "Postmenopausal women",
    "Adult males aged 20-40 years"
@@ -6315,7 +6315,7 @@ const masterDatabase = [
   "question": "Cholera, caused by Vibrio cholerae, classically presents with which characteristic clinical feature that helps distinguish it from other causes of acute diarrhea?",
   "options": [
    "Bloody, mucoid stool with tenesmus",
-   "Profuse, watery 'rice-water' stools leading to rapid, severe dehydration",
+   "Profuse, watery 'rice-water' stools",
    "No diarrhea at all, only vomiting",
    "Chronic diarrhea lasting several months",
    "Constipation as the primary presenting symptom"
@@ -6349,7 +6349,7 @@ const masterDatabase = [
   "question": "Typhoid fever, caused by Salmonella typhi, is transmitted through the fecal-oral route and classically presents with which pattern of fever?",
   "options": [
    "Sudden onset high fever peaking on day 1, then rapidly resolving",
-   "Step-ladder pattern of gradually rising fever over several days, often accompanied by relative bradycardia",
+   "Step-ladder pattern of gradually rising fever over several days",
    "Fever occurring only every third day in a strict cyclical pattern like malaria",
    "No fever at all, only gastrointestinal symptoms",
    "Fever that resolves completely within 24 hours without any treatment"
@@ -6366,7 +6366,7 @@ const masterDatabase = [
   "question": "Chronic typhoid carriers, who continue to excrete Salmonella typhi in stool or urine for more than a year after clinical recovery, most commonly harbor the persistent organism in which anatomical site?",
   "options": [
    "Lungs",
-   "Gallbladder, particularly in individuals with pre-existing gallstones",
+   "Gallbladder",
    "Brain",
    "Skin",
    "Bone marrow exclusively, with no other site involvement"
@@ -6383,7 +6383,7 @@ const masterDatabase = [
   "question": "Oral Rehydration Solution (ORS), a life-saving intervention for managing diarrheal dehydration, works based on which physiological principle?",
   "options": [
    "Direct absorption of water through the skin",
-   "Glucose-coupled sodium co-transport across the intestinal mucosa, which remains intact even during diarrheal illness",
+   "Glucose-coupled sodium co-transport across the intestinal mucosa",
    "Complete cessation of intestinal fluid secretion",
    "Requires intravenous administration to be effective, oral route does not work",
    "Only effective against viral, not bacterial, causes of diarrhea"
@@ -6417,7 +6417,7 @@ const masterDatabase = [
   "question": "The 'chain of infection' concept in communicable disease epidemiology includes which of the following six essential links?",
   "options": [
    "Only the causative agent and the host, with no other components",
-   "Infectious agent, reservoir, portal of exit, mode of transmission, portal of entry, and susceptible host",
+   "Infectious agent",
    "Only vaccination status and herd immunity",
    "Only the physician's diagnosis and treatment plan",
    "Only geographic location and climate"
@@ -6452,7 +6452,7 @@ const masterDatabase = [
   "options": [
    "Within 24 hours of infection",
    "Within 1 week of infection",
-   "Several years (typically 7-10 years) after the initial infection, particularly if measles occurred at a young age",
+   "Several years after the initial infection",
    "Only in adults over 60 years, unrelated to prior measles history",
    "Immediately at the same time as the acute measles rash"
   ],
@@ -6485,7 +6485,7 @@ const masterDatabase = [
   "question": "Pakistan remains one of the few countries where wild poliovirus transmission has not yet been fully interrupted. Which of the following is a recognized major challenge specific to polio eradication efforts in such remaining endemic areas?",
   "options": [
    "Excessive vaccine availability with no supply issues anywhere",
-   "Vaccine hesitancy/refusal, insecurity affecting vaccination team access, and population movement across borders",
+   "Vaccine hesitancy/refusal",
    "Complete absence of any poliovirus circulation, making eradication efforts unnecessary",
    "Universal, unanimous community acceptance of vaccination with no barriers",
    "Polio has already been completely eradicated in Pakistan with no remaining cases"
@@ -6502,7 +6502,7 @@ const masterDatabase = [
   "question": "Pertussis (whooping cough) is characterized by paroxysmal coughing fits often followed by a characteristic inspiratory 'whoop' sound. This disease is caused by which organism, and is particularly dangerous in which age group?",
   "options": [
    "A virus; most dangerous in elderly adults exclusively",
-   "Bordetella pertussis (a bacterium); particularly dangerous and potentially fatal in young infants, especially those under 6 months",
+   "Bordetella pertussis; particularly dangerous and potentially fatal in young infants",
    "A fungus; equally dangerous across all age groups with no particular vulnerability",
    "A parasite; primarily affecting only immunocompromised adults",
    "A prion; causing only mild, self-limited illness in all age groups"
@@ -6519,7 +6519,7 @@ const masterDatabase = [
   "question": "Diphtheria, caused by toxin-producing Corynebacterium diphtheriae, classically presents with a grayish-white pseudomembrane in the throat. The life-threatening danger of this disease primarily results from?",
   "options": [
    "The pseudomembrane itself causing only mild throat discomfort with no other risk",
-   "Mechanical airway obstruction from the pseudomembrane AND systemic effects of the diphtheria exotoxin, particularly on the heart (myocarditis) and nerves (neuropathy)",
+   "Mechanical airway obstruction from the pseudomembrane AND systemic effects of the diphtheria exotoxin",
    "A completely harmless toxin with no clinical significance",
    "The disease being exclusively a mild skin condition with no throat or systemic involvement",
    "Complete immunity developing immediately upon exposure, preventing any illness"
@@ -6536,7 +6536,7 @@ const masterDatabase = [
   "question": "Neonatal tetanus, a preventable cause of newborn mortality still occurring in some settings, typically results from?",
   "options": [
    "Vaccination of the mother during pregnancy",
-   "Unhygienic cutting or care of the umbilical cord stump, allowing Clostridium tetani spore contamination",
+   "Unhygienic cutting or care of the umbilical cord stump",
    "Excessive maternal nutrition during pregnancy",
    "Cesarean section delivery specifically",
    "Breastfeeding practices exclusively"
@@ -6553,7 +6553,7 @@ const masterDatabase = [
   "question": "Rabies is a fatal viral zoonotic disease transmitted primarily through the bite of infected animals (most commonly dogs in endemic regions). Once clinical symptoms of rabies appear, the disease is characterized by?",
   "options": [
    "Complete spontaneous recovery in nearly all cases with supportive care alone",
-   "Near-universal fatality, making prompt post-exposure prophylaxis before symptom onset absolutely critical",
+   "Near-universal fatality",
    "Mild, self-limiting flu-like symptoms with no risk of death",
    "Effective cure with a simple course of oral antibiotics after symptoms begin",
    "No risk at all if the bite wound is small"
@@ -6570,7 +6570,7 @@ const masterDatabase = [
   "question": "Following a bite from a suspected rabid animal, the FIRST and most immediate step in post-exposure management should be?",
   "options": [
    "Immediate administration of rabies vaccine only, without any wound care",
-   "Thorough and immediate washing of the wound with soap and water for at least 15 minutes, followed by appropriate wound care and rabies vaccine/immunoglobulin as indicated",
+   "Thorough and immediate washing of the wound with soap and water for at least 15 minutes",
    "Waiting 24 hours before taking any action to see if symptoms develop",
    "Applying traditional herbal remedies directly to the wound instead of medical care",
    "Suturing the wound immediately and tightly closing it"
@@ -6587,7 +6587,7 @@ const masterDatabase = [
   "question": "Brucellosis, a zoonotic bacterial infection, is most commonly acquired by humans through?",
   "options": [
    "Mosquito bites",
-   "Consumption of unpasteurized dairy products from infected animals, or direct contact with infected animal tissues/fluids",
+   "Consumption of unpasteurized dairy products or contact with infected animal tissues",
    "Airborne transmission from person to person",
    "Contaminated municipal drinking water exclusively",
    "Sexual contact with infected humans"
@@ -6604,7 +6604,7 @@ const masterDatabase = [
   "question": "Cutaneous anthrax, the most common form of naturally occurring anthrax infection in humans, classically presents with which skin lesion?",
   "options": [
    "A painful, fluid-filled blister that is exquisitely tender to touch",
-   "A characteristic painless black eschar (necrotic ulcer) with surrounding edema",
+   "A characteristic painless black eschar with surrounding edema",
    "Multiple small, intensely itchy red papules",
    "A widespread maculopapular rash covering the entire body",
    "A rapidly spreading cellulitis with severe pain as the dominant feature"
@@ -6621,7 +6621,7 @@ const masterDatabase = [
   "question": "Leprosy (Hansen's disease), caused by Mycobacterium leprae, primarily affects which body tissues, leading to its characteristic clinical manifestations?",
   "options": [
    "Only the liver and kidneys",
-   "Skin and peripheral nerves, leading to skin lesions and sensory/motor nerve damage",
+   "Skin and peripheral nerves",
    "Only the cardiovascular system",
    "Only the gastrointestinal tract",
    "Only the reproductive organs"
@@ -6638,7 +6638,7 @@ const masterDatabase = [
   "question": "Scabies, a common contagious skin condition especially in overcrowded settings, is caused by which organism, and characteristically presents with which symptom?",
   "options": [
    "A virus; presents with high fever as the dominant symptom",
-   "Sarcoptes scabiei (a mite); presents with intense itching, particularly worse at night, along with characteristic burrows",
+   "Sarcoptes scabiei; presents with intense itching",
    "A bacterium; presents with painless skin nodules only",
    "A fungus; presents with hair loss as the primary symptom",
    "A paras/an intestinal worm; presents with abdominal pain as the primary symptom"
@@ -6655,7 +6655,7 @@ const masterDatabase = [
   "question": "According to WHO/IMNCI classification, a child with cough and fast breathing (age-appropriate respiratory rate threshold exceeded) but WITHOUT chest indrawing or danger signs is classified as having?",
   "options": [
    "No pneumonia; simply a common cold",
-   "Pneumonia (non-severe), requiring oral antibiotic treatment at the outpatient level",
+   "Pneumonia, requiring oral antibiotic treatment at the outpatient level",
    "Severe pneumonia, requiring immediate hospitalization",
    "Very severe disease, requiring urgent referral for intensive care",
    "This presentation is not classifiable under IMNCI"
@@ -6672,7 +6672,7 @@ const masterDatabase = [
   "question": "Annual influenza vaccination is particularly recommended for which high-risk groups, according to standard public health guidance?",
   "options": [
    "Only healthy young adults aged 18-30 with no other risk factors",
-   "Elderly individuals, pregnant women, young children, and those with chronic medical conditions (heart disease, diabetes, chronic lung disease)",
+   "Elderly individuals",
    "Only professional athletes",
    "Only individuals who have never previously had influenza",
    "No specific groups are prioritized; vaccination is discouraged for everyone"
@@ -6689,7 +6689,7 @@ const masterDatabase = [
   "question": "SARS-CoV-2, the virus causing COVID-19, is primarily transmitted through which route?",
   "options": [
    "Fecal-oral route exclusively, like cholera",
-   "Respiratory droplets and aerosols from infected individuals, particularly in close contact or poorly ventilated indoor settings",
+   "Respiratory droplets and aerosols from infected individuals",
    "Insect vector bites exclusively",
    "Direct blood-to-blood contact exclusively, like HIV",
    "Contaminated soil exclusively"
@@ -6706,7 +6706,7 @@ const masterDatabase = [
   "question": "The term 'emerging infectious disease' refers to?",
   "options": [
    "Only diseases that have existed unchanged for centuries with no new characteristics",
-   "A newly identified infectious disease, or a known disease whose incidence is increasing or geographic range is expanding, often linked to factors like ecological change, urbanization, or pathogen mutation",
+   "A newly identified infectious disease or one increasing in incidence",
    "Only diseases affecting exclusively animals, with no human health relevance",
    "Diseases that have been completely eradicated and cannot recur",
    "Only non-infectious chronic diseases like diabetes"
@@ -6723,7 +6723,7 @@ const masterDatabase = [
   "question": "Under International Health Regulations (IHR 2005), countries are required to notify WHO of events that may constitute a 'Public Health Emergency of International Concern' (PHEIC). This framework primarily aims to?",
   "options": [
    "Restrict all international travel permanently regardless of actual risk",
-   "Enable rapid international coordination and response to serious public health events with potential for international spread, while minimizing unnecessary interference with international trade and travel",
+   "Enable rapid international coordination and response to serious public health events",
    "Only apply to a single specific named disease, with no broader applicability",
    "Eliminate the need for any national-level disease surveillance systems",
    "Apply exclusively to high-income countries, with no obligations for other nations"
@@ -6740,7 +6740,7 @@ const masterDatabase = [
   "question": "For a reusable medical instrument that will contact only intact (non-broken) skin, such as a blood pressure cuff, which level of processing is generally considered adequate according to the Spaulding classification of medical devices?",
   "options": [
    "Sterilization is mandatory for all such items with no exceptions",
-   "Low-level disinfection or simple cleaning is generally adequate (classified as a 'noncritical' item)",
+   "Low-level disinfection or simple cleaning is generally adequate",
    "No cleaning or disinfection is needed at all between uses",
    "High-level disinfection equivalent to that used for surgical instruments",
    "Only single-use disposable items are acceptable, with reusable items banned entirely"
@@ -6758,7 +6758,7 @@ const masterDatabase = [
   "options": [
    "Several years if untreated",
    "Several months if untreated",
-   "24 hours or less in fulminant cases, making it a true medical emergency",
+   "24 hours or less in fulminant cases",
    "This disease never causes death even without treatment",
    "Only after 10+ years of chronic untreated infection"
   ],
@@ -6791,7 +6791,7 @@ const masterDatabase = [
   "question": "Lymphatic filariasis, caused by parasitic worms such as Wuchereria bancrofti, is transmitted by mosquito bite and can lead to which characteristic chronic clinical manifestation?",
   "options": [
    "Acute renal failure as the primary manifestation",
-   "Lymphedema and elephantiasis, resulting from chronic lymphatic vessel damage and obstruction",
+   "Lymphedema and elephantiasis",
    "Cardiac valve destruction as the primary manifestation",
    "Blindness as the primary and defining manifestation",
    "Complete, spontaneous resolution with no long-term consequences in all cases"
@@ -6825,7 +6825,7 @@ const masterDatabase = [
   "question": "During the COVID-19 pandemic, 'social distancing' or 'physical distancing' measures were recommended primarily to?",
   "options": [
    "Cure individuals who were already infected",
-   "Reduce the rate of transmission within the community, thereby 'flattening the curve' and preventing healthcare system overload",
+   "Reduce the rate of transmission within the community",
    "Increase the total number of infections as quickly as possible",
    "Eliminate the need for any vaccine development",
    "Only apply to elderly individuals, with no relevance for younger people"
@@ -6859,7 +6859,7 @@ const masterDatabase = [
   "question": "According to standard clinical guidelines, a diagnosis of hypertension in an adult is generally confirmed when blood pressure readings, measured on separate occasions, consistently show?",
   "options": [
    "Systolic BP below 90 mmHg",
-   "Systolic BP of 140 mmHg or higher, and/or diastolic BP of 90 mmHg or higher (using traditional thresholds still widely referenced)",
+   "Systolic BP ≥ 140 mmHg or diastolic BP ≥ 90 mmHg",
    "Any single elevated reading regardless of repeat measurement",
    "Diastolic BP below 60 mmHg",
    "Systolic BP exactly 120 mmHg with diastolic BP exactly 80 mmHg"
@@ -6893,7 +6893,7 @@ const masterDatabase = [
   "question": "Population-wide strategies for preventing ischemic heart disease (IHD), following the 'Geoffrey Rose' prevention paradigm, emphasize?",
   "options": [
    "Focusing exclusively on identifying and treating only very high-risk individuals",
-   "Shifting the entire population's risk factor distribution (e.g., average blood pressure, salt intake) slightly, which can produce greater overall disease reduction than targeting only high-risk individuals",
+   "Shifting the entire population's risk factor distribution",
    "Ignoring population-level interventions entirely in favor of individual clinical care only",
    "Focusing solely on genetic screening for all citizens",
    "Providing treatment only after myocardial infarction has already occurred"
@@ -6995,7 +6995,7 @@ const masterDatabase = [
   "question": "The WHO Framework Convention on Tobacco Control (FCTC) 'MPOWER' package of measures includes which of the following components?",
   "options": [
    "Only measures to increase cigarette production and marketing globally",
-   "Monitor tobacco use, Protect people from smoke, Offer help to quit, Warn about dangers, Enforce bans on advertising, and Raise taxes on tobacco products",
+   "Monitor tobacco use",
    "Only tax reduction for tobacco companies to boost their profitability",
    "Focusing exclusively on banning tobacco farming globally, with no other components",
    "Providing free cigarettes to reduce black market activity"
@@ -7012,7 +7012,7 @@ const masterDatabase = [
   "question": "The WHO STEPwise approach to Surveillance (STEPS) is a standardized methodology used to collect population-level data on NCD risk factors through which sequential 'steps'?",
   "options": [
    "Only a single step involving blood tests exclusively",
-   "Step 1: Questionnaire (behavioral risk factors); Step 2: Physical measurements (e.g., blood pressure, BMI); Step 3: Biochemical measurements (e.g., blood glucose, lipids)",
+   "Step 1: Questionnaire; Step 2: Physical measurements",
    "Only genetic testing, with no questionnaire or physical measurement component",
    "Exclusively hospital-based data collection, with no community survey component",
    "A single step focused only on mental health assessment"
@@ -7046,7 +7046,7 @@ const masterDatabase = [
   "question": "According to WHO Global Burden of Disease estimates, depression is recognized as a leading cause of?",
   "options": [
    "No significant disability or disease burden worldwide",
-   "Years lived with disability (YLD) globally, representing a major contributor to the overall global disease burden",
+   "Years lived with disability globally",
    "Only mild, insignificant impact with no need for public health attention",
    "Exclusively affecting elderly populations, with no relevance to younger age groups",
    "Complete resistance to any form of treatment"
@@ -7080,7 +7080,7 @@ const masterDatabase = [
   "question": "WHO/ISH (International Society of Hypertension) cardiovascular risk prediction charts are used to estimate an individual's risk of a cardiovascular event over the next 10 years, based on a combination of which risk factors?",
   "options": [
    "Only age, with no other factors considered",
-   "Age, sex, smoking status, blood pressure, and total cholesterol (with or without diabetes status)",
+   "Age, sex, smoking status, blood pressure, and total cholesterol",
    "Only genetic testing results",
    "Only current symptoms, with no risk factor consideration",
    "Only body weight, with no other cardiovascular risk factors"
@@ -7114,7 +7114,7 @@ const masterDatabase = [
   "question": "Mammography screening for breast cancer is generally recommended for average-risk women starting at approximately what age, according to common screening guidelines?",
   "options": [
    "Starting at age 10",
-   "Starting at approximately age 40-50 (varies by guideline), with periodic screening thereafter",
+   "Starting at approximately age 40-50, with periodic screening thereafter",
    "Only after menopause is complete, regardless of specific age",
    "Only for women who have never been pregnant",
    "Screening is never recommended for any woman under any circumstances"
@@ -7131,7 +7131,7 @@ const masterDatabase = [
   "question": "Chronic excessive alcohol consumption is a well-established risk factor for which of the following conditions?",
   "options": [
    "Only minor, temporary hangover symptoms with no long-term health consequences",
-   "Liver cirrhosis, certain cancers (e.g., liver, esophageal, breast), cardiovascular disease, and mental health disorders",
+   "Liver cirrhosis, certain cancers, cardiovascular disease, and mental health disorders",
    "Complete protection against all liver disease",
    "Guaranteed improvement in cognitive function with no risk of impairment",
    "Only affects the respiratory system, with no effect on any other organ"
@@ -7148,7 +7148,7 @@ const masterDatabase = [
   "question": "Road traffic injuries, classified within the broader injury/NCD-related public health burden, can be effectively reduced through which of the following evidence-based interventions?",
   "options": [
    "Removing all traffic laws to increase driver freedom",
-   "Helmet laws for motorcyclists, seatbelt laws, speed limit enforcement, and drink-driving laws",
+   "Helmet laws for motorcyclists",
    "Eliminating all speed limits nationwide",
    "Removing road signage entirely to reduce visual clutter",
    "Banning all forms of public transportation"
@@ -7166,7 +7166,7 @@ const masterDatabase = [
   "options": [
    "Less than 5% of global deaths",
    "Approximately 15% of global deaths",
-   "Approximately 70-75% of global deaths (a substantial majority)",
+   "Approximately 70-75% of global deaths",
    "0% of global deaths, as NCDs cause no mortality",
    "100% of global deaths from only cancer alone"
   ],
@@ -7182,7 +7182,7 @@ const masterDatabase = [
   "question": "Population-level salt reduction strategies, aimed at reducing hypertension and cardiovascular disease burden, most effectively target which source of dietary sodium in many populations?",
   "options": [
    "Only salt added by individuals at the table using a salt shaker",
-   "Sodium content in processed and packaged foods, which often contributes the majority of dietary salt intake in many populations",
+   "Sodium content in processed and packaged foods",
    "Only salt naturally occurring in fresh fruits",
    "Only salt used in traditional home cooking, with no attention to processed foods",
    "Sodium intake has no relationship to population blood pressure levels"
@@ -7199,7 +7199,7 @@ const masterDatabase = [
   "question": "WHO physical activity guidelines recommend that adults engage in at least how much moderate-intensity aerobic physical activity per week for general health benefits?",
   "options": [
    "No specific amount is recommended; any activity level is equally beneficial",
-   "At least 150-300 minutes of moderate-intensity aerobic activity per week (or equivalent vigorous-intensity activity)",
+   "At least 150-300 minutes of moderate-intensity aerobic activity per week",
    "At least 10 minutes total per week",
    "Only 1 hour per year is sufficient",
    "Physical activity provides no measurable health benefit"
@@ -7216,7 +7216,7 @@ const masterDatabase = [
   "question": "A national policy banning trans-fats in all packaged food products is an example of which level of NCD prevention intervention?",
   "options": [
    "Individual-level clinical intervention only",
-   "Population-level/policy-based primary prevention, addressing environmental/structural determinants of health",
+   "Population-level primary prevention addressing determinants of health",
    "Tertiary prevention/rehabilitation only",
    "Screening-based secondary prevention",
    "This has no relationship to disease prevention at all"
@@ -7233,7 +7233,7 @@ const masterDatabase = [
   "question": "Breast self-examination (BSE), while historically promoted, is now generally regarded by many guideline bodies as having which role in breast cancer control, compared to clinical breast examination and mammography?",
   "options": [
    "BSE is now considered the single most effective screening method, superior to mammography",
-   "BSE promotes general breast awareness but has not been shown to reduce breast cancer mortality as definitively as mammography, and current guidance often emphasizes breast awareness rather than a rigid formal self-exam technique",
+   "Promotes general breast awareness but current guidance deemphasizes formal self-exam techniques",
    "BSE has been proven to cause breast cancer directly",
    "BSE is mandatory and legally required monthly for all women globally",
    "BSE completely replaces the need for any mammography screening"
@@ -7250,7 +7250,7 @@ const masterDatabase = [
   "question": "Waist circumference, used as a measure of central/abdominal obesity, is considered clinically important because it?",
   "options": [
    "Has no relationship to metabolic or cardiovascular disease risk",
-   "Correlates with visceral fat accumulation and is an independent predictor of cardiovascular and metabolic disease risk, sometimes even when BMI is in the normal range",
+   "Correlates with visceral fat accumulation and predicts cardiovascular risk",
    "Only matters for professional athletes",
    "Is only relevant for children, with no adult clinical significance",
    "Directly measures total body fat percentage with complete accuracy, superior to all other methods"
@@ -7267,7 +7267,7 @@ const masterDatabase = [
   "question": "Metabolic syndrome is diagnosed when an individual has a cluster of which types of risk factors occurring together?",
   "options": [
    "Only a single isolated risk factor, such as elevated blood pressure alone",
-   "A combination of central obesity, elevated blood pressure, elevated fasting glucose, and dyslipidemia (elevated triglycerides and/or low HDL cholesterol)",
+   "A combination of central obesity",
    "Only genetic markers, with no metabolic parameters involved",
    "Only elevated white blood cell count",
    "Complete absence of any cardiovascular risk factors, by definition"
@@ -7284,7 +7284,7 @@ const masterDatabase = [
   "question": "Suicide, recognized as a significant global public health concern within the broader NCD/injury framework, can be addressed through which evidence-based population-level prevention strategy?",
   "options": [
    "Providing unrestricted, easy access to lethal means (firearms, pesticides) with no restriction",
-   "Restricting access to common lethal means (e.g., pesticide restriction, firearm regulation), combined with responsible media reporting guidelines and improved access to mental health services",
+   "Restricting access to common lethal means",
    "Encouraging sensationalized, detailed media coverage of suicide methods",
    "Ignoring the issue entirely as it has no public health relevance",
    "Focusing solely on punishing individuals who attempt suicide, with no support services"
@@ -7301,7 +7301,7 @@ const masterDatabase = [
   "question": "Effective NCD prevention and control requires a 'multisectoral' approach, meaning that?",
   "options": [
    "Only the Ministry of Health should be involved, with no other sectors participating",
-   "Multiple sectors beyond health alone (such as finance/taxation, agriculture, education, urban planning, and trade) must collaborate, since NCD risk factors are influenced by policies across many different areas of society",
+   "Multiple sectors beyond health alone must collaborate",
    "NCD prevention is solely the responsibility of individual patients, with no government/sectoral role",
    "Only international organizations should be responsible, with no national government involvement",
    "Multisectoral approaches have been proven ineffective and should be abandoned entirely"
@@ -7335,7 +7335,7 @@ const masterDatabase = [
   "question": "In public health terms, appropriately controlled asthma management (including patient education on inhaler technique and trigger avoidance) primarily aims to?",
   "options": [
    "Cure asthma permanently with no further management needed",
-   "Reduce frequency/severity of exacerbations, improve quality of life, and reduce healthcare utilization (emergency visits, hospitalizations)",
+   "Reduce frequency/severity of exacerbations",
    "Increase the frequency of emergency room visits intentionally",
    "Eliminate the need for any medication whatsoever",
    "Have no measurable impact on patient outcomes"
@@ -7352,7 +7352,7 @@ const masterDatabase = [
   "question": "According to established cancer prevention guidelines, which dietary/lifestyle pattern is associated with REDUCED risk of colorectal cancer?",
   "options": [
    "High consumption of processed/red meat with low fiber intake",
-   "High intake of dietary fiber (whole grains, fruits, vegetables), combined with limited processed/red meat consumption and regular physical activity",
+   "High intake of dietary fiber",
    "Complete avoidance of all plant-based foods",
    "Exclusive reliance on highly processed convenience foods",
    "Sedentary lifestyle with no physical activity"
@@ -7369,7 +7369,7 @@ const masterDatabase = [
   "question": "For accurate blood pressure measurement, which of the following is a recommended standard practice?",
   "options": [
    "Measuring immediately after vigorous exercise, without any rest period",
-   "Having the patient seated with back supported, feet flat on floor, arm at heart level, after at least 5 minutes of rest, with an appropriately sized cuff",
+   "Having the patient seated with back supported",
    "Using a cuff that is deliberately too small for the patient's arm size",
    "Measuring only while the patient is standing and moving around",
    "Measuring immediately after consuming caffeine or smoking a cigarette"
@@ -7386,7 +7386,7 @@ const masterDatabase = [
   "question": "Opportunistic screening for hypertension and diabetes, where healthcare providers check blood pressure/blood glucose during ANY routine clinical visit (regardless of the visit's primary reason), is a practical strategy because it?",
   "options": [
    "Requires a completely separate, dedicated visit solely for screening, adding significant burden",
-   "Takes advantage of existing healthcare contact points to identify previously undiagnosed cases without requiring additional dedicated visits, improving detection efficiency",
+   "Takes advantage of existing healthcare contact points to identify previously undiagnosed cases without requiring additional dedicated visits",
    "Has been shown to have no value in detecting new cases",
    "Is only applicable to patients who specifically request such screening",
    "Should only be performed once in a person's entire lifetime, regardless of results"
@@ -7403,7 +7403,7 @@ const masterDatabase = [
   "question": "Public health strategies for preventing childhood obesity commonly include which school-based intervention?",
   "options": [
    "Removing all physical education classes to reduce injury risk",
-   "Improving school meal nutritional quality, increasing physical activity opportunities, and limiting availability/marketing of unhealthy foods/beverages within school settings",
+   "Improving school meal nutritional quality",
    "Encouraging unlimited access to sugar-sweetened beverages in school cafeterias",
    "Eliminating recess time entirely to maximize classroom instruction time",
    "Providing free unlimited fast food delivery to students throughout the school day"
@@ -7420,7 +7420,7 @@ const masterDatabase = [
   "question": "The 'epidemiological transition' concept describes how, as countries develop economically and socially, the pattern of disease burden typically shifts from predominantly?",
   "options": [
    "Non-communicable diseases toward predominantly communicable diseases",
-   "Communicable, maternal, and nutritional diseases toward predominantly non-communicable diseases and injuries",
+   "Communicable",
    "No change occurs in disease patterns regardless of development level",
    "Only genetic diseases toward only infectious diseases, with no other pattern",
    "Complete elimination of all disease burden with economic development"
@@ -7437,7 +7437,7 @@ const masterDatabase = [
   "question": "Exposure to secondhand (passive) tobacco smoke is associated with increased health risk in non-smokers, including which of the following particularly vulnerable groups?",
   "options": [
    "Only professional athletes, with no risk to any other group",
-   "Children (increased respiratory infections, asthma exacerbation) and non-smoking adults (increased cardiovascular disease and lung cancer risk)",
+   "Children and non-smoking adults",
    "Only elderly individuals who have never had any respiratory condition",
    "No one is actually affected by secondhand smoke exposure",
    "Only individuals who have already quit smoking themselves, with no risk to lifelong non-smokers"
@@ -7454,7 +7454,7 @@ const masterDatabase = [
   "question": "A population-based cancer registry serves which important public health function?",
   "options": [
    "Only treating individual cancer patients directly, with no data collection role",
-   "Systematically collecting data on cancer incidence, patterns, and trends within a defined population, informing research, resource allocation, and prevention/control program planning",
+   "Systematically collecting data on cancer incidence",
    "Replacing the need for any cancer treatment services",
    "Focusing exclusively on collecting data from only private hospitals, excluding all public sector facilities",
    "Having no relationship to public health planning whatsoever"
@@ -7471,7 +7471,7 @@ const masterDatabase = [
   "question": "Prolonged occupational exposure to certain substances (e.g., asbestos, silica dust, certain industrial chemicals) is a recognized risk factor for which category of chronic disease?",
   "options": [
    "Only acute, immediately reversible symptoms with no chronic disease risk",
-   "Occupational chronic respiratory diseases (e.g., silicosis, asbestosis) and certain occupational cancers (e.g., mesothelioma from asbestos exposure)",
+   "Occupational chronic respiratory diseases",
    "Only benign, harmless changes with absolutely no clinical significance",
    "Complete immunity to all future respiratory conditions",
    "Only affecting mental health, with no relationship to physical/respiratory disease"
@@ -7505,7 +7505,7 @@ const masterDatabase = [
   "question": "Primary prevention of rheumatic heart disease centers on which key intervention?",
   "options": [
    "Cardiac surgery for existing valve damage",
-   "Prompt and adequate antibiotic treatment of streptococcal (Group A Streptococcus) pharyngitis (sore throat) to prevent acute rheumatic fever",
+   "Prompt antibiotic treatment of streptococcal pharyngitis",
    "Statin therapy to lower cholesterol",
    "Avoiding all physical activity indefinitely",
    "Annual influenza vaccination"
@@ -7522,7 +7522,7 @@ const masterDatabase = [
   "question": "When comparing cancer incidence rates between two countries with very different age structures (one with an older population, one younger), epidemiologists use age-standardized rates rather than crude rates primarily to?",
   "options": [
    "Make the comparison more complicated without any real benefit",
-   "Remove the confounding effect of differing age distributions, since cancer incidence strongly increases with age, allowing a fairer comparison of underlying risk between populations",
+   "Remove the confounding effect of differing age distributions",
    "Increase the apparent cancer rate artificially in both countries",
    "Eliminate the need for any cancer registry data collection",
    "Focus only on the youngest age group in each country, ignoring all others"
@@ -7590,7 +7590,7 @@ const masterDatabase = [
   "question": "An effective healthcare referral system, connecting primary, secondary, and tertiary levels of care, is important because it?",
   "options": [
    "Ensures all patients bypass primary care and go directly to tertiary hospitals regardless of condition severity",
-   "Ensures patients receive care at the appropriate level matched to their clinical needs, optimizing resource use and avoiding overburdening higher-level facilities with cases manageable at lower levels",
+   "Ensures patients receive care at the appropriate level matched to their needs",
    "Eliminates any need for primary healthcare facilities entirely",
    "Requires patients to pay significantly more at each level without any care coordination benefit",
    "Has no impact on health system efficiency"
@@ -7607,7 +7607,7 @@ const masterDatabase = [
   "question": "According to the WHO health systems framework, which of the following are recognized as core building blocks of a functioning health system?",
   "options": [
    "Only hospitals and clinics, with no other components",
-   "Service delivery, health workforce, health information systems, access to essential medicines, health financing, and leadership/governance",
+   "Service delivery",
    "Only the number of doctors per capita, with no other relevant factors",
    "Only pharmaceutical companies production capacity",
    "Only patient satisfaction survey scores"
@@ -7641,7 +7641,7 @@ const masterDatabase = [
   "question": "The WHO concept of an Essential Medicines List refers to?",
   "options": [
    "A list of the most expensive, cutting-edge medicines available globally",
-   "A selected list of medicines that satisfy the priority healthcare needs of the population, chosen based on disease prevalence, efficacy, safety, and comparative cost-effectiveness",
+   "A selected list of medicines satisfying the priority healthcare needs",
    "A list of medicines that are banned in all countries",
    "A list applicable only to veterinary medicine, with no human health relevance",
    "A randomly selected list with no systematic selection criteria"
@@ -7658,7 +7658,7 @@ const masterDatabase = [
   "question": "The District Health System, as a key organizational unit in many countries healthcare structures including Pakistan, typically encompasses which scope of responsibility?",
   "options": [
    "Only a single hospital, with no broader community health responsibility",
-   "A defined geographic and administrative area including primary care facilities, a district hospital, and community-based health programs, providing comprehensive, coordinated health services for that population",
+   "A defined geographic area providing comprehensive, coordinated health services",
    "Only private healthcare facilities within the district, excluding any government facilities",
    "Exclusively tertiary/specialized care, with no primary care component",
    "National-level health policy formulation exclusively, with no district-specific responsibilities"
@@ -7675,7 +7675,7 @@ const masterDatabase = [
   "question": "Life expectancy at birth is widely used as a summary indicator of a population's overall health status because it?",
   "options": [
    "Only reflects healthcare system quality, with no influence from any other factor",
-   "Reflects the cumulative impact of multiple factors affecting mortality across the entire lifespan, including healthcare access, nutrition, sanitation, and socioeconomic conditions",
+   "Reflects the cumulative impact of multiple factors affecting mortality",
    "Has no relationship to any health system or social factors",
    "Is calculated using only data from people over age 65",
    "Measures only maternal mortality specifically, with no broader population relevance"
@@ -7692,7 +7692,7 @@ const masterDatabase = [
   "question": "In the standard health planning cycle, after conducting a situational analysis and identifying health problems and priorities, the next essential step typically involves?",
   "options": [
    "Immediately implementing programs without any further planning steps",
-   "Setting specific, measurable objectives and formulating strategies and interventions to address the identified priority health problems",
+   "Setting specific",
    "Skipping directly to program evaluation, without any implementation ever occurring",
    "Abandoning the planning process entirely once problems are identified",
    "Focusing solely on budget allocation, with no consideration of specific health objectives"
@@ -7709,7 +7709,7 @@ const masterDatabase = [
   "question": "Social determinants of health refers to?",
   "options": [
    "Only genetic factors determining individual disease susceptibility",
-   "The conditions in which people are born, grow, live, work, and age, including factors like income, education, employment, and social support, which significantly influence health outcomes",
+   "The conditions in which people are born, grow, live, work, and age",
    "Only the availability of hospitals in a given area",
    "Factors that have no measurable impact on health outcomes",
    "Only individual lifestyle choices, with no consideration of broader societal or structural factors"
@@ -7726,7 +7726,7 @@ const masterDatabase = [
   "question": "Out-of-pocket health expenditure, where patients pay directly for services at the point of care without insurance or other prepayment mechanisms, is generally considered problematic from a health systems perspective because?",
   "options": [
    "It has no impact on healthcare access or equity whatsoever",
-   "High reliance on out-of-pocket payment can create financial barriers to accessing needed care and risk pushing households into poverty due to catastrophic health expenditures",
+   "High reliance on out-of-pocket payment can create financial barriers to accessing needed care and risk pushing households into poverty",
    "It is always the most efficient and fair way to finance healthcare universally",
    "It eliminates any need for health insurance systems entirely, with only benefits and no drawbacks",
    "It only affects wealthy individuals, with no impact on lower-income households"
@@ -7743,7 +7743,7 @@ const masterDatabase = [
   "question": "SDG 3, part of the United Nations 2030 Agenda for Sustainable Development, is specifically focused on?",
   "options": [
    "Only eliminating poverty, with no direct health-specific targets",
-   "Ensuring healthy lives and promoting well-being for all at all ages, encompassing targets on maternal and child mortality, communicable and non-communicable diseases, and universal health coverage among others",
+   "Ensuring healthy lives and promoting well-being for all at all ages",
    "Only environmental sustainability, with no health-related content",
    "Only gender equality, with no health-specific component",
    "Exclusively focused on economic growth targets"
@@ -7760,7 +7760,7 @@ const masterDatabase = [
   "question": "Community Health Worker programs, such as Pakistan's Lady Health Worker program, are considered a valuable health system strategy particularly because they?",
   "options": [
    "Replace the need for any formally trained physicians or nurses entirely",
-   "Extend the reach of the health system into underserved communities, providing basic preventive and promotive services and serving as a link between communities and the formal health system, at relatively low cost",
+   "Extending the reach of the health system into underserved communities",
    "Focus exclusively on curative hospital-based tertiary care",
    "Are effective only in high-income countries with abundant resources",
    "Have been shown globally to have no positive impact on health outcomes"
@@ -7794,7 +7794,7 @@ const masterDatabase = [
   "question": "According to WHO, the overall goals or outcomes that a well-functioning health system should ultimately achieve include improved health, responsiveness to population expectations, and which additional key goal?",
   "options": [
    "Maximizing profit for private healthcare investors as the primary goal",
-   "Fair financial contribution or financial risk protection, ensuring healthcare costs are distributed equitably relative to ability to pay",
+   "Fair financial contribution or financial risk protection",
    "Restricting access to only urban populations",
    "Eliminating all forms of health data collection",
    "Focusing solely on infectious disease control, ignoring all other health needs"
@@ -7811,7 +7811,7 @@ const masterDatabase = [
   "question": "In Pakistan's health system structure, a Tehsil Headquarters Hospital typically provides which level of care, compared to a Basic Health Unit?",
   "options": [
    "The same exact level of care as a BHU, with no difference",
-   "Secondary-level care, generally offering more specialized services and inpatient facilities than a BHU",
+   "Secondary-level care",
    "Only administrative functions, with no patient care role at all",
    "Only tertiary/highly specialized care equivalent to a major teaching hospital",
    "Primary-level care identical in scope to a community health worker's role"
@@ -7828,7 +7828,7 @@ const masterDatabase = [
   "question": "Maldistribution of the health workforce, where most doctors concentrate in urban areas while rural areas face severe shortages, is a common challenge in many developing countries including Pakistan. Which of the following is a recognized strategy to help address this specific challenge?",
   "options": [
    "Providing no incentives at all for rural service, expecting workers to volunteer without support",
-   "Financial incentives, improved rural living conditions, mandatory rural service requirements, and task-shifting to appropriately trained mid-level health workers",
+   "Financial incentives",
    "Closing all rural health facilities entirely to concentrate all resources in cities",
    "Only training more urban specialists, with no focus on rural generalist capacity",
    "Banning all urban medical practice to force redistribution"
@@ -7845,7 +7845,7 @@ const masterDatabase = [
   "question": "A well-functioning Health Management Information System (HMIS) within a health facility or district primarily serves to?",
   "options": [
    "Only store paper records with no analytical or decision-making purpose",
-   "Systematically collect, process, and analyze routine health service data to support evidence-based decision-making, monitoring, and program evaluation",
+   "Systematically collect",
    "Replace the need for any clinical patient records entirely",
    "Focus exclusively on financial billing, with no health service data component",
    "Operate independently with no connection to overall health system planning"
@@ -7862,7 +7862,7 @@ const masterDatabase = [
   "question": "Social health insurance, as a health financing mechanism, typically operates on which core principle?",
   "options": [
    "Each individual pays exactly for their own healthcare costs with no risk pooling or cross-subsidization whatsoever",
-   "Pooling of financial contributions from a large group of people (often linked to employment or mandatory enrollment), allowing risk-sharing so that the healthy subsidize the sick and, in many designs, the wealthy subsidize the poor",
+   "Pooling of financial contributions from a large group of people",
    "Only the wealthiest citizens are eligible to participate, with all others excluded",
    "Payment is based purely on voluntary, unpredictable donations with no structured contribution system",
    "Coverage is limited exclusively to cosmetic and elective procedures"
@@ -7879,7 +7879,7 @@ const masterDatabase = [
   "question": "Effective health education programs aimed at behavior change are most successful when they incorporate which approach?",
   "options": [
    "A single, one-time lecture with no follow-up or community engagement",
-   "Multiple communication channels, community participation, culturally appropriate messaging, and repeated reinforcement over time",
+   "Multiple communication channels",
    "Only fear-based messaging with graphic imagery, with no other educational content",
    "Complex technical medical jargon designed for a general lay audience",
    "Messaging designed without any consideration of the target audience's existing beliefs or context"
@@ -7913,7 +7913,7 @@ const masterDatabase = [
   "question": "The concept of Health in All Policies (HiAP) emphasizes that?",
   "options": [
    "Only the Ministry of Health should ever be concerned with health outcomes",
-   "Health considerations should be systematically incorporated into policy-making across all sectors (such as education, transportation, agriculture, and urban planning), recognizing that these sectors significantly influence population health",
+   "Health considerations should be systematically incorporated into policy-making across all sectors",
    "Health outcomes are entirely determined by genetics, with no policy influence possible",
    "Policies from other sectors should never consider health impacts, keeping health entirely separate",
    "Only hospital construction policy is relevant to population health"
@@ -7930,7 +7930,7 @@ const masterDatabase = [
   "question": "According to the Institute of Medicine framework, healthcare quality encompasses multiple dimensions including safety, effectiveness, patient-centeredness, timeliness, efficiency, and which additional key dimension?",
   "options": [
    "Profitability for the healthcare facility as the primary quality measure",
-   "Equity, ensuring quality of care does not vary based on personal characteristics such as gender, ethnicity, or socioeconomic status",
+   "Equity, ensuring quality of care does not vary",
    "Exclusivity, ensuring only wealthy patients receive quality care",
    "Complexity, ensuring treatments are as complicated as possible",
    "Speed only, with no consideration of any other quality dimension"
@@ -7947,7 +7947,7 @@ const masterDatabase = [
   "question": "A national health policy document typically serves which primary purpose for a country's health system?",
   "options": [
    "To provide detailed step-by-step clinical treatment protocols for every specific disease",
-   "To articulate the government's overall vision, priorities, goals, and broad strategic direction for the health sector, guiding subsequent planning and resource allocation",
+   "To articulate the government's overall vision",
    "To replace the need for any subsequent detailed program planning or implementation guidelines",
    "To focus exclusively on hospital building architectural specifications",
    "To serve only as a historical record with no forward-looking planning function"
@@ -7964,7 +7964,7 @@ const masterDatabase = [
   "question": "Decentralization of health service management, transferring certain planning and decision-making authority from national to provincial or district levels, is often promoted because it can potentially?",
   "options": [
    "Guarantee perfect health outcomes with absolutely no implementation challenges anywhere",
-   "Allow more locally responsive decision-making tailored to specific district needs and context, though it also requires adequate local capacity and resources to be effective",
+   "Allow more locally responsive decision-making tailored to specific district needs and context",
    "Eliminate any need for national-level health policy or coordination entirely",
    "Automatically increase health budgets with no additional funding mechanisms needed",
    "Apply successfully with identical results regardless of local governance capacity"
@@ -7981,7 +7981,7 @@ const masterDatabase = [
   "question": "In the immediate aftermath of a major natural disaster (such as a severe flood), which of the following is typically considered a priority public health action?",
   "options": [
    "Delaying all humanitarian response for several months to allow for extensive advance planning",
-   "Rapid needs assessment, ensuring safe water and sanitation, providing emergency shelter, and preventing disease outbreaks among displaced populations",
+   "Rapid needs assessment",
    "Focusing exclusively on rebuilding permanent infrastructure before addressing any immediate survivor needs",
    "Ignoring vulnerable populations such as children, pregnant women, and the elderly in the initial response",
    "Preventing all humanitarian aid organizations from providing any assistance"
@@ -7998,7 +7998,7 @@ const masterDatabase = [
   "question": "Cost-effectiveness analysis in health economics is used to compare different health interventions based on?",
   "options": [
    "Only the total monetary cost of the intervention, with no consideration of health outcomes achieved",
-   "The relationship between the cost of an intervention and the health outcomes it achieves, such as cost per unit of health gained (e.g., cost per DALY averted)",
+   "The relationship between the cost of an intervention and the health outcomes it achieves",
    "Only the popularity of the intervention among patients, with no cost or outcome data considered",
    "Only the intervention's country of origin",
    "Only the number of years the intervention has existed on the market"
@@ -8015,7 +8015,7 @@ const masterDatabase = [
   "question": "A well-designed Basic Health Unit ideally integrates which combination of service types for its catchment population?",
   "options": [
    "Only curative services, with no preventive or promotive component at all",
-   "A combination of preventive, promotive, and basic curative services, reflecting a comprehensive primary health care approach rather than a purely disease-treatment model",
+   "A combination of preventive, promotive, and basic curative services",
    "Only administrative record-keeping, with no direct patient services",
    "Only referral services, with no on-site care provided at all",
    "Only services for adult males, excluding women and children entirely"
@@ -8032,7 +8032,7 @@ const masterDatabase = [
   "question": "The slogan Health for All by the Year 2000, associated with the Alma-Ata Declaration, primarily conveyed the aspiration that?",
   "options": [
    "All diseases would be completely eliminated worldwide by the year 2000 with absolute certainty",
-   "All people would attain a level of health enabling them to lead socially and economically productive lives, through equitable access to essential health care",
+   "All people would attain a level of health enabling them to lead socially and economically productive lives",
    "Only wealthy nations would achieve improved health outcomes",
    "Healthcare would become entirely privatized worldwide with no public health services",
    "The slogan had no relation to primary health care at all"
@@ -8083,7 +8083,7 @@ const masterDatabase = [
   "question": "Occupational noise-induced hearing loss, a common occupational health problem in industries like manufacturing and construction, is best prevented through which hierarchy of control measures, with the MOST effective approach being?",
   "options": [
    "Providing personal protective equipment (earplugs) as the first and only line of defense",
-   "Engineering controls to reduce noise at the source, followed by administrative controls, with personal protective equipment as a last resort",
+   "Engineering controls to reduce noise at the source",
    "Ignoring the problem entirely since hearing loss is considered an acceptable occupational risk",
    "Only treating hearing loss after it has already occurred, with no preventive measures",
    "Relying solely on periodic hearing tests with no actual noise reduction measures"
@@ -8117,7 +8117,7 @@ const masterDatabase = [
   "question": "Workers in battery manufacturing, smelting, and certain painting industries face occupational risk of chronic lead poisoning. Which of the following is a classic clinical finding associated with chronic occupational lead exposure?",
   "options": [
    "Improved cognitive function with no adverse effects",
-   "Microcytic anemia, abdominal colic, peripheral neuropathy (wrist drop), and a possible gum line (Burton's line)",
+   "Microcytic anemia",
    "Complete immunity to all other occupational hazards",
    "Enhanced bone density with no adverse skeletal effects",
    "Only mild, transient skin irritation with no systemic effects"
@@ -8134,7 +8134,7 @@ const masterDatabase = [
   "question": "Byssinosis, an occupational respiratory disease affecting textile workers, is classically characterized by which pattern of symptoms?",
   "options": [
    "Symptoms occurring only on weekends, with no relationship to work exposure",
-   "Chest tightness and breathlessness characteristically worse on the first day back at work after a break (classic Monday morning symptom pattern), with some tolerance developing later in the work week",
+   "Chest tightness characteristically worse on the first day back at work",
    "Symptoms occurring exclusively at night, unrelated to any work schedule",
    "Complete absence of any respiratory symptoms",
    "Symptoms identical to those of malaria, with fever as the dominant feature"
@@ -8151,7 +8151,7 @@ const masterDatabase = [
   "question": "Workers engaged in heavy physical labor in hot environments (such as outdoor construction or agricultural work in high ambient temperatures) are at risk of heat-related illness. Which preventive measure is most important for reducing this risk?",
   "options": [
    "Encouraging workers to avoid drinking water to prevent frequent bathroom breaks",
-   "Ensuring adequate hydration, scheduled rest breaks in shade or cooler areas, and gradual acclimatization to hot working conditions",
+   "Ensuring adequate hydration",
    "Requiring maximum physical exertion with no rest breaks throughout the entire shift",
    "Providing no adjustments regardless of ambient temperature conditions",
    "Restricting water access only to designated break times, however infrequent"
@@ -8168,7 +8168,7 @@ const masterDatabase = [
   "question": "Pre-employment medical examinations for prospective workers serve which primary occupational health purpose?",
   "options": [
    "To exclude all applicants with any minor health condition regardless of job relevance",
-   "To assess a worker's baseline health status and fitness for the specific job requirements, and to establish baseline health data for future comparison if occupational exposure-related changes are suspected",
+   "To assess baseline health status and fitness for specific job requirements",
    "To collect data for unrelated marketing purposes",
    "To replace the need for any ongoing periodic occupational health monitoring",
    "To determine salary levels based on health status"
@@ -8185,7 +8185,7 @@ const masterDatabase = [
   "question": "Radiology technicians and other occupationally radiation-exposed workers are required to wear personal dosimeters primarily to?",
   "options": [
    "Improve their professional appearance",
-   "Monitor and quantify their individual cumulative radiation exposure over time, ensuring it remains within safe regulatory limits",
+   "To monitor individual cumulative radiation exposure over time",
    "Provide entertainment during work breaks",
    "Replace the need for any protective lead shielding",
    "Determine their work schedule preferences"
@@ -8219,7 +8219,7 @@ const masterDatabase = [
   "question": "When assessing fitness for work in an occupational health context, the assessment should primarily focus on?",
   "options": [
    "The worker's general popularity among colleagues, with no health-related consideration",
-   "Whether the individual worker's specific health status and capabilities align with the particular physical, cognitive, and safety demands of the specific job in question",
+   "Whether the individual worker's specific health status and capabilities align with the particular physical",
    "Only the worker's educational qualifications, with no health assessment",
    "Excluding all workers over a certain arbitrary age regardless of individual health status",
    "Only assessing workers who specifically volunteer for evaluation, with no systematic occupational health program"
@@ -8236,7 +8236,7 @@ const masterDatabase = [
   "question": "Hand-arm vibration syndrome (HAVS), affecting workers who regularly use vibrating hand tools (such as jackhammers or chainsaws), is characterized by which classic symptom pattern?",
   "options": [
    "Improved circulation and warmth in the fingers with no adverse effects",
-   "Episodic finger blanching (white finger) triggered by cold exposure, along with numbness, tingling, and reduced hand grip strength over time",
+   "Episodic finger blanching triggered by cold exposure",
    "Complete absence of any sensory or vascular symptoms",
    "Symptoms occurring exclusively in the lower limbs, with no upper limb involvement",
    "Enhanced fine motor coordination as the primary effect"
@@ -8270,7 +8270,7 @@ const masterDatabase = [
   "question": "Occupational health and safety legislation in most countries typically places a primary legal responsibility on which party to ensure a safe working environment?",
   "options": [
    "The individual worker alone, with no employer responsibility whatsoever",
-   "The employer, who has a legal duty of care to provide a safe working environment, adequate training, and appropriate protective measures for employees",
+   "The employer",
    "Only government inspectors, with no role for the employer at all",
    "Only labor unions, with no direct legal employer obligation",
    "No party has any legal responsibility for workplace safety"
@@ -8287,7 +8287,7 @@ const masterDatabase = [
   "question": "High rates of work-related absenteeism in a factory setting can serve as an indirect indicator of which occupational health concern?",
   "options": [
    "Excellent working conditions with no health concerns whatsoever",
-   "Potentially poor working conditions, inadequate safety measures, or significant occupational health hazards affecting worker health",
+   "Potentially poor working conditions",
    "A highly effective health and safety program with no need for further investigation",
    "Workers deliberately trying to reduce company profits with no health-related cause",
    "No relationship to occupational health conditions at all"
@@ -8304,7 +8304,7 @@ const masterDatabase = [
   "question": "Agricultural workers exposed to organophosphate pesticides are at risk of acute cholinergic toxicity. Which of the following is a classic clinical feature of acute organophosphate poisoning?",
   "options": [
    "Dry skin and dilated pupils (mydriasis) as the dominant finding",
-   "Excessive salivation, lacrimation, urination, diarrhea, and miosis (pinpoint pupils), reflecting cholinergic excess",
+   "Excessive salivation",
    "Complete absence of any autonomic symptoms",
    "Only mild, isolated skin rash with no systemic involvement",
    "Symptoms identical to a simple common cold with no distinguishing features"
@@ -8321,7 +8321,7 @@ const masterDatabase = [
   "question": "Periodic medical examinations for workers in high-risk occupations (such as those exposed to noise, dust, or chemicals) primarily serve to?",
   "options": [
    "Only satisfy a bureaucratic paperwork requirement with no real health benefit",
-   "Detect early signs of occupational disease or exposure-related health changes, allowing timely intervention before irreversible harm occurs",
+   "Detect early signs of occupational disease or exposure-related health changes",
    "Replace the need for any workplace hazard control measures",
    "Determine which workers should be immediately terminated from employment",
    "Focus exclusively on non-work-related health conditions"
@@ -8338,7 +8338,7 @@ const masterDatabase = [
   "question": "Contact dermatitis is one of the most common occupational skin diseases, resulting from workplace exposure to irritant or allergenic substances. Which occupational group is classically at high risk due to frequent wet work and chemical exposure?",
   "options": [
    "Office workers with minimal chemical contact",
-   "Healthcare workers and cleaners with frequent hand washing, glove use, and disinfectant/chemical exposure",
+   "Healthcare workers and cleaners with frequent hand washing",
    "Workers who never have any skin contact with chemicals",
    "Only workers in air-conditioned office environments",
    "Astronauts during space missions"
@@ -8355,7 +8355,7 @@ const masterDatabase = [
   "question": "Child labor, particularly involving hazardous work environments, is a significant public and occupational health concern primarily because?",
   "options": [
    "Children have no particular vulnerability compared to adult workers",
-   "Children may face greater physical, developmental, and psychological vulnerability to occupational hazards, along with interference with their education and normal development",
+   "Children may face greater physical",
    "Child labor always results in higher productivity with no associated health risks",
    "Children are legally required to work in all countries with no exceptions",
    "Occupational hazards only affect adult workers, never children"
@@ -8372,7 +8372,7 @@ const masterDatabase = [
   "question": "Workers engaged in long-term night shift or rotating shift work face increased risk of which health effects, related to circadian rhythm disruption?",
   "options": [
    "No health effects whatsoever; shift work has been proven completely safe",
-   "Sleep disturbances, increased cardiovascular disease risk, metabolic disturbances, and potential impact on mental health and alertness-related accident risk",
+   "Sleep disturbances, increased cardiovascular risk, and metabolic disturbances",
    "Only improved sleep quality with no adverse effects",
    "Guaranteed immunity to all chronic diseases",
    "Only affects workers under age 18, with no risk to adult shift workers"
@@ -8406,7 +8406,7 @@ const masterDatabase = [
   "question": "The Health Belief Model, a widely used framework for understanding health behavior, proposes that a person's likelihood of adopting a preventive health behavior depends on their perception of which key factors?",
   "options": [
    "Only their astrological sign, with no other relevant factors",
-   "Perceived susceptibility to the disease, perceived severity of the disease, perceived benefits of the recommended action, and perceived barriers to taking that action",
+   "Perceived susceptibility, severity, benefits, and barriers",
    "Only their favorite color, with no relationship to health behavior",
    "Only the price of a smartphone, unrelated to health beliefs",
    "Only random chance, with no predictable psychological factors involved"
@@ -8423,7 +8423,7 @@ const masterDatabase = [
   "question": "Group discussion, as a method of health education, is particularly valuable because it?",
   "options": [
    "Only works with a single participant, with no group interaction",
-   "Allows participants to share experiences, ask questions, clarify misconceptions, and learn from peer interaction in a supportive setting",
+   "Allows participants to share experiences",
    "Requires no facilitator or structure whatsoever",
    "Is only effective for teaching complex surgical techniques",
    "Cannot be used for any health topic"
@@ -8440,7 +8440,7 @@ const masterDatabase = [
   "question": "Using overly technical medical jargon when communicating health information to a lay community audience represents which type of communication barrier?",
   "options": [
    "No barrier at all; jargon always improves understanding",
-   "A semantic/language barrier, reducing the audience's comprehension of the intended message",
+   "A semantic/language barrier",
    "A physical barrier related to noise interference",
    "A barrier related only to the time of day the message is delivered",
    "An improvement in communication effectiveness"
@@ -8457,7 +8457,7 @@ const masterDatabase = [
   "question": "Mass media campaigns (television, radio, print) for public health messaging are particularly useful for?",
   "options": [
    "Providing highly individualized, one-on-one counseling for complex personal health decisions",
-   "Reaching a large audience quickly with broad awareness-raising messages, though they may be less effective alone for achieving complex behavior change requiring interpersonal support",
+   "Reaching a large audience quickly with broad awareness-raising messages",
    "Replacing the need for any interpersonal health communication entirely",
    "Only reaching audiences in extremely remote areas with no media access",
    "Providing detailed clinical diagnosis and treatment"
@@ -8491,7 +8491,7 @@ const masterDatabase = [
   "question": "Before designing a health education intervention for a specific community, conducting a needs assessment (including understanding existing knowledge, beliefs, and cultural context) is important because it?",
   "options": [
    "Is an unnecessary step that only delays program implementation with no benefit",
-   "Ensures the intervention is appropriately tailored to the specific community's actual needs, existing knowledge gaps, and cultural context, improving relevance and effectiveness",
+   "Ensures the intervention is appropriately tailored to the specific community's actual needs",
    "Should be skipped entirely in favor of using a single generic message for all communities worldwide",
    "Has no bearing on whether the health education message will be accepted by the community",
    "Is only relevant for large national programs, never for small community-level initiatives"
@@ -8508,7 +8508,7 @@ const masterDatabase = [
   "question": "Flip charts, posters, and flannel graphs used during health education sessions are examples of which category of teaching aids?",
   "options": [
    "Audio aids only, with no visual component",
-   "Visual aids, which support learning through visual representation of information",
+   "Visual aids",
    "Purely olfactory (smell-based) aids",
    "Aids used exclusively for teaching mathematics",
    "Aids with no educational value whatsoever"
@@ -8525,7 +8525,7 @@ const masterDatabase = [
   "question": "Evaluating a health education program by assessing changes in knowledge, attitudes, and behavior among the target population before and after the intervention reflects which type of program evaluation?",
   "options": [
    "Structural evaluation only, focusing solely on physical facilities",
-   "Outcome evaluation, assessing the actual effects and impact of the intervention on the target population",
+   "Outcome evaluation",
    "Only financial auditing, with no consideration of health-related changes",
    "An evaluation method that has never been used in any public health program",
    "Only evaluating staff attendance records, with no outcome measurement"
@@ -8542,7 +8542,7 @@ const masterDatabase = [
   "question": "When designing health education materials for a culturally and linguistically diverse population, an important principle is to?",
   "options": [
    "Use a single standardized message and format for all cultural groups, with no adaptation whatsoever",
-   "Adapt messaging, language, and visual content to be culturally sensitive and locally relevant while maintaining accurate core health information",
+   "Adapt messaging",
    "Ignore local cultural beliefs entirely, as they are considered irrelevant to health messaging effectiveness",
    "Use only complex technical terminology to appear more scientifically authoritative",
    "Avoid using the local language entirely, using only a foreign language for all materials"
@@ -8559,7 +8559,7 @@ const masterDatabase = [
   "question": "Engaging respected community and religious leaders as advocates in health promotion campaigns (e.g., for vaccination acceptance) is an effective strategy primarily because such leaders?",
   "options": [
    "Have no influence on community members' beliefs or behaviors whatsoever",
-   "Often hold significant trust and social influence within their communities, which can help address hesitancy and improve acceptance of health messages and interventions",
+   "Often hold significant trust and social influence within their communities",
    "Are legally required to endorse all health programs regardless of their own views",
    "Should replace all trained healthcare workers in delivering clinical services",
    "Are only relevant in urban settings, with no role in rural communities"
@@ -8593,7 +8593,7 @@ const masterDatabase = [
   "question": "During a one-on-one health counseling session, active listening by the health worker is important because it?",
   "options": [
    "Allows the health worker to dominate the conversation without any patient input",
-   "Helps the health worker better understand the patient's concerns, beliefs, and specific needs, building trust and enabling more tailored, effective counseling",
+   "Helps the health worker better understand the patient's concerns",
    "Should be avoided entirely in favor of a purely lecture-based approach",
    "Has no impact on the effectiveness of the counseling session",
    "Is only relevant in written communication, not spoken interactions"
@@ -8610,7 +8610,7 @@ const masterDatabase = [
   "question": "Teaching mothers how to correctly prepare oral rehydration solution (ORS) at home through a hands-on demonstration and practice session (rather than only verbal explanation) reflects which health education teaching method?",
   "options": [
    "Lecture method only, with no practical component",
-   "Demonstration method, allowing learners to observe and then practice a skill directly, improving retention and correct technique",
+   "Demonstration method allowing learners to observe and practice a skill",
    "Mass media campaign method exclusively",
    "A method with no evidence of effectiveness for skill-based learning",
    "Written examination method only"
@@ -8627,7 +8627,7 @@ const masterDatabase = [
   "question": "Conducting formative research (such as focus group discussions with the target community) before finalizing health education messages and materials serves to?",
   "options": [
    "Delay the program indefinitely with no intention of ever finalizing materials",
-   "Pre-test and refine draft messages and materials based on target audience feedback, ensuring they are clear, acceptable, and likely to be effective before wide-scale dissemination",
+   "Pre-test and refine draft messages and materials",
    "Replace the need for any final program evaluation after implementation",
    "Ensure that health messages are deliberately made confusing to the target audience",
    "Only be conducted after a program has already been fully implemented and completed"
@@ -14264,7 +14264,7 @@ const masterDatabase = [
         "question": "An old individual having entropion due to essential blepharospasm is best treated by:",
         "options": [
             "Bick’s procedure",
-            "Botulinum toxin (Botox) injections in to the orbicularis oculi muscle",
+            "Botulinum toxin injections in to the orbicularis oculi muscle",
             "Fox procedure",
             "Transverse lid everting sutures",
             "Wies operation"
@@ -16060,7 +16060,7 @@ const masterDatabase = [
         "question": "Early graft failure is characterised by irreversible cloudiness of donor cornea on the very first post operative day and one of the common cause is:",
         "options": [
             "Allograft reaction",
-            "Endothelial dysfunction due to defective donor endothelium or poor surgical technique",
+            "Endothelial dysfunction",
             "Ocular surface disease",
             "Post operative rise in IOP",
             "Very old patients"
@@ -16084,7 +16084,7 @@ const masterDatabase = [
         "question": "A patient suffering from keratoconjunctivitis sicca (KCS), presents with multiple filamentary keratitis lesions. The treatment of this condition is?",
         "options": [
             "Lubricant drops",
-            "Mechanical removal of the filaments, patch the eye and use lubricant drops",
+            "Mechanical removal of the filaments",
             "Tarsorrhaphy",
             "Use of antibiotic drops",
             "Use of steroid drops"
@@ -16300,7 +16300,7 @@ const masterDatabase = [
         "question": "The most common complication of scleritis is:",
         "options": [
             "Angle closure glaucoma",
-            "Ciliary staphyloma due to sclera thinning",
+            "Ciliary staphyloma",
             "cataract formation",
             "Retinal detachment",
             "Uveitis"
@@ -16736,7 +16736,7 @@ const masterDatabase = [
             "Iris and ciliarybody",
             "Pars plana & pars plicata",
             "Pars plicata and the anteriort part of retina",
-            "Posterior 2/3 of ciliary body (Pars plana) and the anterior part of retina & choroid"
+            "Posterior 2/3 of ciliary body and the anterior part of retina & choroid"
         ],
         "correct": 4
     },
@@ -16951,7 +16951,7 @@ const masterDatabase = [
             "Conjunctivitis is associated with uveitis",
             "Conjunctivitis is associated with urethritis",
             "Keratitis is associated with urethritis & uveitis",
-            "Urethritis , arthritis and conjunctivitis are present with or without uveitis",
+            "Urethritis",
             "Uveitis is granulomatous in characteristics"
         ],
         "correct": 3
@@ -17598,7 +17598,7 @@ const masterDatabase = [
         "question": "A 3 years old baby is brought with H/O leukocoria. There was no deviation of the eyes or nystagmus. After examination, the diagnosis of congenital cataract is made and surgery advised. The best procedure in this case will be:",
         "options": [
             "Conventional ECCE",
-            "I/ Aspiration, anterior vitrectomy & PC IOL implantation",
+            "I/ Aspiration",
             "Intracapsular cataract extraction",
             "Lensectomy",
             "Pacoemulsificaon"
@@ -18399,7 +18399,7 @@ const masterDatabase = [
         "difficulty": "Normal",
         "question": "Under what circumstances is a Dacryocystorhinostomy (DCR) typically performed for congenital nasolacrimal duct obstruction?",
         "options": [
-            "When probing has failed, often considered at around 5 years of age",
+            "When probing has failed",
             "At 6 months of age if tearing persists",
             "As a first-line treatment in infants",
             "It is never performed for congenital cases",
@@ -19029,7 +19029,7 @@ const masterDatabase = [
         "question": "Which of the following bacteria can invade the cornea through an intact epithelium?",
         "options": [
             "Streptococcus pneumoniae",
-            "Neisseria gonorrhoeae, Neisseria meningitidis, and Corynebacterium diphtheriae",
+            "Neisseria gonorrhoeae",
             "Staphylococcus aureus and Pseudomonas aeruginosa",
             "Moraxella catarrhalis",
             "Haemophilus influenzae"
@@ -19132,7 +19132,7 @@ const masterDatabase = [
         "options": [
             "Bandage contact lens",
             "Pressure patching",
-            "Full thickness keratoplasty (penetrating keratoplasty)",
+            "Full thickness keratoplasty",
             "Tissue adhesive (cyanoacrylate glue)",
             "Topical antibiotics"
         ],
@@ -19151,7 +19151,7 @@ const masterDatabase = [
             "Corneal tattooing",
             "Rigid gas permeable contact lens",
             "Observation",
-            "Full thickness keratoplasty (penetrating keratoplasty)"
+            "Full thickness keratoplasty"
         ],
         "correct": 4,
         "explanation": "A dense, full-thickness central stromal leucoma blocks the visual axis and cannot be resolved with surface ablation or lenses; definitive visual rehabilitation requires full-thickness penetrating keratoplasty (PKP) to replace opaque host tissue with a clear donor corneal button. PTK only addresses superficial stromal opacities (<100 µm); Corneal tattooing is purely cosmetic for blind disfigured eyes; Contact lenses cannot overcome opaque scars; Observation is non-interventional."
@@ -19200,7 +19200,7 @@ const masterDatabase = [
         "options": [
             "Natamycin",
             "Fortified Vancomycin",
-            "Chlorhexidine or Polyhexamethylene biguanide (PHMB)",
+            "Chlorhexidine or Polyhexamethylene biguanide",
             "Oral Fluconazole",
             "Acyclovir"
         ],
@@ -19742,7 +19742,7 @@ const masterDatabase = [
         "difficulty": "Normal",
         "question": "Which of the following are listed as causes of congenital lamellar cataract?",
         "options": [
-            "Vitamin C and D deficiency, intrauterine infection, and dentition problems",
+            "Vitamin C and D deficiency",
             "Advanced paternal age",
             "Maternal smoking and alcohol use",
             "Premature birth alone",
@@ -20050,7 +20050,7 @@ const masterDatabase = [
         "options": [
             "Intraocular pressure and pachymetry",
             "Visual field testing and color vision",
-            "A-scan (axial length) and Keratometry (corneal curvature)",
+            "A-scan and Keratometry",
             "Gonioscopy and fundus photography",
             "Corneal topography alone"
         ],
@@ -20201,7 +20201,7 @@ const masterDatabase = [
         "difficulty": "Easy",
         "question": "In the past, before the widespread use of intraocular lenses, how was bilateral aphakia best corrected?",
         "options": [
-            "Aphakic spectacles ('coke-bottle' glasses)",
+            "Aphakic spectacles",
             "Corneal inlay",
             "Pinhole glasses",
             "Corneal transplant",
@@ -21106,7 +21106,7 @@ const masterDatabase = [
         "question": "'Mutton-fat' keratic precipitates (KPs) are characteristic of which type of disease?",
         "options": [
             "Viral uveitis",
-            "Chronic granulomatous uveitis (e.g., TB, Sarcoidosis)",
+            "Chronic granulomatous uveitis",
             "Acute non-granulomatous uveitis",
             "Fuch's heterochromic iridocyclitis",
             "Post-traumatic uveitis"
@@ -21821,7 +21821,7 @@ const masterDatabase = [
         "difficulty": "Easy",
         "question": "What is the Amsler grid test used for?",
         "options": [
-            "To test for Dry Age-Related Macular Degeneration (ARMD)",
+            "To test for Dry Age-Related Macular Degeneration",
             "To measure intraocular pressure",
             "To assess peripheral visual field",
             "To diagnose color blindness",
@@ -21974,7 +21974,7 @@ const masterDatabase = [
         "difficulty": "Normal",
         "question": "A 5-year-old child is brought in with leukocoria of the right eye and a fungating mass growing out of the orbit. What is the most likely diagnosis?",
         "options": [
-            "Retinoblastoma with extraocular extension (Exophytum)",
+            "Retinoblastoma with extraocular extension",
             "Retinoblastoma Endophytum",
             "Orbital cellulitis",
             "Rhabdomyosarcoma",
@@ -22247,7 +22247,7 @@ const masterDatabase = [
         "difficulty": "Normal",
         "question": "An injury to the temporal lobe of the brain (e.g., Meyer's loop) causes which type of visual field defect?",
         "options": [
-            "Superior quadrantanopia ('pie in the sky')",
+            "Superior quadrantanopia",
             "Bitemporal hemianopia",
             "Inferior quadrantanopia",
             "Homonymous hemianopia",
@@ -22677,7 +22677,7 @@ const masterDatabase = [
             "Myopia",
             "Astigmatism",
             "Emmetropia (no error)",
-            "Hypermetropia (due to short axial length)",
+            "Hypermetropia",
             "Presbyopia"
         ],
         "correct": 3,
@@ -23309,7 +23309,7 @@ const masterDatabase = [
         "options": [
             "It magnifies the image on the retina",
             "It corrects for chromatic aberration",
-            "A pencil of light passes through the hole, falling on the fovea centralis without needing refraction",
+            "A pencil of light passes through the hole",
             "It stimulates the pupillary light reflex, improving focus",
             "It increases the amount of light entering the eye"
         ],
@@ -23426,7 +23426,7 @@ const masterDatabase = [
         "difficulty": "Easy",
         "question": "A 49-year-old male presented with temporal pain and an altitudinal visual field defect. A RAPD was present. What is the diagnosis?",
         "options": [
-            "Arteritic Anterior Ischemic Optic Neuropathy (A-AION)",
+            "Arteritic Anterior Ischemic Optic Neuropathy",
             "Non-arteritic AION",
             "Optic neuritis",
             "Compressive optic neuropathy",
@@ -24415,7 +24415,7 @@ const masterDatabase = [
             "Amaurotic pupil",
             "Efferent papillary defect",
             "Horner’s syndrome",
-            "Ralative afferent papillary defect ( Marcus- Gunn Pupil)"
+            "Ralative afferent papillary defect"
         ],
         "correct": 4
     },
@@ -26688,7 +26688,7 @@ const masterDatabase = [
             "Agranulocytosis.",
             "Corynebacterium diphtheriae.",
             "Neisseria gonorrhoea.",
-            "Group A beta-haemolytic streptococcus (Streptococcus pyogenes)."
+            "Group A beta-haemolytic streptococcus."
         ],
         "correct": 4
     },
@@ -26771,7 +26771,7 @@ const masterDatabase = [
             "Gastrostomy.",
             "Tracheostomy.",
             "Pain killers.",
-            "Nausea and vomiting typically controlled using cyclizine.",
+            "Nausea and vomiting",
             "Antibiotics to treat infections."
         ],
         "correct": 3
@@ -28488,7 +28488,7 @@ const masterDatabase = [
             "Agranulocytosis.",
             "Corynebacterium diphtheriae.",
             "Neisseria gonorrhoea.",
-            "Group A beta-haemolytic streptococcus (Streptococcus pyogenes)."
+            "Group A beta-haemolytic streptococcus."
         ],
         "correct": 4
     },
@@ -28571,7 +28571,7 @@ const masterDatabase = [
             "Gastrostomy.",
             "Tracheostomy.",
             "Pain killers.",
-            "Nausea and vomiting typically controlled using cyclizine.",
+            "Nausea and vomiting",
             "Antibiotics to treat infections."
         ],
         "correct": 3
@@ -29704,7 +29704,7 @@ const masterDatabase = [
         "subject": "Otology",
         "question": "What is the most common cause of peripheral episodic vertigo?",
         "options": [
-            "Benign paroxysmal positional vertigo (BPPV)",
+            "Benign paroxysmal positional vertigo",
             "Meniere's disease",
             "Vestibular neuritis",
             "Labyrinthitis"
@@ -29826,7 +29826,7 @@ const masterDatabase = [
         "subject": "Otology",
         "question": "What is the easiest and best method of performing monaural free-field voice testing?",
         "options": [
-            "Using a whispered voice, conversational voice, and then loud voice",
+            "Using a whispered voice",
             "Using pure tone tuning forks only",
             "Using a speech audiometer",
             "Using automated otoacoustic emissions"
@@ -29930,7 +29930,7 @@ const masterDatabase = [
             "A low-pitched expiratory wheeze only",
             "A sign of pleural effusion",
             "A sound produced by nasal congestion",
-            "An auditory manifestation of disordered airway airflow within the larynx, trachea, or bronchi"
+            "An auditory manifestation of disordered airway airflow within the larynx"
         ],
         "correct": 4
     },
@@ -30054,7 +30054,7 @@ const masterDatabase = [
             "Quiet wheezing during expiration only",
             "Muffled voice",
             "Snoring sound",
-            "High-pitched musical breath sound resulting from turbulent air flow in the larynx or lower bronchial tree"
+            "High-pitched musical breath sound"
         ],
         "correct": 4
     },
@@ -40912,11 +40912,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "A 5 year old child comes to the immunization centre without BCG scar on his arm; what would you prefer?",
         "options": [
-            "Give BCG vaccine",
-            "Perform mantoux if positive then give BCG",
-            "No need of BCG",
-            "Chemoprophylaxis",
-            "Perform mantoux if negative then given BCG"
+            "Administer the BCG vaccine without prior testing",
+            "Perform Mantoux test and if positive, give BCG",
+            "Withhold BCG as there is no need at this age",
+            "Initiate chemoprophylaxis without BCG",
+            "Perform Mantoux test and if negative, give BCG"
         ],
         "correct": 4
     },
@@ -40924,11 +40924,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "A woman reports for vaccination against tetanus only 25 days before delivery; she has not received the first dose. What will you do?",
         "options": [
-            "Give anti tetanus immunoglobulin",
-            "Give two doses of tetanus toxoid with 2 weeks interval",
-            "Advise appropriate antibiotic course during delivery",
-            "Give one dose of tetanus toxoid and advice the second dose after delivery",
-            "Advise passive immunization after delivery"
+            "Administer anti-tetanus immunoglobulin immediately",
+            "Give two doses of tetanus toxoid with a 2-week interval",
+            "Prescribe a prophylactic antibiotic course during delivery",
+            "Give one dose of tetanus toxoid now and the second after delivery",
+            "Advise passive immunization for the neonate postpartum"
         ],
         "correct": 3
     },
@@ -40948,11 +40948,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "A doctor was attending a patient suffering from Hepatitis B; he accidentally got a prick from a contaminated syringe. For maximum preventive use of Hepatitis B Immunoglobulin (HBIG), it is given as:",
         "options": [
-            "0.5 ml / kg body weight within 2 hours",
-            "0.5 ml / kg body weight within 24 hours",
-            "0.06 ml / kg body weight within 3 days of exposure & repeating after one month",
-            "0.06 ml / kg body weight preferably within 3 days",
-            "0.05 ml / kg body weight within one month & repeating after 6 months"
+            "0.5 ml / kg body weight within 2 hours of exposure & repeat after one month",
+            "0.5 ml / kg body weight within 24 hours of exposure & repeat after one month",
+            "0.06 ml / kg body weight within 3 days of exposure & repeat after one month",
+            "0.06 ml / kg body weight preferably within 3 days & repeat after 6 months",
+            "0.05 ml / kg body weight within one month & repeat after 6 months"
         ],
         "correct": 2
     },
@@ -40984,11 +40984,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "An M.B.B.S student of Wah Medical College got an accidental prick while drawing blood of hepatitis B positive patient. He had completed his course of immunization against hepatitis B last year. What would you recommend for him?",
         "options": [
-            "Booster dose of HB Vaccine",
-            "Single dose of passive immunization",
-            "Both active and passive immunization",
-            "Two doses of immunoglobulins 30 days apart",
-            "Nothing required"
+            "Administration of a booster dose of HB Vaccine",
+            "Administration of a single dose of passive immunization",
+            "Administration of both active and passive immunization",
+            "Administration of two doses of immunoglobulins 30 days apart",
+            "No immediate pharmacological intervention is required"
         ],
         "correct": 3
     },
@@ -41116,11 +41116,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "A 6 months pregnant lady comes for antenatal checkup for the first time. Her baseline investigation and screening for HBSAG and Anti HCV was done. On screening she was found to have HBSAG. What would you prefer for this lady?",
         "options": [
-            "Active and passive immunization",
-            "Passive immunization",
-            "Active immunization",
-            "Anti viral therapy",
-            "Advice for active and passive immunization of the baby at birth."
+            "Active and passive immunization of the mother",
+            "Passive immunization of the mother alone",
+            "Active immunization of the mother alone",
+            "Immediate initiation of anti-viral therapy",
+            "Active and passive immunization of the baby at birth"
         ],
         "correct": 4
     },
@@ -42004,11 +42004,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "In a study of 500 cases of a disease and 500 controls, the suspected etiological factor is found in 400 of the cases and 100 of the controls. The absolute risk (incidence) of disease in persons with the factor is:",
         "options": [
-            "80%",
-            "40%",
-            "16%",
-            "20%",
-            "Cannot be computed from data given"
+            "80% absolute risk",
+            "40% absolute risk",
+            "16% absolute risk",
+            "20% absolute risk",
+            "Cannot be computed"
         ],
         "correct": 4
     },
@@ -42401,11 +42401,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "In a colony located near an industrial area 50 people died due to asphyxia and many developed difficulty in breathing and were hospitalized within 24 hours. The cause was the leakage of carbon monoxide from a near by chemical plant. The distribution of cases in time is suggestive of:",
         "options": [
-            "Propagated epidemic",
-            "Slow epidemic",
-            "Common source – single exposure",
-            "Common source – continuous exposure",
-            "Pandemic"
+            "Propagated person-to-person epidemic",
+            "Slow moving environmental epidemic",
+            "Common source single exposure epidemic",
+            "Common source continuous exposure epidemic",
+            "Global progressive pandemic outbreak"
         ],
         "correct": 2
     },
@@ -42557,11 +42557,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "In a medical journal report, the observed mortality of smokers and nonsmokers for laryngeal squamous cell carcinoma was reported to be significant at p < 0.05. Such a statement means that:",
         "options": [
-            "The investigator is rejecting the null hypothesis even though the results could have occurred purely by chance a maximum of 5 times out of 100.",
-            "There is a difference between the mortality rates of smokers and nonsmokers 5% of the time",
-            "The null hypothesis claims that there is a difference between the mortality rates of smokers and nonsmokers.",
-            "A causal relationship between smoking and mortality may be established through this study",
-            "There is insufficient data, as the total number of smokers and nonsmokers were not given."
+            "The results could occur purely by chance at most 5% of the time",
+            "There is a difference between mortality rates exactly 5% of the time",
+            "The null hypothesis claims a difference between the mortality rates",
+            "A causal relationship may be definitively established from this study",
+            "There is insufficient data to calculate the exact difference"
         ],
         "correct": 0
     },
@@ -42689,11 +42689,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "In a study of 500 cases of a disease and 500 controls, the suspected etiological factor is found in 400 of the cases and 100 of the controls. The absolute risk (incidence) of disease in persons with the factor is:",
         "options": [
-            "80%",
-            "40%",
-            "16%",
-            "20%",
-            "Cannot be computed from data given"
+            "80% absolute risk",
+            "40% absolute risk",
+            "16% absolute risk",
+            "20% absolute risk",
+            "Cannot be computed"
         ],
         "correct": 4
     },
@@ -42857,11 +42857,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "The incidence of gonorrhoea is continuously increasing in a particular locality. An investigator reveals that mostly sex workers are living there. This epidemic may be classified as:",
         "options": [
-            "Common source single exposure",
-            "Common source continuous exposure",
-            "Propagated epidemic",
-            "Slow epidemic",
-            "Modern epidemic"
+            "Common source single exposure epidemic",
+            "Common source continuous exposure epidemic",
+            "Propagated person-to-person epidemic",
+            "Slow moving environmental epidemic",
+            "Modern progressive societal epidemic"
         ],
         "correct": 1
     },
@@ -42893,11 +42893,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "The incidence of gonorrhoea is continuously increasing in a particular locality. An investigator reveals that in that area mostly sex workers are living. This epidemic may be classified as:",
         "options": [
-            "Common source single exposure",
-            "Common source continuous exposure",
-            "Propagated epidemic",
-            "Slow epidemic",
-            "Modern epidemic"
+            "Common source single exposure epidemic",
+            "Common source continuous exposure epidemic",
+            "Propagated person-to-person epidemic",
+            "Slow moving environmental epidemic",
+            "Modern progressive societal epidemic"
         ],
         "correct": 1
     },
@@ -44405,11 +44405,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "A woman reports for vaccination against tetanus only 25 days before delivery; she has not received the first dose. What will you do?",
         "options": [
-            "Give anti tetanus immunoglobulin",
-            "Give two doses of tetanus toxoid with 2 weeks interval",
-            "Advise appropriate antibiotic course during delivery",
-            "Give one dose of tetanus toxoid and advice the second dose after delivery",
-            "Advise passive immunization after delivery"
+            "Administer anti-tetanus immunoglobulin immediately",
+            "Give two doses of tetanus toxoid with a 2-week interval",
+            "Prescribe a prophylactic antibiotic course during delivery",
+            "Give one dose of tetanus toxoid now and the second after delivery",
+            "Advise passive immunization for the neonate postpartum"
         ],
         "correct": 3
     },
@@ -44897,11 +44897,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "A 3rd year MBBS student of FJMC presented in ENT OPD with complaint of soar throat, pain of swallowing & low grade fever examination revealed erythema on the pharynx and a whitish membrane on the pharynx extending to the left tonsil. The doctor diagnosed her as a case of diphtheria. What do you suggest minimum isolation period:",
         "options": [
-            "Six daily negative throat and nasal swabs report",
-            "Till the signs & symptoms settle down",
-            "One week course of antibiotic",
-            "For days",
-            "Till complete blood picture becomes normal"
+            "Until six consecutive daily throat and nasal swabs are negative",
+            "Until all clinical signs and symptoms have completely settled",
+            "Until completion of a one-week course of systemic antibiotics",
+            "Until exactly fourteen days have passed since the onset",
+            "Until the complete blood picture returns to normal ranges"
         ],
         "correct": 0
     },
@@ -44969,11 +44969,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "On routine investigation of mess workers of girls' hostel, Dr. Sarah noted that two of the mess worker showed positive stool culture for S. typhi although they were symptom free. They require:",
         "options": [
-            "No treatment",
-            "isolation only",
-            "Quinolones for 1 week",
-            "Ampicillin plus probenecid for 1 week",
-            "Vaccination"
+            "Observation with no active medical treatment",
+            "Strict isolation for the duration of one week",
+            "Administration of oral quinolones for one week",
+            "Ampicillin combined with probenecid for one week",
+            "Administration of targeted typhoid vaccination"
         ],
         "correct": 3
     },
@@ -44981,11 +44981,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "A 22 years old married non pregnant woman developed rubella infection. In order to avoid congenital rubella syndrome in her pregnancy she should be given:",
         "options": [
-            "Antibiotics",
-            "Active immunization",
-            "Non specific immunization",
-            "Advice to avoid conception for 12 weeks",
-            "Anti viral therapy"
+            "Prescribe a broad-spectrum antibiotic course",
+            "Administer active immunization against rubella",
+            "Provide non-specific passive immunization",
+            "Advise to avoid conception for 12 weeks",
+            "Initiate targeted anti-viral therapy"
         ],
         "correct": 3
     },
@@ -45041,11 +45041,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "4 years old girl was having fever, cough with a characteristic whoop. She was diagnosed as a case of whooping cough several antibodies are effective they are important as they:",
         "options": [
-            "Reduce the frequency of spasm",
-            "Control severity of disease",
-            "Shorten the illness",
-            "Control secondary bacterial infection",
-            "Prevent carrier state"
+            "Reduce the overall frequency of spasmodic episodes",
+            "Control the progression and severity of the disease",
+            "Shorten the total duration of the clinical illness",
+            "Control the development of secondary bacterial infection",
+            "Prevent the progression into an asymptomatic carrier state"
         ],
         "correct": 3
     },
@@ -45413,11 +45413,11 @@ const masterDatabase = [
         "subject": "Community Medicine",
         "question": "Researchers decided to study the impact of iodized salt programme especially in hilly areas of Pakistan. They had chosen the most sensitive indicator for monitoring environmental iodine deficiency which was:",
         "options": [
-            "Prevalence of goiter",
-            "Prevalence of myxoedema",
-            "Prevalence of neonatal hypothyroidism",
-            "Urinary iodine excretion",
-            "Prevalence of cretinism"
+            "Measurement of the prevalence of endemic goiter",
+            "Measurement of the prevalence of clinical myxoedema",
+            "Measurement of the prevalence of neonatal hypothyroidism",
+            "Routine assessment of population urinary iodine excretion",
+            "Measurement of the prevalence of endemic cretinism"
         ],
         "correct": 2
     },
