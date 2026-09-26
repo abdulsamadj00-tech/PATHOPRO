@@ -62471,5 +62471,10404 @@ const masterDatabase = [
         "exp": "Fibromuscular dysplasia is a non-inflammatory thickening of the blood vessel wall. In the vast majority of cases, it specifically involves medial fibroplasia (hyperplasia of the Tunica Media). The alternating areas of thickened media and thinned media create the classic 'string of beads' appearance on angiography.",
         "book": "Kaplan Medical USMLE Step 1 Pathology",
         "subtopic": "Vascular Pathology"
+    },
+ // --- NEWLY IMPORTED UWORLD-STYLE QUESTIONS ---
+
+    {
+        "question": "Which ocular structure performs most of the eye's refraction?",
+        "options": [
+            "Lens",
+            "Iris",
+            "Cornea",
+            "Retina"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement best describes the vascular supply of the normal lens?",
+        "options": [
+            "It is supplied by the choroid",
+            "It has a rich capillary network",
+            "It has a central retinal artery supply",
+            "It is avascular and receives nutrients by diffusion"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The capsule surrounding the lens contains predominantly which collagen type?",
+        "options": [
+            "Type II",
+            "Type III",
+            "Type IV",
+            "Type I"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The principal energy pathway in the lens is best described as:",
+        "options": [
+            "Ketone metabolism",
+            "Aerobic oxidative phosphorylation",
+            "Beta oxidation",
+            "Anaerobic glycolysis with glucose converted to lactic acid"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What happens to the lens during accommodation for near vision?",
+        "options": [
+            "It becomes rounder",
+            "It becomes completely rigid",
+            "It moves posteriorly",
+            "It flattens"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which combination corresponds to viewing a distant object?",
+        "options": [
+            "Ciliary contraction + tight zonules + flattened lens",
+            "Ciliary relaxation + relaxed zonules + rounded lens",
+            "Ciliary contraction + relaxed zonules + rounded lens",
+            "Ciliary relaxation + tight zonules + flattened lens"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which set represents the three components of the near response?",
+        "options": [
+            "Divergence, mydriasis, accommodation",
+            "Convergence, mydriasis, cycloplegia",
+            "Convergence, miosis, accommodation",
+            "Divergence, miosis, cycloplegia"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A patient develops difficulty reading with age while distance vision remains relatively good. The most\nlikely mechanism is:",
+        "options": [
+            "Lens stiffening with reduced accommodation",
+            "Retinal detachment",
+            "Excessive corneal curvature",
+            "Optic nerve compression"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which optical aid is commonly used to address presbyopia?",
+        "options": [
+            "Only a cylindrical lens",
+            "Prism alone",
+            "Only a minus spherical lens",
+            "Bifocal or multifocal lenses"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is the basic problem in a refractive error?",
+        "options": [
+            "The retina lacks rods",
+            "The optic nerve is inflamed",
+            "The pupil cannot constrict",
+            "The focal point is not appropriately located on the retina"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Where is the focal point in myopia?",
+        "options": [
+            "In front of the retina",
+            "Within the optic nerve",
+            "Behind the retina",
+            "At the choroid"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which lens corrects uncomplicated myopia?",
+        "options": [
+            "Cylindrical lens only",
+            "Positive convex lens",
+            "Negative concave/diverging lens",
+            "Prismatic lens"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Where is the focal point in hyperopia?",
+        "options": [
+            "At the pupil",
+            "Behind the retina",
+            "At the optic disc",
+            "In front of the retina"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which optical correction is appropriate for hyperopia?",
+        "options": [
+            "Plano lens",
+            "Minus concave lens",
+            "Plus convex/converging lens",
+            "Prism only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which refractive error is characterized by uneven corneal curvature and multiple focal points?",
+        "options": [
+            "Presbyopia",
+            "Myopia",
+            "Hyperopia",
+            "Astigmatism"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which is an appropriate correction for astigmatism?",
+        "options": [
+            "Cylindrical lens or appropriate refractive surgery",
+            "Only a plus spherical lens",
+            "No optical correction is possible",
+            "Only a minus spherical lens"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What does ectopia lentis refer to?",
+        "options": [
+            "Lens dislocation",
+            "Retinal hemorrhage",
+            "Corneal ulceration",
+            "Optic nerve swelling"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A patient develops lens displacement immediately after blunt ocular trauma. Which diagnosis is most\nlikely?",
+        "options": [
+            "Ectopia lentis",
+            "Conjunctivitis",
+            "Astigmatism",
+            "Presbyopia"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which systemic disorder is classically associated with ectopia lentis in an upward/outward direction?",
+        "options": [
+            "Homocystinuria",
+            "Diabetes mellitus",
+            "Alport syndrome",
+            "Marfan syndrome"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The connective-tissue defect in Marfan syndrome primarily involves:",
+        "options": [
+            "Type IV collagen only",
+            "Cystathionine beta synthase",
+            "Rhodopsin",
+            "Fibrillin"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The classic direction of lens displacement in Marfan syndrome is:",
+        "options": [
+            "Directly inferior only",
+            "Directly posterior",
+            "Upward and outward",
+            "Downward and inward"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Approximately what proportion of patients with Marfan syndrome may have lens dislocation?",
+        "options": [
+            "10\u201320%",
+            "1\u20135%",
+            "50\u201380%",
+            "95\u2013100%"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A patient with marfanoid habitus and ectopia lentis has markedly elevated homocysteine. Which enzyme\ndeficiency is implicated?",
+        "options": [
+            "Cystathionine beta synthase",
+            "Galactokinase",
+            "Aldose reductase",
+            "Fibrillin synthase"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which direction of lens displacement is characteristic of homocystinuria?",
+        "options": [
+            "Posterior only",
+            "Temporal only",
+            "Downward/inward",
+            "Upward/outward"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which mechanism links diabetes to cataract formation in the source material?",
+        "options": [
+            "Retinal ischemia directly opacifies the lens",
+            "Insulin directly destroys lens fibers",
+            "Sorbitol accumulation increases lens osmolarity",
+            "Excess melanin deposition"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which enzyme converts glucose to sorbitol in the lens?",
+        "options": [
+            "Aldose reductase",
+            "Hexokinase",
+            "Galactokinase",
+            "Sorbitol dehydrogenase"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which sugar alcohol is formed from galactose in the lens?",
+        "options": [
+            "Sorbitol",
+            "Galactitol",
+            "Mannitol",
+            "Xylitol"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "An infant with liver failure and cataracts most strongly suggests:",
+        "options": [
+            "Simple myopia",
+            "Presbyopia",
+            "Classic galactosemia",
+            "Marfan syndrome"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which disorder is described as a milder form of galactosemia with cataracts in childhood/young\nadulthood?",
+        "options": [
+            "Marfan syndrome",
+            "Homocystinuria",
+            "Galactokinase deficiency",
+            "Classic galactosemia"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Cataracts associated with deafness and cardiac malformations in an infant suggest:",
+        "options": [
+            "Horner syndrome",
+            "Optic neuritis",
+            "Marfan syndrome",
+            "Congenital rubella syndrome"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which group contains recognized cataract risk factors listed in the source?",
+        "options": [
+            "Only bacterial conjunctivitis",
+            "Only myopia and hyperopia",
+            "Only retinal detachment",
+            "Age, smoking, corticosteroids and trauma"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which description best defines cataract?",
+        "options": [
+            "Painless opacification of the lens causing reduced vision",
+            "Painful inflammation of the optic nerve",
+            "Retinal vascular occlusion",
+            "Corneal infection"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is the definitive treatment modality listed for cataract?",
+        "options": [
+            "Observation in every case",
+            "Surgery",
+            "Miotic drops alone",
+            "Topical antibiotics alone"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which inherited disorder links abnormal type IV collagen with hereditary nephritis and lens\nabnormalities?",
+        "options": [
+            "Homocystinuria",
+            "Rubella",
+            "Alport syndrome",
+            "Marfan syndrome"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pairing is correct?",
+        "options": [
+            "Cornea\u2014adjustable refraction; lens\u2014no refraction",
+            "Cornea\u2014mostly fixed refraction; lens\u2014adjustable refraction",
+            "Both are completely fixed",
+            "Both are vascular refractive tissues"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which cell type is characteristic of the mature lens?",
+        "options": [
+            "Striated muscle cells",
+            "Elongated fiber cells",
+            "Neurons",
+            "Photoreceptors"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which visual complaint is most characteristic of myopia?",
+        "options": [
+            "Pain with eye movement",
+            "Difficulty seeing far objects",
+            "Loss of peripheral vision first",
+            "Difficulty only in dim light"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which complaint is typical of hyperopia in the source material?",
+        "options": [
+            "Floaters only",
+            "Difficulty focusing on near objects",
+            "Sudden painless blindness",
+            "Halos with a fixed mid-dilated pupil"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Why can astigmatism produce blurred vision?",
+        "options": [
+            "It destroys the optic nerve",
+            "It causes lens avascularity",
+            "It blocks the pupil completely",
+            "It creates multiple focal points from uneven curvature"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The purpose of accommodation is to:",
+        "options": [
+            "Move the retina forward",
+            "Maintain focus of a near object on the retina",
+            "Increase aqueous drainage",
+            "Paralyze the ciliary muscle"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "During the near response, convergence refers to:",
+        "options": [
+            "Medial movement of both eyes",
+            "Lateral movement of both eyes",
+            "Lens flattening",
+            "Pupil dilation"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupillary change accompanies accommodation?",
+        "options": [
+            "Miosis",
+            "Mydriasis",
+            "No change ever",
+            "Irregular dilation"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "During near accommodation, what happens to the zonules?",
+        "options": [
+            "They become tighter",
+            "They disappear",
+            "They relax",
+            "They rupture normally"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What lens shape is associated with distance viewing?",
+        "options": [
+            "Completely dislocated",
+            "Flattened",
+            "More rounded",
+            "Spherical with no capsule"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Why does presbyopia impair reading vision?",
+        "options": [
+            "The retina becomes detached",
+            "The cornea becomes vascular",
+            "The optic nerve becomes longer",
+            "Age-related lens stiffening reduces accommodation"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A +1.50 spectacle lens is best described as:",
+        "options": [
+            "Cylindrical only",
+            "Concave and diverging",
+            "Prismatic only",
+            "Convex and converging"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A \u22121.75 spectacle lens is best described as:",
+        "options": [
+            "Convex and converging",
+            "Plano",
+            "Concave and diverging",
+            "Prismatic"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement about refractive errors is correct?",
+        "options": [
+            "They cannot be optically corrected",
+            "They can be improved with glasses or contact lenses",
+            "They are caused only by infection",
+            "They always require retinal surgery"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A mismatch between corneal curvature and eye size can result in:",
+        "options": [
+            "Horner syndrome",
+            "Hyphema",
+            "Optic neuritis",
+            "A refractive error"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which anatomical change can produce myopia?",
+        "options": [
+            "An eye that is too long",
+            "A completely flat lens only",
+            "An eye that is too short",
+            "A detached iris"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which anatomical change can produce hyperopia?",
+        "options": [
+            "A very thick cornea only",
+            "An eye that is too short",
+            "An eye that is too long",
+            "A detached retina"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which corneal change favors myopia?",
+        "options": [
+            "Complete loss of curvature",
+            "Too much curvature",
+            "Corneal vascularization",
+            "Too little curvature"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which corneal change favors hyperopia?",
+        "options": [
+            "Irregular pupil size",
+            "Too much curvature",
+            "Retinal hemorrhage",
+            "Too little curvature"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which feature favors cataract over acute angle-closure glaucoma?",
+        "options": [
+            "Halos with abrupt visual loss",
+            "Fixed mid-dilated pupil",
+            "Painless progressive reduction in vision",
+            "Severe eye pain with nausea"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What structural change defines cataract?",
+        "options": [
+            "Lens opacification",
+            "Corneal vascularization",
+            "Optic nerve demyelination",
+            "Retinal pigmentation"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which lifestyle factor listed in the source increases cataract risk?",
+        "options": [
+            "Wearing spectacles",
+            "Regular reading",
+            "Convergence",
+            "Smoking"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which medication exposure is listed as a cataract risk factor?",
+        "options": [
+            "Simple saline",
+            "Artificial tears",
+            "Topical lubricants",
+            "Corticosteroids"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Most refraction is performed by the cornea; the lens\ncontributes adjustable refraction. What is the best answer?",
+        "options": [
+            "Iris",
+            "Lens",
+            "Retina",
+            "Cornea"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The lens is avascular and receives nutrients by\ndiffusion. What is the best answer?",
+        "options": [
+            "It is supplied by the choroid",
+            "It is avascular and receives nutrients by diffusion",
+            "It has a rich capillary network",
+            "It has a central retinal artery supply"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The lens capsule contains type IV collagen. What is\nthe best answer?",
+        "options": [
+            "Type IV",
+            "Type I",
+            "Type III",
+            "Type II"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure produces aqueous humor?",
+        "options": [
+            "Lens epithelium",
+            "Retina",
+            "Ciliary body epithelium",
+            "Trabecular meshwork"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "After production, aqueous humor first enters the:",
+        "options": [
+            "Vitreous cavity",
+            "Optic canal",
+            "Subretinal space",
+            "Posterior chamber"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Where does aqueous humor leave the eye through its conventional drainage pathway?",
+        "options": [
+            "Optic disc",
+            "Anterior chamber angle",
+            "Macula",
+            "Posterior capsule"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure directly participates in aqueous drainage at the angle?",
+        "options": [
+            "Ciliary muscle only",
+            "Lens nucleus",
+            "Trabecular meshwork",
+            "Retina"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is another name for the Canal of Schlemm?",
+        "options": [
+            "Optic sinus",
+            "Scleral venous sinus",
+            "Choroidal canal",
+            "Central retinal sinus"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What intraocular pressure range is given as normal in the source?",
+        "options": [
+            "10\u201320 mmHg",
+            "50\u201360 mmHg",
+            "25\u201340 mmHg",
+            "0\u20135 mmHg"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which test measures intraocular pressure?",
+        "options": [
+            "Retinoscopy",
+            "Tonometry",
+            "Ophthalmoscopy",
+            "Perimetry"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which description best fits glaucoma in the source?",
+        "options": [
+            "Conjunctival hemorrhage",
+            "Optic neuropathy usually related to increased IOP",
+            "Lens opacification",
+            "Primary corneal infection"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The typical sequence of visual loss in glaucoma is:",
+        "options": [
+            "Only near vision first",
+            "Central first, then peripheral",
+            "Only color vision first",
+            "Peripheral first, then central"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pair represents the two types listed?",
+        "options": [
+            "Anterior and posterior cataract",
+            "Open-angle and closed-angle",
+            "Wet and dry glaucoma",
+            "Congenital and infectious only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What can produce pupillary block in angle-closure glaucoma?",
+        "options": [
+            "A conjunctival abrasion",
+            "An anteriorly displaced lens resting against the central iris",
+            "A detached retina",
+            "A swollen optic nerve"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "In pupillary block, pressure initially rises in the:",
+        "options": [
+            "Subarachnoid space",
+            "Vitreous only",
+            "Retina",
+            "Posterior chamber"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What happens to the peripheral iris during angle closure?",
+        "options": [
+            "It retracts away from the cornea",
+            "It moves behind the lens",
+            "It becomes transparent",
+            "It pushes against the cornea and obstructs drainage"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which presentation most strongly suggests acute angle-closure glaucoma?",
+        "options": [
+            "Painless gradual blur only",
+            "Itching and watery discharge",
+            "Isolated floaters",
+            "Severe eye pain with sudden visual loss"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A patient with severe eye pain reports halos around lights. Which condition is strongly suggested?",
+        "options": [
+            "Simple myopia",
+            "Presbyopia",
+            "Acute angle-closure glaucoma",
+            "Astigmatism"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which systemic symptom can accompany acute angle-closure glaucoma?",
+        "options": [
+            "Hearing loss",
+            "Cough",
+            "Nausea and vomiting",
+            "Diarrhea only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What pupillary finding is characteristic of acute angle-closure glaucoma?",
+        "options": [
+            "Pinpoint reactive pupil",
+            "Normal pupil always",
+            "Small irregular pupil with accommodation",
+            "Fixed mid-dilated pupil"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Why is acute angle-closure glaucoma considered an emergency?",
+        "options": [
+            "It affects only accommodation",
+            "It always resolves spontaneously",
+            "Prompt treatment is needed to prevent blindness",
+            "It causes only cosmetic redness"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which course best describes chronic angle-closure glaucoma?",
+        "options": [
+            "Progressive closure with scarring over time",
+            "Abrupt closure in every case",
+            "No change in angle",
+            "Only transient corneal edema"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Compared with acute angle closure, chronic angle closure typically has:",
+        "options": [
+            "Lower IOP and fewer symptoms",
+            "Higher IOP with severe vomiting in every case",
+            "Only central visual loss",
+            "No angle changes"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is the effect of parasympathetic stimulation on the ciliary muscle according to the source?",
+        "options": [
+            "No effect",
+            "Paralysis, increasing lens opacity",
+            "Relaxation, stopping drainage",
+            "Contraction, helping aqueous drainage"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which autonomic pathway is associated with aqueous humor production in the source?",
+        "options": [
+            "Parasympathetic M-receptor blockade",
+            "Sympathetic \u03b2-receptor stimulation",
+            "Somatic motor stimulation",
+            "Optic nerve stimulation"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "If aqueous humor production rises without adequate drainage, what happens to IOP?",
+        "options": [
+            "It has no relationship",
+            "It always decreases",
+            "It increases",
+            "It remains zero"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What type of muscle is the ciliary muscle?",
+        "options": [
+            "No muscle",
+            "Cardiac muscle",
+            "Skeletal muscle",
+            "Smooth muscle"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Where is the ciliary body located?",
+        "options": [
+            "Anterior to the cornea",
+            "Within the retina",
+            "Behind the iris",
+            "Inside the optic nerve"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The ciliary muscle contributes directly to:",
+        "options": [
+            "Changing lens shape during accommodation",
+            "Moving the retina",
+            "Producing tears",
+            "Generating visual impulses"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which part of the ciliary body is responsible for aqueous humor production?",
+        "options": [
+            "Ciliary muscle fibers",
+            "Zonules",
+            "Epithelium",
+            "Lens capsule"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which sequence correctly describes conventional aqueous flow?",
+        "options": [
+            "Posterior chamber \u2192 pupil \u2192 anterior chamber angle",
+            "Lens \u2192 optic disc \u2192 angle",
+            "Vitreous \u2192 pupil \u2192 retina",
+            "Retina \u2192 pupil \u2192 posterior chamber"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The region relevant to angle drainage is the space between:",
+        "options": [
+            "Cornea and iris",
+            "Lens and retina",
+            "Retina and choroid",
+            "Optic nerve and sclera"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "In open-angle glaucoma, the angle is generally:",
+        "options": [
+            "Replaced by lens",
+            "Completely closed in every case",
+            "Absent",
+            "Open, with impaired drainage"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The major mechanical problem in angle closure is:",
+        "options": [
+            "Iris obstructing the drainage pathway",
+            "Lens producing aqueous humor",
+            "Retina blocking the optic nerve",
+            "Cornea producing tears"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Pupillary block refers to:",
+        "options": [
+            "Blocked aqueous movement through the pupil",
+            "Blocked optic nerve axons",
+            "Blocked tears through the punctum",
+            "Blocked light through the retina"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What pressure effect occurs during pupillary block?",
+        "options": [
+            "Retinal pressure falls",
+            "Posterior chamber pressure increases and pushes peripheral iris forward",
+            "Lens pressure disappears",
+            "Anterior chamber pressure becomes zero"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which ocular surface finding can occur in acute angle closure?",
+        "options": [
+            "Blueberry muffin skin",
+            "Only lid scaling",
+            "Painless white pupil",
+            "Conjunctival erythema"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which combination is most characteristic of an acute angle-closure attack?",
+        "options": [
+            "Itching + discharge + photophobia only",
+            "Pain + sudden visual loss + halos + nausea/vomiting",
+            "Peripheral vision loss over years without pain",
+            "Slow near blur + age-related stiffness"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Tonometry can be performed by:",
+        "options": [
+            "Only pupillary reflex testing",
+            "Only visual acuity testing",
+            "Only retinal photography",
+            "Contact or noncontact methods applied to the cornea"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "An IOP of 15 mmHg is:",
+        "options": [
+            "Within the stated normal range",
+            "Above the stated normal range",
+            "Impossible to measure",
+            "Below the stated normal range"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A patient with progressive peripheral field loss should raise concern for:",
+        "options": [
+            "Presbyopia",
+            "Simple hyperopia",
+            "Cataract only",
+            "Glaucoma"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "If glaucoma is advanced, which visual function may eventually become affected?",
+        "options": [
+            "Only accommodation",
+            "Central vision",
+            "Only color of the iris",
+            "Only pupillary dilation"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which condition among the following requires urgent ophthalmologic attention?",
+        "options": [
+            "Mild regular astigmatism",
+            "Stable myopia",
+            "Uncomplicated presbyopia",
+            "Acute angle-closure glaucoma"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure can mechanically contribute to pupillary block in angle closure?",
+        "options": [
+            "Lens",
+            "Optic disc",
+            "Macula",
+            "Retina"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure becomes obstructed when the peripheral iris closes the angle?",
+        "options": [
+            "Optic nerve",
+            "Trabecular meshwork",
+            "Macula",
+            "Lens capsule"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Aqueous humor passes from the trabecular meshwork into the:",
+        "options": [
+            "Optic canal",
+            "Lens capsule",
+            "Vitreous cavity",
+            "Canal of Schlemm"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which compartment contains aqueous humor?",
+        "options": [
+            "Subretinal space",
+            "Optic canal",
+            "Anterior and posterior chambers",
+            "Vitreous cavity only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure contains the ciliary muscle?",
+        "options": [
+            "Optic disc",
+            "Cornea",
+            "Ciliary body",
+            "Retina"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A sympathetic \u03b2 effect on the ciliary epithelium is associated with:",
+        "options": [
+            "Pupil fixation",
+            "Lens dislocation",
+            "Immediate retinal detachment",
+            "Increased aqueous humor production"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Parasympathetic muscarinic stimulation tends to:",
+        "options": [
+            "Contract ciliary muscle and facilitate drainage",
+            "Cause retinal hemorrhage",
+            "Increase lens opacity",
+            "Relax ciliary muscle and stop drainage"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A fixed, mid-dilated pupil in a painful red eye should suggest:",
+        "options": [
+            "Simple hyperopia",
+            "Acute angle-closure glaucoma",
+            "Presbyopia",
+            "Stable astigmatism"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement best distinguishes chronic angle closure from acute angle closure?",
+        "options": [
+            "It always causes sudden severe pain",
+            "It never changes IOP",
+            "It may be relatively asymptomatic with progressive closure",
+            "It only affects the cornea"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The first step in aqueous humor circulation is:",
+        "options": [
+            "Drainage through the optic nerve",
+            "Production by ciliary body epithelium",
+            "Entry from the retina",
+            "Secretion by the lens"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which clinical measurement is most directly relevant to glaucoma assessment?",
+        "options": [
+            "Color of the iris",
+            "Intraocular pressure measured by tonometry",
+            "Tear production only",
+            "Near visual acuity only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement is correct?",
+        "options": [
+            "Angle closure is never associated with pupillary block",
+            "Angle closure cannot affect vision",
+            "Angle closure may present acutely or develop chronically",
+            "Angle closure is always asymptomatic"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Obstruction at the angle primarily interferes with:",
+        "options": [
+            "Retinal phototransduction",
+            "Lens metabolism",
+            "Optic nerve myelination",
+            "Aqueous outflow"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement is most accurate about glaucoma?",
+        "options": [
+            "It is a disease of the lens only",
+            "It is an optic neuropathy; elevated IOP is an important association",
+            "It is synonymous with cataract",
+            "It is simply any IOP above 10 mmHg"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Why should glaucoma not be defined solely by a pressure number?",
+        "options": [
+            "The cornea has no relationship to tonometry",
+            "Glaucoma is an optic neuropathy, not merely an elevated pressure value",
+            "Tonometry cannot measure pressure",
+            "Only visual acuity matters"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aqueous humor is produced by the ciliary body\nepithelium. What is the best answer?",
+        "options": [
+            "Lens epithelium",
+            "Ciliary body epithelium",
+            "Retina",
+            "Trabecular meshwork"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aqueous humor is secreted into the posterior\nchamber and flows through the pupil into the anterior chamber. What is the best answer?",
+        "options": [
+            "Posterior chamber",
+            "Vitreous cavity",
+            "Subretinal space",
+            "Optic canal"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aqueous humor exits through the anterior chamber\nangle. What is the best answer?",
+        "options": [
+            "Anterior chamber angle",
+            "Posterior capsule",
+            "Optic disc",
+            "Macula"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The trabecular meshwork drains aqueous humor.\nWhat is the best answer?",
+        "options": [
+            "Ciliary muscle only",
+            "Retina",
+            "Trabecular meshwork",
+            "Lens nucleus"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Canal of Schlemm is also called the scleral venous\nsinus. What is the best answer?",
+        "options": [
+            "Scleral venous sinus",
+            "Central retinal sinus",
+            "Choroidal canal",
+            "Optic sinus"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is anisocoria?",
+        "options": [
+            "Difference in IOP",
+            "Difference in corneal thickness",
+            "Difference in visual acuity",
+            "Difference in pupil sizes"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which group contains causes of anisocoria mentioned in the source?",
+        "options": [
+            "Astigmatism, hyphema, cataract only",
+            "CN III palsy, Horner syndrome, Adie pupil",
+            "Cataract, myopia, presbyopia",
+            "Conjunctivitis and dry eye only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Horner syndrome is caused by disruption of which pathway?",
+        "options": [
+            "Parasympathetic pathway to the retina",
+            "Somatic motor pathway to the cornea",
+            "Sympathetic pathway to the face",
+            "Optic tract"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil abnormality is characteristic of Horner syndrome?",
+        "options": [
+            "No pupillary change",
+            "Miosis",
+            "Mydriasis",
+            "Fixed mid-dilated pupil"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Why can Horner syndrome cause mild ptosis?",
+        "options": [
+            "Retinal hemorrhage",
+            "Loss of optic nerve fibers",
+            "Loss of sympathetic supply to the superior tarsal muscle",
+            "Lens dislocation"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which autonomic sign may accompany Horner syndrome?",
+        "options": [
+            "Hyperacusis",
+            "Anhidrosis",
+            "Diplopia only",
+            "Polyuria"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which condition can cause Horner syndrome?",
+        "options": [
+            "Cataract",
+            "Presbyopia",
+            "Apical lung tumor",
+            "Simple myopia"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "In cocaine testing for Horner syndrome, the affected pupil typically:",
+        "options": [
+            "Fails to dilate",
+            "Becomes fixed mid-dilated",
+            "Dilates more than normal",
+            "Constrics completely"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which drug is described as dilating the miotic pupil in Horner syndrome?",
+        "options": [
+            "Pilocarpine",
+            "Timolol",
+            "Apraclonidine",
+            "Atropine only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Apraclonidine belongs to which drug class in the source?",
+        "options": [
+            "Beta blocker",
+            "Alpha agonist",
+            "Carbonic anhydrase inhibitor",
+            "Muscarinic antagonist"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil is classically dilated with poor light reaction but relatively better accommodation?",
+        "options": [
+            "Marcus Gunn pupil",
+            "Horner pupil",
+            "Adie tonic pupil",
+            "Argyll Robertson pupil"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure is implicated in some cases of Adie tonic pupil?",
+        "options": [
+            "Lateral geniculate body",
+            "Optic disc",
+            "Canal of Schlemm",
+            "Ciliary ganglion"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which can cause an Adie tonic pupil according to the source?",
+        "options": [
+            "Cataract alone",
+            "Ciliary ganglion injury from trauma or surgery",
+            "Presbyopia",
+            "Simple myopia"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which response pattern is characteristic of Adie pupil?",
+        "options": [
+            "Accommodation response better than light response",
+            "No response to either ever",
+            "Light response better than accommodation",
+            "Normal response to light only"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which comparison is correct?",
+        "options": [
+            "Both cause mydriasis",
+            "Horner\u2014miosis; Adie\u2014mydriasis",
+            "Both cause miosis",
+            "Horner\u2014mydriasis; Adie\u2014miosis"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is another name for relative afferent pupillary defect?",
+        "options": [
+            "Adie pupil",
+            "Horner pupil",
+            "Marcus Gunn pupil",
+            "Argyll Robertson pupil"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which bedside test is used to detect RAPD?",
+        "options": [
+            "Cover test",
+            "Schirmer test",
+            "Swinging flashlight test",
+            "Tonometry"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "RAPD indicates a lesion in which limb of the light reflex?",
+        "options": [
+            "Motor limb to eyelid",
+            "Efferent limb",
+            "Accommodation-only limb",
+            "Afferent limb"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structures commonly contribute to RAPD?",
+        "options": [
+            "Lens or cornea only",
+            "Ciliary muscle only",
+            "Retina or optic nerve",
+            "Conjunctiva only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which is a classic cause of RAPD?",
+        "options": [
+            "Hyperopia",
+            "Optic neuritis",
+            "Cataract",
+            "Presbyopia"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which disorder is strongly associated with optic neuritis in the source?",
+        "options": [
+            "Galactosemia",
+            "Multiple sclerosis",
+            "Alport syndrome",
+            "Marfan syndrome"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which condition is classically associated with Argyll Robertson pupil?",
+        "options": [
+            "Marfan syndrome",
+            "Rubella",
+            "Diabetes",
+            "Tertiary neurosyphilis"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil pattern defines Argyll Robertson pupil?",
+        "options": [
+            "Mid-dilated fixed pupils",
+            "Dilated pupils with absent accommodation",
+            "Small pupils with absent accommodation",
+            "Small pupils with absent light response but preserved accommodation"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The key reflex abnormality in Argyll Robertson pupil is:",
+        "options": [
+            "Light-near dissociation",
+            "Loss of convergence only",
+            "Relative afferent defect",
+            "Loss of accommodation only"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure is implicated in the pathophysiology of Argyll Robertson pupil in the source?",
+        "options": [
+            "Ciliary ganglion",
+            "Pretectal nucleus",
+            "Lateral rectus",
+            "Canal of Schlemm"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A patient has unequal pupils and the smaller pupil is associated with ptosis and anhidrosis. Which\ndiagnosis is most likely?",
+        "options": [
+            "Adie pupil",
+            "Horner syndrome",
+            "Argyll Robertson pupil",
+            "Cataract"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which finding favors Adie tonic pupil?",
+        "options": [
+            "Small pupil with light-near dissociation",
+            "Small pupil with anhidrosis",
+            "Mid-dilated fixed pupil with severe pain",
+            "Dilated pupil with sluggish light response and better accommodation response"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which triad best supports Horner syndrome?",
+        "options": [
+            "Mydriasis + RAPD + cataract",
+            "Miosis + ptosis + anhidrosis",
+            "Mydriasis + severe pain + vomiting",
+            "Miosis + cataract + hyphema"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil finding is typical of acute angle closure?",
+        "options": [
+            "RAPD only",
+            "Dilated pupil with light-near dissociation",
+            "Fixed mid-dilated pupil",
+            "Small reactive pupil with anhidrosis"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement best distinguishes RAPD from anisocoria?",
+        "options": [
+            "RAPD means different pupil sizes",
+            "They are identical terms",
+            "Anisocoria means optic neuritis",
+            "RAPD reflects unequal afferent input to the light reflex; anisocoria is unequal pupil size"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "How does cocaine testing normally affect the pupil?",
+        "options": [
+            "It paralyzes the ciliary muscle",
+            "It blocks acetylcholine and causes miosis",
+            "It reduces aqueous production",
+            "It blocks norepinephrine reuptake and causes dilation"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Why does the Horner pupil fail to dilate with cocaine?",
+        "options": [
+            "The cornea is scarred",
+            "Sympathetic innervation is impaired",
+            "The retina is detached",
+            "The lens is opaque"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A positive apraclonidine test indicates that:",
+        "options": [
+            "The retina is detached",
+            "The lens is dislocated",
+            "The pupillary dilator muscle is functional despite loss of sympathetic innervation",
+            "The optic nerve is normal"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which additional facial finding may occur in Horner syndrome?",
+        "options": [
+            "Corneal ulcer",
+            "Retinal whitening",
+            "Facial skin redness",
+            "Lens opacity"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Horner syndrome plus an apical lung mass should suggest involvement of the:",
+        "options": [
+            "Sympathetic pathway",
+            "Ciliary ganglion only",
+            "Retinal artery",
+            "Optic nerve only"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which vascular lesion can produce Horner syndrome?",
+        "options": [
+            "Central retinal vein occlusion only",
+            "Pulmonary embolism only",
+            "Carotid dissection",
+            "Aortic valve stenosis"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A lateral medullary syndrome can be associated with:",
+        "options": [
+            "Presbyopia",
+            "Adie pupil only",
+            "Cataract",
+            "Horner syndrome"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which is most characteristic of Adie pupil?",
+        "options": [
+            "Miosis with anhidrosis",
+            "Light-near dissociation in tiny pupils",
+            "Fixed mid-dilated pupil with acute pain",
+            "Tonic dilated pupil with poor light response and better accommodation"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil abnormality is classically bilateral and small?",
+        "options": [
+            "Acute angle closure",
+            "Adie pupil",
+            "Argyll Robertson pupil",
+            "Horner pupil"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which response includes convergence, miosis and lens shape change?",
+        "options": [
+            "Afferent pupillary defect",
+            "Corneal reflex",
+            "Accommodation/near response",
+            "Vestibulo-ocular reflex"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A unilateral optic nerve lesion is most likely to produce:",
+        "options": [
+            "Adie pupil in every case",
+            "Horner syndrome in every case",
+            "RAPD",
+            "Argyll Robertson pupil"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which description best fits optic neuritis?",
+        "options": [
+            "Inflammatory/demyelinating optic nerve disorder",
+            "Corneal ectasia",
+            "Ciliary body tumor",
+            "Lens opacification"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A young adult with optic neuritis should prompt consideration of:",
+        "options": [
+            "Congenital rubella",
+            "Homocystinuria",
+            "Multiple sclerosis",
+            "Marfan syndrome"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "During the swinging flashlight test, an affected eye produces:",
+        "options": [
+            "Immediate mydriasis of both eyes",
+            "Greater constriction than the fellow eye",
+            "Less pupillary constriction when illuminated",
+            "No change in the fellow pupil ever"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The miosis of Horner syndrome is due to loss of:",
+        "options": [
+            "Optic nerve afferents",
+            "Sympathetic innervation",
+            "Ciliary accommodation",
+            "Parasympathetic innervation"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Loss of sympathetic supply to which eyelid muscle contributes to Horner ptosis?",
+        "options": [
+            "Orbicularis oculi",
+            "Levator-only skeletal fibers",
+            "Superior tarsal muscle",
+            "Medial rectus"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Anhidrosis in Horner syndrome reflects loss of:",
+        "options": [
+            "Optic nerve fibers",
+            "Parasympathetic innervation to the lens",
+            "Corneal sensation",
+            "Sympathetic innervation to facial sweat glands"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil disorder has miosis, ptosis and anhidrosis with a generally preserved light response?",
+        "options": [
+            "Horner syndrome",
+            "Adie tonic pupil",
+            "RAPD",
+            "Argyll Robertson pupil"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is the hallmark dissociation in Argyll Robertson pupil?",
+        "options": [
+            "Both are absent",
+            "Light response is preserved while accommodation is absent",
+            "Both are exaggerated",
+            "Accommodation is preserved while light response is absent"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement about RAPD is correct?",
+        "options": [
+            "It is caused only by Horner syndrome",
+            "It always causes anisocoria",
+            "It is synonymous with Adie pupil",
+            "It reflects unequal afferent light input and is detected with the swinging flashlight test"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A severe unilateral retinal lesion may produce:",
+        "options": [
+            "Adie pupil",
+            "RAPD",
+            "Horner syndrome",
+            "Argyll Robertson pupil"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which finding should prompt urgent concern for acute angle closure?",
+        "options": [
+            "Small pupil with light-near dissociation",
+            "Small pupil with anhidrosis",
+            "Painful eye with fixed mid-dilated pupil",
+            "Painless dilated pupil with better accommodation"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Anisocoria means unequal pupil sizes. What is the\nbest answer?",
+        "options": [
+            "Difference in corneal thickness",
+            "Difference in pupil sizes",
+            "Difference in IOP",
+            "Difference in visual acuity"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Causes of anisocoria listed include CN III palsy,\nHorner syndrome and Adie pupil. What is the best answer?",
+        "options": [
+            "CN III palsy, Horner syndrome, Adie pupil",
+            "Cataract, myopia, presbyopia",
+            "Astigmatism, hyphema, cataract only",
+            "Conjunctivitis and dry eye only"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner syndrome results from disruption of the\nsympathetic chain to the face. What is the best answer?",
+        "options": [
+            "Sympathetic pathway to the face",
+            "Optic tract",
+            "Parasympathetic pathway to the retina",
+            "Somatic motor pathway to the cornea"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner syndrome produces miosis. What is the best\nanswer?",
+        "options": [
+            "Miosis",
+            "Fixed mid-dilated pupil",
+            "No pupillary change",
+            "Mydriasis"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner syndrome can cause ptosis due to loss of\nsympathetic supply to the superior tarsal muscle. What is the best answer?",
+        "options": [
+            "Loss of optic nerve fibers",
+            "Lens dislocation",
+            "Retinal hemorrhage",
+            "Loss of sympathetic supply to the superior tarsal muscle"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Anhidrosis may accompany Horner syndrome. What\nis the best answer?",
+        "options": [
+            "Polyuria",
+            "Hyperacusis",
+            "Diplopia only",
+            "Anhidrosis"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner syndrome causes include apical lung tumor,\ncarotid dissection, aortic dissection and PICA stroke. What is the best answer?",
+        "options": [
+            "Apical lung tumor",
+            "Presbyopia",
+            "Simple myopia",
+            "Cataract"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cocaine testing normally dilates the pupil but fails to\ndilate the Horner pupil. What is the best answer?",
+        "options": [
+            "Dilates more than normal",
+            "Constrics completely",
+            "Becomes fixed mid-dilated",
+            "Fails to dilate"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which ocular conditions are listed as possible manifestations of herpes zoster ophthalmicus?",
+        "options": [
+            "Only cataract",
+            "Uveitis, episcleritis and keratitis",
+            "Only glaucoma",
+            "Only retinal detachment"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The source describes ocular viral disease as commonly involving:",
+        "options": [
+            "Primary lens failure",
+            "Aqueous overproduction only",
+            "Retinal photoreceptor replacement",
+            "Reactivation after establishment of viral latency"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is hyphema?",
+        "options": [
+            "Pus in the cornea",
+            "Lymph in the retina",
+            "Blood in the vitreous only",
+            "Blood in the anterior chamber"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Hyphema accumulates in which anatomical space?",
+        "options": [
+            "Within the optic nerve",
+            "Between retina and choroid",
+            "Between lens and retina",
+            "Between the cornea and iris"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A patient develops blood layering in the anterior chamber after blunt eye trauma. The most likely\ndiagnosis is:",
+        "options": [
+            "Cataract",
+            "Horner syndrome",
+            "Presbyopia",
+            "Hyphema"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Why is a hyphema clinically important?",
+        "options": [
+            "It only affects accommodation",
+            "It can impair vision and may cause permanent visual loss",
+            "It always resolves without risk",
+            "It cannot increase IOP"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure provides most of the eye's optical refraction?",
+        "options": [
+            "Retina",
+            "Cornea",
+            "Iris",
+            "Lens"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which property is essential to the normal optical function of the cornea?",
+        "options": [
+            "Vascularity",
+            "Pigmentation",
+            "Transparency",
+            "High nerve density only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure regulates the amount of light entering through the pupil?",
+        "options": [
+            "Lens capsule",
+            "Optic nerve",
+            "Retina",
+            "Iris"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Inflammation of the uveal tract is termed:",
+        "options": [
+            "Conjunctivitis",
+            "Keratitis",
+            "Episcleritis",
+            "Uveitis"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which diagnosis means corneal inflammation?",
+        "options": [
+            "Keratitis",
+            "Horner syndrome",
+            "Uveitis",
+            "Hyphema"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Inflammation of the episclera is termed:",
+        "options": [
+            "Keratitis",
+            "Cataract",
+            "Episcleritis",
+            "Uveitis"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which corneal inflammatory condition may occur in herpes zoster ophthalmicus?",
+        "options": [
+            "Retinal detachment",
+            "Cataract",
+            "Presbyopia",
+            "Keratitis"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which finding most strongly supports hyphema?",
+        "options": [
+            "Itching with watery discharge",
+            "Visible blood in the anterior chamber after trauma",
+            "Painless lens opacity",
+            "Peripheral field loss"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which fluid normally fills the anterior chamber?",
+        "options": [
+            "Vitreous humor",
+            "Blood",
+            "Aqueous humor",
+            "CSF"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The drainage angle is formed at the junction of:",
+        "options": [
+            "Cornea and iris",
+            "Optic nerve and sclera",
+            "Conjunctiva and eyelid",
+            "Lens and retina"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which symptom combination should prompt consideration of an urgent ocular disorder rather than\nsimple refractive error?",
+        "options": [
+            "Difficulty reading with age",
+            "Stable blur corrected by spectacles",
+            "Blur from known astigmatism",
+            "Painful red eye with sudden visual loss"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "In a painful red eye, halos around lights should raise suspicion for:",
+        "options": [
+            "Stable astigmatism",
+            "Hyperopia",
+            "Acute angle-closure glaucoma",
+            "Simple presbyopia"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which ocular surface sign can accompany acute angle closure?",
+        "options": [
+            "Blueberry muffin skin",
+            "Conjunctival erythema",
+            "Optic disc pallor",
+            "Lens dislocation"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which history is particularly relevant when evaluating hyphema?",
+        "options": [
+            "Recent ocular trauma",
+            "Recent reading",
+            "Long-standing myopia",
+            "Age-related near blur"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A patient with traumatic hyphema should be monitored because it can:",
+        "options": [
+            "Cause only cosmetic redness",
+            "Always cause retinal detachment",
+            "Always resolve within minutes",
+            "Lead to permanent visual loss"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pairing is correct?",
+        "options": [
+            "Keratitis\u2014iris only; uveitis\u2014conjunctiva",
+            "Keratitis\u2014cornea; uveitis\u2014uveal tract",
+            "Keratitis\u2014retina; uveitis\u2014lens",
+            "Keratitis\u2014optic nerve; uveitis\u2014cornea"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Inflammation of which tissue defines episcleritis?",
+        "options": [
+            "Cornea",
+            "Lens",
+            "Retina",
+            "Episclera"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Why should a red eye not automatically be labeled conjunctivitis?",
+        "options": [
+            "All red eyes are allergic",
+            "Serious causes such as keratitis, uveitis and acute glaucoma can present with redness",
+            "Redness is diagnostic of cataract",
+            "Redness only occurs in refractive errors"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A key virologic feature described in the source is:",
+        "options": [
+            "Lens infection",
+            "Reactivation after establishment of viral latency",
+            "Bacterial conversion",
+            "Immediate lifelong viral clearance"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which inflammatory eye disorder may occur with herpes zoster ophthalmicus?",
+        "options": [
+            "Uveitis",
+            "Cataract only",
+            "Presbyopia",
+            "Myopia"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which superficial ocular inflammatory disorder is listed with herpes zoster ophthalmicus?",
+        "options": [
+            "Episcleritis",
+            "Glaucoma only",
+            "Astigmatism",
+            "Cataract"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Blood collecting between the cornea and iris is called:",
+        "options": [
+            "Subretinal hemorrhage",
+            "Hyphema",
+            "Vitreous hemorrhage",
+            "Hemorrhagic conjunctivitis"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which symptom can result from hyphema?",
+        "options": [
+            "Only near-point difficulty",
+            "Only ptosis",
+            "Visual disturbance",
+            "Only itching"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which diagnosis is most likely in a traumatized eye with visible anterior chamber blood?",
+        "options": [
+            "Keratitis",
+            "Horner syndrome",
+            "Uveitis",
+            "Hyphema"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A patient with inflammation primarily involving the cornea has:",
+        "options": [
+            "Episcleritis",
+            "Uveitis",
+            "Keratitis",
+            "Hyphema"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Inflammation primarily involving the uveal tract is:",
+        "options": [
+            "Uveitis",
+            "Hyphema",
+            "Keratitis",
+            "Episcleritis"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which combination is directly supported by the source?",
+        "options": [
+            "Keratitis + uveitis + episcleritis",
+            "Only retinal detachment",
+            "Only lens dislocation",
+            "Cataract + myopia + presbyopia"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which feature most strongly points away from simple conjunctival irritation?",
+        "options": [
+            "Stable spectacle-correctable blur",
+            "Severe pain with halos and sudden visual loss",
+            "Difficulty reading",
+            "Mild itching only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which compartment is involved in hyphema?",
+        "options": [
+            "Optic canal",
+            "Vitreous cavity",
+            "Anterior chamber",
+            "Subretinal space"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The anterior chamber lies immediately anterior to the:",
+        "options": [
+            "Macula",
+            "Retina",
+            "Iris",
+            "Optic disc"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure is the major transparent refracting surface at the front of the eye?",
+        "options": [
+            "Retina",
+            "Cornea",
+            "Iris",
+            "Choroid"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Why can significant keratitis impair vision?",
+        "options": [
+            "The cornea is a major refracting and transparent optical surface",
+            "The cornea contains photoreceptors",
+            "The cornea controls accommodation",
+            "The cornea produces aqueous humor"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which diagnosis denotes inflammation of the uveal tract?",
+        "options": [
+            "Uveitis",
+            "Conjunctivitis",
+            "Episcleritis",
+            "Hyphema"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which condition involves the episclera rather than the uveal tract?",
+        "options": [
+            "Keratitis",
+            "Episcleritis",
+            "Uveitis",
+            "Hyphema"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement best distinguishes hyphema from uveitis?",
+        "options": [
+            "Both are refractive errors",
+            "Both mean lens opacity",
+            "Both mean corneal inflammation",
+            "Hyphema is blood in the anterior chamber; uveitis is inflammation of the uveal tract"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which cause is classically associated with hyphema in the source?",
+        "options": [
+            "Myopia",
+            "Horner syndrome",
+            "Trauma",
+            "Presbyopia"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which outcome is possible after hyphema?",
+        "options": [
+            "Permanent visual loss",
+            "Only anhidrosis",
+            "Only temporary spectacle change",
+            "Guaranteed spontaneous cure"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which process best describes the viral mechanism mentioned?",
+        "options": [
+            "New lens synthesis",
+            "Corneal aging",
+            "Reactivation after latency",
+            "Aqueous obstruction"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil finding suggests acute angle closure in a red eye?",
+        "options": [
+            "Light-near dissociation",
+            "Fixed mid-dilated pupil",
+            "Small pupil with anhidrosis",
+            "RAPD alone"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement is correct?",
+        "options": [
+            "Aqueous is produced by the retina",
+            "Aqueous is produced by ciliary epithelium and circulates through the anterior/posterior chambers",
+            "Aqueous is blood",
+            "Aqueous is produced by the lens"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A major source of fixed refractive power is the:",
+        "options": [
+            "Cornea",
+            "Optic nerve",
+            "Iris",
+            "Retina"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure changes optical power during accommodation?",
+        "options": [
+            "Sclera",
+            "Lens",
+            "Retina",
+            "Cornea"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which response is expected when an object moves closer to the eye?",
+        "options": [
+            "Divergence + mydriasis + relaxation",
+            "Convergence + miosis + accommodation",
+            "Only mydriasis",
+            "Only convergence"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "One function of near-response miosis is to:",
+        "options": [
+            "Move the retina",
+            "Dislocate the lens",
+            "Increase aqueous production",
+            "Reduce entry of divergent light rays"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The lens changes shape during accommodation primarily to:",
+        "options": [
+            "Maintain the focal point on the retina",
+            "Drain aqueous humor",
+            "Increase retinal blood flow",
+            "Constrict the cornea"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Herpes zoster ophthalmicus can involve uveitis,\nepiscleritis and keratitis. What is the best answer?",
+        "options": [
+            "Uveitis, episcleritis and keratitis",
+            "Only cataract",
+            "Only retinal detachment",
+            "Only glaucoma"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Most ocular disease in herpes zoster ophthalmicus is\ndescribed in the source as recurrent HSV-related disease after viral latency/reactivation. What is the best\nanswer?",
+        "options": [
+            "Reactivation after establishment of viral latency",
+            "Aqueous overproduction only",
+            "Retinal photoreceptor replacement",
+            "Primary lens failure"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Hyphema is blood in the anterior chamber. What is\nthe best answer?",
+        "options": [
+            "Blood in the anterior chamber",
+            "Lymph in the retina",
+            "Blood in the vitreous only",
+            "Pus in the cornea"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The anterior chamber is between cornea and iris.\nWhat is the best answer?",
+        "options": [
+            "Between retina and choroid",
+            "Between lens and retina",
+            "Between the cornea and iris",
+            "Within the optic nerve"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Trauma is a common cause of hyphema. What is the\nbest answer?",
+        "options": [
+            "Presbyopia",
+            "Cataract",
+            "Horner syndrome",
+            "Hyphema"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Hyphema can cause visual problems and potentially\npermanent visual loss. What is the best answer?",
+        "options": [
+            "It can impair vision and may cause permanent visual loss",
+            "It cannot increase IOP",
+            "It only affects accommodation",
+            "It always resolves without risk"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The cornea performs most of the eye's fixed\nrefraction. What is the best answer?",
+        "options": [
+            "Retina",
+            "Lens",
+            "Iris",
+            "Cornea"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The cornea is normally transparent. What is the best\nanswer?",
+        "options": [
+            "Pigmentation",
+            "Transparency",
+            "Vascularity",
+            "High nerve density only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The iris forms the pupil. What is the best answer?",
+        "options": [
+            "Optic nerve",
+            "Iris",
+            "Retina",
+            "Lens capsule"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure performs most of the eye's refraction?",
+        "options": [
+            "Lens",
+            "Cornea",
+            "Retina",
+            "Iris"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure provides adjustable optical power?",
+        "options": [
+            "Cornea",
+            "Retina",
+            "Lens",
+            "Sclera"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which statement about the lens is correct?",
+        "options": [
+            "It has choroidal capillaries",
+            "It is avascular",
+            "It has retinal vessels",
+            "It is supplied by the central retinal artery"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "How does the normal lens obtain nutrients?",
+        "options": [
+            "Bone marrow",
+            "Diffusion",
+            "Direct arterial supply",
+            "Lymphatic drainage"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which collagen type is present in the lens capsule?",
+        "options": [
+            "Type III",
+            "Type II",
+            "Type I",
+            "Type IV"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which cells form the main substance of the mature lens?",
+        "options": [
+            "Ganglion cells",
+            "Elongated fiber cells",
+            "Photoreceptors",
+            "Skeletal myocytes"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which metabolic pathway is emphasized for lens energy production?",
+        "options": [
+            "Ketogenesis",
+            "Anaerobic metabolism",
+            "Oxidative phosphorylation only",
+            "Fatty acid oxidation"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is a principal end product of lens glucose metabolism?",
+        "options": [
+            "Bilirubin",
+            "Ketone bodies",
+            "Urea",
+            "Lactic acid"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What type of muscle is the ciliary muscle?",
+        "options": [
+            "Skeletal",
+            "Striated voluntary",
+            "Cardiac",
+            "Smooth"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Where is the ciliary body located?",
+        "options": [
+            "Inside the retina",
+            "Behind the iris",
+            "Anterior to the cornea",
+            "In the optic nerve"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What does the ciliary muscle change?",
+        "options": [
+            "Optic nerve diameter",
+            "Lens shape",
+            "Corneal vascularity",
+            "Retinal thickness"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Who produces aqueous humor?",
+        "options": [
+            "Lens",
+            "Retina",
+            "Ciliary epithelium",
+            "Cornea"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Where is aqueous secreted first?",
+        "options": [
+            "Optic canal",
+            "Subretinal space",
+            "Posterior chamber",
+            "Vitreous cavity"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What structure does aqueous pass through to reach the anterior chamber?",
+        "options": [
+            "Lens nucleus",
+            "Pupil",
+            "Macula",
+            "Optic disc"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Where does aqueous drain from the anterior chamber?",
+        "options": [
+            "Macula",
+            "Angle",
+            "Optic nerve",
+            "Lens capsule"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which structure participates in conventional outflow?",
+        "options": [
+            "Cornea",
+            "Lens",
+            "Trabecular meshwork",
+            "Retina"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is another name for Canal of Schlemm?",
+        "options": [
+            "Choroidal sinus",
+            "Optic sinus",
+            "Retinal sinus",
+            "Scleral venous sinus"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which IOP is within the stated normal range?",
+        "options": [
+            "45 mmHg",
+            "5 mmHg",
+            "30 mmHg",
+            "15 mmHg"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which test measures intraocular pressure?",
+        "options": [
+            "Schirmer test",
+            "Tonometry",
+            "Retinoscopy",
+            "Perimetry"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which eye movement occurs during near fixation?",
+        "options": [
+            "Cyclorotation only",
+            "Divergence",
+            "Convergence",
+            "Nystagmus"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The cornea provides most fixed refraction. What is\nthe best answer?",
+        "options": [
+            "Iris",
+            "Lens",
+            "Cornea",
+            "Retina"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The lens provides adjustable refraction. What is the\nbest answer?",
+        "options": [
+            "Retina",
+            "Lens",
+            "Sclera",
+            "Cornea"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The lens is avascular. What is the best answer?",
+        "options": [
+            "It has retinal vessels",
+            "It is avascular",
+            "It has choroidal capillaries",
+            "It is supplied by the central retinal artery"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Lens nutrition occurs by diffusion. What is the best\nanswer?",
+        "options": [
+            "Lymphatic drainage",
+            "Bone marrow",
+            "Diffusion",
+            "Direct arterial supply"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The lens capsule contains type IV collagen. What is\nthe best answer?",
+        "options": [
+            "Type III",
+            "Type I",
+            "Type IV",
+            "Type II"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Lens fiber cells are elongated. What is the best\nanswer?",
+        "options": [
+            "Skeletal myocytes",
+            "Photoreceptors",
+            "Ganglion cells",
+            "Elongated fiber cells"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Lens metabolism is mainly anaerobic. What is the\nbest answer?",
+        "options": [
+            "Oxidative phosphorylation only",
+            "Ketogenesis",
+            "Anaerobic metabolism",
+            "Fatty acid oxidation"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Glucose is converted to lactic acid in the lens. What\nis the best answer?",
+        "options": [
+            "Ketone bodies",
+            "Urea",
+            "Lactic acid",
+            "Bilirubin"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Ciliary muscle is smooth muscle. What is the best\nanswer?",
+        "options": [
+            "Striated voluntary",
+            "Smooth",
+            "Cardiac",
+            "Skeletal"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Ciliary body lies behind iris. What is the best answer?",
+        "options": [
+            "Behind the iris",
+            "Anterior to the cornea",
+            "Inside the retina",
+            "In the optic nerve"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Ciliary muscle changes lens shape. What is the best\nanswer?",
+        "options": [
+            "Retinal thickness",
+            "Optic nerve diameter",
+            "Corneal vascularity",
+            "Lens shape"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Ciliary epithelium produces aqueous humor. What is\nthe best answer?",
+        "options": [
+            "Cornea",
+            "Lens",
+            "Ciliary epithelium",
+            "Retina"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aqueous enters posterior chamber. What is the best\nanswer?",
+        "options": [
+            "Posterior chamber",
+            "Optic canal",
+            "Subretinal space",
+            "Vitreous cavity"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aqueous flows through pupil. What is the best\nanswer?",
+        "options": [
+            "Lens nucleus",
+            "Macula",
+            "Optic disc",
+            "Pupil"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aqueous reaches anterior chamber angle. What is the\nbest answer?",
+        "options": [
+            "Macula",
+            "Lens capsule",
+            "Angle",
+            "Optic nerve"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Trabecular meshwork drains aqueous. What is the\nbest answer?",
+        "options": [
+            "Trabecular meshwork",
+            "Lens",
+            "Retina",
+            "Cornea"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Canal of Schlemm is scleral venous sinus. What is\nthe best answer?",
+        "options": [
+            "Retinal sinus",
+            "Choroidal sinus",
+            "Optic sinus",
+            "Scleral venous sinus"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Normal IOP is 10\u201320 mmHg in the source. What is the\nbest answer?",
+        "options": [
+            "30 mmHg",
+            "5 mmHg",
+            "15 mmHg",
+            "45 mmHg"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Tonometry measures IOP. What is the best answer?",
+        "options": [
+            "Tonometry",
+            "Perimetry",
+            "Retinoscopy",
+            "Schirmer test"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Near response includes convergence. What is the\nbest answer?",
+        "options": [
+            "Divergence",
+            "Cyclorotation only",
+            "Convergence",
+            "Nystagmus"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The cornea provides most fixed refraction. What is\nthe best answer?",
+        "options": [
+            "Iris",
+            "Retina",
+            "Cornea",
+            "Lens"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The lens provides adjustable refraction. What is the\nbest answer?",
+        "options": [
+            "Retina",
+            "Cornea",
+            "Sclera",
+            "Lens"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The lens is avascular. What is the best answer?",
+        "options": [
+            "It is avascular",
+            "It has retinal vessels",
+            "It is supplied by the central retinal artery",
+            "It has choroidal capillaries"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Lens nutrition occurs by diffusion. What is the best\nanswer?",
+        "options": [
+            "Direct arterial supply",
+            "Lymphatic drainage",
+            "Bone marrow",
+            "Diffusion"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: The lens capsule contains type IV collagen. What is\nthe best answer?",
+        "options": [
+            "Type III",
+            "Type I",
+            "Type IV",
+            "Type II"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Lens fiber cells are elongated. What is the best\nanswer?",
+        "options": [
+            "Skeletal myocytes",
+            "Ganglion cells",
+            "Photoreceptors",
+            "Elongated fiber cells"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Lens metabolism is mainly anaerobic. What is the\nbest answer?",
+        "options": [
+            "Ketogenesis",
+            "Oxidative phosphorylation only",
+            "Fatty acid oxidation",
+            "Anaerobic metabolism"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Glucose is converted to lactic acid in the lens. What\nis the best answer?",
+        "options": [
+            "Urea",
+            "Ketone bodies",
+            "Lactic acid",
+            "Bilirubin"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Ciliary muscle is smooth muscle. What is the best\nanswer?",
+        "options": [
+            "Striated voluntary",
+            "Cardiac",
+            "Smooth",
+            "Skeletal"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Ciliary body lies behind iris. What is the best answer?",
+        "options": [
+            "Behind the iris",
+            "Inside the retina",
+            "Anterior to the cornea",
+            "In the optic nerve"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Ciliary muscle changes lens shape. What is the best\nanswer?",
+        "options": [
+            "Retinal thickness",
+            "Corneal vascularity",
+            "Lens shape",
+            "Optic nerve diameter"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Ciliary epithelium produces aqueous humor. What is\nthe best answer?",
+        "options": [
+            "Lens",
+            "Retina",
+            "Cornea",
+            "Ciliary epithelium"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aqueous enters posterior chamber. What is the best\nanswer?",
+        "options": [
+            "Optic canal",
+            "Vitreous cavity",
+            "Posterior chamber",
+            "Subretinal space"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aqueous flows through pupil. What is the best\nanswer?",
+        "options": [
+            "Lens nucleus",
+            "Pupil",
+            "Macula",
+            "Optic disc"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aqueous reaches anterior chamber angle. What is the\nbest answer?",
+        "options": [
+            "Lens capsule",
+            "Macula",
+            "Optic nerve",
+            "Angle"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Trabecular meshwork drains aqueous. What is the\nbest answer?",
+        "options": [
+            "Cornea",
+            "Trabecular meshwork",
+            "Lens",
+            "Retina"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Canal of Schlemm is scleral venous sinus. What is\nthe best answer?",
+        "options": [
+            "Optic sinus",
+            "Scleral venous sinus",
+            "Retinal sinus",
+            "Choroidal sinus"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Normal IOP is 10\u201320 mmHg in the source. What is the\nbest answer?",
+        "options": [
+            "45 mmHg",
+            "5 mmHg",
+            "15 mmHg",
+            "30 mmHg"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Tonometry measures IOP. What is the best answer?",
+        "options": [
+            "Tonometry",
+            "Retinoscopy",
+            "Perimetry",
+            "Schirmer test"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Near response includes convergence. What is the\nbest answer?",
+        "options": [
+            "Nystagmus",
+            "Cyclorotation only",
+            "Divergence",
+            "Convergence"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "In glaucoma, visual loss typically begins in which region?",
+        "options": [
+            "Only color vision",
+            "Central field",
+            "Only near vision",
+            "Peripheral field"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which optic nerve disorder is a classic cause of RAPD?",
+        "options": [
+            "Cataract",
+            "Optic neuritis",
+            "Presbyopia",
+            "Astigmatism"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A significant unilateral retinal lesion may produce what pupillary sign?",
+        "options": [
+            "Argyll Robertson pupil",
+            "Horner syndrome",
+            "RAPD",
+            "Adie pupil"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Optic neuritis is commonly associated with which disease?",
+        "options": [
+            "Multiple sclerosis",
+            "Galactosemia",
+            "Alport syndrome",
+            "Marfan syndrome"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "RAPD indicates dysfunction of which limb?",
+        "options": [
+            "Motor",
+            "Accommodation",
+            "Afferent",
+            "Efferent"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which test is used for RAPD?",
+        "options": [
+            "Swinging flashlight test",
+            "Tonometry",
+            "Schirmer test",
+            "Cover test"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which is synonymous with RAPD?",
+        "options": [
+            "Adie pupil",
+            "Argyll Robertson pupil",
+            "Marcus Gunn pupil",
+            "Horner pupil"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil has absent light response but preserved accommodation?",
+        "options": [
+            "Argyll Robertson",
+            "Adie",
+            "Horner",
+            "Acute angle closure"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which disease is strongly associated with Argyll Robertson pupil?",
+        "options": [
+            "Tertiary neurosyphilis",
+            "Multiple sclerosis",
+            "Rubella",
+            "Marfan syndrome"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which description fits Argyll Robertson pupil?",
+        "options": [
+            "Bilateral fixed mid-dilated pupils",
+            "Bilateral small pupils",
+            "Unilateral huge pupil",
+            "Only unequal pupils"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil disorder is characterized by a dilated pupil?",
+        "options": [
+            "Adie tonic pupil",
+            "Horner syndrome",
+            "Normal near response",
+            "Argyll Robertson pupil"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which response is impaired in Adie pupil?",
+        "options": [
+            "Convergence only",
+            "Accommodation only",
+            "Light response",
+            "Blink reflex only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which is characteristic of Adie pupil?",
+        "options": [
+            "Both exaggerated",
+            "Accommodation response exceeds light response",
+            "Light response exceeds accommodation",
+            "Both absent"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil is constricted in Horner syndrome?",
+        "options": [
+            "Adie pupil",
+            "Acute angle closure pupil",
+            "RAPD pupil",
+            "Horner pupil"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which autonomic sign accompanies Horner syndrome?",
+        "options": [
+            "Anhidrosis",
+            "Hyperreflexia",
+            "Polyuria",
+            "Tinnitus"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which eyelid sign may occur in Horner syndrome?",
+        "options": [
+            "Lagophthalmos only",
+            "Ectropion",
+            "Ptosis",
+            "Entropion"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which lesion can produce Horner syndrome?",
+        "options": [
+            "Retinal tear",
+            "Myopia",
+            "Apical lung tumor",
+            "Cataract"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which vascular lesion can cause Horner syndrome?",
+        "options": [
+            "Carotid dissection",
+            "Presbyopia",
+            "Corneal abrasion",
+            "Cataract"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which brainstem vascular syndrome can include Horner syndrome?",
+        "options": [
+            "Occipital migraine only",
+            "Cerebellar tumor only",
+            "Lateral medullary/PICA stroke",
+            "Frontal stroke only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What does cocaine normally cause in the pupil?",
+        "options": [
+            "No effect",
+            "Constriction",
+            "Accommodation paralysis",
+            "Dilation"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Glaucoma visual loss is peripheral first then central.\nWhat is the best answer?",
+        "options": [
+            "Peripheral field",
+            "Only near vision",
+            "Only color vision",
+            "Central field"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Optic neuritis can cause RAPD. What is the best\nanswer?",
+        "options": [
+            "Astigmatism",
+            "Presbyopia",
+            "Optic neuritis",
+            "Cataract"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Retinal lesions can cause RAPD. What is the best\nanswer?",
+        "options": [
+            "Horner syndrome",
+            "RAPD",
+            "Argyll Robertson pupil",
+            "Adie pupil"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Multiple sclerosis is associated with optic neuritis.\nWhat is the best answer?",
+        "options": [
+            "Marfan syndrome",
+            "Multiple sclerosis",
+            "Alport syndrome",
+            "Galactosemia"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: RAPD is an afferent defect. What is the best answer?",
+        "options": [
+            "Accommodation",
+            "Afferent",
+            "Motor",
+            "Efferent"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Swinging flashlight test detects RAPD. What is the\nbest answer?",
+        "options": [
+            "Swinging flashlight test",
+            "Cover test",
+            "Tonometry",
+            "Schirmer test"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Marcus Gunn pupil is another term for RAPD. What is\nthe best answer?",
+        "options": [
+            "Argyll Robertson pupil",
+            "Adie pupil",
+            "Horner pupil",
+            "Marcus Gunn pupil"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Argyll Robertson pupil has light-near dissociation.\nWhat is the best answer?",
+        "options": [
+            "Adie",
+            "Acute angle closure",
+            "Horner",
+            "Argyll Robertson"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Argyll Robertson pupil is associated with\nneurosyphilis. What is the best answer?",
+        "options": [
+            "Tertiary neurosyphilis",
+            "Rubella",
+            "Multiple sclerosis",
+            "Marfan syndrome"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Argyll Robertson pupils are small and bilateral. What\nis the best answer?",
+        "options": [
+            "Bilateral fixed mid-dilated pupils",
+            "Unilateral huge pupil",
+            "Bilateral small pupils",
+            "Only unequal pupils"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Adie pupil is dilated. What is the best answer?",
+        "options": [
+            "Adie tonic pupil",
+            "Normal near response",
+            "Horner syndrome",
+            "Argyll Robertson pupil"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Adie pupil has poor light response. What is the best\nanswer?",
+        "options": [
+            "Blink reflex only",
+            "Convergence only",
+            "Accommodation only",
+            "Light response"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Adie pupil accommodates better than it reacts to\nlight. What is the best answer?",
+        "options": [
+            "Both absent",
+            "Both exaggerated",
+            "Accommodation response exceeds light response",
+            "Light response exceeds accommodation"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner pupil is miotic. What is the best answer?",
+        "options": [
+            "Horner pupil",
+            "Acute angle closure pupil",
+            "Adie pupil",
+            "RAPD pupil"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner syndrome can cause anhidrosis. What is the\nbest answer?",
+        "options": [
+            "Tinnitus",
+            "Polyuria",
+            "Hyperreflexia",
+            "Anhidrosis"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner syndrome can cause ptosis. What is the best\nanswer?",
+        "options": [
+            "Ptosis",
+            "Ectropion",
+            "Lagophthalmos only",
+            "Entropion"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Apical lung tumor can cause Horner syndrome. What\nis the best answer?",
+        "options": [
+            "Retinal tear",
+            "Apical lung tumor",
+            "Myopia",
+            "Cataract"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Carotid dissection can cause Horner syndrome. What\nis the best answer?",
+        "options": [
+            "Corneal abrasion",
+            "Presbyopia",
+            "Cataract",
+            "Carotid dissection"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: PICA/lateral medullary stroke can cause Horner\nsyndrome. What is the best answer?",
+        "options": [
+            "Cerebellar tumor only",
+            "Frontal stroke only",
+            "Occipital migraine only",
+            "Lateral medullary/PICA stroke"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cocaine normally dilates the pupil. What is the best\nanswer?",
+        "options": [
+            "No effect",
+            "Dilation",
+            "Constriction",
+            "Accommodation paralysis"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Glaucoma visual loss is peripheral first then central.\nWhat is the best answer?",
+        "options": [
+            "Only near vision",
+            "Only color vision",
+            "Peripheral field",
+            "Central field"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Optic neuritis can cause RAPD. What is the best\nanswer?",
+        "options": [
+            "Presbyopia",
+            "Cataract",
+            "Astigmatism",
+            "Optic neuritis"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Retinal lesions can cause RAPD. What is the best\nanswer?",
+        "options": [
+            "RAPD",
+            "Argyll Robertson pupil",
+            "Horner syndrome",
+            "Adie pupil"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Multiple sclerosis is associated with optic neuritis.\nWhat is the best answer?",
+        "options": [
+            "Galactosemia",
+            "Marfan syndrome",
+            "Multiple sclerosis",
+            "Alport syndrome"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: RAPD is an afferent defect. What is the best answer?",
+        "options": [
+            "Efferent",
+            "Afferent",
+            "Accommodation",
+            "Motor"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Swinging flashlight test detects RAPD. What is the\nbest answer?",
+        "options": [
+            "Tonometry",
+            "Swinging flashlight test",
+            "Schirmer test",
+            "Cover test"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Marcus Gunn pupil is another term for RAPD. What is\nthe best answer?",
+        "options": [
+            "Adie pupil",
+            "Horner pupil",
+            "Argyll Robertson pupil",
+            "Marcus Gunn pupil"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Argyll Robertson pupil has light-near dissociation.\nWhat is the best answer?",
+        "options": [
+            "Argyll Robertson",
+            "Horner",
+            "Acute angle closure",
+            "Adie"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Argyll Robertson pupil is associated with\nneurosyphilis. What is the best answer?",
+        "options": [
+            "Rubella",
+            "Marfan syndrome",
+            "Tertiary neurosyphilis",
+            "Multiple sclerosis"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Argyll Robertson pupils are small and bilateral. What\nis the best answer?",
+        "options": [
+            "Unilateral huge pupil",
+            "Bilateral fixed mid-dilated pupils",
+            "Bilateral small pupils",
+            "Only unequal pupils"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Adie pupil is dilated. What is the best answer?",
+        "options": [
+            "Horner syndrome",
+            "Normal near response",
+            "Adie tonic pupil",
+            "Argyll Robertson pupil"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Adie pupil has poor light response. What is the best\nanswer?",
+        "options": [
+            "Accommodation only",
+            "Convergence only",
+            "Blink reflex only",
+            "Light response"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Adie pupil accommodates better than it reacts to\nlight. What is the best answer?",
+        "options": [
+            "Both absent",
+            "Light response exceeds accommodation",
+            "Both exaggerated",
+            "Accommodation response exceeds light response"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner pupil is miotic. What is the best answer?",
+        "options": [
+            "Acute angle closure pupil",
+            "Adie pupil",
+            "Horner pupil",
+            "RAPD pupil"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner syndrome can cause anhidrosis. What is the\nbest answer?",
+        "options": [
+            "Tinnitus",
+            "Anhidrosis",
+            "Hyperreflexia",
+            "Polyuria"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Horner syndrome can cause ptosis. What is the best\nanswer?",
+        "options": [
+            "Entropion",
+            "Ptosis",
+            "Ectropion",
+            "Lagophthalmos only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Apical lung tumor can cause Horner syndrome. What\nis the best answer?",
+        "options": [
+            "Apical lung tumor",
+            "Retinal tear",
+            "Cataract",
+            "Myopia"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Carotid dissection can cause Horner syndrome. What\nis the best answer?",
+        "options": [
+            "Carotid dissection",
+            "Cataract",
+            "Presbyopia",
+            "Corneal abrasion"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: PICA/lateral medullary stroke can cause Horner\nsyndrome. What is the best answer?",
+        "options": [
+            "Cerebellar tumor only",
+            "Frontal stroke only",
+            "Lateral medullary/PICA stroke",
+            "Occipital migraine only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cocaine normally dilates the pupil. What is the best\nanswer?",
+        "options": [
+            "Constriction",
+            "Accommodation paralysis",
+            "No effect",
+            "Dilation"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What defines cataract?",
+        "options": [
+            "Optic neuritis",
+            "Retinal hemorrhage",
+            "Corneal infection",
+            "Lens opacification"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which symptom pattern is typical of cataract?",
+        "options": [
+            "Sudden fixed pupil",
+            "Severe painful red eye",
+            "Painless reduction in vision",
+            "Acute vomiting"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is a major consequence of cataract?",
+        "options": [
+            "Reduced vision",
+            "RAPD only",
+            "Miosis",
+            "Anhidrosis"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is the treatment listed for cataract?",
+        "options": [
+            "Only miotics",
+            "Surgery",
+            "Only lubricants",
+            "Only antibiotics"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which is a cataract risk factor?",
+        "options": [
+            "Convergence",
+            "Wearing glasses",
+            "Reading",
+            "Older age"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which lifestyle exposure increases cataract risk?",
+        "options": [
+            "Smoking",
+            "Near work",
+            "Exercise",
+            "Spectacle use"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which exposure is listed?",
+        "options": [
+            "Water",
+            "Saline",
+            "Alcohol",
+            "Reading"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which environmental exposure is listed?",
+        "options": [
+            "Dark rooms",
+            "Excessive sunlight",
+            "Low humidity only",
+            "Reading"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which medication class is associated with cataract risk?",
+        "options": [
+            "Corticosteroids",
+            "Artificial tears",
+            "Lubricants",
+            "Antacids"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which ocular history can increase cataract risk?",
+        "options": [
+            "Trauma",
+            "Convergence",
+            "Reading",
+            "Glasses"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which systemic condition is listed as a cataract risk factor?",
+        "options": [
+            "Horner syndrome",
+            "Simple myopia",
+            "Presbyopia",
+            "Diabetes"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which enzyme begins the polyol pathway described?",
+        "options": [
+            "Fibrillin",
+            "Galactokinase",
+            "Sorbitol dehydrogenase",
+            "Aldose reductase"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is the effect of sorbitol accumulation in the lens?",
+        "options": [
+            "Increased lens osmolarity",
+            "Decreased osmolarity",
+            "Optic nerve swelling",
+            "Retinal detachment"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which polyol is formed from galactose?",
+        "options": [
+            "Lactate",
+            "Galactitol",
+            "Urea",
+            "Sorbitol"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "When does classic galactosemia typically present?",
+        "options": [
+            "After cataract surgery",
+            "Infancy",
+            "Only old age",
+            "Late adulthood"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which systemic feature is associated with classic galactosemia?",
+        "options": [
+            "Ptosis",
+            "Anhidrosis",
+            "Horner syndrome",
+            "Liver failure"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which eye problem can occur in classic galactosemia?",
+        "options": [
+            "Retinal tear only",
+            "Optic neuritis only",
+            "Glaucoma only",
+            "Cataracts"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which galactose disorder is described as milder?",
+        "options": [
+            "Homocystinuria",
+            "Classic galactosemia",
+            "Marfan syndrome",
+            "Galactokinase deficiency"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which infection is classically associated with congenital cataracts in the source?",
+        "options": [
+            "Typhoid",
+            "Rubella",
+            "Malaria",
+            "Influenza"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which additional findings may accompany congenital rubella cataracts?",
+        "options": [
+            "Only anhidrosis",
+            "Only ptosis",
+            "Only myopia",
+            "Deafness and cardiac malformations"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cataract is lens opacification. What is the best\nanswer?",
+        "options": [
+            "Optic neuritis",
+            "Corneal infection",
+            "Retinal hemorrhage",
+            "Lens opacification"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cataract is painless. What is the best answer?",
+        "options": [
+            "Sudden fixed pupil",
+            "Painless reduction in vision",
+            "Severe painful red eye",
+            "Acute vomiting"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cataract reduces vision. What is the best answer?",
+        "options": [
+            "RAPD only",
+            "Anhidrosis",
+            "Miosis",
+            "Reduced vision"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cataract is treated surgically. What is the best\nanswer?",
+        "options": [
+            "Surgery",
+            "Only antibiotics",
+            "Only lubricants",
+            "Only miotics"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Age is a cataract risk factor. What is the best answer?",
+        "options": [
+            "Reading",
+            "Wearing glasses",
+            "Convergence",
+            "Older age"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Smoking is a cataract risk factor. What is the best\nanswer?",
+        "options": [
+            "Spectacle use",
+            "Smoking",
+            "Near work",
+            "Exercise"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Alcohol is listed as a cataract risk factor. What is the\nbest answer?",
+        "options": [
+            "Alcohol",
+            "Saline",
+            "Water",
+            "Reading"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Excessive sunlight is a cataract risk factor. What is\nthe best answer?",
+        "options": [
+            "Reading",
+            "Dark rooms",
+            "Low humidity only",
+            "Excessive sunlight"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Corticosteroids increase cataract risk. What is the\nbest answer?",
+        "options": [
+            "Artificial tears",
+            "Antacids",
+            "Corticosteroids",
+            "Lubricants"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Trauma can cause cataract. What is the best answer?",
+        "options": [
+            "Glasses",
+            "Convergence",
+            "Trauma",
+            "Reading"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Diabetes increases cataract risk. What is the best\nanswer?",
+        "options": [
+            "Diabetes",
+            "Horner syndrome",
+            "Presbyopia",
+            "Simple myopia"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aldose reductase converts glucose to sorbitol. What\nis the best answer?",
+        "options": [
+            "Galactokinase",
+            "Fibrillin",
+            "Sorbitol dehydrogenase",
+            "Aldose reductase"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Sorbitol accumulation increases lens osmolarity.\nWhat is the best answer?",
+        "options": [
+            "Decreased osmolarity",
+            "Increased lens osmolarity",
+            "Retinal detachment",
+            "Optic nerve swelling"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Galactitol accumulates from galactose. What is the\nbest answer?",
+        "options": [
+            "Urea",
+            "Sorbitol",
+            "Galactitol",
+            "Lactate"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Classic galactosemia presents in infancy. What is the\nbest answer?",
+        "options": [
+            "After cataract surgery",
+            "Infancy",
+            "Late adulthood",
+            "Only old age"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Classic galactosemia can cause liver failure. What is\nthe best answer?",
+        "options": [
+            "Anhidrosis",
+            "Horner syndrome",
+            "Ptosis",
+            "Liver failure"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Classic galactosemia can cause cataracts. What is\nthe best answer?",
+        "options": [
+            "Cataracts",
+            "Retinal tear only",
+            "Glaucoma only",
+            "Optic neuritis only"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Galactokinase deficiency is milder. What is the best\nanswer?",
+        "options": [
+            "Classic galactosemia",
+            "Galactokinase deficiency",
+            "Marfan syndrome",
+            "Homocystinuria"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Congenital rubella can cause cataracts. What is the\nbest answer?",
+        "options": [
+            "Typhoid",
+            "Rubella",
+            "Influenza",
+            "Malaria"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Congenital rubella can cause deafness and cardiac\nmalformations. What is the best answer?",
+        "options": [
+            "Only anhidrosis",
+            "Only ptosis",
+            "Deafness and cardiac malformations",
+            "Only myopia"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cataract is lens opacification. What is the best\nanswer?",
+        "options": [
+            "Lens opacification",
+            "Corneal infection",
+            "Optic neuritis",
+            "Retinal hemorrhage"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cataract is painless. What is the best answer?",
+        "options": [
+            "Sudden fixed pupil",
+            "Severe painful red eye",
+            "Painless reduction in vision",
+            "Acute vomiting"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cataract reduces vision. What is the best answer?",
+        "options": [
+            "Anhidrosis",
+            "RAPD only",
+            "Miosis",
+            "Reduced vision"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cataract is treated surgically. What is the best\nanswer?",
+        "options": [
+            "Only antibiotics",
+            "Only miotics",
+            "Only lubricants",
+            "Surgery"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Age is a cataract risk factor. What is the best answer?",
+        "options": [
+            "Reading",
+            "Older age",
+            "Convergence",
+            "Wearing glasses"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Smoking is a cataract risk factor. What is the best\nanswer?",
+        "options": [
+            "Near work",
+            "Spectacle use",
+            "Smoking",
+            "Exercise"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Alcohol is listed as a cataract risk factor. What is the\nbest answer?",
+        "options": [
+            "Saline",
+            "Water",
+            "Reading",
+            "Alcohol"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Excessive sunlight is a cataract risk factor. What is\nthe best answer?",
+        "options": [
+            "Excessive sunlight",
+            "Dark rooms",
+            "Low humidity only",
+            "Reading"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Corticosteroids increase cataract risk. What is the\nbest answer?",
+        "options": [
+            "Corticosteroids",
+            "Lubricants",
+            "Artificial tears",
+            "Antacids"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Trauma can cause cataract. What is the best answer?",
+        "options": [
+            "Glasses",
+            "Reading",
+            "Convergence",
+            "Trauma"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Diabetes increases cataract risk. What is the best\nanswer?",
+        "options": [
+            "Presbyopia",
+            "Simple myopia",
+            "Diabetes",
+            "Horner syndrome"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Aldose reductase converts glucose to sorbitol. What\nis the best answer?",
+        "options": [
+            "Galactokinase",
+            "Sorbitol dehydrogenase",
+            "Aldose reductase",
+            "Fibrillin"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Sorbitol accumulation increases lens osmolarity.\nWhat is the best answer?",
+        "options": [
+            "Decreased osmolarity",
+            "Retinal detachment",
+            "Optic nerve swelling",
+            "Increased lens osmolarity"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Galactitol accumulates from galactose. What is the\nbest answer?",
+        "options": [
+            "Lactate",
+            "Sorbitol",
+            "Galactitol",
+            "Urea"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Classic galactosemia presents in infancy. What is the\nbest answer?",
+        "options": [
+            "Late adulthood",
+            "Only old age",
+            "Infancy",
+            "After cataract surgery"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Classic galactosemia can cause liver failure. What is\nthe best answer?",
+        "options": [
+            "Ptosis",
+            "Anhidrosis",
+            "Liver failure",
+            "Horner syndrome"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Classic galactosemia can cause cataracts. What is\nthe best answer?",
+        "options": [
+            "Optic neuritis only",
+            "Retinal tear only",
+            "Glaucoma only",
+            "Cataracts"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Galactokinase deficiency is milder. What is the best\nanswer?",
+        "options": [
+            "Galactokinase deficiency",
+            "Marfan syndrome",
+            "Homocystinuria",
+            "Classic galactosemia"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Congenital rubella can cause cataracts. What is the\nbest answer?",
+        "options": [
+            "Malaria",
+            "Influenza",
+            "Typhoid",
+            "Rubella"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Congenital rubella can cause deafness and cardiac\nmalformations. What is the best answer?",
+        "options": [
+            "Only myopia",
+            "Only ptosis",
+            "Only anhidrosis",
+            "Deafness and cardiac malformations"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is convergence?",
+        "options": [
+            "Medial movement of both eyes",
+            "Pupil dilation",
+            "Lens flattening",
+            "Lateral movement"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which reflex includes convergence?",
+        "options": [
+            "Corneal reflex",
+            "Horner syndrome",
+            "Near/accommodation response",
+            "RAPD"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which pupil change accompanies near fixation?",
+        "options": [
+            "Fixed dilation",
+            "No change",
+            "Miosis",
+            "Mydriasis"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which lens-related response accompanies convergence?",
+        "options": [
+            "Dislocation",
+            "Opacification",
+            "Accommodation",
+            "Cycloplegia"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What happens to the ciliary muscle during distance viewing?",
+        "options": [
+            "It becomes paralyzed",
+            "It contracts",
+            "It relaxes",
+            "It dislocates the lens"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What happens during near accommodation?",
+        "options": [
+            "Ciliary muscle relaxes",
+            "Zonules tighten",
+            "Lens flattens",
+            "Ciliary muscle contracts"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What happens to zonular tension during near fixation?",
+        "options": [
+            "Zonules tighten",
+            "Zonules rupture",
+            "Zonules relax",
+            "No change"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What happens to zonules when the ciliary muscle is relaxed?",
+        "options": [
+            "They become tight",
+            "They shorten the lens",
+            "They disappear",
+            "They relax"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What shape does the lens take during near accommodation?",
+        "options": [
+            "Rounded",
+            "Flattened",
+            "Opaque",
+            "Dislocated"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What shape does the lens take during distance viewing?",
+        "options": [
+            "Flattened",
+            "Rounded",
+            "Conical",
+            "Opaque"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which task becomes difficult in presbyopia?",
+        "options": [
+            "Peripheral vision",
+            "Seeing distant signs only",
+            "Color perception",
+            "Reading"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is a characteristic of bifocal lenses?",
+        "options": [
+            "Separate areas for distance and near vision",
+            "Only a cylindrical area",
+            "Only one area for distance",
+            "No optical correction"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A myopic patient has difficulty with:",
+        "options": [
+            "Light reflex",
+            "Color only",
+            "Far objects",
+            "Near objects only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A hyperopic patient may have difficulty with:",
+        "options": [
+            "Only far objects",
+            "Near objects",
+            "Peripheral field only",
+            "Pupil constriction"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which refractive error commonly causes blur from multiple focal points?",
+        "options": [
+            "RAPD",
+            "Astigmatism",
+            "Presbyopia",
+            "Horner syndrome"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "What is the main optical abnormality in astigmatism?",
+        "options": [
+            "Retinal detachment",
+            "Excessive lens transparency",
+            "Uneven corneal curvature",
+            "Optic nerve inflammation"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which lens is commonly used for astigmatism?",
+        "options": [
+            "Cylindrical",
+            "Prism only",
+            "Only spherical plus",
+            "Only spherical minus"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which lens corrects myopia?",
+        "options": [
+            "Plus convex/converging",
+            "Plano only",
+            "Prism",
+            "Minus concave/diverging"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which lens corrects hyperopia?",
+        "options": [
+            "Plano",
+            "Plus convex/converging",
+            "Minus concave/diverging",
+            "Cylindrical only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "Which is a standard optical correction for refractive error?",
+        "options": [
+            "Glasses or contact lenses",
+            "Only antibiotics",
+            "Only eye patch",
+            "Only surgery"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Convergence is medial movement of the eyes for\nnear fixation. What is the best answer?",
+        "options": [
+            "Medial movement of both eyes",
+            "Lens flattening",
+            "Lateral movement",
+            "Pupil dilation"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Convergence is part of the near response. What is the\nbest answer?",
+        "options": [
+            "Near/accommodation response",
+            "Corneal reflex",
+            "RAPD",
+            "Horner syndrome"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Miosis is part of the near response. What is the best\nanswer?",
+        "options": [
+            "Fixed dilation",
+            "Mydriasis",
+            "Miosis",
+            "No change"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Accommodation is part of the near response. What is\nthe best answer?",
+        "options": [
+            "Dislocation",
+            "Accommodation",
+            "Cycloplegia",
+            "Opacification"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Far fixation involves relaxed ciliary muscle. What is\nthe best answer?",
+        "options": [
+            "It becomes paralyzed",
+            "It dislocates the lens",
+            "It relaxes",
+            "It contracts"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Near fixation involves ciliary contraction. What is the\nbest answer?",
+        "options": [
+            "Ciliary muscle relaxes",
+            "Lens flattens",
+            "Zonules tighten",
+            "Ciliary muscle contracts"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Near accommodation relaxes zonules. What is the\nbest answer?",
+        "options": [
+            "Zonules relax",
+            "No change",
+            "Zonules tighten",
+            "Zonules rupture"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Distance viewing tightens zonules. What is the best\nanswer?",
+        "options": [
+            "They become tight",
+            "They disappear",
+            "They relax",
+            "They shorten the lens"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Near lens shape is rounded. What is the best answer?",
+        "options": [
+            "Flattened",
+            "Rounded",
+            "Opaque",
+            "Dislocated"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Distance lens shape is flatter. What is the best\nanswer?",
+        "options": [
+            "Rounded",
+            "Opaque",
+            "Flattened",
+            "Conical"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Presbyopia impairs near vision. What is the best\nanswer?",
+        "options": [
+            "Seeing distant signs only",
+            "Color perception",
+            "Reading",
+            "Peripheral vision"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Bifocal lenses have separate distance and near areas.\nWhat is the best answer?",
+        "options": [
+            "Only one area for distance",
+            "Separate areas for distance and near vision",
+            "Only a cylindrical area",
+            "No optical correction"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Myopia affects distance vision. What is the best\nanswer?",
+        "options": [
+            "Far objects",
+            "Color only",
+            "Light reflex",
+            "Near objects only"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Hyperopia affects near focusing. What is the best\nanswer?",
+        "options": [
+            "Pupil constriction",
+            "Peripheral field only",
+            "Only far objects",
+            "Near objects"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Astigmatism causes blurred vision. What is the best\nanswer?",
+        "options": [
+            "Astigmatism",
+            "Presbyopia",
+            "RAPD",
+            "Horner syndrome"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Astigmatism is due to uneven corneal curvature.\nWhat is the best answer?",
+        "options": [
+            "Optic nerve inflammation",
+            "Excessive lens transparency",
+            "Retinal detachment",
+            "Uneven corneal curvature"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cylindrical lenses can correct astigmatism. What is\nthe best answer?",
+        "options": [
+            "Only spherical plus",
+            "Cylindrical",
+            "Only spherical minus",
+            "Prism only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Myopia is corrected by a diverging lens. What is the\nbest answer?",
+        "options": [
+            "Minus concave/diverging",
+            "Prism",
+            "Plano only",
+            "Plus convex/converging"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Hyperopia is corrected by a converging lens. What is\nthe best answer?",
+        "options": [
+            "Cylindrical only",
+            "Plano",
+            "Plus convex/converging",
+            "Minus concave/diverging"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Refractive errors can be corrected with spectacles or\ncontact lenses. What is the best answer?",
+        "options": [
+            "Only surgery",
+            "Only eye patch",
+            "Only antibiotics",
+            "Glasses or contact lenses"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Convergence is medial movement of the eyes for\nnear fixation. What is the best answer?",
+        "options": [
+            "Pupil dilation",
+            "Lateral movement",
+            "Lens flattening",
+            "Medial movement of both eyes"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Convergence is part of the near response. What is the\nbest answer?",
+        "options": [
+            "Corneal reflex",
+            "Horner syndrome",
+            "RAPD",
+            "Near/accommodation response"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Miosis is part of the near response. What is the best\nanswer?",
+        "options": [
+            "Mydriasis",
+            "Fixed dilation",
+            "Miosis",
+            "No change"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Accommodation is part of the near response. What is\nthe best answer?",
+        "options": [
+            "Accommodation",
+            "Cycloplegia",
+            "Opacification",
+            "Dislocation"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Far fixation involves relaxed ciliary muscle. What is\nthe best answer?",
+        "options": [
+            "It becomes paralyzed",
+            "It contracts",
+            "It relaxes",
+            "It dislocates the lens"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Near fixation involves ciliary contraction. What is the\nbest answer?",
+        "options": [
+            "Lens flattens",
+            "Zonules tighten",
+            "Ciliary muscle contracts",
+            "Ciliary muscle relaxes"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Near accommodation relaxes zonules. What is the\nbest answer?",
+        "options": [
+            "No change",
+            "Zonules relax",
+            "Zonules rupture",
+            "Zonules tighten"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Distance viewing tightens zonules. What is the best\nanswer?",
+        "options": [
+            "They relax",
+            "They shorten the lens",
+            "They disappear",
+            "They become tight"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Near lens shape is rounded. What is the best answer?",
+        "options": [
+            "Flattened",
+            "Rounded",
+            "Opaque",
+            "Dislocated"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Distance lens shape is flatter. What is the best\nanswer?",
+        "options": [
+            "Rounded",
+            "Conical",
+            "Opaque",
+            "Flattened"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Presbyopia impairs near vision. What is the best\nanswer?",
+        "options": [
+            "Reading",
+            "Seeing distant signs only",
+            "Color perception",
+            "Peripheral vision"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Bifocal lenses have separate distance and near areas.\nWhat is the best answer?",
+        "options": [
+            "Separate areas for distance and near vision",
+            "Only one area for distance",
+            "Only a cylindrical area",
+            "No optical correction"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Myopia affects distance vision. What is the best\nanswer?",
+        "options": [
+            "Light reflex",
+            "Far objects",
+            "Color only",
+            "Near objects only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Hyperopia affects near focusing. What is the best\nanswer?",
+        "options": [
+            "Only far objects",
+            "Pupil constriction",
+            "Near objects",
+            "Peripheral field only"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Astigmatism causes blurred vision. What is the best\nanswer?",
+        "options": [
+            "Horner syndrome",
+            "Presbyopia",
+            "RAPD",
+            "Astigmatism"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Astigmatism is due to uneven corneal curvature.\nWhat is the best answer?",
+        "options": [
+            "Optic nerve inflammation",
+            "Retinal detachment",
+            "Excessive lens transparency",
+            "Uneven corneal curvature"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Cylindrical lenses can correct astigmatism. What is\nthe best answer?",
+        "options": [
+            "Prism only",
+            "Only spherical plus",
+            "Only spherical minus",
+            "Cylindrical"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Myopia is corrected by a diverging lens. What is the\nbest answer?",
+        "options": [
+            "Minus concave/diverging",
+            "Prism",
+            "Plano only",
+            "Plus convex/converging"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Hyperopia is corrected by a converging lens. What is\nthe best answer?",
+        "options": [
+            "Plus convex/converging",
+            "Plano",
+            "Minus concave/diverging",
+            "Cylindrical only"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "A teaching vignette highlights the following point: Refractive errors can be corrected with spectacles or\ncontact lenses. What is the best answer?",
+        "options": [
+            "Only eye patch",
+            "Only antibiotics",
+            "Only surgery",
+            "Glasses or contact lenses"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "Ophthalmology"
+    },
+    {
+        "question": "The laryngopharynx (hypopharynx) has how many main subdivisions?",
+        "options": [
+            "Epiglottis",
+            "Hyoid bone",
+            "Soft palate",
+            "Hard palate"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Where does the nasopharynx anatomically end and the oropharynx begin?",
+        "options": [
+            "Four",
+            "Two"
+        ],
+        "correct": 1,
+        "exp": "The nasopharynx transitions to the oropharynx at the plane of the soft palate.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which two important landmarks are found within the nasopharynx?",
+        "options": [
+            "At the level of the soft palate",
+            "At the hard palate",
+            "At the hyoid bone",
+            "At the epiglottis"
+        ],
+        "correct": 0,
+        "exp": "The nasopharynx contains the opening of the eustachian tube and the adenoid (nasopharyngeal\ntonsil), which is more prominent in children.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The adenoid is also known as which lymphoid structure?",
+        "options": [
+            "Eustachian tube opening and adenoid tissue",
+            "Pyriform sinus and post-cricoid area",
+            "Tonsil and uvula",
+            "Vallecula and epiglottis"
+        ],
+        "correct": 0,
+        "exp": "The adenoid is the nasopharyngeal tonsil, a collection of lymphoid tissue in the nasopharynx.",
+        "subject": "ENT"
+    },
+    {
+        "question": "At what age does the adenoid typically begin decreasing in size and eventually disappear?",
+        "options": [
+            "Tubal tonsil",
+            "Palatine tonsil",
+            "Lingual tonsil",
+            "Nasopharyngeal tonsil"
+        ],
+        "correct": 3,
+        "exp": "The adenoid is present at birth, increases in size up to about 6 years, starts decreasing at puberty,\nand disappears by around 20 years of age.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Juvenile nasopharyngeal angiofibroma is the most common benign tumor of which site?",
+        "options": [
+            "Increases till age 6, decreases from puberty, disappears by age 20",
+            "Increases throughout life",
+            "Disappears by age 5",
+            "Present only after puberty"
+        ],
+        "correct": 0,
+        "exp": "Juvenile nasopharyngeal angiofibroma (JNA) is the most common benign tumor of the nasopharynx.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Juvenile nasopharyngeal angiofibroma most commonly occurs in which patient group?",
+        "options": [
+            "Nasopharynx",
+            "Tonsil",
+            "Oropharynx",
+            "Larynx"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Nasopharyngeal carcinoma most commonly arises from which anatomical site?",
+        "options": [
+            "Surgical excision",
+            "Chemotherapy",
+            "Radiotherapy alone",
+            "Observation only"
+        ],
+        "correct": 0,
+        "exp": "Nasopharyngeal carcinoma (NPC) classically originates in the fossa of Rosenmuller, which lies just\nabove the eustachian tube opening.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common initial presenting feature of nasopharyngeal carcinoma?",
+        "options": [
+            "Fossa of Rosenmuller",
+            "Vallecula",
+            "Pyriform sinus",
+            "Sphenopalatine foramen"
+        ],
+        "correct": 0,
+        "exp": "Because NPC often arises silently and metastasizes early, painless cervical (neck node)\nlymphadenopathy is the most common presenting complaint, sometimes making NPC a hidden/occult primary.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following is NOT typically part of the oropharynx?",
+        "options": [
+            "Unilateral conductive hearing loss",
+            "Nasal obstruction",
+            "Metastatic cervical lymphadenopathy",
+            "Epistaxis"
+        ],
+        "correct": 2,
+        "exp": "The pyriform sinus is part of the laryngopharynx (hypopharynx), not the oropharynx.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The posterior third of the tongue (base of tongue) contains which lymphoid tissue?",
+        "options": [
+            "Pyriform sinus",
+            "Base of tongue",
+            "Tonsil",
+            "Soft palate"
+        ],
+        "correct": 0,
+        "exp": "The lingual tonsil is the lymphoid tissue located at the base of the tongue.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Eagle syndrome is due to compression or irritation of which cranial nerve?",
+        "options": [
+            "Tubal tonsil",
+            "Adenoid",
+            "Palatine tonsil",
+            "Lingual tonsil"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following is TRUE about the adenoid?",
+        "options": [
+            "Tubal tonsil",
+            "Adenoid",
+            "Palatine tonsil",
+            "Lingual tonsil"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The tonsillar bed is formed mainly by which muscle?",
+        "options": [
+            "Stylopharyngeus",
+            "Middle constrictor",
+            "Superior constrictor",
+            "Palatoglossus"
+        ],
+        "correct": 2,
+        "exp": "The tonsillar bed is formed by the superior constrictor muscle.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which two structures lie in the bed of the tonsil, deep to the tonsillar capsule?",
+        "options": [
+            "Mandible and lingual nerve",
+            "Hyoid bone and hypoglossal nerve",
+            "Facial artery and vagus nerve",
+            "Styloid process and glossopharyngeal nerve"
+        ],
+        "correct": 3,
+        "exp": "The styloid process and the glossopharyngeal nerve lie in the tonsillar bed, which is relevant to\ncomplications such as Eagle syndrome.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The deepest tonsillar crypt is given which name?",
+        "options": [
+            "Prussak's space",
+            "Crypta magna",
+            "Sinus of Morgagni",
+            "Fossa of Rosenmuller"
+        ],
+        "correct": 1,
+        "exp": "The deepest crypt in the palatine tonsil is called the crypta magna.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which vein is the main source of bleeding during tonsillectomy?",
+        "options": [
+            "External jugular vein",
+            "Internal jugular vein",
+            "Paratonsillar vein",
+            "Retromandibular vein"
+        ],
+        "correct": 2,
+        "exp": "The paratonsillar vein is the main venous structure responsible for bleeding encountered during\ntonsillectomy.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Reactionary hemorrhage after tonsillectomy typically occurs within what time frame and is\ndue to what cause?",
+        "options": [
+            "Within 1 hour, due to anesthesia",
+            "After 5 days, due to infection",
+            "After 2 weeks, due to scarring",
+            "Within 24 hours, due to slippage of a ligature"
+        ],
+        "correct": 3,
+        "exp": "Reactionary hemorrhage occurs within 24 hours of surgery, usually due to slippage of a ligature, and\nis a surgical emergency.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Secondary hemorrhage after tonsillectomy typically occurs when, and is due to what\ncause?",
+        "options": [
+            "Around day 5, due to infection of the tonsillar fossa",
+            "Within 1 hour, due to a slipped ligature",
+            "Within 6 hours, due to trauma",
+            "Immediately, due to anesthesia"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Tonsillectomy performed at a later date, after the acute quinsy episode has resolved, is\ncalled what?",
+        "options": [
+            "Coxsackievirus",
+            "Cytomegalovirus",
+            "Epstein-Barr virus",
+            "Herpes simplex virus"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Idiopathic edema of the uvula is known by which eponym?",
+        "options": [
+            "Interval tonsillectomy",
+            "Elective tonsillectomy"
+        ],
+        "correct": 2,
+        "exp": "Idiopathic edema of the uvula is called Quincke's disease.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Lymph nodes within the retropharyngeal space are also known as which nodes?",
+        "options": [
+            "Quincke's disease",
+            "Ortner syndrome",
+            "Grisel syndrome",
+            "Eagle syndrome"
+        ],
+        "correct": 0,
+        "exp": "The retropharyngeal lymph nodes are also called the nodes of Rouviere.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the initial management priority in a child with a retropharyngeal abscess and\nrespiratory distress?",
+        "options": [
+            "Virchow's nodes",
+            "Nodes of Rouviere",
+            "Delphian nodes",
+            "Sentinel nodes"
+        ],
+        "correct": 1,
+        "exp": "Because retropharyngeal abscess is a pediatric airway emergency, airway management is the\nimmediate priority, followed by incision and drainage.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The floor of the mouth is formed by which muscle, relevant to the spread of Ludwig's\nangina?",
+        "options": [
+            "Airway management",
+            "Observation",
+            "Immediate tonsillectomy",
+            "Oral antibiotics"
+        ],
+        "correct": 0,
+        "exp": "The floor of the mouth is formed by the mylohyoid muscle, and infection here characterizes Ludwig's\nangina.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common source of infection leading to Ludwig's angina?",
+        "options": [
+            "Mylohyoid muscle",
+            "Geniohyoid muscle",
+            "Genioglossus muscle",
+            "Digastric muscle"
+        ],
+        "correct": 0,
+        "exp": "Ludwig's angina most commonly arises from a dental infection (e.g., infected lower molar).",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the treatment of choice for Ludwig's angina?",
+        "options": [
+            "Dental infection",
+            "Tonsillar infection",
+            "Nasal infection",
+            "Otitis media"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "In pediatric adenotonsillectomy, over-extension of the neck during positioning can\npredispose to which rare complication?",
+        "options": [
+            "Interval tonsillectomy",
+            "Radiotherapy",
+            "Oral antibiotics only"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What instrument is classically used to perform curettage in adenoidectomy?",
+        "options": [
+            "Superior and middle constrictor",
+            "Stylopharyngeus and salpingopharyngeus",
+            "Palatoglossus (anterior) and palatopharyngeus (posterior)",
+            "Mylohyoid and geniohyoid"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Angiography, in addition to diagnosis, may also be used therapeutically before\nangiofibroma surgery for what purpose?",
+        "options": [
+            "St. Clair Thomson adenoid curette",
+            "Eve's tonsillectomy snare"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which pharyngeal muscle's circular fibers are named the cricopharyngeus?",
+        "options": [
+            "Delayed (>2 weeks)",
+            "Secondary",
+            "Primary",
+            "Reactionary"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of these tonsillar disease presentations is more common in adults rather than\nchildren, related to peritonsillar space infection?",
+        "options": [
+            "Quinsy",
+            "Adenoid hypertrophy",
+            "Grisel syndrome",
+            "Retropharyngeal abscess"
+        ],
+        "correct": 0,
+        "exp": "Quinsy (peritonsillar abscess) is more common in adults, in contrast to adenoid-related and\nretropharyngeal disease, which are more typical in children.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which structure passes through the pharynx to connect the middle ear with the\nnasopharynx?",
+        "options": [
+            "Eustachian tube",
+            "Cricopharyngeus",
+            "Vallecula",
+            "Sinus of Morgagni"
+        ],
+        "correct": 0,
+        "exp": "The eustachian tube opens into the lateral wall of the nasopharynx and connects it to the middle ear\ncleft.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following tumors of the nasopharynx is described as an \"occult primary\" due\nto early nodal spread?",
+        "options": [
+            "Thornwaldt cyst",
+            "Adenoid hypertrophy",
+            "Nasopharyngeal carcinoma",
+            "Juvenile nasopharyngeal angiofibroma"
+        ],
+        "correct": 2,
+        "exp": "NPC is termed an occult (hidden) primary because it often presents first with cervical lymph node\nmetastasis while the primary nasopharyngeal lesion may be small and asymptomatic.",
+        "subject": "ENT"
+    },
+    {
+        "question": "In quinsy, which structure is displaced medially on examination, aiding diagnosis?",
+        "options": [
+            "The uvula",
+            "The tonsil",
+            "The epiglottis",
+            "The soft palate centrally"
+        ],
+        "correct": 1,
+        "exp": "In quinsy, the peritonsillar swelling pushes the tonsil medially while the uvula is displaced to the\nopposite side.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The tensor veli palatini and eustachian tube pass through which anatomical space above\nthe superior constrictor?",
+        "options": [
+            "Sinus of Morgagni",
+            "Killian's dehiscence",
+            "Prussak's space",
+            "Space of Gillette"
+        ],
+        "correct": 0,
+        "exp": "The sinus of Morgagni, located between the skull base and the upper border of the superior\nconstrictor, transmits the eustachian tube and tensor veli palatini muscle.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Killian's dehiscence is clinically significant because it is the typical site of origin of which\ncondition?",
+        "options": [
+            "Abducens nerve",
+            "Vagus nerve",
+            "Trochlear nerve",
+            "Optic nerve"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The sinus of Morgagni is the space between the skull base and which structure?",
+        "options": [
+            "Quinsy",
+            "Zenker's diverticulum"
+        ],
+        "correct": 3,
+        "exp": "The sinus of Morgagni lies between the skull base and the upper border of the superior constrictor\nmuscle.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which two structures pass through the sinus of Morgagni?",
+        "options": [
+            "Hyoid bone",
+            "Lower border of inferior constrictor",
+            "Styloid process",
+            "Upper border of superior constrictor"
+        ],
+        "correct": 3,
+        "exp": "The eustachian tube and the tensor veli palatini muscle pass through the sinus of Morgagni.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which procedure is used to remove an impacted esophageal foreign body?",
+        "options": [
+            "Hypoglossal nerve and stylopharyngeus",
+            "Vagus nerve and internal carotid artery",
+            "Eustachian tube and tensor veli palatini",
+            "Glossopharyngeal nerve and styloid process"
+        ],
+        "correct": 2,
+        "exp": "Rigid esophagoscopy is used to visualize and remove impacted esophageal foreign bodies.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Absence of laryngeal crepitus (Moure's sign) is classically associated with which\nmalignancy?",
+        "options": [
+            "Rigid esophagoscopy",
+            "Direct laryngoscopy",
+            "Tracheostomy",
+            "Flexible bronchoscopy"
+        ],
+        "correct": 0,
+        "exp": "Loss of laryngeal crepitus, called Moure's sign, occurs when a post-cricoid carcinoma fixes the\nlarynx to the prevertebral tissues.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Sensory supply to the laryngopharynx and larynx above the vocal cords is provided by\nwhich nerve?",
+        "options": [
+            "Glottic carcinoma",
+            "Nasopharyngeal carcinoma",
+            "Post-cricoid carcinoma",
+            "Tonsillar carcinoma"
+        ],
+        "correct": 2,
+        "exp": "The internal branch of the superior laryngeal nerve (internal laryngeal nerve) provides sensory\nsupply above the level of the vocal cords.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The pyriform sinus/fossa is the most common site of which type of malignancy?",
+        "options": [
+            "External branch of the superior laryngeal nerve",
+            "Internal branch of the superior laryngeal nerve",
+            "Glossopharyngeal nerve",
+            "Recurrent laryngeal nerve"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which cranial nerve, if compressed by an elongated styloid process in Eagle syndrome,\nexplains why pain is referred to the ear?",
+        "options": [
+            "Nasopharyngeal carcinoma",
+            "Laryngeal glottic cancer",
+            "Hypopharyngeal malignancy",
+            "Oropharyngeal malignancy"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Osmotic/nasopharyngeal spread of infection from adenoiditis is a recognized\npredisposing factor for which middle ear condition, especially in children?",
+        "options": [
+            "Otosclerosis",
+            "Meniere's disease",
+            "Serous otitis media (glue ear)",
+            "Acoustic neuroma"
+        ],
+        "correct": 2,
+        "exp": "Recurrent adenoiditis/adenoid hypertrophy blocking the eustachian tube is the most common cause\nof glue ear (serous otitis media) in school-age children.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best describes the nature of the adenoid tissue's blood supply\ncompared to the palatine tonsil?",
+        "options": [
+            "The adenoid lacks a definite/named blood supply unlike the tonsil",
+            "The adenoid has a definite named blood supply like the tonsil",
+            "Neither has any blood supply",
+            "Both have identical blood supply"
+        ],
+        "correct": 0,
+        "exp": "Unlike the palatine tonsil, which has a definite named arterial supply (tonsillar branch of facial\nartery), the adenoid has no definite/named blood supply.",
+        "subject": "ENT"
+    },
+    {
+        "question": "In a patient with suspected NPC and unilateral serous otitis media, which investigation\nshould be prioritized before symptomatic ear treatment?",
+        "options": [
+            "CT temporal bone",
+            "Pure tone audiometry alone",
+            "Tympanometry",
+            "Nasopharyngoscopy with biopsy"
+        ],
+        "correct": 3,
+        "exp": "Because unilateral SOM in an adult can be the first sign of NPC blocking the eustachian tube,\nnasopharyngoscopy with biopsy should be prioritized to exclude malignancy.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Functionally, the cricopharyngeus part of the inferior constrictor acts as which\nphysiological sphincter?",
+        "options": [
+            "Ileocecal sphincter",
+            "Pyloric sphincter",
+            "Lower esophageal sphincter",
+            "Upper esophageal sphincter"
+        ],
+        "correct": 3,
+        "exp": "The cricopharyngeus muscle functions as the upper esophageal sphincter, and its area of relative\nweakness (Killian's dehiscence) predisposes to Zenker's diverticulum.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best distinguishes quinsy from a retropharyngeal abscess in terms\nof typical patient age?",
+        "options": [
+            "Both occur equally in all ages",
+            "Quinsy - adults; retropharyngeal abscess - young children",
+            "Quinsy - young children; retropharyngeal abscess - adults",
+            "Both are exclusively pediatric"
+        ],
+        "correct": 1,
+        "exp": "Quinsy (peritonsillar abscess) is more common in adults, whereas retropharyngeal abscess (from\ninfected retropharyngeal nodes) is classically a disease of young children.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best describes the typical age group affected by nasopharyngeal\ncarcinoma related to EBV, presenting with neck swelling?",
+        "options": [
+            "Infants only",
+            "Never occurs in adults",
+            "Middle-aged to older adults",
+            "Neonates"
+        ],
+        "correct": 2,
+        "exp": "While NPC can occur across ages, it is typically diagnosed in middle-aged and older adults,\ncommonly presenting with cervical lymphadenopathy.\nClinical / Application-Based Questions",
+        "subject": "ENT"
+    },
+    {
+        "question": "During rigid esophagoscopy, a perforation is most likely to occur at which weak\nanatomical point?",
+        "options": [
+            "Fossa of Rosenmuller",
+            "Killian's dehiscence",
+            "Pyriform sinus",
+            "Sinus of Morgagni"
+        ],
+        "correct": 1,
+        "exp": "Killian's dehiscence, the gap between thyropharyngeus and cricopharyngeus fibers, lacks muscular\nsupport and is a recognized site of instrumental perforation.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A child swallows a coin. On a frontal (AP) chest X-ray, the coin is seen \"en face\" as a full\nround shadow. Where is the coin most likely located?",
+        "options": [
+            "Bronchus",
+            "Larynx",
+            "Trachea",
+            "Esophagus"
+        ],
+        "correct": 3,
+        "exp": "A coin lodged in the esophagus lies in the coronal plane and appears as a full round disc on the\nAP/frontal view, while one in the trachea appears as an edge-on shadow on the frontal view.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient has swallowed a disc (button) battery which is lodged in the esophagus. What is\nthe most appropriate next step?",
+        "options": [
+            "Urgent endoscopic removal",
+            "Wait and observe for spontaneous passage",
+            "Give a laxative and reassess in 48 hours",
+            "Barium swallow followed by elective removal"
+        ],
+        "correct": 0,
+        "exp": "Disc batteries can leak alkali and cause rapid tissue necrosis and perforation, so they require\nurgent/emergent removal.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A school-age child presents with mouth breathing, hyponasal (rhinolalia clausa) speech,\nand bilateral glue ear. What is the most likely underlying diagnosis?",
+        "options": [
+            "Adenoid hypertrophy",
+            "Nasopharyngeal carcinoma",
+            "Rhinoscleroma",
+            "Angiofibroma"
+        ],
+        "correct": 0,
+        "exp": "These are the classic features of adenoid hypertrophy: obstructive symptoms, adenoid facies,\nhyponasal speech, and eustachian tube blockage causing bilateral glue ear.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient develops mild bleeding from the tonsillar fossa 5 days after tonsillectomy. What\nis the most appropriate management?",
+        "options": [
+            "Eagle syndrome",
+            "Grisel syndrome",
+            "Kallmann syndrome",
+            "Ortner syndrome"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "All of the following are true about Ludwig's angina EXCEPT which one?",
+        "options": [
+            "Observation only",
+            "IV antibiotics",
+            "Cold saline gargles alone"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient chewing tobacco for years develops progressive difficulty in mouth opening\n(trismus) without an obvious infective cause. What premalignant oral condition should be",
+        "options": [
+            "Pyriform sinus",
+            "Posterior pharyngeal wall",
+            "Vallecula",
+            "Post-cricoid area"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Except for the vocal cords, the larynx is lined by which type of epithelium?",
+        "options": [
+            "Four",
+            "Eight",
+            "Ten",
+            "Six"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The supraglottis has how many anatomical parts?",
+        "options": [
+            "Simple cuboidal epithelium",
+            "Ciliated columnar (respiratory) epithelium"
+        ],
+        "correct": 3,
+        "exp": "The supraglottis has five parts: epiglottis, aryepiglottic folds, false vocal cords, ventricle, and\nsaccule.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The subglottis lies over which cartilage?",
+        "options": [
+            "Six",
+            "Five",
+            "Three",
+            "Four"
+        ],
+        "correct": 1,
+        "exp": "The subglottis is the region that sits over the cricoid cartilage ring.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The glottis refers to which structure(s)?",
+        "options": [
+            "Thyroid cartilage",
+            "Cricoid cartilage",
+            "Epiglottis",
+            "Arytenoid cartilage"
+        ],
+        "correct": 1,
+        "exp": "The glottis refers to the true vocal cords (TVC) and the space between them.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Do the vocal cords have lymphatic drainage?",
+        "options": [
+            "The subglottic space",
+            "The false vocal cords",
+            "The supraglottic space",
+            "The true vocal cords"
+        ],
+        "correct": 3,
+        "exp": "The true vocal cords lack lymphatics, which is clinically significant as it explains why early glottic\ncancer has a very low rate of nodal metastasis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Reinke's space is described as which type of tissue layer within the vocal cord?",
+        "options": [
+            "Only the anterior third has lymphatics",
+            "No, the vocal cords lack lymphatics",
+            "Yes, abundant lymphatics",
+            "Only the posterior third has lymphatics"
+        ],
+        "correct": 1,
+        "exp": "Reinke's space is the subepithelial, loose areolar connective tissue layer of the vocal cord.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Edema of Reinke's space is called what condition?",
+        "options": [
+            "Deep muscular layer",
+            "Subepithelial loose connective tissue layer",
+            "Perichondrium",
+            "Cartilaginous core"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Intubation granuloma is caused by what mechanism, and is what type of disease?",
+        "options": [
+            "Contact ulcer",
+            "Screamer's/teacher's nodules",
+            "Singer's polyp",
+            "Laryngeal web"
+        ],
+        "correct": 1,
+        "exp": "Intubation granuloma is an iatrogenic condition resulting from faulty or prolonged endotracheal\nintubation, especially in ICU patients.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Juvenile papilloma of the larynx is caused by which virus?",
+        "options": [
+            "Genetic mutation; a congenital disease",
+            "Smoking; an acquired disease",
+            "Viral infection; a communicable disease",
+            "Faulty/prolonged intubation; an iatrogenic disease"
+        ],
+        "correct": 3,
+        "exp": "Juvenile laryngeal papillomatosis is caused by HPV types 6 and 11, typically transmitted from the\nmother at birth.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most commonly used laser in laryngeal surgery, and its approximate\nwavelength?",
+        "options": [
+            "Epstein-Barr virus",
+            "Herpes simplex virus",
+            "Human papillomavirus (HPV) types 6 and 11",
+            "Varicella zoster virus"
+        ],
+        "correct": 2,
+        "exp": "CO2 laser (wavelength approximately 10,600 nm) is the most commonly used laser in laryngeal\nsurgery.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Stridor is best described as what type of clinical sign?",
+        "options": [
+            "Argon laser, 500 nm",
+            "Diode laser, 800 nm",
+            "CO2 laser, 10,600 nm",
+            "Nd:YAG laser, 1064 nm"
+        ],
+        "correct": 2,
+        "exp": "Stridor is noisy breathing caused by turbulent airflow through an obstructed airway.",
+        "subject": "ENT"
+    },
+    {
+        "question": "During normal breathing, the vocal cords are in which position?",
+        "options": [
+            "A voice change only",
+            "A type of cough",
+            "A skin finding",
+            "Noisy breathing due to airway obstruction"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common congenital anomaly of the larynx and the most common cause\nof neonatal stridor?",
+        "options": [
+            "Laryngomalacia",
+            "Subglottic hemangioma",
+            "Vocal cord palsy",
+            "Laryngeal web"
+        ],
+        "correct": 0,
+        "exp": "Laryngomalacia is the most common congenital laryngeal anomaly and the most common cause of\nstridor in neonates.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Acute epiglottitis (supraglottitis) is caused by bacterial infection with which organisms?",
+        "options": [
+            "Parainfluenza virus",
+            "Candida albicans",
+            "Streptococcus pneumoniae and Haemophilus influenzae type B",
+            "Staphylococcus aureus only"
+        ],
+        "correct": 2,
+        "exp": "Acute epiglottitis is caused by bacterial infection, classically Streptococcus pneumoniae and\nHaemophilus influenzae type B.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Acute epiglottitis typically affects which age group?",
+        "options": [
+            "2-7 years",
+            "Adults over 60 only",
+            "Neonates only",
+            "Teenagers only"
+        ],
+        "correct": 0,
+        "exp": "Acute epiglottitis classically affects children aged 2-7 years, presenting as a very sick child with rapid\nairway compromise.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Acute laryngotracheobronchitis (croup) primarily affects which viral etiology?",
+        "options": [
+            "Respiratory syncytial virus only",
+            "Parainfluenza virus",
+            "Adenovirus",
+            "Rhinovirus"
+        ],
+        "correct": 1,
+        "exp": "Croup (ALTB) is caused predominantly by the parainfluenza virus.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Croup most commonly affects which age group, and which part of the airway is most\nseverely involved?",
+        "options": [
+            "2-7 years; supraglottis is most affected",
+            "Adults; glottis is most affected",
+            "3 months to 3 years; subglottis is most affected",
+            "Neonates; trachea is most affected"
+        ],
+        "correct": 2,
+        "exp": "Croup typically affects children aged 3 months to 3 years and predominantly involves the subglottic\nregion, though it is a viral infection of the entire airway.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Functional (hysterical) aphonia is more common in which patient demographic?",
+        "options": [
+            "Neonates",
+            "Young females",
+            "Elderly males",
+            "Middle-aged males"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Surgical stripping of vocal cord mucosa (decortication) combined with smoking cessation\nis the treatment for which condition?",
+        "options": [
+            "Antiviral drugs",
+            "Psychotherapy/psychiatric consultation",
+            "Tracheostomy",
+            "Vocal cord surgery"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the treatment of choice for Reinke's edema?",
+        "options": [
+            "Barium swallow",
+            "X-ray soft tissue neck",
+            "MRI brain",
+            "Pure tone audiometry"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the treatment of choice for vocal nodules?",
+        "options": [
+            "Bilateral, at the junction of anterior 1/3 and posterior 2/3",
+            "Unilateral, at the posterior commissure",
+            "Unilateral, at the anterior commissure",
+            "Bilateral, at the vocal process"
+        ],
+        "correct": 0,
+        "exp": "Vocal nodules are primarily treated conservatively with speech therapy and vocal rest; surgery is\nreserved for refractory cases.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A vocal polyp differs from a vocal nodule in that it is typically which of the following?",
+        "options": [
+            "Microlaryngeal surgery as first-line",
+            "Oral steroids",
+            "Speech therapy and voice rest",
+            "Radiotherapy"
+        ],
+        "correct": 2,
+        "exp": "Unlike bilateral vocal nodules, a vocal polyp is typically unilateral.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the treatment of choice for a vocal polyp?",
+        "options": [
+            "Unilateral",
+            "Always malignant",
+            "Bilateral",
+            "Located in the subglottis"
+        ],
+        "correct": 0,
+        "exp": "Vocal polyps, unlike nodules, are generally treated surgically with microlaryngeal surgery (MLS).",
+        "subject": "ENT"
+    },
+    {
+        "question": "Intubation granulomas are typically located at which site on the vocal cord?",
+        "options": [
+            "Speech therapy alone",
+            "Microlaryngeal surgery (MLS)",
+            "Observation only",
+            "Oral steroids"
+        ],
+        "correct": 1,
+        "exp": "Intubation granulomas are typically bilateral and occur at the junction of the anterior two-thirds and\nposterior one-third of the vocal cord, near the vocal process of the arytenoid where the endotracheal tube causes\npressure injury.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Juvenile papilloma of the larynx typically affects which age group?",
+        "options": [
+            "Junction of anterior 1/3 and posterior 2/3",
+            "Free margin only",
+            "Anterior commissure",
+            "Junction of anterior 2/3 and posterior 1/3 (vocal process area)"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Sensory supply of the supraglottis is provided by which nerve?",
+        "options": [
+            "Internal branch of the superior laryngeal nerve",
+            "Glossopharyngeal nerve",
+            "External branch of the superior laryngeal nerve",
+            "Recurrent laryngeal nerve"
+        ],
+        "correct": 0,
+        "exp": "The internal branch of the superior laryngeal nerve provides sensory innervation to the supraglottic\nlarynx.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Sensory supply of the subglottis is provided by which nerve?",
+        "options": [
+            "External branch of superior laryngeal nerve",
+            "Glossopharyngeal nerve",
+            "Recurrent laryngeal nerve",
+            "Internal branch of superior laryngeal nerve"
+        ],
+        "correct": 2,
+        "exp": "The recurrent laryngeal nerve provides sensory supply to the subglottic region.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The right recurrent laryngeal nerve loops around which structure?",
+        "options": [
+            "Common carotid artery",
+            "Arch of the aorta",
+            "Pulmonary artery",
+            "Subclavian artery"
+        ],
+        "correct": 3,
+        "exp": "The right recurrent laryngeal nerve loops around the right subclavian artery, while the left loops\naround the arch of the aorta.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common cause of bilateral vocal cord palsy?",
+        "options": [
+            "Viral neuritis",
+            "Bronchogenic carcinoma",
+            "Idiopathic causes",
+            "Thyroid surgery"
+        ],
+        "correct": 3,
+        "exp": "Thyroid surgery, due to bilateral risk to the recurrent laryngeal nerves, is the most common cause of\nbilateral vocal cord palsy.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Ortner syndrome (cardiovocal syndrome) causes left vocal cord palsy due to\ncompression from which structure?",
+        "options": [
+            "Thyroid goiter",
+            "Right atrial enlargement",
+            "Aortic aneurysm only",
+            "Left atrial enlargement"
+        ],
+        "correct": 3,
+        "exp": "Ortner syndrome refers to left recurrent laryngeal nerve palsy caused by compression from an\nenlarged left atrium, classically in mitral stenosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the immediate treatment for bilateral abductor vocal cord palsy causing\nrespiratory distress?",
+        "options": [
+            "Tracheostomy",
+            "Type I thyroplasty immediately",
+            "Observation",
+            "Speech therapy"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Laryngomalacia results from weakness of which anatomical structure?",
+        "options": [
+            "Tracheostomy alone lifelong",
+            "Type I thyroplasty",
+            "Laterofixation (lateralization of the vocal cord)",
+            "Cricothyroidotomy"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Stridor in laryngomalacia typically shows which characteristic pattern?",
+        "options": [
+            "True vocal cords",
+            "Subglottis",
+            "Cricoid cartilage"
+        ],
+        "correct": 0,
+        "exp": "Laryngomalacia causes inspiratory stridor starting in the first week of life, which worsens with\ncrying/supine position and improves in the prone position.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Why is the cry normal in an infant with laryngomalacia despite significant stridor?",
+        "options": [
+            "Stridor only on exertion in adulthood",
+            "Inspiratory stridor, starting in the first week of life, worse with crying, better prone",
+            "Biphasic stridor present from birth, unaffected by position",
+            "Expiratory stridor, starting at birth, worse when prone"
+        ],
+        "correct": 1,
+        "exp": "Since laryngomalacia affects the supraglottic structures and the vocal cords are structurally and\nfunctionally normal, the infant's cry remains normal.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Examination in laryngomalacia typically shows what shape of the epiglottis?",
+        "options": [
+            "Because the child cannot cry",
+            "Because the trachea is unaffected",
+            "Because the epiglottis is absent",
+            "Because the vocal cords themselves are normal"
+        ],
+        "correct": 3,
+        "exp": "An omega-shaped, curled epiglottis is a classic examination finding in laryngomalacia.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the mainstay of management for most infants with laryngomalacia?",
+        "options": [
+            "Turban epiglottis",
+            "Omega-shaped epiglottis",
+            "Flat epiglottis",
+            "Bifid epiglottis"
+        ],
+        "correct": 1,
+        "exp": "Most cases of laryngomalacia are mild and self-limiting, resolving as the child grows; management\nis primarily reassurance and observation.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A congenital laryngeal web most commonly occurs at which site?",
+        "options": [
+            "Systemic steroids",
+            "Emergency intubation",
+            "Immediate tracheostomy",
+            "Reassurance, as it is usually self-limiting"
+        ],
+        "correct": 3,
+        "exp": "Congenital laryngeal webs most commonly occur at the level of the glottis (anterior part).",
+        "subject": "ENT"
+    },
+    {
+        "question": "A congenital laryngeal web presents with what chief complaint in a neonate?",
+        "options": [
+            "Trachea",
+            "Subglottis",
+            "Supraglottis",
+            "Glottis"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What type of cartilage is the epiglottis, and what is a key feature of this type?",
+        "options": [
+            "Oral antihistamines",
+            "Nebulized racemic (racemose) adrenaline",
+            "Antifungal therapy",
+            "Antitussives"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The cricothyroid membrane is the surgical site for which emergency airway procedure?",
+        "options": [
+            "Tracheostomy",
+            "Adenoidectomy",
+            "Myringotomy",
+            "Cricothyroidotomy"
+        ],
+        "correct": 3,
+        "exp": "Cricothyroidotomy, performed through the cricothyroid membrane, is a rapid emergency airway\nprocedure used in acute airway obstruction when tracheostomy is not immediately feasible.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A key distinguishing feature of functional aphonia is that despite loss of voice, which\nactivity remains normal?",
+        "options": [
+            "Cough sound",
+            "Swallowing",
+            "Chest expansion",
+            "Breathing rate"
+        ],
+        "correct": 0,
+        "exp": "In functional aphonia, the cough sound remains normal (since true reflex phonation is intact),\ndistinguishing it from organic causes of aphonia.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Why does glottic cancer generally have a better prognosis compared to supraglottic\ncancer?",
+        "options": [
+            "The vocal cords have abundant lymphatics",
+            "The vocal cords lack lymphatics, so nodal metastasis is rare",
+            "Glottic cancer never invades cartilage",
+            "Glottic cancer is always low grade"
+        ],
+        "correct": 1,
+        "exp": "Because the true vocal cords lack lymphatic drainage, glottic cancer has a low rate of neck node\nmetastasis, contributing to its relatively good prognosis.\nClinical / Application-Based Questions",
+        "subject": "ENT"
+    },
+    {
+        "question": "A young adult male complains of an abnormally high-pitched (feminine) voice with a\nnormal laryngoscopy. Speech therapy fails. What surgical procedure can help?",
+        "options": [
+            "Tracheostomy",
+            "Cricothyroidotomy",
+            "Type I thyroplasty",
+            "Type III thyroplasty"
+        ],
+        "correct": 3,
+        "exp": "A persistently high-pitched voice in a male, if speech therapy (Gutzmann's maneuver) fails, may be\ntreated with Type III thyroplasty, which surgically shortens/loosens the vocal cord to lower pitch.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient produces sound predominantly from the false vocal cords rather than the true\ncords. What is this condition called?",
+        "options": [
+            "Dysphonia plica ventricularis",
+            "Laryngomalacia",
+            "Vocal nodule",
+            "Reinke's edema"
+        ],
+        "correct": 0,
+        "exp": "Dysphonia plica ventricularis is a supraglottic voice disorder where phonation occurs from the false\n(ventricular) vocal cords instead of the true cords.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A 6-year-old presents with progressively worsening hoarseness of voice for 6 months,\nwith no history of vocal abuse. What is the most probable diagnosis?",
+        "options": [
+            "Juvenile papilloma of larynx",
+            "Vocal polyp",
+            "Reinke's edema",
+            "Vocal nodules"
+        ],
+        "correct": 0,
+        "exp": "Progressive hoarseness in a young child without a history of vocal abuse strongly suggests juvenile\nlaryngeal papillomatosis due to HPV infection.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient with bilateral abductor palsy of the vocal cords (both posterior cricoarytenoid\nmuscles paralyzed) presents. What are the vocal cords' position and the clinical presentation?",
+        "options": [
+            "Fully open with normal voice",
+            "Median/paramedian (closed) position with respiratory difficulty but normal voice",
+            "Fully open with severe hoarseness",
+            "Cadaveric (open) position with aphonia"
+        ],
+        "correct": 1,
+        "exp": "In bilateral abductor palsy, only the adductor cricothyroid remains active, so the cords lie in a closed\nmedian/paramedian position, causing respiratory difficulty with a relatively preserved voice.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A 1-month-old presents with stridor since day 7 of life, which improves when the infant is\nplaced prone. What is the most appropriate management?",
+        "options": [
+            "Epiglottopexy",
+            "Tracheostomy",
+            "Reassurance to parents",
+            "Intubation"
+        ],
+        "correct": 2,
+        "exp": "This presentation is classic laryngomalacia, and since it is typically self-limiting, reassurance is the\nappropriate first-line management in a well infant without severe distress.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient suddenly develops complete airway obstruction while eating, becoming\naphonic. What is the immediate life-saving maneuver?",
+        "options": [
+            "Heimlich maneuver",
+            "Humidified oxygen",
+            "Nebulized adrenaline",
+            "Oral steroids"
+        ],
+        "correct": 0,
+        "exp": "A sudden, complete foreign body airway obstruction while eating requires the Heimlich maneuver,\napplying upward/backward pressure on the epigastrium to expel the obstructing food/object.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Rhinophyma is more common in which sex, and is considered a type of which skin\ncondition?",
+        "options": [
+            "Six",
+            "Five",
+            "Three",
+            "Four"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A rhinolith is formed by what process?",
+        "options": [
+            "Males; a type of psoriasis",
+            "Females; a type of vitiligo",
+            "Females; a type of eczema"
+        ],
+        "correct": 0,
+        "exp": "A rhinolith is a stone that forms within the nasal cavity, often around a retained foreign body or\nnucleus.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Nasal myiasis refers to the presence of what in the nose?",
+        "options": [
+            "Ossification of turbinate",
+            "Calcification of nasal polyp",
+            "Fungal ball formation in the sinus",
+            "Formation of a stone within the nasal cavity"
+        ],
+        "correct": 3,
+        "exp": "Nasal myiasis is the infestation of the nasal cavity by maggots, the larvae of the housefly\n(Chrysomya), typically in foul-smelling nasal conditions.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most commonly fractured bone of the face?",
+        "options": [
+            "Protozoal cysts",
+            "Bacterial colonies",
+            "Maggots (fly larvae)",
+            "Fungal hyphae"
+        ],
+        "correct": 2,
+        "exp": "The nasal bone is the most commonly fractured bone of the facial skeleton due to its prominent and\nunsupported position.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the second most commonly fractured bone of the face, after the nasal bone?",
+        "options": [
+            "Zygomatic bone",
+            "Maxilla",
+            "Nasal bone",
+            "Mandible"
+        ],
+        "correct": 2,
+        "exp": "The zygomatic bone, involved in the \"tripod fracture,\" is the second most commonly fractured facial\nbone after the nasal bone.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Ecchymosis seen on the palate in a Le Fort I fracture is called what sign?",
+        "options": [
+            "Zygomatic bone",
+            "Maxilla",
+            "Frontal bone",
+            "Mandible"
+        ],
+        "correct": 0,
+        "exp": "Guerin sign refers to palatal ecchymosis seen in Le Fort I maxillary fractures.",
+        "subject": "ENT"
+    },
+    {
+        "question": "How many turbinates are typically present on the lateral wall of the nose?",
+        "options": [
+            "Battle sign",
+            "Chvostek sign",
+            "Guerin sign",
+            "Bryce's sign"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The middle and superior turbinates/conchae are parts of which bone?",
+        "options": [
+            "Three",
+            "Four",
+            "Two",
+            "Five"
+        ],
+        "correct": 0,
+        "exp": "The middle and superior conchae are projections of the ethmoid bone.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The space located below each turbinate is called what?",
+        "options": [
+            "Palatine bone",
+            "Ethmoid bone",
+            "Maxilla",
+            "Vomer"
+        ],
+        "correct": 1,
+        "exp": "The space beneath each turbinate is termed a meatus (inferior, middle, or superior meatus).",
+        "subject": "ENT"
+    },
+    {
+        "question": "The posterior opening of the nasal cavity into the nasopharynx is called what?",
+        "options": [
+            "Recess",
+            "Fossa",
+            "Meatus",
+            "Concha"
+        ],
+        "correct": 2,
+        "exp": "The choana is the posterior opening of the nasal cavity, connecting it to the nasopharynx.",
+        "subject": "ENT"
+    },
+    {
+        "question": "How many paranasal sinuses are there on each side?",
+        "options": [
+            "Vestibule",
+            "Ostium",
+            "Ala",
+            "Choana"
+        ],
+        "correct": 3,
+        "exp": "There are four paranasal sinuses on each side: maxillary, frontal, sphenoid, and ethmoid.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The maxillary sinus is also known by which eponym?",
+        "options": [
+            "Three",
+            "Four",
+            "Five",
+            "Two"
+        ],
+        "correct": 1,
+        "exp": "The maxillary sinus is also called the antrum of Highmore.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which paranasal sinus is the largest?",
+        "options": [
+            "Fossa of Killian",
+            "Antrum of Highmore",
+            "Antrum of Rosenmuller",
+            "Sinus of Morgagni"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the surgical treatment for a symptomatic deviated nasal septum?",
+        "options": [
+            "Lateral wall (inferior meatus)",
+            "Floor of the nasal cavity",
+            "Roof/upper third of the nasal cavity",
+            "Nasal vestibule"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common site of involvement in rhinosporidiosis?",
+        "options": [
+            "Oral cavity",
+            "Genital mucosa",
+            "Nose",
+            "Conjunctiva"
+        ],
+        "correct": 2,
+        "exp": "The nose is the most common site of involvement in rhinosporidiosis, though it can also affect the\noral cavity, conjunctiva, and genital mucosa.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common site of a CSF (cerebrospinal fluid) rhinorrhea leak?",
+        "options": [
+            "Sphenoid sinus wall",
+            "Frontal sinus posterior wall",
+            "Cribriform plate of the ethmoid bone",
+            "Maxillary sinus roof"
+        ],
+        "correct": 2,
+        "exp": "The cribriform plate of the ethmoid bone is the most common site of CSF leak causing CSF\nrhinorrhea.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The artery most commonly responsible for epistaxis, supplying Little's area, is which\nvessel?",
+        "options": [
+            "Sphenopalatine artery",
+            "Ophthalmic artery",
+            "Superior labial artery alone",
+            "Facial artery"
+        ],
+        "correct": 0,
+        "exp": "The sphenopalatine artery, via its septal branch, is the artery most classically implicated as the\nsource of bleeding in epistaxis from Little's area.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The most common area of epistaxis on the nasal septum is called what?",
+        "options": [
+            "Little's area",
+            "Kiesselbach's area only (distinct term)",
+            "Sluder's area",
+            "Woodruff's plexus"
+        ],
+        "correct": 0,
+        "exp": "Little's area, located on the anteroinferior part of the nasal septum, is the most common site of\nepistaxis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common overall cause of epistaxis?",
+        "options": [
+            "Anticoagulant use",
+            "Bleeding disorders",
+            "Hypertension",
+            "Digital trauma (nose picking)"
+        ],
+        "correct": 3,
+        "exp": "Nose picking (digital/finger nail trauma) is the most common cause of epistaxis overall.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the first-line first-aid measure for anterior epistaxis?",
+        "options": [
+            "Ice application to the forehead",
+            "Pinching the nose (compressing Little's area) for 2-3 minutes",
+            "Immediate surgery",
+            "Immediate posterior nasal packing"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The nasal vestibule is lined by which type of epithelium, unlike the rest of the nasal\ncavity?",
+        "options": [
+            "Frontal process of maxilla",
+            "Lamina papyracea of the ethmoid",
+            "Nasal bone",
+            "Zygomatic arch"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The maxillary sinus ostium (natural opening) is located in which part of the nasal cavity?",
+        "options": [
+            "Transitional epithelium",
+            "Ciliated columnar epithelium",
+            "Stratified squamous epithelium with hair follicles"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The paranasal sinuses primarily function to do which of the following?",
+        "options": [
+            "Regulate body temperature",
+            "Serve as the primary site of hearing",
+            "Directly aid in olfaction",
+            "Lighten the skull and add resonance to the voice"
+        ],
+        "correct": 3,
+        "exp": "Functions attributed to the paranasal sinuses include lightening the weight of the skull and adding\nresonance to the voice, among other proposed roles.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Mucociliary clearance of the paranasal sinuses moves secretions toward which structure\nregardless of the position of the sinus ostium?",
+        "options": [
+            "The lowest point of the sinus by gravity",
+            "The natural ostium of each sinus",
+            "The floor of the sinus only",
+            "Directly out through the skin"
+        ],
+        "correct": 1,
+        "exp": "Mucociliary clearance is an active, directed process that moves secretions toward the natural ostium\nof each sinus, independent of gravity or head position.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best describes the \"nasal cycle\" duration in a typical healthy\nadult?",
+        "options": [
+            "It alternates over a period of several hours (typically 2-7 hours per side)",
+            "It occurs only during sleep",
+            "It occurs once per lifetime",
+            "It completes multiple cycles per minute"
+        ],
+        "correct": 0,
+        "exp": "The nasal cycle is a normal physiological phenomenon where turbinate congestion alternates sides\napproximately every 2-7 hours in healthy individuals.\nMedium Questions",
+        "subject": "ENT"
+    },
+    {
+        "question": "A Le Fort II fracture is also known by which descriptive name?",
+        "options": [
+            "Transverse fracture",
+            "Craniofacial disjunction",
+            "Tripod fracture",
+            "Pyramidal fracture"
+        ],
+        "correct": 3,
+        "exp": "Le Fort II fracture is also called the pyramidal fracture due to its characteristic pyramidal fracture\npattern.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A Le Fort III fracture is also known by which descriptive name?",
+        "options": [
+            "Blow-out fracture",
+            "Transverse fracture",
+            "Pyramidal fracture",
+            "Craniofacial disjunction"
+        ],
+        "correct": 3,
+        "exp": "Le Fort III fracture is termed craniofacial disjunction, as it separates the facial skeleton entirely from\nthe skull base.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Le Fort II and III fractures pass through the skull base, creating a risk of which\ncomplication?",
+        "options": [
+            "Nasal polyposis",
+            "Rhinoscleroma",
+            "CSF rhinorrhea",
+            "Otosclerosis"
+        ],
+        "correct": 2,
+        "exp": "Because Le Fort II and III fractures traverse the skull base, they carry a risk of traumatic CSF\nrhinorrhea (blood-mixed CSF leak).",
+        "subject": "ENT"
+    },
+    {
+        "question": "The inferior turbinate/concha is unique among the turbinates in that it is what?",
+        "options": [
+            "Part of the ethmoid bone",
+            "An independent bone",
+            "Part of the vomer",
+            "Part of the maxilla"
+        ],
+        "correct": 1,
+        "exp": "Unlike the middle and superior turbinates (which are parts of the ethmoid bone), the inferior turbinate\nis an independent bone.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The area above the superior turbinate is called what?",
+        "options": [
+            "Agger nasi",
+            "Ethmoidal infundibulum",
+            "Sphenoethmoidal recess",
+            "Osteomeatal complex"
+        ],
+        "correct": 2,
+        "exp": "The sphenoethmoidal recess is the area located above the superior turbinate, into which the\nsphenoid sinus drains.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Congenital choanal atresia results from persistence of which embryological membrane?",
+        "options": [
+            "Bucconasal membrane",
+            "Oropharyngeal membrane",
+            "Buccopharyngeal septum",
+            "Cloacal membrane"
+        ],
+        "correct": 0,
+        "exp": "Choanal atresia occurs due to failure of resorption (persistence) of the bucconasal membrane during\ndevelopment.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Why is bilateral complete choanal atresia a neonatal emergency?",
+        "options": [
+            "Neonates are obligatory nasal breathers",
+            "It obstructs feeding only, not breathing",
+            "It always causes fatal hemorrhage",
+            "Neonates cannot breathe through the mouth ever"
+        ],
+        "correct": 0,
+        "exp": "Neonates are obligatory nasal breathers, so bilateral choanal atresia causes life-threatening airway\nobstruction at birth.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The ethmoid air cells are grouped into which two constant divisions?",
+        "options": [
+            "Bulla and infundibular cells",
+            "Superior and inferior ethmoid cells",
+            "Anterior and posterior ethmoid cells",
+            "Medial and lateral ethmoid cells"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which chief complaint of sinusitis is specifically associated with frontal sinusitis?",
+        "options": [
+            "Bulla ethmoidalis",
+            "Onodi cell",
+            "Agger nasi cell",
+            "Haller cell"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which chief complaint of sinusitis is specifically associated with maxillary sinusitis?",
+        "options": [
+            "Cheek pain",
+            "Forehead headache",
+            "Vertex pain"
+        ],
+        "correct": 2,
+        "exp": "Maxillary sinusitis classically causes cheek pain.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Vertex headache is a classic feature of sinusitis affecting which sinus?",
+        "options": [
+            "Bridge of nose pain",
+            "Vertex headache",
+            "Cheek pain",
+            "Forehead headache"
+        ],
+        "correct": 2,
+        "exp": "Sphenoid sinusitis classically presents with vertex (top of head) headache.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Pain over the bridge of the nose/inner canthus is classically associated with sinusitis of\nwhich sinus?",
+        "options": [
+            "Frontal sinus",
+            "Sphenoid sinus",
+            "Maxillary sinus",
+            "Ethmoid sinus"
+        ],
+        "correct": 1,
+        "exp": "Ethmoid sinusitis classically causes pain over the bridge of the nose and medial canthal region.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which X-ray view is best for visualizing the frontal and ethmoid sinuses?",
+        "options": [
+            "Ethmoid sinus",
+            "Maxillary sinus",
+            "Sphenoid sinus",
+            "Frontal sinus"
+        ],
+        "correct": 0,
+        "exp": "The Caldwell (occipitofrontal, PA) view is best for demonstrating the frontal and ethmoid sinuses.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which X-ray view is used to evaluate the sphenoid sinus?",
+        "options": [
+            "Caldwell (occipitofrontal) view",
+            "Submentovertex view",
+            "Water's view",
+            "Lateral skull view"
+        ],
+        "correct": 0,
+        "exp": "The lateral skull view is used to assess the sphenoid sinus.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Medical treatment of acute sinusitis with antibiotics and decongestants is typically\ncontinued for how long before considering it a failure?",
+        "options": [
+            "Lateral skull view",
+            "Towne's view",
+            "Caldwell view",
+            "Water's view"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Mucocele formation, a complication of sinusitis due to obstructed mucus drainage, most\ncommonly occurs in which sinus?",
+        "options": [
+            "Orbital infection",
+            "Osteomyelitis of frontal bone",
+            "Pott's puffy tumor",
+            "Mucocele formation"
+        ],
+        "correct": 0,
+        "exp": "Mucocele, an expansile mucus-filled sac, is most commonly seen in the frontal sinus.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A subperiosteal abscess of the frontal bone secondary to frontal sinus osteomyelitis is\ncalled what?",
+        "options": [
+            "Sphenoid sinus",
+            "Frontal sinus",
+            "Ethmoid sinus",
+            "Maxillary sinus"
+        ],
+        "correct": 1,
+        "exp": "Pott's puffy tumor refers to subperiosteal abscess formation over the frontal bone due to\nosteomyelitis, presenting as a boggy, painful forehead swelling.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Radiologically, which paranasal sinuses are present at birth and are the first to develop?",
+        "options": [
+            "Citelli's abscess",
+            "Pott's puffy tumor",
+            "Reservoir sign",
+            "Bezold's abscess"
+        ],
+        "correct": 1,
+        "exp": "The maxillary and ethmoid sinuses are present at birth and are the earliest to develop; the frontal\nsinus is the last to fully develop.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which paranasal sinus develops last radiologically?",
+        "options": [
+            "Frontal and sphenoid sinuses",
+            "Frontal sinus only",
+            "Sphenoid sinus only",
+            "Maxillary and ethmoid sinuses"
+        ],
+        "correct": 3,
+        "exp": "The frontal sinus is the last of the paranasal sinuses to develop, often not fully pneumatized until\nadolescence.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Osteomas, benign bony tumors of the sinuses, are most commonly found in which sinus?",
+        "options": [
+            "Frontal sinus",
+            "Sphenoid sinus",
+            "Ethmoid sinus",
+            "Maxillary sinus"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the surgical treatment for carcinoma of the maxillary sinus?",
+        "options": [
+            "Topical corticosteroid nasal spray",
+            "Radiotherapy",
+            "Endoscopic polypectomy (FESS)",
+            "Oral antihistamines"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following is a recognized neurological cause of anosmia/hyposmia?",
+        "options": [
+            "Delta sign",
+            "Rising sun sign",
+            "Target sign",
+            "Black turbinate sign"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the primary treatment for a nasal septal hematoma?",
+        "options": [
+            "Both sides equally",
+            "The deviated (narrower) side",
+            "The patent (wider) side",
+            "Neither side"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which organism has been implicated as an infective cause of atrophic rhinitis (ozena)?",
+        "options": [
+            "Staphylococcus aureus",
+            "Klebsiella ozaenae",
+            "Streptococcus pneumoniae",
+            "Pseudomonas aeruginosa"
+        ],
+        "correct": 1,
+        "exp": "Klebsiella ozaenae has been implicated as a causative infective organism in atrophic rhinitis\n(ozena).",
+        "subject": "ENT"
+    },
+    {
+        "question": "Despite a foul odor from the nose in atrophic rhinitis, patients characteristically have what\nassociated symptom?",
+        "options": [
+            "Parosmia only",
+            "Normal smell",
+            "Hyperosmia",
+            "Anosmia"
+        ],
+        "correct": 3,
+        "exp": "Patients with atrophic rhinitis characteristically have anosmia, so they themselves cannot perceive\nthe foul odor emanating from their nose, though others can smell it (cacosmia).",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the mainstay conservative treatment for atrophic rhinitis?",
+        "options": [
+            "Alkaline nasal douching/wash",
+            "Topical decongestants",
+            "Systemic antifungals",
+            "Oral antihistamines"
+        ],
+        "correct": 0,
+        "exp": "Alkaline nasal douching (wash) is a mainstay conservative treatment for atrophic rhinitis to clear\ncrusts and reduce odor.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which surgical procedure(s) may be used for atrophic rhinitis, involving partial closure of\nthe nostrils?",
+        "options": [
+            "Killian's operation",
+            "Stapedotomy",
+            "Caldwell-Luc operation",
+            "Young's operation (or modified Young's operation)"
+        ],
+        "correct": 3,
+        "exp": "Young's operation and its modification involve partial or complete closure of the nostrils to reduce\nairflow and allow the atrophic mucosa to recover, used in refractory atrophic rhinitis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Rhinoscleroma is more commonly seen in which geographic region?",
+        "options": [
+            "North India (UP, Rajasthan)",
+            "Western coastal India",
+            "Northeast India",
+            "South India"
+        ],
+        "correct": 0,
+        "exp": "Rhinoscleroma is more commonly reported in North India, particularly Uttar Pradesh and Rajasthan.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Biopsy of rhinoscleroma classically shows which pathognomonic cell/finding?",
+        "options": [
+            "Langerhans cells",
+            "Russell bodies and Mikulicz cells",
+            "Reed-Sternberg cells",
+            "Multinucleated giant cells only"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A classic bedside test where CSF forms a clear ring around a blood stain on filter paper is\ncalled what?",
+        "options": [
+            "Insect bite",
+            "Contact with infected animals",
+            "Bathing/swimming in stagnant ponds",
+            "Inhalation of dry dust"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Little's area contains a rich vascular plexus formed by the anastomosis of four arteries,\ncalled what?",
+        "options": [
+            "Bryce's sign",
+            "Battle sign"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "If sphenopalatine artery ligation fails to control severe epistaxis, what is the next surgical\nstep in the treatment ladder?",
+        "options": [
+            "Anterior ethmoidal artery",
+            "Posterior ethmoidal artery",
+            "Greater palatine artery",
+            "Sphenopalatine artery"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "An anatomical variation where a posterior ethmoid air cell lies close to the optic nerve,\nseen on CT before sinus surgery, is which cell?",
+        "options": [
+            "Nasopalatine nerve",
+            "Anterior ethmoidal nerve",
+            "Infraorbital nerve",
+            "Greater palatine nerve"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient presents with a unilateral, single, large nasal polyp extending into the\nnasopharynx, more typical in a child. What is the likely diagnosis?",
+        "options": [
+            "Maxillary sinus - mucocele most common",
+            "Frontal sinus - osteoma and mucocele",
+            "Sphenoid sinus - osteoma",
+            "Ethmoid sinus - osteoma most common"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Compared to antrochoanal polyps, ethmoidal polyps are typically what in terms of\nlaterality and number?",
+        "options": [
+            "Rhinosporidiosis",
+            "Ethmoidal polyp",
+            "Antrochoanal polyp",
+            "Angiofibroma"
+        ],
+        "correct": 2,
+        "exp": "Ethmoidal polyps are typically bilateral and multiple, in contrast to the single, unilateral nature of\nantrochoanal polyps.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is a recognized complication of chronic, long-standing untreated nasal polyposis\naffecting the external nasal shape?",
+        "options": [
+            "Unilateral and single",
+            "Bilateral and multiple",
+            "Unilateral and multiple only in adults",
+            "Bilateral and single only"
+        ],
+        "correct": 1,
+        "exp": "Chronic, longstanding, massive nasal polyposis can cause widening/deformity of the external nose\ndue to prolonged pressure effect.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The blood supply to the nose arises mainly from branches of which two arterial systems?",
+        "options": [
+            "Saddle nose",
+            "Frog face deformity",
+            "External nasal deformity/widening",
+            "Rhinophyma"
+        ],
+        "correct": 2,
+        "exp": "The nose receives blood supply from both the internal carotid system (via the ophthalmic artery's\nethmoidal branches) and the external carotid system (via the facial and maxillary arteries).",
+        "subject": "ENT"
+    },
+    {
+        "question": "The anterior and posterior ethmoidal arteries supplying the nose are branches of which\nartery?",
+        "options": [
+            "Only the internal carotid artery",
+            "Internal and external carotid artery systems",
+            "Vertebral artery system only",
+            "Only the external carotid artery"
+        ],
+        "correct": 1,
+        "exp": "The anterior and posterior ethmoidal arteries are branches of the ophthalmic artery, part of the\ninternal carotid arterial system.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The sphenopalatine artery, greater palatine artery, and superior labial artery are branches\nof which larger arterial system supplying the nose?",
+        "options": [
+            "Sphenopalatine artery",
+            "Maxillary artery",
+            "Facial artery",
+            "Ophthalmic artery"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A Foley's catheter can be used as an alternative method for which purpose in epistaxis\nmanagement?",
+        "options": [
+            "To perform sphenopalatine artery ligation",
+            "As an anterior nasal pack primarily",
+            "As a posterior nasal pack (balloon tamponade)",
+            "To perform septoplasty"
+        ],
+        "correct": 2,
+        "exp": "A Foley's catheter, inflated in the postnasal space, can serve as an improvised posterior nasal pack\nfor tamponade of posterior epistaxis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following paranasal sinuses lies closest to the optic nerve and internal\ncarotid artery, making sphenoid sinus surgery high-risk?",
+        "options": [
+            "Frontal sinus",
+            "Sphenoid sinus",
+            "Maxillary sinus",
+            "Anterior ethmoid sinus"
+        ],
+        "correct": 1,
+        "exp": "The sphenoid sinus has close anatomical relations to the optic nerve and internal carotid artery in its\nlateral wall, making endoscopic sphenoid surgery technically demanding.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Function endoscopic sinus surgery (FESS) is primarily aimed at restoring what\nphysiological process?",
+        "options": [
+            "Septal cartilage regeneration",
+            "Turbinate bone regrowth",
+            "Normal mucociliary drainage via the osteomeatal complex",
+            "Olfactory nerve regeneration"
+        ],
+        "correct": 2,
+        "exp": "FESS aims to restore normal mucociliary clearance and ventilation by re-establishing patency of the\nosteomeatal complex.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following is the most common indication for functional endoscopic sinus\nsurgery (FESS)?",
+        "options": [
+            "Rhinophyma",
+            "Simple nasal bone fracture",
+            "Acute viral rhinitis",
+            "Chronic rhinosinusitis refractory to medical treatment"
+        ],
+        "correct": 3,
+        "exp": "FESS is most commonly indicated for chronic rhinosinusitis (and nasal polyposis) that has failed\nadequate medical management.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The mnemonic for arteries contributing to Kiesselbach's plexus includes contributions\nfrom the facial artery via which specific branch?",
+        "options": [
+            "Buccal artery",
+            "Superior labial artery",
+            "Angular artery",
+            "Transverse facial artery"
+        ],
+        "correct": 1,
+        "exp": "The superior labial artery, a branch of the facial artery, contributes to Kiesselbach's plexus in Little's\narea.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Non-invasive fungal sinusitis (fungal ball) differs from invasive fungal sinusitis (like\nmucormycosis) primarily by which feature?",
+        "options": [
+            "Absence of angioinvasion/tissue invasion",
+            "Occurs only in immunocompromised patients",
+            "Presence of angioinvasion",
+            "Always requires amphotericin B"
+        ],
+        "correct": 0,
+        "exp": "Non-invasive fungal sinusitis (fungal ball) is confined within the sinus cavity without invading\nsurrounding tissue or blood vessels, unlike invasive fungal sinusitis (e.g., mucormycosis), which is angioinvasive\nand life-threatening.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Early clinical features of mucormycosis, before the blackish necrotic changes appear,\ninclude which of the following?",
+        "options": [
+            "Facial pain, cheek swelling, and blurring of vision",
+            "Whistling sound during breathing",
+            "Chronic anosmia alone",
+            "Painless nasal mass only"
+        ],
+        "correct": 0,
+        "exp": "Early mucormycosis presents with facial/cheek pain and swelling, nasal obstruction with\nblood-stained discharge, and blurring of vision as the infection begins to spread, before the characteristic blackish\nnecrosis develops.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following conditions is characterized by inflammation of nasal mucosa\nwithout an identifiable allergic or infective cause, related to autonomic imbalance?",
+        "options": [
+            "Rhinoscleroma",
+            "Allergic rhinitis",
+            "Vasomotor rhinitis",
+            "Atrophic rhinitis"
+        ],
+        "correct": 2,
+        "exp": "Vasomotor rhinitis is a non-allergic, non-infective rhinitis caused by autonomic (parasympathetic)\nimbalance, often triggered by temperature or irritant exposure.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A key clinical difference between vasomotor rhinitis and allergic rhinitis is that vasomotor\nrhinitis usually lacks which finding on nasal smear?",
+        "options": [
+            "Eosinophilia",
+            "Lymphocytosis",
+            "Neutrophilia",
+            "Basophilia"
+        ],
+        "correct": 0,
+        "exp": "Vasomotor rhinitis typically shows no significant eosinophilia on nasal smear, unlike allergic rhinitis,\nwhich is associated with eosinophilic inflammation.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which structure, if damaged during FESS in the region of the skull base, can lead to CSF\nrhinorrhea as an iatrogenic complication?",
+        "options": [
+            "Inferior turbinate",
+            "Middle turbinate",
+            "Uncinate process",
+            "Cribriform plate/fovea ethmoidalis"
+        ],
+        "correct": 3,
+        "exp": "Injury to the thin bone of the cribriform plate or fovea ethmoidalis (ethmoid roof) during FESS is the\nmost common iatrogenic cause of CSF rhinorrhea.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which is a recognized complication of long-standing frontal sinusitis, presenting as a\nsubperiosteal collection over the forehead?",
+        "options": [
+            "Central anosmia",
+            "Sensorineural anosmia",
+            "Obstructive (conductive) anosmia",
+            "Mixed anosmia"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Caldwell-Luc operation is a surgical approach historically used to access which sinus, via\nthe canine fossa?",
+        "options": [
+            "Pott's puffy tumor",
+            "Citelli's abscess",
+            "Reservoir sign",
+            "Bezold's abscess"
+        ],
+        "correct": 0,
+        "exp": "The Caldwell-Luc operation provides surgical access to the maxillary sinus through the canine fossa\n(anterior sinus wall), historically used for chronic maxillary sinusitis and to remove fungal balls/tumors.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The oroantral fistula is an abnormal communication between which two structures?",
+        "options": [
+            "Ethmoid sinus",
+            "Sphenoid sinus",
+            "Frontal sinus",
+            "Maxillary sinus"
+        ],
+        "correct": 3,
+        "exp": "An oroantral fistula is an abnormal opening connecting the oral cavity (typically after upper molar\nextraction) with the maxillary sinus.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Sinonasal esthesioneuroblastoma (olfactory neuroblastoma) arises from which specific\ntissue?",
+        "options": [
+            "Maxillary sinus and orbit",
+            "Oral cavity and maxillary sinus",
+            "Nasal cavity and orbit",
+            "Oral cavity and nasal cavity directly"
+        ],
+        "correct": 1,
+        "exp": "Esthesioneuroblastoma arises from the olfactory neuroepithelium located in the roof of the nasal\ncavity/cribriform plate region.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which staging system is classically used for esthesioneuroblastoma?",
+        "options": [
+            "Olfactory neuroepithelium",
+            "Nasal cartilage",
+            "Nasal mucosal squamous cells",
+            "Ethmoid bone osteoblasts"
+        ],
+        "correct": 0,
+        "exp": "The Kadish staging system is the classic staging system specifically used for\nesthesioneuroblastoma (olfactory neuroblastoma).",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following nasal conditions is classically associated with a \"strawberry\" or\nbleeding-prone mass in an adolescent male along with profuse epistaxis, distinct from\nrhinosporidiosis?",
+        "options": [
+            "Ohngren's line staging",
+            "Kadish staging",
+            "Ann Arbor staging",
+            "TNM staging exclusively"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Parosmia refers to which type of olfactory disturbance?",
+        "options": [
+            "Schwartz sign",
+            "Holman-Miller sign",
+            "Target sign",
+            "Black turbinate sign"
+        ],
+        "correct": 0,
+        "exp": "Parosmia is a qualitative olfactory disturbance in which smells are perceived as distorted or different\nfrom their actual source odor.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient reports smelling a foul, burning odor intermittently with no identifiable external\nsource. This phantom smell perception is termed what?",
+        "options": [
+            "Distorted or altered perception of smell",
+            "Enhanced smell sensitivity",
+            "Foul smell noticed by others only",
+            "Total loss of smell"
+        ],
+        "correct": 0,
+        "exp": "Phantosmia is the perception of an odor (often unpleasant) in the absence of any actual external\nodor stimulus, i.e., an olfactory hallucination.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following nasal structures is primarily responsible for humidifying and\nwarming inspired air due to its rich vascular mucosa?",
+        "options": [
+            "Phantosmia",
+            "Parosmia",
+            "Hyperosmia",
+            "Cacosmia"
+        ],
+        "correct": 0,
+        "exp": "The inferior turbinate, with its extensive vascular mucosa, plays the main role in warming and\nhumidifying inspired air as it passes through the nose.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following is the main function of nasal hair (vibrissae) located in the\nvestibule?",
+        "options": [
+            "Inferior turbinate",
+            "Ala nasi",
+            "Nasal bone",
+            "Nasal septum cartilage"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Nasal septal cartilage necrosis following an untreated septal hematoma classically leads\nto which deformity?",
+        "options": [
+            "Frog face deformity",
+            "Saddle nose deformity",
+            "Turban deformity",
+            "Bat ear deformity"
+        ],
+        "correct": 1,
+        "exp": "Necrosis of the septal cartilage due to an untreated hematoma/abscess removes dorsal support,\nleading to a saddle nose deformity.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following medications is most associated with causing ischemic nasal septal\nperforation due to vasoconstriction with chronic use?",
+        "options": [
+            "Oxymetazoline",
+            "Saline nasal spray",
+            "Cocaine",
+            "Fluticasone nasal spray"
+        ],
+        "correct": 2,
+        "exp": "Chronic intranasal cocaine use causes profound vasoconstriction and ischemia of the nasal septal\nmucosa and cartilage, leading to septal perforation.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which imaging view historically used for sinus evaluation is being increasingly replaced\nby CT scan in modern practice due to superior sensitivity?",
+        "options": [
+            "Plain X-ray (Water's, Caldwell views)",
+            "PET scan",
+            "Ultrasound",
+            "MRI"
+        ],
+        "correct": 0,
+        "exp": "Plain X-ray views of the sinuses (Water's, Caldwell) have largely been replaced by CT scan in\nmodern practice due to CT's superior sensitivity and anatomical detail.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following is the most likely explanation for why maxillary sinusitis is the\nmost common form of chronic sinusitis?",
+        "options": [
+            "It is the largest sinus with a dependent (gravity-unfavorable) single narrow ostium high on its medial\nwall",
+            "It has no mucosal lining",
+            "It has the widest, most freely draining ostium",
+            "It lacks any communication with the nasal cavity"
+        ],
+        "correct": 0,
+        "exp": "The maxillary sinus, despite being the largest sinus, has its natural ostium located high on its medial\nwall, making gravity-dependent drainage inefficient and predisposing it to chronic sinusitis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "In a patient with recurrent sinusitis, ciliary dyskinesia (e.g., primary ciliary dyskinesia)\nimpairs which key physiological process, predisposing to chronic disease?\nAnswer: A. Filtration of coarse particulate matter from inspired air",
+        "options": [
+            "Vascular supply to turbinates",
+            "Mucociliary clearance",
+            "Nasal airflow perception",
+            "Olfactory nerve conduction"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the treatment for a rhinolith?",
+        "options": [
+            "Septal cartilage and vomer",
+            "Nasal bone and upper lateral cartilage",
+            "Upper lateral and lower lateral cartilages",
+            "Alar cartilage and nasal septum"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the appropriate treatment for a disc (button) battery lodged in the nose?",
+        "options": [
+            "Systemic antibiotics only",
+            "Endoscopic removal",
+            "Observation"
+        ],
+        "correct": 2,
+        "exp": "A disc battery in the nose (or ear/esophagus) requires urgent removal because it can leak alkali and\ncause rapid tissue necrosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the treatment for nasal myiasis?",
+        "options": [
+            "Irrigation with saline only",
+            "Observation, as it will pass on its own",
+            "Elective removal after a few days",
+            "Urgent removal"
+        ],
+        "correct": 3,
+        "exp": "Nasal myiasis is treated by applying oil (such as turpentine or chloroform oil) to immobilize/kill the\nmaggots, followed by their removal, along with the use of a mosquito net to prevent reinfestation.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the best radiographic view for evaluating a nasal bone fracture?",
+        "options": [
+            "Nasal steroid spray",
+            "Antihistamines",
+            "Systemic antifungal therapy",
+            "Turpentine/chloroform oil to kill maggots, followed by removal, plus a mosquito net"
+        ],
+        "correct": 3,
+        "exp": "The lateral soft tissue nasal view is the standard radiograph to assess a nasal bone fracture.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What forceps are used for closed reduction of a nasal bone fracture?",
+        "options": [
+            "Water's view",
+            "Caldwell view",
+            "Lateral view",
+            "Towne's view"
+        ],
+        "correct": 2,
+        "exp": "Walsham's forceps are classically used for closed reduction of a nasal bone fracture.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A nasal septal fracture caused by a horizontally directed force is also called what?",
+        "options": [
+            "Tilley's forceps",
+            "Luc's forceps",
+            "Walsham's forceps",
+            "Eve's snare"
+        ],
+        "correct": 2,
+        "exp": "A horizontally directed force causing nasal septal fracture is termed the Jarjaway (horizontal)\nfracture.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A nasal septal fracture caused by a vertically directed force is also called what?",
+        "options": [
+            "Le Fort I fracture",
+            "Jarjaway fracture",
+            "Chevallet fracture",
+            "Guerin fracture"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What forceps are used for the reduction of a nasal septal fracture?",
+        "options": [
+            "Chevallet fracture",
+            "Le Fort II fracture"
+        ],
+        "correct": 2,
+        "exp": "Asch's forceps are used specifically for reduction of nasal septal fractures.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A zygomatic fracture can cause anesthesia of the cheek due to injury to which nerve?",
+        "options": [
+            "Walsham's forceps",
+            "Asch's forceps",
+            "Luc's forceps",
+            "Tilley's forceps"
+        ],
+        "correct": 1,
+        "exp": "The infraorbital nerve, which runs through the zygomatic-maxillary region, is commonly injured in\nzygomatic fractures, causing cheek numbness.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A Le Fort I fracture is a transverse fracture passing along which structure, leading to a\n\"floating palate\"?",
+        "options": [
+            "Supraorbital nerve",
+            "Mental nerve",
+            "Infraorbital nerve",
+            "Facial nerve"
+        ],
+        "correct": 2,
+        "exp": "Le Fort I is a transverse maxillary fracture that runs along the palate, resulting in a mobile \"floating\npalate.\"",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which X-ray view is best for visualizing the maxillary sinuses?",
+        "options": [
+            "Zygoma",
+            "Frontal sinus",
+            "Palate",
+            "Orbital floor"
+        ],
+        "correct": 2,
+        "exp": "The Water's (occipitomental) view is the best radiographic view for visualizing the maxillary sinuses,\nshowing all sinuses except the posterior ethmoid.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Rhinoscleroma progresses through which sequence of pathological stages?",
+        "options": [
+            "Caldwell view",
+            "Water's view",
+            "Towne's view",
+            "Submentovertex view"
+        ],
+        "correct": 1,
+        "exp": "Rhinoscleroma progresses through an atrophic (catarrhal) stage, a granulomatous stage (leading to\nthe \"woody nose\" hard external nose), and finally a fibrotic/sclerotic stage.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best describes the site of origin of a Zenker's diverticulum in\nrelation to the pharynx, relevant when considering associated nasal/sinus pathway obstruction",
+        "options": [
+            "Inflammatory, necrotic, calcific",
+            "Vascular, ischemic, necrotic",
+            "Edematous, ulcerative, sclerotic",
+            "Atrophic, granulomatous, fibrotic"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following statements about Rhinosporidiosis is FALSE?",
+        "options": [
+            "The sphenoethmoidal recess",
+            "Kiesselbach's plexus",
+            "The osteomeatal complex",
+            "Killian's dehiscence in the inferior constrictor"
+        ],
+        "correct": 3,
+        "exp": "Rhinosporidiosis is primarily treated by surgical excision with cauterization of the base; dapsone is\nadjunctive (to reduce recurrence), not curative monotherapy, so calling it curative on its own is false. (Note:\nRussell bodies/Mikulicz cells are classically associated with rhinoscleroma; this item tests careful reading of\nexceptions.)",
+        "subject": "ENT"
+    },
+    {
+        "question": "All of the following contribute to the formation of the nasal septum EXCEPT which one?",
+        "options": [
+            "It can involve the oral cavity and conjunctiva along with the nose",
+            "Russell bodies and Mikulicz cells are seen on histopathology",
+            "The causative organism is being recently described as an aquatic protozoan",
+            "Dapsone is the primary curative monotherapy without any surgery"
+        ],
+        "correct": 3,
+        "exp": "The rostrum of the sphenoid (not a \"spine of sphenoid\") contributes to the septum; the crest of the\npalatine bone, spine of maxilla, and spine of the frontal bone are recognized minor contributors, making the\n\"spine of sphenoid\" the odd one out as commonly tested.",
+        "subject": "ENT"
+    },
+    {
+        "question": "All of the following open into the middle meatus EXCEPT which structure?",
+        "options": [
+            "Crest of the palatine bone",
+            "Spine of the maxilla",
+            "Spine of the frontal bone",
+            "Spine of the sphenoid bone (rostrum contributes, \"spine\" is a distractor)"
+        ],
+        "correct": 3,
+        "exp": "The sphenoid sinus opens into the sphenoethmoidal recess, not the middle meatus, unlike the\nmaxillary sinus, frontal recess, and anterior ethmoid cells.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Onodi cells and Haller cells relate respectively to which two structures?",
+        "options": [
+            "Frontal sinus (via frontal recess)",
+            "Maxillary sinus",
+            "Sphenoid sinus",
+            "Anterior ethmoidal air cells"
+        ],
+        "correct": 2,
+        "exp": "The Onodi cell is related to the optic nerve (posterior ethmoid cell close to the nerve), while the\nHaller cell is related to the orbital floor (extends along the floor of the orbit near the maxillary ostium).",
+        "subject": "ENT"
+    },
+    {
+        "question": "Nasal polyps arising due to chronic infection or allergy are the end result of which\nsequential pathological process?",
+        "options": [
+            "Nasolacrimal duct and optic nerve",
+            "Optic nerve and orbital floor",
+            "Orbital floor and optic nerve",
+            "Orbital floor and internal carotid artery"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best explains why mucormycosis can rapidly spread from the nose\nto the orbit and brain?",
+        "options": [
+            "Chronic inflammation leading to edema leading to polyp formation",
+            "Direct neoplastic transformation"
+        ],
+        "correct": 2,
+        "exp": "Because Mucor is angio-invasive, it grows through and along blood vessel walls, allowing rapid\nextension from the nose into the orbit and brain.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which imaging modality is preferred over CT for evaluating suspected orbital or\nintracranial complications of sinusitis, particularly soft tissue detail?",
+        "options": [
+            "Mucor spreads only via lymphatics",
+            "Mucor is an angio-invasive fungus that grows along blood vessels",
+            "Mucor cannot cross tissue planes",
+            "Mucor is a slow-growing organism confined to mucosa"
+        ],
+        "correct": 1,
+        "exp": "MRI provides superior soft tissue contrast for evaluating orbital or intracranial complications of\nsinusitis (e.g., abscess, cavernous sinus thrombosis) compared to CT.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best describes the relationship between the maxillary sinus floor\nand the roots of the upper posterior teeth, relevant to dental-related sinusitis?",
+        "options": [
+            "Ultrasound",
+            "Plain X-ray",
+            "Nuclear scan",
+            "MRI"
+        ],
+        "correct": 3,
+        "exp": "The floor of the maxillary sinus is closely related to the roots of the upper premolar and molar teeth,\nso dental infection/extraction can lead to sinusitis (odontogenic sinusitis) or oroantral fistula.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which imaging finding differentiates juvenile nasopharyngeal angiofibroma from other\nnasal masses on CECT?",
+        "options": [
+            "The maxillary sinus floor is always thick and separate from dental roots",
+            "The maxillary sinus has no relation to dental roots",
+            "The maxillary sinus floor is closely related to/may overlie the roots of upper molars and premolars",
+            "The maxillary sinus lies only above the orbit"
+        ],
+        "correct": 2,
+        "exp": "The combination of the Holman-Miller sign and intense homogeneous contrast enhancement on\nCECT is characteristic of JNA, reflecting its high vascularity.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best describes the growth pattern of an inverted papilloma,\nexplaining its name?",
+        "options": [
+            "Holman-Miller (antral) sign with intense contrast enhancement",
+            "Halo sign",
+            "Delta sign",
+            "Black turbinate sign"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best explains why untreated septal hematoma progresses rapidly\nto cartilage necrosis?",
+        "options": [
+            "Loss of taste only",
+            "Complete loss of smell",
+            "Perception of a foul smell by others, though the patient may not notice it themselves",
+            "Enhanced sense of smell"
+        ],
+        "correct": 2,
+        "exp": "Because septal cartilage is avascular and depends entirely on diffusion from the overlying\nperichondrium for nutrition, a hematoma that strips the perichondrium away rapidly causes cartilage necrosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which of the following best distinguishes leprosy-related nasal septal perforation from\nother causes?",
+        "options": [
+            "The septal cartilage receives its blood supply solely from the overlying perichondrium, which is stripped\nby the hematoma",
+            "Hematoma has no relation to cartilage nutrition",
+            "The cartilage has an independent blood supply unaffected by hematoma",
+            "Cartilage necrosis is unrelated to vascular supply"
+        ],
+        "correct": 0,
+        "exp": "Leprosy (Hansen's disease) can cause chronic granulomatous destruction of both cartilaginous and\nbony nasal septum, often resulting in collapse and saddle nose deformity.\nClinical / Application-Based Questions",
+        "subject": "ENT"
+    },
+    {
+        "question": "A 5-7 year old child presents with unilateral foul-smelling nasal discharge and occasional\nepistaxis. What is the most likely diagnosis?",
+        "options": [
+            "Leprosy classically affects the bony and cartilaginous septum via chronic granulomatous infiltration,\noften with saddle nose",
+            "Leprosy exclusively causes cartilaginous perforation, never bony involvement",
+            "Leprosy never affects the nose",
+            "Leprosy causes only external nose skin lesions"
+        ],
+        "correct": 0,
+        "exp": "Unilateral foul-smelling discharge with epistaxis in a young child is classic for a retained nasal\nforeign body.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient sustains a nasal fracture and presents with significant facial edema. What is the\nappropriate timing for fracture reduction?",
+        "options": [
+            "Nasal foreign body",
+            "Allergic rhinitis",
+            "Choanal atresia",
+            "Angiofibroma"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A newborn with bilateral choanal atresia turns blue while resting but pink while crying.\nWhat is the immediate management to secure the airway?",
+        "options": [
+            "Never reduce, only observe",
+            "Reduce after 6 weeks",
+            "Reduce immediately regardless of edema",
+            "Wait about 7 days for edema to settle before reduction"
+        ],
+        "correct": 3,
+        "exp": "Since crying opens the mouth and allows oral breathing, immediate management includes placing a\nwide-bore oral airway or nipple to maintain mouth breathing until definitive surgical correction (recanalization).",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient uses oxymetazoline nasal drops twice daily for 2 months and now has persistent\nnasal blockage. What is the most appropriate treatment?",
+        "options": [
+            "Give supplemental oxygen only",
+            "Perform tracheostomy immediately",
+            "Perform emergency choanal surgery within minutes",
+            "Insert a wide-bore oral airway/nipple in the mouth"
+        ],
+        "correct": 3,
+        "exp": "Rhinitis medicamentosa is treated by stopping the offending decongestant drops and starting a\ntopical steroid nasal spray to control rebound inflammation.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A 62-year-old man with severe epistaxis and blood pressure 180/110 mmHg fails to\nrespond to both anterior and posterior nasal packing. What is the most appropriate next step?",
+        "options": [
+            "Continue oxymetazoline at a lower dose",
+            "Add oral antihistamines while continuing the drops",
+            "Discontinue oxymetazoline and start a steroid nasal spray",
+            "Add a second decongestant spray"
+        ],
+        "correct": 2,
+        "exp": "After failure of anterior and posterior packing, endoscopic sphenopalatine artery ligation is the\nappropriate next step in the treatment ladder, rather than jumping straight to external carotid ligation.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient presents with a wide roomy nasal cavity, thick foul-smelling crusts, and\nanosmia. What is the most likely diagnosis?",
+        "options": [
+            "Foley's catheter placement and bulb inflation as first step",
+            "Ligation of external carotid artery immediately",
+            "Electrocauterization of Little's area",
+            "Endoscopic ligation of the sphenopalatine artery"
+        ],
+        "correct": 3,
+        "exp": "A wide, roomy nasal cavity with foul crusting and anosmia is classic for atrophic rhinitis (ozena).",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient has a roomy nasal cavity with foul-smelling crusts and a hard, disfigured\nexternal nose. What is the most likely diagnosis?",
+        "options": [
+            "Rhinosporidiosis",
+            "Rhinoscleroma",
+            "Vasomotor rhinitis",
+            "Atrophic rhinitis"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A 39-year-old male presents with a mulberry-like nasal mass and recurrent epistaxis. What\nis the most likely diagnosis?",
+        "options": [
+            "Discontinue oxymetazoline and start steroid nasal spray",
+            "Start oral decongestants instead",
+            "Add oral antihistamine while continuing drops",
+            "Continue oxymetazoline indefinitely"
+        ],
+        "correct": 0,
+        "exp": "A mulberry-like, vascular nasal mass causing epistaxis in a middle-aged adult is classic for\nrhinosporidiosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient presents with recurrent unilateral nasal obstruction, foul postnasal discharge,\nand CT shows a heterogeneously calcified mass in the maxillary sinus, most likely representing\na fungal ball. What is the most likely causative fungus?",
+        "options": [
+            "Rhinoscleroma",
+            "Angiofibroma",
+            "Rhinophyma",
+            "Rhinosporidiosis"
+        ],
+        "correct": 3,
+        "exp": "Aspergillus is the most common cause of a fungal ball (aspergilloma), typically presenting as a\ncalcified mass in the maxillary sinus on CT.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A poorly controlled diabetic presents with facial pain, nasal blackish discharge, and\nrapidly progressive proptosis. What is the most urgent diagnosis to rule out?",
+        "options": [
+            "Rhizopus",
+            "Aspergillus",
+            "Candida",
+            "Mucor"
+        ],
+        "correct": 1,
+        "exp": "Rapidly progressive facial pain, blackish nasal discharge, and proptosis in an uncontrolled diabetic\nstrongly suggest invasive mucormycosis, a medical and surgical emergency.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient with acute ethmoid sinusitis develops sudden proptosis, chemosis, and painful\neye movements. What complication should be suspected?",
+        "options": [
+            "Nasal polyp",
+            "Mucormycosis",
+            "Simple bacterial sinusitis",
+            "Rhinophyma"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient develops persistent unilateral foul-smelling nasal discharge and cheek pain a\nfew weeks after a tooth extraction. What is the likely diagnosis?",
+        "options": [
+            "Atrophic rhinitis",
+            "Odontogenic maxillary sinusitis",
+            "Angiofibroma",
+            "Rhinoscleroma"
+        ],
+        "correct": 1,
+        "exp": "Unilateral foul discharge and facial pain following dental extraction suggests odontogenic sinusitis,\noften due to an oroantral fistula or infection introduced during the dental procedure.\nAnswer: D. Orbital cellulitis/abscess",
+        "subject": "ENT"
+    },
+    {
+        "question": "The malleus and incus develop from which branchial arch?",
+        "options": [
+            "Third branchial arch",
+            "Fourth branchial arch",
+            "Second branchial arch",
+            "First branchial arch"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the main sensory nerve supply of the pinna, including its lobule?",
+        "options": [
+            "Vagus nerve",
+            "Greater auricular nerve",
+            "Auriculotemporal nerve",
+            "Facial nerve"
+        ],
+        "correct": 1,
+        "exp": "The greater auricular nerve is the main sensory nerve supplying most of the pinna, including the\nlobule.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Keloid formation on the pinna is most commonly found at which site?",
+        "options": [
+            "Lobule",
+            "Tragus",
+            "Helix",
+            "Concha"
+        ],
+        "correct": 2,
+        "exp": "Keloids on the pinna are most commonly found on the helix.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the total length of the external auditory canal (EAC)?",
+        "options": [
+            "60 mm",
+            "24 mm",
+            "40 mm",
+            "10 mm"
+        ],
+        "correct": 1,
+        "exp": "The EAC measures approximately 24 mm in length in an adult.",
+        "subject": "ENT"
+    },
+    {
+        "question": "In adults, the direction of the EAC is best described as which of the following?",
+        "options": [
+            "Straight and horizontal",
+            "Inward, upward, and backward",
+            "Tortuous - inward, downward, and forward",
+            "Straight vertical"
+        ],
+        "correct": 2,
+        "exp": "The adult EAC has a tortuous, S-shaped course directed inward, downward, and forward.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Diffuse otitis externa is also known by which lay terms?",
+        "options": [
+            "Surfer's ear",
+            "Swimmer's ear/tropical ear",
+            "Glue ear",
+            "Cauliflower ear"
+        ],
+        "correct": 1,
+        "exp": "Diffuse otitis externa is commonly called swimmer's ear, tropical ear, or telephone ear.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Localized otitis externa (furunculosis) is caused by infection of which structure in the\nEAC?",
+        "options": [
+            "Mastoid bone",
+            "Hair follicle (staphylococcal infection)",
+            "Ceruminous gland only",
+            "Tympanic membrane"
+        ],
+        "correct": 1,
+        "exp": "Localized otitis externa is a staphylococcal infection of a hair follicle in the cartilaginous part of the\nEAC, forming a boil (furuncle).",
+        "subject": "ENT"
+    },
+    {
+        "question": "Malignant otitis externa is a life-threatening infection of which structure, despite its name\nsuggesting cancer?",
+        "options": [
+            "A malignant tumor of the EAC skin",
+            "The underlying bone of the EAC (skull base osteomyelitis)",
+            "The mastoid antrum only",
+            "The tympanic membrane"
+        ],
+        "correct": 1,
+        "exp": "Malignant otitis externa is actually an infective condition (not a true malignancy) \u2014 it is skull base\nosteomyelitis arising from severe EAC infection, termed \"malignant\" due to its life-threatening potential.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Malignant otitis externa is classically seen in which patient population?",
+        "options": [
+            "Healthy young adults",
+            "Neonates",
+            "Healthy young children",
+            "Elderly diabetics (60-70 years)"
+        ],
+        "correct": 3,
+        "exp": "Malignant otitis externa classically occurs in elderly, poorly controlled diabetic patients (typically\n60-70 years old).",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common causative organism of malignant otitis externa?",
+        "options": [
+            "Streptococcus pneumoniae",
+            "Pseudomonas aeruginosa",
+            "Candida albicans",
+            "Staphylococcus aureus"
+        ],
+        "correct": 1,
+        "exp": "Pseudomonas aeruginosa is the classic causative organism of malignant otitis externa.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Otomycosis, a fungal infection of the EAC, is also called what in some regions?",
+        "options": [
+            "Swimmer's ear",
+            "Surfer's ear",
+            "Singapore ear",
+            "Cauliflower ear"
+        ],
+        "correct": 2,
+        "exp": "Otomycosis is sometimes referred to as \"Singapore ear\" due to its higher prevalence in\ntropical/humid climates.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Exostosis of the EAC, bony overgrowths, is also called what due to its association with\ncold water exposure?",
+        "options": [
+            "Singapore ear",
+            "Swimmer's ear",
+            "Surfer's ear",
+            "Cauliflower ear"
+        ],
+        "correct": 2,
+        "exp": "Exostosis of the EAC is called \"surfer's ear,\" being more common in people frequently exposed to\ncold water, such as surfers.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The tympanic membrane is composed of tissue derived from which embryological layers?",
+        "options": [
+            "Only ectoderm",
+            "Only endoderm",
+            "All three germ layers - ectoderm, mesoderm, and endoderm",
+            "Only mesoderm"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Glue ear is also known by which other names?",
+        "options": [
+            "Round, bright red in color",
+            "Oval, yellowish in color",
+            "Oval-shaped, pearly grey in color",
+            "Triangular, white in color"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the basic underlying cause of glue ear?",
+        "options": [
+            "Direct trauma to the tympanic membrane",
+            "Bacterial infection of the EAC",
+            "Fungal infection of the middle ear",
+            "Eustachian tube blockage"
+        ],
+        "correct": 3,
+        "exp": "Glue ear results fundamentally from eustachian tube dysfunction/blockage, leading to accumulation\nof sterile, thick fluid in the middle ear.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common age group and most common cause of glue ear?",
+        "options": [
+            "Adults; wax impaction",
+            "School-age children; adenoid hypertrophy",
+            "Elderly adults; presbycusis",
+            "Neonates; congenital anomaly"
+        ],
+        "correct": 1,
+        "exp": "Glue ear most commonly affects school-age children and is most commonly caused by adenoid\nhypertrophy causing bilateral eustachian tube blockage.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The middle ear cavity is also called what?",
+        "options": [
+            "Aditus",
+            "Tympanum",
+            "Antrum",
+            "Vestibule"
+        ],
+        "correct": 1,
+        "exp": "The middle ear cavity is also known as the tympanum.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The middle ear has how many main anatomical parts?",
+        "options": [
+            "Two",
+            "Four",
+            "Five",
+            "Three (epitympanum, mesotympanum, hypotympanum)"
+        ],
+        "correct": 3,
+        "exp": "The middle ear is divided into three parts: epitympanum (above), mesotympanum (middle, covered\nby TM), and hypotympanum (below).",
+        "subject": "ENT"
+    },
+    {
+        "question": "The lateral wall of the middle ear is formed by which structure?",
+        "options": [
+            "Promontory",
+            "Facial nerve canal",
+            "Tympanic membrane",
+            "Oval window"
+        ],
+        "correct": 2,
+        "exp": "The tympanic membrane forms the lateral wall of the middle ear.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The medial wall of the middle ear has two windows for the inner ear; name them.\nAnswer: A. Serous otitis media / secretory otitis media",
+        "options": [
+            "Superior and inferior window",
+            "Oval window and round window",
+            "Medial and lateral window",
+            "Anterior and posterior window"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Mastoiditis is defined as infection of which structure, and is a complication of what\nconditions?",
+        "options": [
+            "Five (eustachian tube, middle ear, aditus, antrum, and mastoid air cells)",
+            "Three",
+            "Four",
+            "Two"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Unsafe CSOM is also known by which term?",
+        "options": [
+            "Mastoid antrum; Bezold's syndrome",
+            "EAC bone; malignant otitis externa",
+            "Petrous apex air cells; Gradenigo syndrome",
+            "Facial nerve canal; Bell's palsy"
+        ],
+        "correct": 2,
+        "exp": "Unsafe CSOM is also known as atticoantral CSOM, characterized by the presence of\ncholesteatoma.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the hallmark pathological feature of unsafe (atticoantral) CSOM?",
+        "options": [
+            "Malignant otitis externa",
+            "Tubotympanic CSOM",
+            "Safe CSOM",
+            "Atticoantral CSOM"
+        ],
+        "correct": 3,
+        "exp": "Cholesteatoma is the hallmark of unsafe CSOM, distinguishing it from safe CSOM.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the surgical treatment for unsafe CSOM with cholesteatoma?",
+        "options": [
+            "Presence of cholesteatoma",
+            "Tympanosclerosis",
+            "Central perforation only",
+            "Ossicular fixation"
+        ],
+        "correct": 0,
+        "exp": "Modified radical mastoidectomy (also called tympanomastoid exploration) is the surgical treatment\nfor unsafe CSOM, aiming to eradicate disease and exteriorize the cavity.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Sigmoid sinus (lateral sinus) thrombosis is what type of complication of unsafe CSOM?",
+        "options": [
+            "Modified radical mastoidectomy (MRM)",
+            "Stapedectomy",
+            "Cortical mastoidectomy",
+            "Myringoplasty alone"
+        ],
+        "correct": 0,
+        "exp": "Sigmoid sinus thrombosis is an intracranial complication of unsafe CSOM.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common overall complication of unsafe CSOM?",
+        "options": [
+            "A form of cholesteatoma",
+            "Intracranial complication",
+            "A type of ossicular erosion",
+            "Extracranial (local) complication"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most common intracranial complication of unsafe CSOM?",
+        "options": [
+            "Mastoiditis",
+            "Meningitis"
+        ],
+        "correct": 2,
+        "exp": "Meningitis is the most common intracranial complication of unsafe CSOM.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The inner ear is also called what?",
+        "options": [
+            "Brain abscess",
+            "Sigmoid sinus thrombosis",
+            "Meningitis",
+            "Extradural abscess"
+        ],
+        "correct": 2,
+        "exp": "The inner ear is also called the labyrinth.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The inner ear (labyrinth) has how many main parts?",
+        "options": [
+            "Vestibule (as a whole)",
+            "Antrum",
+            "Labyrinth",
+            "Tympanum"
+        ],
+        "correct": 2,
+        "exp": "The inner ear consists of two main parts: the membranous labyrinth (true inner ear) and the\nsurrounding bony labyrinth.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The cochlea is the sensory organ responsible for which function?",
+        "options": [
+            "Three",
+            "Four",
+            "Two (membranous and bony labyrinth)",
+            "One"
+        ],
+        "correct": 2,
+        "exp": "The cochlea is the sensory organ of hearing, housing the organ of Corti.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The utricle and saccule are responsible for which function?",
+        "options": [
+            "Facial movement",
+            "Hearing",
+            "Angular balance",
+            "Linear balance"
+        ],
+        "correct": 1,
+        "exp": "The utricle and saccule, also called the vestibule/otolithic organs, mediate linear balance via their\nsensory organ, the macula.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The semicircular canals are responsible for which function?",
+        "options": [
+            "Linear balance (via the macula)",
+            "Taste sensation",
+            "Hearing",
+            "Angular balance"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The inner ear is filled with which two fluids?",
+        "options": [
+            "Endolymph and perilymph",
+            "Only endolymph",
+            "Cerebrospinal fluid only",
+            "Only perilymph"
+        ],
+        "correct": 0,
+        "exp": "The membranous labyrinth contains endolymph, while the surrounding space between membranous\nand bony labyrinth contains perilymph.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Perilymph is essentially equivalent to which other body fluid?",
+        "options": [
+            "Blood plasma",
+            "Endolymph",
+            "Lymphatic fluid",
+            "Cerebrospinal fluid (CSF)"
+        ],
+        "correct": 3,
+        "exp": "Perilymph is essentially the same as cerebrospinal fluid (CSF) in composition.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The utricle and saccule are also collectively called what?",
+        "options": [
+            "Semicircular canals",
+            "Vestibule (otolithic organs)",
+            "Crista",
+            "Ampulla"
+        ],
+        "correct": 1,
+        "exp": "The utricle and saccule are collectively referred to as the vestibule or otolithic organs.",
+        "subject": "ENT"
+    },
+    {
+        "question": "BPPV is the most common cause of which type of vertigo?",
+        "options": [
+            "Psychogenic vertigo",
+            "Central vertigo",
+            "Cervical vertigo",
+            "Peripheral vertigo"
+        ],
+        "correct": 3,
+        "exp": "BPPV is the most common cause of peripheral vertigo.",
+        "subject": "ENT"
+    },
+    {
+        "question": "BPPV is more common in which sex?",
+        "options": [
+            "Females",
+            "Equal in both sexes",
+            "Exclusively males",
+            "Males"
+        ],
+        "correct": 0,
+        "exp": "BPPV is more common in females.",
+        "subject": "ENT"
+    },
+    {
+        "question": "How many semicircular canals are there on each side?",
+        "options": [
+            "Two",
+            "Four",
+            "One",
+            "Three"
+        ],
+        "correct": 3,
+        "exp": "There are three semicircular canals on each side: lateral (horizontal), posterior, and superior.\nAnswer: A. Angular balance (via the crista)",
+        "subject": "ENT"
+    },
+    {
+        "question": "The vestibulocochlear (8th cranial) nerve has how many divisions?",
+        "options": [
+            "Three (cochlear, superior vestibular, inferior vestibular)",
+            "Four",
+            "Two",
+            "One"
+        ],
+        "correct": 0,
+        "exp": "The 8th cranial nerve has three divisions: the cochlear division (hearing) and the superior and\ninferior vestibular divisions (balance).",
+        "subject": "ENT"
+    },
+    {
+        "question": "The 7th and 8th cranial nerves enter the inner ear complex via which structure?",
+        "options": [
+            "Internal auditory canal (internal auditory meatus)",
+            "Jugular foramen",
+            "Foramen magnum",
+            "Foramen ovale"
+        ],
+        "correct": 0,
+        "exp": "The facial (7th) and vestibulocochlear (8th) nerves travel together through the internal auditory\ncanal.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which type of hearing loss results from a problem in the external or middle ear?",
+        "options": [
+            "Central hearing loss",
+            "Functional hearing loss",
+            "Conductive hearing loss",
+            "Sensorineural hearing loss"
+        ],
+        "correct": 2,
+        "exp": "Conductive hearing loss arises from pathology in the external ear or middle ear (e.g., wax, glue ear,\notosclerosis).",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which type of hearing loss results from a problem in the cochlea?",
+        "options": [
+            "Sensorineural (cochlear) hearing loss",
+            "Conductive hearing loss",
+            "Central-only hearing loss",
+            "Mixed hearing loss only"
+        ],
+        "correct": 0,
+        "exp": "A problem in the cochlea (e.g., in Meniere's disease) causes sensorineural (specifically, cochlear)\nhearing loss.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which type of hearing test represents the natural, complete way of hearing, testing the\nentire auditory pathway?",
+        "options": [
+            "Otoacoustic emissions",
+            "Tympanometry",
+            "Air conduction (AC)",
+            "Bone conduction (BC)"
+        ],
+        "correct": 2,
+        "exp": "Air conduction (AC) testing represents the complete, natural pathway of hearing, testing the outer,\nmiddle, and inner ear together.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the most commonly used tuning fork frequency for clinical hearing tests?",
+        "options": [
+            "128 Hz",
+            "2048 Hz",
+            "1024 Hz",
+            "512 Hz"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The Rinne test compares which two hearing pathways?",
+        "options": [
+            "Air conduction of both ears",
+            "Air conduction and bone conduction in the same ear",
+            "Air conduction versus a normal reference ear only",
+            "Bone conduction of both ears"
+        ],
+        "correct": 1,
+        "exp": "The Rinne test compares air conduction (AC) to bone conduction (BC) in the same (tested) ear.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which special tuning fork test is used specifically to diagnose otosclerosis?",
+        "options": [
+            "Weber test",
+            "Rinne test",
+            "Schwabach test",
+            "Gelle's test"
+        ],
+        "correct": 3,
+        "exp": "Gelle's test is a specialized tuning fork test used to assess mobility of the stapes footplate, helping\ndiagnose otosclerosis (fixed footplate gives an abnormal/negative result).",
+        "subject": "ENT"
+    },
+    {
+        "question": "Pure tone audiometry (PTA) is what type of hearing test?",
+        "options": [
+            "A subjective test of air and bone conduction thresholds",
+            "A test of only air conduction",
+            "An objective test requiring no patient response",
+            "A test used only in infants"
+        ],
+        "correct": 0,
+        "exp": "PTA is a subjective hearing test in which the patient responds to tones, measuring thresholds for\nboth air and bone conduction across frequencies.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is considered the upper limit of normal hearing on a pure tone audiogram?",
+        "options": [
+            "90 dB",
+            "25 dB",
+            "10 dB",
+            "50 dB"
+        ],
+        "correct": 1,
+        "exp": "Hearing threshold levels up to 25 dB are considered within the normal range on PTA.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The acoustic dip in noise-induced hearing loss is also called what eponym?",
+        "options": [
+            "Carhart's notch",
+            "Schwartz notch",
+            "Rinne notch",
+            "Boilermaker's notch"
+        ],
+        "correct": 3,
+        "exp": "The 4000 Hz dip in noise-induced hearing loss is also known as the boilermaker's notch.",
+        "subject": "ENT"
+    },
+    {
+        "question": "BERA (Brainstem Evoked Response Audiometry) is what type of hearing test?",
+        "options": [
+            "A subjective test requiring patient cooperation",
+            "A vestibular function test only",
+            "An objective test of hearing",
+            "A test only for conductive hearing loss"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is otosclerosis, in terms of its basic pathology?",
+        "options": [
+            "Tympanometry",
+            "Pure tone audiometry",
+            "Otoacoustic emissions (OAE)",
+            "BERA"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Otosclerosis is more common in which sex and typical age range?",
+        "options": [
+            "Fixation of the stapes footplate",
+            "Perforation of the tympanic membrane"
+        ],
+        "correct": 2,
+        "exp": "Otosclerosis is more common in females, typically presenting in the 2nd to 3rd decade of life.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the inheritance pattern of otosclerosis?",
+        "options": [
+            "Males, 2nd-3rd decade",
+            "Females, 2nd-3rd decade",
+            "Males, 5th-6th decade",
+            "Equal in both sexes, only in children"
+        ],
+        "correct": 1,
+        "exp": "Otosclerosis is a genetic disease inherited in an autosomal dominant pattern with variable\npenetrance.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A young female with bilateral, gradually progressive conductive hearing loss is the\nclassic clinical profile for which condition?",
+        "options": [
+            "Autosomal dominant",
+            "Autosomal recessive",
+            "Mitochondrial",
+            "X-linked recessive"
+        ],
+        "correct": 0,
+        "exp": "Bilateral gradually progressive conductive hearing loss in a young female is the classic clinical\npresentation of otosclerosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Acoustic neuroma (vestibular schwannoma) arises from which structure?",
+        "options": [
+            "Otosclerosis",
+            "Meniere's disease",
+            "Malignant otitis externa",
+            "Acoustic neuroma"
+        ],
+        "correct": 0,
+        "exp": "Acoustic neuroma is a benign tumor arising from the Schwann cells of the 8th cranial nerve, most\ncommonly the inferior vestibular division.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Acoustic neuroma is the most common type of tumor found in which anatomical location?",
+        "options": [
+            "The 7th cranial nerve",
+            "The 8th cranial nerve (typically the inferior vestibular division)",
+            "The middle ear mucosa",
+            "The cochlea itself"
+        ],
+        "correct": 1,
+        "exp": "Acoustic neuroma (vestibular schwannoma) is the most common tumor of the cerebellopontine\nangle.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the treatment of choice for acoustic neuroma?",
+        "options": [
+            "Cerebellopontine angle",
+            "Middle ear",
+            "External auditory canal",
+            "Internal auditory canal exclusively"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Melkersson-Rosenthal syndrome consists of which classic triad of features?",
+        "options": [
+            "Cochlear aqueduct",
+            "Fallopian canal (facial canal)",
+            "Vestibular aqueduct",
+            "Internal auditory canal"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Classification of hearing loss severity: what dB range defines \"mild\" hearing loss?",
+        "options": [
+            "Ear discharge, retro-orbital pain, and diplopia",
+            "Vertigo, tinnitus, and hearing loss",
+            "Trismus, hot potato voice, and dysphagia"
+        ],
+        "correct": 0,
+        "exp": "Mild hearing loss is classified as a threshold of 26-40 dB, with normal hearing being up to 25 dB.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Classification of hearing loss severity: what dB range defines \"moderate\" hearing loss?",
+        "options": [
+            "71-90 dB",
+            "26-40 dB",
+            "41-55 dB",
+            "Up to 25 dB"
+        ],
+        "correct": 1,
+        "exp": "Moderate hearing loss is classified as 41-55 dB (with moderately-severe sometimes further\nsubdivided at 56-70 dB in some classifications).",
+        "subject": "ENT"
+    },
+    {
+        "question": "Classification of hearing loss severity: what dB range defines \"severe\" hearing loss?",
+        "options": [
+            "More than 90 dB",
+            "26-40 dB",
+            "41-55 dB",
+            "56-70 dB"
+        ],
+        "correct": 2,
+        "exp": "Severe hearing loss is classified as 71-90 dB.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Classification of hearing loss severity: what dB threshold defines \"profound\" hearing\nloss?",
+        "options": [
+            "More than 90 dB",
+            "71-90 dB",
+            "41-55 dB",
+            "26-40 dB"
+        ],
+        "correct": 1,
+        "exp": "Profound hearing loss is classified as a threshold greater than 90 dB.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A conventional hearing aid functions primarily as what type of device?",
+        "options": [
+            "26-40 dB",
+            "56-70 dB",
+            "More than 90 dB",
+            "71-90 dB"
+        ],
+        "correct": 2,
+        "exp": "A conventional hearing aid is essentially a sound amplifier that increases the intensity of sound\ndelivered to the ear.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the alternative to a hearing aid for patients with profound sensorineural hearing\nloss who do not benefit from amplification?",
+        "options": [
+            "A bone-conducting titanium implant",
+            "A sound amplifier",
+            "A brainstem stimulator",
+            "A direct cochlear nerve stimulator"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the primary indication for cochlear implantation?",
+        "options": [
+            "BAHA",
+            "Stapedotomy",
+            "Grommet insertion",
+            "Cochlear implant"
+        ],
+        "correct": 3,
+        "exp": "Bilateral profound sensorineural hearing loss (deafness, >90 dB) is the primary indication for\ncochlear implant surgery.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The auditory brainstem implant (ABI) is indicated in patients with which condition, where\na standard cochlear implant would not work?",
+        "options": [
+            "Unilateral moderate hearing loss only",
+            "Bilateral mild hearing loss",
+            "Bilateral profound sensorineural hearing loss (>90 dB)",
+            "Mild unilateral conductive hearing loss"
+        ],
+        "correct": 2,
+        "exp": "The auditory brainstem implant is used in patients with neurofibromatosis type 2 (bilateral vestibular\nschwannoma), where the 8th nerve is diseased/absent bilaterally, making a cochlear implant ineffective.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A bone-anchored hearing aid (BAHA) works by which mechanism?",
+        "options": [
+            "Simple bilateral profound SNHL with normal 8th nerves",
+            "Unilateral conductive hearing loss",
+            "Neurofibromatosis type 2 with bilateral absent/non-functional 8th nerves",
+            "Isolated otosclerosis"
+        ],
+        "correct": 2,
+        "exp": "BAHA stimulates the cochlea directly through bone conduction, via a titanium screw fixed to the skull\nwith an externally attached sound processor.\nMedium Questions",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the mainstay treatment approach for otomycosis?",
+        "options": [
+            "Direct bone conduction stimulation of the cochlea via a titanium implant",
+            "Amplification of sound in the EAC like a conventional hearing aid",
+            "Direct electrical stimulation of the cochlear nerve",
+            "Stimulation of the brainstem cochlear nucleus"
+        ],
+        "correct": 0,
+        "exp": "Otomycosis is treated with aural toilet (suction/dry mopping) combined with topical antifungal ear\ndrops (e.g., clotrimazole).",
+        "subject": "ENT"
+    },
+    {
+        "question": "At what angle does the tympanic membrane lie relative to the horizontal plane?",
+        "options": [
+            "Systemic oral antifungals as first-line",
+            "Systemic antibiotics only",
+            "Immediate surgery",
+            "Aural toilet plus antifungal ear drops"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Progressive retraction pocket formation with perforation and skin ingrowth into the\nmiddle ear leads to which condition?",
+        "options": [
+            "Pars tensa",
+            "Pars flaccida",
+            "Umbo",
+            "Annulus"
+        ],
+        "correct": 1,
+        "exp": "Unchecked progression of a retraction pocket, with skin growing through a perforation into the\nmiddle ear, results in cholesteatoma formation.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Cholesteatoma is described as being what color, characteristically?",
+        "options": [
+            "Otomycosis",
+            "Glue ear",
+            "Otosclerosis",
+            "Cholesteatoma"
+        ],
+        "correct": 3,
+        "exp": "Cholesteatoma classically appears as a pearly white mass due to accumulated keratin debris within\na sac of skin (squamous epithelium).",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which muscle opens the eustachian tube during swallowing?",
+        "options": [
+            "Pearly white",
+            "Yellowish-brown",
+            "Bright red",
+            "Blackish"
+        ],
+        "correct": 0,
+        "exp": "The tensor veli palatini muscle actively opens the eustachian tube during swallowing.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Glue ear caused by unilateral eustachian tube blockage in an adult should raise suspicion\nfor which rare but important cause?",
+        "options": [
+            "Tensor tympani",
+            "Levator veli palatini",
+            "Tensor veli palatini",
+            "Stapedius"
+        ],
+        "correct": 2,
+        "exp": "Unilateral serous otitis media in an adult is a red flag for nasopharyngeal carcinoma obstructing the\neustachian tube orifice and requires nasopharyngeal examination/biopsy.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the surgical treatment for glue ear, typically performed in the anteroinferior\nquadrant of the TM?",
+        "options": [
+            "Otosclerosis",
+            "Adenoid hypertrophy",
+            "Nasopharyngeal carcinoma",
+            "Wax impaction"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The epitympanum is also called what?",
+        "options": [
+            "Myringotomy with grommet insertion",
+            "Mastoidectomy",
+            "Tympanoplasty",
+            "Stapedectomy"
+        ],
+        "correct": 0,
+        "exp": "The epitympanum, the uppermost part of the middle ear, is also called the attic.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Referred earache (otalgia) from supraglottic laryngeal or pyriform sinus cancer occurs via\nwhich cranial nerve?",
+        "options": [
+            "Antrum",
+            "Aditus",
+            "Attic",
+            "Promontory"
+        ],
+        "correct": 2,
+        "exp": "Referred otalgia from laryngeal/pharyngeal pathology (e.g., supraglottic or pyriform sinus cancer)\ntravels via the tympanic branch of the glossopharyngeal nerve (Jacobson's nerve) to the middle ear.",
+        "subject": "ENT"
+    },
+    {
+        "question": "How many walls does the middle ear have?",
+        "options": [
+            "Facial nerve",
+            "Trigeminal nerve",
+            "Vagus nerve directly to the ear",
+            "Glossopharyngeal nerve (via tympanic branch)"
+        ],
+        "correct": 3,
+        "exp": "The middle ear is described as having six walls: roof, floor, anterior, posterior, lateral, and medial.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The roof of the middle ear is related to which structure above it?",
+        "options": [
+            "Six",
+            "Four",
+            "Eight",
+            "Five"
+        ],
+        "correct": 0,
+        "exp": "The roof of the middle ear (tegmen tympani) lies below the dura mater of the temporal lobe of the\nbrain.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The floor of the middle ear lies above which structure?",
+        "options": [
+            "Facial nerve canal",
+            "Jugular bulb",
+            "Internal carotid artery",
+            "Dura mater of the temporal lobe"
+        ],
+        "correct": 3,
+        "exp": "Below the floor of the middle ear lies the jugular bulb.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The anterior wall of the middle ear has openings for which two structures?",
+        "options": [
+            "Dura mater",
+            "Jugular bulb",
+            "Internal carotid artery",
+            "Facial nerve"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The round window is covered by which structure?",
+        "options": [
+            "Oval window and round window",
+            "Eustachian tube and tensor tympani muscle",
+            "Aditus and antrum",
+            "Facial nerve and chorda tympani"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "In ASOM with a red, bulging tympanic membrane, what is the appropriate surgical\ntreatment?",
+        "options": [
+            "Facial recess",
+            "Eustachian tube",
+            "Aditus",
+            "Round window"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "\"Light house sign,\" seen in mastoiditis or the suppurative stage of ASOM, describes what\nphenomenon?",
+        "options": [
+            "Luc's forceps",
+            "Tilley's forceps",
+            "Mollison's self-retaining mastoid retractor",
+            "Walsham's forceps"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The space in the epitympanum, between the pars flaccida and the neck of the malleus,\nwhere cholesteatoma commonly originates, is called what?",
+        "options": [
+            "Bezold's abscess",
+            "Post-auricular (mastoid) abscess",
+            "Retropharyngeal abscess",
+            "Citelli's abscess"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Chief complaints of otogenic brain abscess include which of the following?",
+        "options": [
+            "Negative fistula sign",
+            "Rising sun sign",
+            "Positive fistula sign",
+            "Battle sign"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "CT brain in sigmoid sinus thrombosis classically shows which sign, indicating a filling\ndefect in the sinus?",
+        "options": [
+            "Halo sign",
+            "Delta sign",
+            "Rising sun sign",
+            "Target sign"
+        ],
+        "correct": 1,
+        "exp": "The delta sign on contrast CT brain represents a triangular filling defect within the\nsigmoid/transverse sinus, indicative of sinus thrombosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The bony labyrinth is formed by which part of the temporal bone, considered the hardest\nbone in the body?",
+        "options": [
+            "Petrous part of the temporal bone",
+            "Squamous part of the temporal bone",
+            "Tympanic part of the temporal bone",
+            "Mastoid part of the temporal bone"
+        ],
+        "correct": 0,
+        "exp": "The petrous part of the temporal bone forms the bony labyrinth and is considered the hardest bone\nin the human body.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Endolymph is produced by which structure?",
+        "options": [
+            "Stria vascularis of the cochlea",
+            "Perilymphatic space",
+            "Organ of Corti",
+            "Endolymphatic sac"
+        ],
+        "correct": 0,
+        "exp": "Endolymph is produced by the stria vascularis of the cochlea.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Endolymph is absorbed by which structure?",
+        "options": [
+            "Stria vascularis",
+            "Cochlear aqueduct",
+            "Round window membrane",
+            "Endolymphatic sac"
+        ],
+        "correct": 3,
+        "exp": "Endolymph is absorbed by the endolymphatic sac; poor absorption leads to endolymphatic hydrops,\nthe pathological basis of Meniere's disease.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Meniere's disease is sometimes described as which analogous eye condition of the ear?",
+        "options": [
+            "Macular degeneration of the ear",
+            "Retinal detachment of the ear",
+            "Glaucoma of the ear",
+            "Cataract of the ear"
+        ],
+        "correct": 2,
+        "exp": "Meniere's disease, due to a build-up of endolymph pressure damaging the cochlea over time, is\noften described as the \"glaucoma of the ear.\"",
+        "subject": "ENT"
+    },
+    {
+        "question": "Perilymph and CSF are connected via which anatomical channel?",
+        "options": [
+            "Internal auditory canal",
+            "Endolymphatic duct",
+            "Cochlear aqueduct",
+            "Vestibular aqueduct"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The connection between perilymph and CSF via the cochlear aqueduct explains the\npathway for which clinical condition?",
+        "options": [
+            "Meniere's disease",
+            "Otosclerosis",
+            "Post-meningitis deafness",
+            "BPPV"
+        ],
+        "correct": 2,
+        "exp": "Meningitis can spread via the cochlear aqueduct from the CSF into the perilymphatic space, causing\npost-meningitic sensorineural deafness.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The cochlea has how many turns in total?",
+        "options": [
+            "One turn",
+            "Four turns",
+            "Half a turn",
+            "Two and three-quarter turns"
+        ],
+        "correct": 3,
+        "exp": "The cochlea makes approximately two and three-quarter turns around its central axis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The central bony axis around which the cochlea coils is called what?",
+        "options": [
+            "Promontory",
+            "Stria vascularis",
+            "Modiolus",
+            "Helicotrema"
+        ],
+        "correct": 2,
+        "exp": "The modiolus is the central bony core/axis around which the cochlear turns are wound.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which part of the cochlea (basal or apical turn) senses high-frequency sounds?",
+        "options": [
+            "Basal turn",
+            "Neither turn senses frequency differences",
+            "Apical turn",
+            "Middle turn only"
+        ],
+        "correct": 0,
+        "exp": "The basal turn of the cochlea (closest to the oval window) senses high-frequency sounds, while the\napical turn senses low-frequency sounds (tonotopic organization).",
+        "subject": "ENT"
+    },
+    {
+        "question": "The scala vestibuli and scala media are separated by which membrane?",
+        "options": [
+            "Tectorial membrane",
+            "Round window membrane",
+            "Basilar membrane",
+            "Reissner's membrane"
+        ],
+        "correct": 3,
+        "exp": "Reissner's membrane (vestibular membrane) separates the scala vestibuli from the scala media.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The organ of Corti sits on which membrane and is covered by which other membrane?",
+        "options": [
+            "Sits on the basilar membrane, covered by the tectorial membrane",
+            "Sits on the tectorial membrane, covered by the basilar membrane",
+            "Sits on the round window membrane",
+            "Sits on Reissner's membrane, covered by the basilar membrane"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which semicircular canal is most commonly involved in BPPV?",
+        "options": [
+            "Only inner hair cells",
+            "Outer hair cells and inner hair cells",
+            "Only outer hair cells",
+            "Bipolar and multipolar neurons"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Hearing loss arising from a problem with the 8th cranial nerve (e.g., acoustic neuroma) is\ntermed what?",
+        "options": [
+            "Both sides simultaneously",
+            "The opposite side"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "In the Weber test, where is the tuning fork placed?",
+        "options": [
+            "Ossicular chain",
+            "Eustachian tube",
+            "Cochlea (and 8th nerve)",
+            "Tympanic membrane"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "In sensorineural hearing loss, the Weber test lateralizes to which ear?",
+        "options": [
+            "The poorer (affected) ear",
+            "It is not heard in either ear",
+            "It is heard equally in both ears",
+            "The better (normal) ear"
+        ],
+        "correct": 0,
+        "exp": "In sensorineural hearing loss, the Weber test lateralizes to the better (unaffected) ear.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What frequency range is typically tested in a standard pure tone audiogram?",
+        "options": [
+            "Neither ear",
+            "Equally in both ears",
+            "The poorer (affected) ear",
+            "The better (unaffected) ear"
+        ],
+        "correct": 3,
+        "exp": "Standard PTA testing covers the frequency range from 250 Hz to 8000 Hz.",
+        "subject": "ENT"
+    },
+    {
+        "question": "On a PTA audiogram, what is the hallmark finding of conductive hearing loss?",
+        "options": [
+            "10,000 Hz to 20,000 Hz",
+            "20 Hz to 200 Hz",
+            "1 Hz to 100 Hz",
+            "250 Hz to 8000 Hz"
+        ],
+        "correct": 3,
+        "exp": "The hallmark of conductive hearing loss on PTA is an air-bone gap, where air conduction is poor but\nbone conduction remains within the normal range.",
+        "subject": "ENT"
+    },
+    {
+        "question": "On a PTA audiogram, sensorineural hearing loss is characterized by which pattern?",
+        "options": [
+            "Both AC and BC are normal",
+            "Both AC and BC are poor, with no AB gap",
+            "Air-bone (AB) gap, with poor AC and normal BC",
+            "BC is poorer than AC"
+        ],
+        "correct": 2,
+        "exp": "In sensorineural hearing loss, both air and bone conduction thresholds are poor (elevated), typically\nwithout a significant air-bone gap.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A dip at 2000 Hz specifically in the bone conduction curve on an audiogram is\ncharacteristic of which condition?",
+        "options": [
+            "No hearing loss is detected",
+            "Both air conduction and bone conduction are poor, without a significant AB gap",
+            "Only bone conduction is poor",
+            "Only air conduction is poor, mimicking CHL"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A Type C tympanogram, with a peak shifted to negative pressure, is seen in which\ncondition?",
+        "options": [
+            "Wave V",
+            "Wave I",
+            "Wave VII",
+            "Wave III"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Delayed-onset facial palsy after temporal bone fracture is thought to be due to which\nmechanism, versus immediate-onset palsy?",
+        "options": [
+            "Normal hearing individuals",
+            "All types of hearing loss equally",
+            "Otosclerosis (in the fixed stage)",
+            "Mild conductive hearing loss from wax only"
+        ],
+        "correct": 2,
+        "exp": "Delayed facial palsy after temporal bone fracture results from nerve edema, whereas\nimmediate-onset palsy results from direct nerve injury/transection by the fracture line itself.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Delayed-onset facial palsy following temporal bone trauma is typically treated with what?",
+        "options": [
+            "Tumor compression in both cases",
+            "Ischemia in both cases",
+            "Direct transection in both cases",
+            "Edema of the nerve (delayed), versus direct injury by the fracture line (immediate)"
+        ],
+        "correct": 3,
+        "exp": "Delayed facial palsy (due to edema) is generally treated conservatively with oral steroids, whereas\nimmediate palsy (due to direct nerve injury) may require surgical exploration/decompression.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Ossicular dislocation with a normal (intact) tympanic membrane typically causes\nconductive hearing loss of approximately what magnitude?",
+        "options": [
+            "Oral steroids",
+            "Facial nerve grafting",
+            "Observation only, no treatment",
+            "Immediate surgical decompression"
+        ],
+        "correct": 0,
+        "exp": "Ossicular dislocation with an intact TM classically causes a conductive hearing loss of about 50-60\ndB.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Ossicular dislocation combined with a perforated tympanic membrane typically causes\nwhat magnitude of air-bone gap conductive hearing loss?",
+        "options": [
+            "Around 50-60 dB",
+            "Around 90 dB (profound)",
+            "Around 5-10 dB",
+            "No measurable hearing loss"
+        ],
+        "correct": 0,
+        "exp": "When ossicular dislocation coexists with TM perforation, the resulting conductive hearing loss/AB\ngap is typically less severe (around 30 dB or less) than with an intact drum, since sound can bypass some of the\nimpedance mismatch.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which class of diuretics, including furosemide, is a recognized cause of ototoxicity?",
+        "options": [
+            "Around 30 dB or less",
+            "No hearing loss",
+            "Around 90 dB",
+            "Around 60 dB"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which class of anticancer drugs, including cisplatin, is a well-recognized cause of\nototoxicity?",
+        "options": [
+            "Artemisinin",
+            "Doxycycline",
+            "Mefloquine only",
+            "Chloroquine and quinine"
+        ],
+        "correct": 3,
+        "exp": "Platinum-based chemotherapy agents such as cisplatin and carboplatin are well-recognized ototoxic\ndrugs.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which special audiometric test is used to detect early ototoxicity?",
+        "options": [
+            "Alkylating agents (non-platinum)",
+            "Platinum-based chemotherapeutic agents",
+            "Taxanes",
+            "Antimetabolites"
+        ],
+        "correct": 1,
+        "exp": "High-frequency audiometry is a special test used to detect early ototoxic changes, as high\nfrequencies are typically affected first.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Otosclerosis is classically described as gradually progressive, but what event can\naccelerate its progression?",
+        "options": [
+            "Tympanometry",
+            "Caloric testing",
+            "High-frequency audiometry",
+            "Standard pure tone audiometry only"
+        ],
+        "correct": 2,
+        "exp": "Pregnancy is classically known to accelerate the progression of otosclerosis, likely due to hormonal\ninfluences.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The most common site of origin (foci) for otosclerosis is which anatomical point?",
+        "options": [
+            "Loud noise exposure",
+            "Cold exposure",
+            "Upper respiratory infection",
+            "Pregnancy"
+        ],
+        "correct": 3,
+        "exp": "The fissula ante fenestram, a point just anterior to the oval window, is the most common site of\norigin for otosclerotic foci.",
+        "subject": "ENT"
+    },
+    {
+        "question": "In the early active stage of otosclerosis, the otosclerotic focus characteristically appears\nwhat color?",
+        "options": [
+            "Promontory",
+            "Round window niche",
+            "Internal auditory canal",
+            "Fissula ante fenestram"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Patients with otosclerosis classically hear better in noisy environments. This\nphenomenon is called what?",
+        "options": [
+            "Black",
+            "White",
+            "Yellow",
+            "Pink"
+        ],
+        "correct": 3,
+        "exp": "Paracusis willisii describes the paradoxical improvement in hearing (or perceived better\nunderstanding of speech) in noisy environments, classically seen in otosclerosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What percentage of otosclerosis patients show a normal tympanic membrane on\nexamination?",
+        "options": [
+            "Diplacusis",
+            "Tullio phenomenon",
+            "Paracusis willisii",
+            "Recruitment phenomenon"
+        ],
+        "correct": 2,
+        "exp": "Approximately 90% of otosclerosis patients have a normal-appearing tympanic membrane on\nexamination.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The flamingo-pink appearance seen behind the tympanic membrane in a minority of\notosclerosis patients is called what?",
+        "options": [
+            "90%",
+            "50%",
+            "100%",
+            "10%"
+        ],
+        "correct": 0,
+        "exp": "Schwartz sign refers to the flamingo-pink hue visible through the TM in about 10% of otosclerosis\npatients, reflecting vascular activity of an early, active otosclerotic focus.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the treatment of choice for surgically fit patients with otosclerosis?",
+        "options": [
+            "Cart-wheel sign",
+            "Rising sun sign",
+            "Reservoir sign",
+            "Schwartz sign"
+        ],
+        "correct": 3,
+        "exp": "Stapedotomy (with placement of a small piston prosthesis) is the surgical treatment of choice for\notosclerosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the preferred medical (non-surgical) treatment for a patient with Schwartz sign\npositive (early/active) otosclerosis?",
+        "options": [
+            "Stapedotomy",
+            "Tympanoplasty type III",
+            "Cortical mastoidectomy",
+            "Myringoplasty"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the best radiological investigation for diagnosing acoustic neuroma?",
+        "options": [
+            "Plain CT scan",
+            "Gadolinium-enhanced MRI",
+            "Ultrasound",
+            "Plain X-ray mastoid"
+        ],
+        "correct": 1,
+        "exp": "Gadolinium-enhanced MRI is the best radiological investigation for diagnosing acoustic neuroma,\nproviding excellent visualization of the cerebellopontine angle and internal auditory canal.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Glomus jugulare tumor is more common in which sex?",
+        "options": [
+            "Males",
+            "Equal in both sexes",
+            "Exclusively males",
+            "Females"
+        ],
+        "correct": 3,
+        "exp": "Glomus jugulare tumors are more common in females.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Erosion of the floor of the middle ear by a glomus tumor, causing it to grow into the\nhypotympanum, produces which sign on otoscopy?",
+        "options": [
+            "Rising sun sign",
+            "Schwartz sign",
+            "Cart-wheel sign",
+            "Battle sign"
+        ],
+        "correct": 0,
+        "exp": "The rising sun sign describes the appearance of a red vascular mass rising from below through the\nfloor of the middle ear, characteristic of glomus tumor invasion into the hypotympanum.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Blanching of a red ear mass on applying pressure (Siegelization), seen in glomus tumor,\nis called what sign?",
+        "options": [
+            "Rising sun sign",
+            "Schwartz sign",
+            "Brown's sign",
+            "Bryce's sign"
+        ],
+        "correct": 2,
+        "exp": "Brown's sign refers to blanching of the red vascular glomus tumor mass upon pneumatic pressure\napplication (Siegelization).",
+        "subject": "ENT"
+    },
+    {
+        "question": "What are the two classic presenting features of glomus jugulare tumor?",
+        "options": [
+            "Sudden profound hearing loss and vertigo",
+            "Pulsatile tinnitus and a bleeding red ear mass",
+            "Facial palsy and vesicles in the ear",
+            "Foul-smelling discharge and trismus"
+        ],
+        "correct": 1,
+        "exp": "Glomus jugulare tumor classically presents with pulsatile tinnitus and a bleeding, red, vascular ear\nmass.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Why is biopsy contraindicated in suspected glomus jugulare tumor?",
+        "options": [
+            "Biopsy has no diagnostic value in any vascular tumor",
+            "The tumor is always malignant, and biopsy causes seeding",
+            "It requires general anesthesia only",
+            "It is a highly vascular tumor, risking severe hemorrhage"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Between episodes of Meniere's disease, patients often perceive loud sounds as\nexcessively loud. This is called what?",
+        "options": [
+            "Halo sign",
+            "Target sign",
+            "Delta sign",
+            "Phelps sign"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "If Meniere's disease episodes become frequent and disabling despite medical therapy,\nwhich surgical option decompresses the endolymphatic sac?",
+        "options": [
+            "Diplacusis",
+            "Recruitment phenomenon"
+        ],
+        "correct": 3,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What test evaluates the function of the greater superficial petrosal nerve branch of the\nfacial nerve?",
+        "options": [
+            "MacEwen's triangle",
+            "Korner's septum",
+            "Donaldson's line",
+            "Trautmann's triangle"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The nerve to stapedius arises from which point along the facial nerve, and what test\nevaluates it?",
+        "options": [
+            "Taste test",
+            "Salivary flow test",
+            "Stapedial reflex test",
+            "Schirmer's test"
+        ],
+        "correct": 3,
+        "exp": "The nerve to stapedius arises at the second genu of the facial nerve, and its function is evaluated\nusing the stapedial reflex test.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The chorda tympani nerve arises from which segment of the facial nerve, and what is its\nfunction?",
+        "options": [
+            "Stylomastoid foramen; evaluated by EMG",
+            "Second genu; evaluated by the stapedial reflex test",
+            "First genu; evaluated by Schirmer's test",
+            "Vertical segment; evaluated by taste testing"
+        ],
+        "correct": 1,
+        "exp": "The chorda tympani nerve branches off the vertical (mastoid) segment of the facial nerve and\nsupplies taste sensation to the anterior two-thirds of the tongue.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What test evaluates the function of the chorda tympani nerve branch of the facial nerve?",
+        "options": [
+            "Vertical (mastoid) segment; supplies taste to the anterior two-thirds of the tongue",
+            "Second genu; supplies the stapedius muscle",
+            "Tympanic segment; supplies general sensation to the pinna",
+            "First genu; supplies the lacrimal gland"
+        ],
+        "correct": 0,
+        "exp": "A taste test (evaluating taste on the anterior tongue) is used to assess chorda tympani nerve\nfunction.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The pathophysiology of Bell's palsy involves edema and compression of the facial nerve\nat which segment of the facial canal?",
+        "options": [
+            "Caloric test",
+            "Taste test",
+            "Stapedial reflex test",
+            "Schirmer's test"
+        ],
+        "correct": 1,
+        "exp": "Edema in the narrow labyrinthine segment (the \"bottleneck\") of the facial canal is thought to\ncompress the facial nerve, leading to Bell's palsy.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which virus has been implicated (though not definitively proven) as a possible cause of\nBell's palsy?",
+        "options": [
+            "Labyrinthine segment",
+            "Tympanic segment only",
+            "Stylomastoid foramen only",
+            "Mastoid segment only"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is a prerequisite for successful cochlear implant surgery?",
+        "options": [
+            "Mastoid surgery",
+            "Adenoidectomy",
+            "Rhinoplasty",
+            "Tonsillectomy"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The junction between the first and second branchial arches in pinna development is called\nwhat?",
+        "options": [
+            "Scala tympani of the cochlea",
+            "Round window",
+            "Lateral recess of the fourth ventricle (cochlear nucleus)",
+            "Internal auditory canal"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "The cochlea develops from which embryological structure?",
+        "options": [
+            "Branchial cleft",
+            "Otic capsule (neuroectoderm)",
+            "Second branchial arch",
+            "First branchial arch"
+        ],
+        "correct": 1,
+        "exp": "The cochlea develops from the otic capsule, which arises from neuroectoderm (the otic\nplacode/vesicle).",
+        "subject": "ENT"
+    },
+    {
+        "question": "By what week of pregnancy does cochlear development complete?",
+        "options": [
+            "10th week",
+            "30th week",
+            "20th week",
+            "40th week"
+        ],
+        "correct": 2,
+        "exp": "Cochlear development is complete by approximately the 20th week of gestation.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Which ear structures are already of adult size at birth?",
+        "options": [
+            "Eustachian tube only",
+            "Only the pinna",
+            "Middle ear, ossicles, and cochlea",
+            "Only the mastoid"
+        ],
+        "correct": 2,
+        "exp": "The middle ear, ossicles, and cochlea are of adult size at birth, unlike the mastoid, which is not yet\ndeveloped.",
+        "subject": "ENT"
+    },
+    {
+        "question": "At what age does the mastoid tip develop, being absent at birth?",
+        "options": [
+            "Around 10 years of age",
+            "Around 3 years of age",
+            "Around 15 years of age",
+            "At birth"
+        ],
+        "correct": 1,
+        "exp": "The mastoid tip is absent at birth and develops by approximately 3 years of age, which is clinically\nrelevant to facial nerve anatomy in infants (more superficial course).",
+        "subject": "ENT"
+    },
+    {
+        "question": "What are the four parts of the malleus?",
+        "options": [
+            "Head, body, crus, footplate",
+            "Head, neck, lateral process, handle (with umbo)",
+            "Body, short process, long process, footplate",
+            "Head, neck, lenticular process, footplate"
+        ],
+        "correct": 1,
+        "exp": "The malleus consists of the head, neck, lateral process, and handle, which ends at the umbo.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What are the parts of the incus?",
+        "options": [
+            "Body, short process, long process, lenticular process",
+            "Head, footplate, superstructure",
+            "Head, neck, handle, umbo",
+            "Head, crus, body"
+        ],
+        "correct": 0,
+        "exp": "The incus is made up of the body, short process, long process, and lenticular process (at the end of\nthe long process).",
+        "subject": "ENT"
+    },
+    {
+        "question": "What are the parts of the stapes?",
+        "options": [
+            "Head and umbo",
+            "Body and handle",
+            "Head/superstructure and footplate",
+            "Crus and body only"
+        ],
+        "correct": 2,
+        "exp": "The stapes has a head (superstructure) and a footplate, which sits in the oval window.",
+        "subject": "ENT"
+    },
+    {
+        "question": "Fixation of the stapes footplate leads to which disease?",
+        "options": [
+            "Otomycosis",
+            "Cholesteatoma",
+            "Otosclerosis",
+            "Otitis externa"
+        ],
+        "correct": 2,
+        "exp": "Fixation of the stapes footplate (which normally moves like a piston) is the hallmark of otosclerosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the middle ear transformer (amplification) ratio approximately?",
+        "options": [
+            "5:1",
+            "22:1",
+            "100:1",
+            "2:1"
+        ],
+        "correct": 1,
+        "exp": "The middle ear transformer ratio, resulting from the combined lever action of the ossicles and the\narea ratio between the tympanic membrane and stapes footplate, is approximately 22:1.",
+        "subject": "ENT"
+    },
+    {
+        "question": "The skin of the pinna is more closely adherent to the underlying cartilage on which\nsurface?",
+        "options": [
+            "Both surfaces equally",
+            "Medial (back) surface",
+            "Neither surface",
+            "Lateral (front) surface"
+        ],
+        "correct": 3,
+        "exp": "The skin is closely adherent to the underlying cartilage on the lateral (anterior) surface of the pinna,\nwhile it is looser on the medial (posterior) surface.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A pinna hematoma is a collection of blood in which anatomical plane?",
+        "options": [
+            "Subdermal plane over bone",
+            "Sub-perichondrial plane",
+            "Intracartilaginous plane",
+            "Subcutaneous plane only"
+        ],
+        "correct": 1,
+        "exp": "A pinna hematoma is a sub-perichondrial hemorrhage, typically following trauma.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the treatment for a pinna hematoma?",
+        "options": [
+            "Aspiration or drainage with pressure bandage",
+            "Systemic antibiotics alone",
+            "Observation only",
+            "Immediate otoplasty"
+        ],
+        "correct": 0,
+        "exp": "Pinna hematoma is treated with aspiration or incision and drainage, followed by application of a\npressure bandage to prevent reaccumulation and cartilage necrosis.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What is the standard treatment for removing impacted ear wax, and in what direction\nshould water be directed?",
+        "options": [
+            "Bat ear",
+            "Cauliflower ear",
+            "Darwin's tubercle",
+            "Anotia"
+        ],
+        "correct": 1,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "Otomycosis classically shows which characteristic appearance on otoscopic\nexamination?",
+        "options": [
+            "Prevents fungal infection",
+            "Dissolves earwax",
+            "Reduces pain and edema",
+            "Directly kills bacteria"
+        ],
+        "correct": 2,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A typical episode of Meniere's disease resolves within what time frame?",
+        "options": [
+            "A few minutes only",
+            "24 hours",
+            "Several weeks",
+            "Permanently, without resolution"
+        ],
+        "correct": 1,
+        "exp": "A typical Meniere's episode resolves within 24 hours, distinguishing it from the brief seconds-long\nepisodes of BPPV.",
+        "subject": "ENT"
+    },
+    {
+        "question": "What percentage of Bell's palsy patients typically show recovery of facial function?",
+        "options": [
+            "Approximately 10%",
+            "Approximately 50%",
+            "Approximately 85-90%",
+            "100% in all cases without exception"
+        ],
+        "correct": 2,
+        "exp": "Most Bell's palsy patients (approximately 85-90%) show good recovery of facial nerve function, often\nwithin weeks to months.",
+        "subject": "ENT"
+    },
+    {
+        "question": "How does the facial nerve recovery rate in Ramsay Hunt syndrome compare to that of\nBell's palsy?",
+        "options": [
+            "Both have identical recovery rates",
+            "Recovery is generally poorer in Ramsay Hunt syndrome",
+            "Neither condition shows any recovery",
+            "Recovery is generally better in Ramsay Hunt syndrome"
+        ],
+        "correct": 1,
+        "exp": "Facial nerve recovery in Ramsay Hunt syndrome is generally poorer compared to Bell's palsy,\nreflecting more severe nerve damage from viral involvement.\nClinical / Application-Based Questions",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient with right unsafe CSOM develops diplopia and pain behind the right eye. What is\nthe diagnosis?",
+        "options": [
+            "Malignant otitis externa",
+            "Lateral sinus thrombosis",
+            "Gradenigo syndrome",
+            "Trotter's triad"
+        ],
+        "correct": 2,
+        "exp": "Diplopia and retro-orbital pain in a patient with CSOM/ear discharge represents Gradenigo\nsyndrome from petrous apex involvement.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A 22-year-old male presents with 6 years of foul-smelling, occasionally blood-stained right\near discharge, 2 years of progressive hearing loss, and now fever, chills, headache, and mastoid\nedema. What is the most probable diagnosis?",
+        "options": [
+            "Atticoantral CSOM with a complication such as lateral sinus thrombosis",
+            "Simple acute otitis media",
+            "Malignant otitis externa",
+            "Otomycosis"
+        ],
+        "correct": 0,
+        "exp": "",
+        "subject": "ENT"
+    },
+    {
+        "question": "A 75-year-old diabetic presents with severe ear pain and facial nerve palsy, with\ngranulation tissue seen in the external auditory canal. What is the probable diagnosis?",
+        "options": [
+            "Exostosis of the external auditory canal",
+            "Squamous cell carcinoma of the ear canal",
+            "Malignant otitis externa",
+            "Keratosis obturans"
+        ],
+        "correct": 2,
+        "exp": "Severe ear pain, facial palsy, and EAC granulation tissue in an elderly diabetic patient are classic for\nmalignant (necrotizing) otitis externa.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient has right-sided hearing loss with a normal left ear. Rinne test is negative on the\nright and positive on the left. Weber lateralizes to the right ear, and absolute bone conduction\n(ABC) is normal bilaterally. What is the interpretation?",
+        "options": [
+            "Right sensorineural hearing loss",
+            "Right conductive hearing loss",
+            "Right mixed hearing loss",
+            "Normal hearing on both sides"
+        ],
+        "correct": 1,
+        "exp": "A negative Rinne on the right (BC>AC), Weber lateralizing to the right (poorer) ear, and normal ABC\ntogether indicate right-sided conductive hearing loss.",
+        "subject": "ENT"
+    },
+    {
+        "question": "A patient with facial palsy following temporal bone fracture develops symptoms one week\nafter trauma (delayed onset). What is the most appropriate intervention?",
+        "options": [
+            "Oral steroids for 3 weeks",
+            "Electrical stimulation of facial muscles",
+            "Facial nerve grafting",
+            "Immediate facial nerve decompression"
+        ],
+        "correct": 0,
+        "exp": "Delayed-onset facial palsy after temporal bone fracture is attributed to nerve edema and is managed\nconservatively with oral steroids rather than surgery.",
+        "subject": "ENT"
     }
+
 ];
