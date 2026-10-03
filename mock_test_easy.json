@@ -1,0 +1,1302 @@
+[
+  {
+    "question_number": 1,
+    "stem": "A 40-year-old male presents with severe pain, photophobia, and blurred vision following an inadvertent\ninjury with a palm leaf. Slit-lamp exam shows a central corneal ulcer with feathery, finger-like extensions and\nsatellite lesions. What is the most appropriate initial topical antimicrobial treatment?",
+    "options": {
+      "A": "Topical Moxifloxacin 0.5%",
+      "B": "Topical Fortified Tobramycin 1.4%",
+      "C": "Topical Chlorhexidine 0.02%",
+      "D": "Topical Natamycin 5%",
+      "E": "Topical Acyclovir 3%"
+    },
+    "correct_option": "D",
+    "rationale": "Fungal keratitis following vegetative/agricultural trauma (e.g., palm leaf) classically presents with feathery margins and\nsatellite lesions. Topical Natamycin 5% suspension is the first-line drug of choice."
+  },
+  {
+    "question_number": 2,
+    "stem": "A 28-year-old contact lens wearer presents with excruciating right eye pain out of proportion to clinical\nfindings, photophobia, and a ring-shaped corneal stromal infiltrate. Microscopic examination of corneal\nscrapings shows double-walled cysts. What is the pathognomonic clinical feature of this condition?",
+    "options": {
+      "A": "Dendritic ulcer with terminal bulbs",
+      "B": "Feathery stromal borders",
+      "C": "Wessely immune ring",
+      "D": "Fleischer ring",
+      "E": "Radial keratoneuritis (perineural infiltrates)"
+    },
+    "correct_option": "E",
+    "rationale": "Acanthamoeba keratitis in contact lens wearers presents with severe pain disproportionate to signs and pathognomonic\nradial keratoneuritis (radial perineural infiltrates along corneal nerves)."
+  },
+  {
+    "question_number": 3,
+    "stem": "A 22-year-old student presents with recurrent episodes of red eye, photophobia, and foreign body sensation.\nSlit-lamp examination reveals a branching epithelial defect with terminal bulbs that stains brightly with\nfluorescein. Corneal esthesiometry shows reduced corneal sensation. Which medication must NEVER be\nprescribed?",
+    "options": {
+      "A": "Topical Corticosteroids",
+      "B": "Artificial tear drops",
+      "C": "Topical Homatropine 2%",
+      "D": "Oral Acyclovir 400 mg",
+      "E": "Topical Acyclovir 3% ointment"
+    },
+    "correct_option": "A",
+    "rationale": "Topical steroids are strictly contraindicated in active HSV dendritic epithelial keratitis as they suppress local immunity,\ncausing the ulcer to transform into a destructive geographic/amoeboid ulcer."
+  },
+  {
+    "question_number": 4,
+    "stem": "A 19-year-old male complains of progressive distortion of vision and frequent changes in astigmatic\ncylindrical glass prescription. On examination, looking downward causes a V-shaped notch on the lower\neyelid. What is the name of this characteristic eyelid sign?",
+    "options": {
+      "A": "Stellwag's sign",
+      "B": "Dalrymple's sign",
+      "C": "Munson's sign",
+      "D": "Vogt's sign",
+      "E": "Von Graefe's sign"
+    },
+    "correct_option": "C",
+    "rationale": "Munson's sign is the V-shaped indentation/notching of the lower eyelid caused by the ectatic conical cornea when the\npatient looks downward in Keratoconus."
+  },
+  {
+    "question_number": 5,
+    "stem": "Which layer of the human cornea contains an active Na+/K+-ATPase metabolic pump responsible for\nmaintaining corneal deturgescence (relative dehydration) and clarity, but possesses NO regenerative\ncapability?",
+    "options": {
+      "A": "Bowman's layer",
+      "B": "Descemet's membrane",
+      "C": "Stroma (Substantia propria)",
+      "D": "Epithelium",
+      "E": "Endothelium"
+    },
+    "correct_option": "E",
+    "rationale": "The corneal endothelium is a single hexagonal cell layer with an active Na+/K+-ATPase pump that maintains corneal\ndehydration. Endothelial cells cannot divide or regenerate after birth."
+  },
+  {
+    "question_number": 6,
+    "stem": "A 55-year-old patient with long-standing Fuchs' endothelial dystrophy develops painful bullae on the corneal\nsurface due to severe corneal decompensation. Which surgical procedure replaces ONLY the diseased\nposterior corneal layers (endothelium and Descemet's membrane)?",
+    "options": {
+      "A": "Phototherapeutic Keratectomy (PTK)",
+      "B": "Descemet's Stripping Automated Endothelial Keratoplasty (DSAEK)",
+      "C": "Deep Anterior Lamellar Keratoplasty (DALK)",
+      "D": "Superficial Keratectomy",
+      "E": "Penetrating Keratoplasty (PKP)"
+    },
+    "correct_option": "B",
+    "rationale": "DSAEK/DMEK replaces only the diseased endothelial layer and Descemet's membrane, leaving the patient's healthy\nanterior stroma intact, unlike full-thickness Penetrating Keratoplasty."
+  },
+  {
+    "question_number": 7,
+    "stem": "A patient presents with a semi-dense corneal opacity involving the anterior half of the corneal stroma,\nthrough which the pupil and iris details are partially visible. How is this corneal scar classified?",
+    "options": {
+      "A": "Leucoma",
+      "B": "Adherent leucoma",
+      "C": "Nebula",
+      "D": "Macula",
+      "E": "Kayser-Fleischer ring"
+    },
+    "correct_option": "D",
+    "rationale": "A Macula is a semi-dense corneal opacity involving the anterior stromal layers through which underlying iris features can\nstill be partially discerned (Nebula is faint, Leucoma is dense white)."
+  },
+  {
+    "question_number": 8,
+    "stem": "Which corneal dystrophy is inherited in an Autosomal Recessive pattern and is characterized by\nmucopolysaccharide deposits in the stroma that extend all the way to the limbus?",
+    "options": {
+      "A": "Macular Corneal Dystrophy",
+      "B": "Meesmann Epithelial Dystrophy",
+      "C": "Lattice Corneal Dystrophy",
+      "D": "Fuchs' Endothelial Dystrophy",
+      "E": "Granular Corneal Dystrophy"
+    },
+    "correct_option": "A",
+    "rationale": "Macular corneal dystrophy is the only major autosomal recessive stromal dystrophy (Granular and Lattice are autosomal\ndominant) and features diffuse stromal clouding extending to the limbus."
+  },
+  {
+    "question_number": 9,
+    "stem": "A 30-year-old welder works without protective goggles and wakes up at midnight with severe bilateral ocular\npain, blepharospasm, and lacrimation. Fluorescein staining reveals diffuse punctate epithelial erosions (SPK).\nWhat is the primary cause?",
+    "options": {
+      "A": "Thermal corneal arc",
+      "B": "Chemical alkali burn",
+      "C": "Ultraviolet (UV-B) photokeratitis",
+      "D": "Fungal spore inoculation",
+      "E": "Infrared radiation burn"
+    },
+    "correct_option": "C",
+    "rationale": "Photokeratitis (Welder's flash / Snow blindness) is caused by absorption of UV-B radiation by the corneal epithelium,\ncausing shed epithelial cells and diffuse painful punctate erosions."
+  },
+  {
+    "question_number": 10,
+    "stem": "Which organism is clinically notorious for its ability to breach and invade a completely intact, uninjured\ncorneal epithelium?",
+    "options": {
+      "A": "Neisseria gonorrhoeae",
+      "B": "Pseudomonas aeruginosa",
+      "C": "Escherichia coli",
+      "D": "Staphylococcus aureus",
+      "E": "Streptococcus pneumoniae"
+    },
+    "correct_option": "A",
+    "rationale": "Neisseria gonorrhoeae (along with Corynebacterium diphtheriae and Listeria) can penetrate intact corneal epithelium\nwithout prior epithelial trauma."
+  },
+  {
+    "question_number": 11,
+    "stem": "During a slit-lamp exam of a 16-year-old keratoconus patient, vertical fine stress lines are noted in the deep\nstroma and Descemet's membrane that disappear upon applying gentle pressure to the globe. What are these\nlines called?",
+    "options": {
+      "A": "Krukenberg's spindle",
+      "B": "Hudson-Stahli line",
+      "C": "Fleischer's ring",
+      "D": "Vogt's striae",
+      "E": "Haab's striae"
+    },
+    "correct_option": "D",
+    "rationale": "Vogt's striae are vertical stromal stress lines in keratoconus that transiently disappear when external digital pressure is\napplied to the eye."
+  },
+  {
+    "question_number": 12,
+    "stem": "A golden-brown or greenish iron ring deposited in Bowman's layer surrounding the base of the cone in\nkeratoconus is known as:",
+    "options": {
+      "A": "Ferry's line",
+      "B": "Fleischer's ring",
+      "C": "Stockers line",
+      "D": "Arlt's line",
+      "E": "Kayser-Fleischer ring"
+    },
+    "correct_option": "B",
+    "rationale": "Fleischer's ring is an epithelial iron deposit at the base of the cone in keratoconus (distinguish from Kayser-Fleischer ring\nin Wilson's disease, which is copper in Descemet's membrane)."
+  },
+  {
+    "question_number": 13,
+    "stem": "What is the total average refractive power of the human cornea?",
+    "options": {
+      "A": "+58 Diopters",
+      "B": "+20 Diopters",
+      "C": "+15 Diopters",
+      "D": "+43 Diopters",
+      "E": "+60 Diopters"
+    },
+    "correct_option": "D",
+    "rationale": "The cornea contributes approximately +43 D (about 70%) to the eye's total fixed refractive power of +60 D (the crystalline\nlens contributes ~+15 to +20 D)."
+  },
+  {
+    "question_number": 14,
+    "stem": "A patient with neurotrophic keratitis secondary to trigeminal nerve (CN V1) palsy develops a non-healing\ncorneal epithelial defect. What is the primary underlying pathophysiology?",
+    "options": {
+      "A": "Elevated intraocular pressure",
+      "B": "Endothelial pump failure",
+      "C": "Loss of sensory innervation and trophic factors",
+      "D": "Bacterial superinfection",
+      "E": "Excessive tear production"
+    },
+    "correct_option": "C",
+    "rationale": "Trigeminal nerve injury causes loss of corneal sensation and essential neurotrophic factors, leading to epithelial\nbreakdown, impaired healing, and painless neurotrophic ulcers."
+  },
+  {
+    "question_number": 15,
+    "stem": "A 60-year-old female presents with severe dry eyes, rheumatoid arthritis, and a melt of the peripheral\ncorneal stroma. What is this condition called?",
+    "options": {
+      "A": "Band keratopathy",
+      "B": "Terrien's marginal degeneration",
+      "C": "Mooren's ulcer",
+      "D": "Peripheral Ulcerative Keratitis (PUK)",
+      "E": "Salzmann nodular degeneration"
+    },
+    "correct_option": "D",
+    "rationale": "Peripheral Ulcerative Keratitis (PUK) is an autoimmune crescentic stromal melting process at the limbus strongly\nassociated with systemic collagen vascular diseases like Rheumatoid Arthritis."
+  },
+  {
+    "question_number": 16,
+    "stem": "A 68-year-old diabetic patient presents with gradual, painless decrease in vision. Slit-lamp exam shows\nopacification located directly at the posterior pole of the crystalline lens along the visual axis. The patient\nreports severe glare when driving towards sunlight. What type of cataract is this?",
+    "options": {
+      "A": "Morgagnian cataract",
+      "B": "Posterior subcapsular cataract (PSC)",
+      "C": "Anterior polar cataract",
+      "D": "Cortical cataract",
+      "E": "Nuclear sclerotic cataract"
+    },
+    "correct_option": "B",
+    "rationale": "Posterior Subcapsular Cataract (PSC) lies directly in the visual axis at the posterior nodal point, causing prominent glare\nand disproportionate vision loss in bright light (when pupil constricts)."
+  },
+  {
+    "question_number": 17,
+    "stem": "A 6-week-old infant is brought with bilateral white pupillary reflexes (leukocoria). Systemic workup reveals\ngalactokinase deficiency. What is the classic morphological pattern of cataract associated with galactosemia?",
+    "options": {
+      "A": "Oil-droplet opacity",
+      "B": "Christmas-tree opacity",
+      "C": "Snowflake opacity",
+      "D": "Rosette-shaped opacity",
+      "E": "Sunflower opacity"
+    },
+    "correct_option": "A",
+    "rationale": "Galactosemia (due to galactokinase or GALT deficiency) causes accumulation of dulcitol in the lens, producing a\npathognomonic central 'oil-droplet' cataract."
+  },
+  {
+    "question_number": 18,
+    "stem": "A 35-year-old patient with Wilson's disease (hepatolenticular degeneration) undergoes ocular evaluation.\nCopper deposition in the anterior lens capsule produces which characteristic named cataract?",
+    "options": {
+      "A": "Sunflower cataract",
+      "B": "Snowstorm cataract",
+      "C": "Coralliform cataract",
+      "D": "Polychromatic luster cataract",
+      "E": "Shield cataract"
+    },
+    "correct_option": "A",
+    "rationale": "Wilson's disease causes copper deposition beneath the anterior lens capsule, producing a stellate brown-green\n'sunflower' cataract (as well as KF rings in Descemet's membrane)."
+  },
+  {
+    "question_number": 19,
+    "stem": "A 25-year-old man presents with difficulty relaxing his hand grip after a handshake, frontal balding, and\nbilateral cataracts consisting of highly reflective polychromatic crystals. What is the underlying systemic\ncondition?",
+    "options": {
+      "A": "Hypoparathyroidism",
+      "B": "Myotonic dystrophy",
+      "C": "Atopic dermatitis",
+      "D": "Diabetes mellitus",
+      "E": "Down syndrome"
+    },
+    "correct_option": "B",
+    "rationale": "Myotonic dystrophy is characterized by myotonia, muscle wasting, frontal balding, and pathognomonic 'Christmas-tree'\npolychromatic crystalline lens opacities."
+  },
+  {
+    "question_number": 20,
+    "stem": "A 70-year-old patient undergoes uncomplicated phacoemulsification with posterior chamber intraocular\nlens (PCIOL) placement. One year later, vision gradually blurs. Examination shows proliferation of residual lens\nepithelial cells forming 'Elschnig's pearls' across the posterior capsule. What is the treatment of choice?",
+    "options": {
+      "A": "Topical steroid therapy",
+      "B": "Argon laser photocoagulation",
+      "C": "Nd:YAG laser capsulotomy",
+      "D": "IOL exchange",
+      "E": "Surgical capsusectomy"
+    },
+    "correct_option": "C",
+    "rationale": "Posterior Capsule Opacification (PCO / Elschnig's pearls) is the most common late post-op complication of cataract\nsurgery, treated non-invasively with Nd:YAG laser capsulotomy."
+  },
+  {
+    "question_number": 21,
+    "stem": "During phacoemulsification, the posterior lens capsule ruptures and a large nuclear fragment falls deep\ninto the vitreous cavity. What is the immediate, correct surgical step?",
+    "options": {
+      "A": "Attempt to retrieve the nucleus with phaco probe in the vitreous",
+      "B": "Instill topical pilocarpine to constrict pupil",
+      "C": "Perform anterior vitrectomy to clear the wound, insert IOL if support allows, and refer for Pars Plana Vitrectomy",
+      "D": "Abort surgery and close skin without removing vitreous",
+      "E": "Inject high-density viscoelastic and perform scleral expression immediately"
+    },
+    "correct_option": "C",
+    "rationale": "If nuclear fragments drop into the vitreous, never chase them with the phaco handpiece in the vitreous cavity. Perform\nanterior vitrectomy to clear vitreous from the anterior segment/wound, place IOL if sulcus support exists, and refer to a vitreoretinal\nsurgeon for Pars Plana Vitrectomy."
+  },
+  {
+    "question_number": 22,
+    "stem": "A 50-year-old male receives a heavy blunt blow to his right eye from a tennis ball. Slit-lamp exam reveals a\nrosette-shaped (star-shaped) cortical opacity and a circular ring of iris pigment deposited on the anterior lens\ncapsule. What is this pigment ring called?",
+    "options": {
+      "A": "Soemmering's ring",
+      "B": "Fleischer's ring",
+      "C": "Kayser-Fleischer ring",
+      "D": "Haab's ring",
+      "E": "Vossius' ring"
+    },
+    "correct_option": "E",
+    "rationale": "Vossius' ring is a ring of iris pigment imprinted onto the anterior lens capsule following blunt ocular trauma due to sudden\ncompression of the iris against the lens."
+  },
+  {
+    "question_number": 23,
+    "stem": "In the optical SRK formula for IOL power calculation (P = A - 2.5L - 0.9K), what does 'L' represent?",
+    "options": {
+      "A": "A-constant of the lens implant",
+      "B": "Average keratometry reading in Diopters",
+      "C": "Axial length of the eye in millimeters",
+      "D": "Anterior chamber depth",
+      "E": "Lens thickness in millimeters"
+    },
+    "correct_option": "C",
+    "rationale": "In the SRK formula (P = A - 2.5L - 0.9K), P is IOL power, A is the manufacturer's A-constant, L is axial length in mm, and\nK is average corneal curvature in Diopters."
+  },
+  {
+    "question_number": 24,
+    "stem": "A hypermature senile cataract in which the entire cortex has liquefied into a milky fluid, allowing the dense\nbrown nucleus to sink to the bottom of the capsular bag, is termed a:",
+    "options": {
+      "A": "Black cataract (Cataracta nigra)",
+      "B": "Intumescent cataract",
+      "C": "Morgagnian cataract",
+      "D": "Membranous cataract",
+      "E": "Complicated cataract"
+    },
+    "correct_option": "C",
+    "rationale": "A Morgagnian cataract is a hypermature cataract where cortex liquefaction allows the heavy, hard brownish nucleus to\nfloat freely or sink to the bottom of the capsule."
+  },
+  {
+    "question_number": 25,
+    "stem": "Which Purkinje-Sansom image is ABSENT in an aphakic eye (an eye lacking a crystalline lens)?",
+    "options": {
+      "A": "1st image only",
+      "B": "2nd and 4th images",
+      "C": "1st and 2nd images",
+      "D": "3rd and 4th images",
+      "E": "All 4 Purkinje images"
+    },
+    "correct_option": "D",
+    "rationale": "Images 1 and 2 are formed by the anterior and posterior corneal surfaces. Images 3 and 4 are formed by the anterior and\nposterior lens surfaces, so images 3 and 4 are completely absent in aphakia."
+  },
+  {
+    "question_number": 26,
+    "stem": "A 14-year-old boy with high stature, arachnodactyly, joint hypermobility, and aortic root dilation presents\nwith bilateral ectopia lentis (lens subluxation). In which direction is the lens most commonly displaced in\nMarfan syndrome?",
+    "options": {
+      "A": "Directly inferiorly",
+      "B": "Downwards and temporally",
+      "C": "Upwards and temporally",
+      "D": "Anteriorly into anterior chamber",
+      "E": "Downwards and nasally"
+    },
+    "correct_option": "C",
+    "rationale": "In Marfan syndrome, ectopia lentis is typically bilateral, symmetrical, and displaced upwards and temporally\n(superotemporal displacement due to fibrillin-1 defect; contrast Homocystinuria which displaces downwards and nasally)."
+  },
+  {
+    "question_number": 27,
+    "stem": "On the first post-operative day following cataract surgery, a patient presents with severe limbus-to-limbus\ncorneal edema, fixed dilated pupil, and sterile anterior chamber exudate without pain. Vitreous is clear. What is\nthe most likely diagnosis?",
+    "options": {
+      "A": "Pseudophakic bullous keratopathy",
+      "B": "Toxic Anterior Segment Syndrome (TASS)",
+      "C": "Acute angle-closure glaucoma",
+      "D": "Acute bacterial endophthalmitis",
+      "E": "Fungal endophthalmitis"
+    },
+    "correct_option": "B",
+    "rationale": "TASS is a sterile non-infectious inflammatory reaction caused by toxic substances entering the AC during surgery (e.g.,\ndenatured viscoelastics, detergent residues), presenting within 12-24 hours with severe corneal edema and AC reaction without\nvitreous involvement."
+  },
+  {
+    "question_number": 28,
+    "stem": "What type of intraocular lens (IOL) fixation is preferred when the capsular bag and posterior capsule are\ncompletely destroyed or absent during trauma?",
+    "options": {
+      "A": "Sulcus-fixated PCIOL",
+      "B": "In-the-bag PCIOL",
+      "C": "Scleral-fixated IOL or Anterior Chamber IOL (ACIOL)",
+      "D": "Episcleral IOL",
+      "E": "Capsular tension ring IOL"
+    },
+    "correct_option": "C",
+    "rationale": "When posterior capsular support is absent, an Anterior Chamber IOL (ACIOL) or Scleral-Fixated Posterior Chamber IOL\n(SFIOL) is indicated."
+  },
+  {
+    "question_number": 29,
+    "stem": "A 62-year-old hypermetropic female presents to the emergency room with sudden, agonizing right eye pain,\nsevere frontal headache, nausea, and colored halos around lights. Examination reveals a fixed, mid-dilated\nvertically oval pupil, corneal edema, and an IOP of 64 mmHg. What is the immediate, mandatory systemic drug\nto lower IOP rapidly?",
+    "options": {
+      "A": "Topical Atropine 1%",
+      "B": "Topical Latanoprost 0.005%",
+      "C": "Topical Pilocarpine 2%",
+      "D": "Intravenous Mannitol 20%",
+      "E": "Topical Timolol 0.5%"
+    },
+    "correct_option": "D",
+    "rationale": "IV Mannitol 20% (1.5-2 g/kg) is an hyperosmotic agent administered urgently in acute angle-closure glaucoma to\ndehydrate the vitreous body and lower dangerously elevated IOP rapidly."
+  },
+  {
+    "question_number": 30,
+    "stem": "What is the definitive, curative surgical/laser procedure of choice for Acute Angle-Closure Glaucoma once\nthe acute attack has been medically controlled?",
+    "options": {
+      "A": "Selective Laser Trabeculoplasty (SLT)",
+      "B": "Laser Peripheral Iridotomy (LPI) in both eyes",
+      "C": "Trabeculectomy",
+      "D": "Goniotomy",
+      "E": "Cyclocryotherapy"
+    },
+    "correct_option": "B",
+    "rationale": "Laser Peripheral Iridotomy (LPI) creates a bypass for aqueous from the posterior to anterior chamber, eliminating\npupillary block. Crucially, prophylactic LPI must be performed on BOTH eyes as the anatomical predisposition is bilateral."
+  },
+  {
+    "question_number": 31,
+    "stem": "A 3-month-old infant is brought by his parents due to excessive tearing (epiphora), photophobia, and\nblepharospasm in both eyes. Examination under anesthesia reveals enlarged corneas (diameter 13.5 mm) with\nhorizontal curvilinear breaks in Descemet's membrane. What are these breaks called?",
+    "options": {
+      "A": "Vogt's striae",
+      "B": "Fleischer lines",
+      "C": "Krukenberg's striae",
+      "D": "Haab's striae",
+      "E": "Arlt's lines"
+    },
+    "correct_option": "D",
+    "rationale": "Haab's striae are horizontal or concentric curvilinear ruptures in Descemet's membrane resulting from corneal stretching\nin primary congenital glaucoma (buphthalmos)."
+  },
+  {
+    "question_number": 32,
+    "stem": "What is the initial surgical procedure of choice for Primary Congenital Glaucoma when the cornea is clear\nenough to allow visualization of the anterior chamber angle structures?",
+    "options": {
+      "A": "Cyclophotocoagulation",
+      "B": "Goniotomy",
+      "C": "Trabeculectomy",
+      "D": "Deep sclerectomy",
+      "E": "Enucleation"
+    },
+    "correct_option": "B",
+    "rationale": "Goniotomy is the procedure of choice for primary congenital glaucoma if the cornea is clear, incising Barkan's membrane\nto open the trabecular meshwork (trabeculotomy is done if cornea is cloudy)."
+  },
+  {
+    "question_number": 33,
+    "stem": "A 58-year-old open-angle glaucoma patient is started on Latanoprost eye drops. What is the primary\nmechanism of action by which prostaglandin analogs reduce intraocular pressure?",
+    "options": {
+      "A": "Increasing uveoscleral outflow",
+      "B": "Osmotic dehydration of the vitreous",
+      "C": "Constriction of ciliary body blood vessels",
+      "D": "Increasing trabecular meshwork outflow",
+      "E": "Decreasing aqueous humor production at ciliary epithelium"
+    },
+    "correct_option": "A",
+    "rationale": "Prostaglandin analogs (Latanoprost, Bimatoprost, Travoprost) reduce IOP primarily by remodeling extracellular matrix in\nciliary muscle, thereby enhancing uveoscleral aqueous outflow."
+  },
+  {
+    "question_number": 34,
+    "stem": "A patient with Primary Open-Angle Glaucoma (POAG) exhibits a classic arcuate visual field defect\nextending from the blind spot and arching over the fixation point into the nasal field. What is this field defect\ncalled?",
+    "options": {
+      "A": "Bjerrum's scotoma",
+      "B": "Bitemporal hemianopia",
+      "C": "Central scotoma",
+      "D": "Seidel's scotoma",
+      "E": "Roenne's nasal step"
+    },
+    "correct_option": "A",
+    "rationale": "Bjerrum's scotoma (arcuate scotoma) is a classic glaucomatous field defect caused by damage to arcuate nerve fiber\nbundles, extending from the blind spot around fixation into the nasal area."
+  },
+  {
+    "question_number": 35,
+    "stem": "Which class of topical anti-glaucoma medication is STRICTLY CONTRAINDICATED in patients with a\nhistory of bronchial asthma, severe COPD, or second/third-degree heart block?",
+    "options": {
+      "A": "Non-selective Beta-blockers (Timolol)",
+      "B": "Rho-kinase inhibitors (Netarsudil)",
+      "C": "Carbonic anhydrase inhibitors (Dorzolamide)",
+      "D": "Prostaglandin analogs (Latanoprost)",
+      "E": "Alpha-2 agonists (Brimonidine)"
+    },
+    "correct_option": "A",
+    "rationale": "Topical non-selective beta-blockers like Timolol undergo systemic absorption via nasolacrimal mucosa, potentially\nprecipitating fatal bronchospasm in asthmatics/COPD patients and severe bradycardia."
+  },
+  {
+    "question_number": 36,
+    "stem": "On gonioscopic examination, a hyperpigmented line is identified running anterior to Schwalbe's line in a\npatient with pigment dispersion syndrome. What is this line called?",
+    "options": {
+      "A": "Zonular line",
+      "B": "Hudson-Stahli line",
+      "C": "White line of Vogt",
+      "D": "Sampaolesi line",
+      "E": "Arlt's line"
+    },
+    "correct_option": "D",
+    "rationale": "Sampaolesi line is a prominent line of dark pigment deposited on or anterior to Schwalbe's line on gonioscopy, seen in\npigment dispersion syndrome and pseudoexfoliation glaucoma."
+  },
+  {
+    "question_number": 37,
+    "stem": "What is the gold standard instrument for precise measurement of Intraocular Pressure (IOP) in adult clinical\npractice?",
+    "options": {
+      "A": "Tono-Pen",
+      "B": "Goldmann Applanation Tonometer (GAT)",
+      "C": "Perkins tonometer",
+      "D": "Non-contact air-puff tonometer",
+      "E": "Schiotz tonometer"
+    },
+    "correct_option": "B",
+    "rationale": "Goldmann Applanation Tonometer (GAT) attached to the slit lamp is the universally recognized gold standard for\nmeasuring IOP based on the Imbert-Fick principle."
+  },
+  {
+    "question_number": 38,
+    "stem": "A 65-year-old male with open-angle glaucoma presents with a cup-to-disc ratio (CDR) of 0.85, disc\nhemorrhages, and neuroretinal rim thinning. Which region of the neuroretinal rim is characteristically lost\nFIRST in early glaucomatous optic neuropathy?",
+    "options": {
+      "A": "Temporal rim",
+      "B": "Central macular fibers",
+      "C": "Inferior and Superior poles (ISNT rule compliance loss)",
+      "D": "Nasal rim",
+      "E": "Papillomacular bundle"
+    },
+    "correct_option": "C",
+    "rationale": "Glaucomatous damage preferentially affects the inferior and superior poles of the optic disc (violating the normal ISNT\nrule where Inferior > Superior > Nasal > Temporal rim thickness)."
+  },
+  {
+    "question_number": 39,
+    "stem": "A patient presents with elevated IOP, flaky white fibrillar pseudoexfoliative material deposited on the\nanterior lens capsule, pupil margin, and trabecular meshwork. What is the primary diagnosis?",
+    "options": {
+      "A": "Pseudoexfoliation glaucoma (PEX)",
+      "B": "Fuchs' heterochromic iridocyclitis",
+      "C": "Pigmentary glaucoma",
+      "D": "Phacolytic glaucoma",
+      "E": "Neovascular glaucoma"
+    },
+    "correct_option": "A",
+    "rationale": "Pseudoexfoliation syndrome (PEX) features systemic fibrillar amyloid-like material deposited on the anterior lens capsule\n('bulls-eye' pattern), iris, and trabecular meshwork, causing secondary open-angle glaucoma."
+  },
+  {
+    "question_number": 40,
+    "stem": "A patient develops high IOP 3 weeks after severe blunt trauma to the eye. Gonioscopy reveals widening of\nthe ciliary body band due to a tear between longitudinal and circular fibers of the ciliary muscle. What is this\ncondition?",
+    "options": {
+      "A": "Iridocorneal endothelial (ICE) syndrome",
+      "B": "Angle-recession glaucoma",
+      "C": "Red cell glaucoma",
+      "D": "Ghost cell glaucoma",
+      "E": "Phacomorphic glaucoma"
+    },
+    "correct_option": "B",
+    "rationale": "Angle-recession glaucoma occurs post-blunt trauma due to laceration between longitudinal and circular ciliary muscle\nfibers, leading to late trabecular meshwork sclerosis and secondary glaucoma."
+  },
+  {
+    "question_number": 41,
+    "stem": "What is the hallmark clinical finding of Normal Tension Glaucoma (NTG)?",
+    "options": {
+      "A": "IOP of 10 mmHg with corneal edema",
+      "B": "IOP >30 mmHg with normal visual fields",
+      "C": "IOP consistently <= 21 mmHg with glaucomatous optic disc cupping and field defects",
+      "D": "Intermittent IOP spikes at night with deep AC",
+      "E": "IOP of 50 mmHg without optic nerve damage"
+    },
+    "correct_option": "C",
+    "rationale": "Normal Tension Glaucoma (NTG) is defined by progressive glaucomatous optic nerve cupping and visual field loss\noccurring despite intraocular pressure remaining consistently within normal range (<= 21 mmHg)."
+  },
+  {
+    "question_number": 42,
+    "stem": "A patient with advanced ischemic CRVO presents 3 months later with severe ocular pain, red eye, elevated\nIOP of 50 mmHg, and arborizing neovascular vessels on the anterior surface of the iris (rubeosis iridis). What\ntype of glaucoma has developed?",
+    "options": {
+      "A": "Phacotopic glaucoma",
+      "B": "Steroid-induced glaucoma",
+      "C": "Neovascular Glaucoma ('100-day glaucoma')",
+      "D": "Malignant glaucoma",
+      "E": "Inflammatory glaucoma"
+    },
+    "correct_option": "C",
+    "rationale": "Neovascular glaucoma ('100-day glaucoma') is triggered by severe retinal ischemia (e.g., ischemic CRVO, proliferative\ndiabetic retinopathy) causing VEGF release, rubeosis iridis, and fibrovascular closure of the AC angle."
+  },
+  {
+    "question_number": 43,
+    "stem": "A 65-year-old hypertensive male experiences sudden, complete, painless loss of vision in his right eye.\nOphthalmoscopy reveals a pale, milky-white ischemic retina with a distinct 'cherry-red spot' at the macula.\nWhat is the primary diagnosis?",
+    "options": {
+      "A": "Exudative Age-Related Macular Degeneration",
+      "B": "Central Retinal Vein Occlusion (CRVO)",
+      "C": "Central Retinal Artery Occlusion (CRAO)",
+      "D": "Rhegmatogenous Retinal Detachment",
+      "E": "Anterior Ischemic Optic Neuropathy"
+    },
+    "correct_option": "C",
+    "rationale": "CRAO presents with sudden, profound, painless monocular vision loss. The retina becomes pale/edematous, while the\nfovea transmits underlying choroidal vascularity, creating a pathognomonic 'cherry-red spot'."
+  },
+  {
+    "question_number": 44,
+    "stem": "What is the most common anatomical site of origin for an embolus causing Central Retinal Artery\nOcclusion (CRAO)?",
+    "options": {
+      "A": "Aortic valve vegetations",
+      "B": "Pulmonary vein thrombosis",
+      "C": "Deep veins of the lower extremity",
+      "D": "Left atrial appendage",
+      "E": "Carotid artery bifurcation (atherosclerotic plaque)"
+    },
+    "correct_option": "E",
+    "rationale": "Hollenhorst plaques (cholesterol emboli) originating from atherosclerotic disease at the carotid artery bifurcation are the\ncommonest source of retinal artery emboli."
+  },
+  {
+    "question_number": 45,
+    "stem": "A 60-year-old patient presents with sudden 'blood and thunder' fundus appearance featuring widespread\nflame-shaped retinal hemorrhages in all 4 quadrants, tortuous dilated veins, and cotton wool spots. What is the\ndiagnosis?",
+    "options": {
+      "A": "Ocular Ischemic Syndrome",
+      "B": "Retinitis Pigmentosa",
+      "C": "Central Retinal Vein Occlusion (CRVO)",
+      "D": "Diabetic Retinopathy Stage 1",
+      "E": "Central Retinal Artery Occlusion"
+    },
+    "correct_option": "C",
+    "rationale": "CRVO classically produces a 'blood and thunder' fundus with extensive flame hemorrhages in all four quadrants, vein\nengorgement, optic disc edema, and cotton wool spots."
+  },
+  {
+    "question_number": 46,
+    "stem": "A 55-year-old high myope complains of sudden onset of multiple new floaters, flashes of light (photopsia),\nand a dark 'curtain-like' shadow descending across the visual field of his left eye. Fundoscopy reveals a\ngreyish elevated retina with a red horseshoe break. What type of retinal detachment is this?",
+    "options": {
+      "A": "Rhegmatogenous Retinal Detachment (RRD)",
+      "B": "Exudative Retinal Detachment",
+      "C": "Hemorrhagic detachment",
+      "D": "Tractional Retinal Detachment",
+      "E": "Solid tumor detachment"
+    },
+    "correct_option": "A",
+    "rationale": "Rhegmatogenous Retinal Detachment (RRD) is caused by a full-thickness retinal break (horseshoe tear) allowing\nliquefied vitreous into the subretinal space, presenting with flashes, floaters, and a curtain-like field defect."
+  },
+  {
+    "question_number": 47,
+    "stem": "On examination of a patient with suspected retinal tear, tiny brownish pigment granules are observed\nfloating in the anterior vitreous ('tobacco dust'). What is this pathognomonic clinical sign called?",
+    "options": {
+      "A": "Elschnig's sign",
+      "B": "Dalen-Fuchs sign",
+      "C": "Roth's sign",
+      "D": "Gunn's sign",
+      "E": "Shafer's sign"
+    },
+    "correct_option": "E",
+    "rationale": "Shafer's sign ('tobacco dust') refers to released retinal pigment epithelium (RPE) cells floating in the anterior vitreous,\npathognomonic for a full-thickness retinal tear."
+  },
+  {
+    "question_number": 48,
+    "stem": "A 20-year-old male complains of progressive night blindness (nyctalopia) and loss of peripheral vision\n(tunnel vision). Fundoscopy reveals bone-spicule pigment deposits in the mid-peripheral retina, waxy disc\npallor, and arteriolar attenuation. What is the diagnosis?",
+    "options": {
+      "A": "Best vitelliform dystrophy",
+      "B": "Cone dystrophy",
+      "C": "Gyrate atrophy",
+      "D": "Retinitis Pigmentosa",
+      "E": "Stargardt disease"
+    },
+    "correct_option": "D",
+    "rationale": "Retinitis Pigmentosa presents with the classic triad: (1) bone-spicule intraretinal pigmentation in mid-periphery, (2) waxy\npallor of the optic disc, and (3) retinal arteriolar attenuation, presenting with night blindness."
+  },
+  {
+    "question_number": 49,
+    "stem": "An 18-month-old child is brought by his mother after she noticed a white pupillary reflex ('cat's eye reflex' /\nleukocoria) in photos of the child's right eye. What is the most dangerous, life-threatening intraocular\nmalignancy of childhood to rule out?",
+    "options": {
+      "A": "Retinoblastoma",
+      "B": "Congenital cataract",
+      "C": "Toxocariasis",
+      "D": "Persistent Fetal Vasculature (PFV)",
+      "E": "Coat's disease"
+    },
+    "correct_option": "A",
+    "rationale": "Retinoblastoma is the most common primary malignant intraocular tumor of childhood and the single most critical\nlife-threatening cause of leukocoria to rule out urgently."
+  },
+  {
+    "question_number": 50,
+    "stem": "Histological examination of a enucleated eyespecimen with retinoblastoma shows true rosettes composed\nof tumor cells arranged around a central lumen containing cytoplasmic processes of photoreceptors. What are\nthese characteristic rosettes called?",
+    "options": {
+      "A": "Fleurettes",
+      "B": "Homer Wright rosettes",
+      "C": "Flexner-Wintersteiner rosettes",
+      "D": "Psammoma bodies",
+      "E": "Dalen-Fuchs nodules"
+    },
+    "correct_option": "C",
+    "rationale": "Flexner-Wintersteiner rosettes are pathognomonic for retinoblastoma, representing specific photoreceptor differentiation\n(Homer Wright rosettes are non-specific neuroblastic rosettes)."
+  },
+  {
+    "question_number": 51,
+    "stem": "According to Early Treatment Diabetic Retinopathy Study (ETDRS) guidelines, what is the treatment of\nchoice for Proliferative Diabetic Retinopathy (PDR) with high-risk characteristics (NVD or NVE with vitreous\nhemorrhage)?",
+    "options": {
+      "A": "Focal laser photocoagulation",
+      "B": "Panretinal Photocoagulation (PRP)",
+      "C": "Scleral buckling",
+      "D": "Subconjunctival steroid injection",
+      "E": "Oral acetazolamide"
+    },
+    "correct_option": "B",
+    "rationale": "Panretinal Photocoagulation (PRP) is the gold standard treatment for Proliferative Diabetic Retinopathy, destroying\nischemic peripheral retina to reduce VEGF production and regress neovascularization."
+  },
+  {
+    "question_number": 52,
+    "stem": "What is the primary cause of Tractional Retinal Detachment (TRD) in patients with long-standing\nProliferative Diabetic Retinopathy?",
+    "options": {
+      "A": "Vitreous liquefaction without membranes",
+      "B": "Contraction of fibrovascular membranes pulling sensory retina off RPE",
+      "C": "Scleral rupture",
+      "D": "Retinal horseshoe tear from myopia",
+      "E": "Subretinal fluid accumulation from choroidal melanoma"
+    },
+    "correct_option": "B",
+    "rationale": "Tractional Retinal Detachment in PDR is caused by progressive contraction of fibrovascular membranes along vascular\narcades, pulling the neurosensory retina away from underlying RPE."
+  },
+  {
+    "question_number": 53,
+    "stem": "A 72-year-old female complains of distortion of straight lines (metamorphopsia) and central vision loss.\nOptical Coherence Tomography (OCT) reveals choroidal neovascularization (CNV) with subretinal fluid in the\nmacula. What is the first-line treatment for wet Age-Related Macular Degeneration (AMD)?",
+    "options": {
+      "A": "Intravitreal Anti-VEGF injections (e.g., Ranibizumab / Aflibercept)",
+      "B": "Oral zinc and vitamin supplementation only",
+      "C": "Panretinal Photocoagulation",
+      "D": "Topical steroid eye drops",
+      "E": "Surgical macular translocation"
+    },
+    "correct_option": "A",
+    "rationale": "Intravitreal anti-VEGF agents (Ranibizumab, Aflibercept, Bevacizumab) are the primary standard of care to regress\nChoroidal Neovascular Membranes (CNVM) in wet AMD."
+  },
+  {
+    "question_number": 54,
+    "stem": "What is the primary anatomical component of Cloquet's canal (Hyaloid canal) running through the central\nvitreous cavity from the optic disc to the posterior lens capsule in embryonic life?",
+    "options": {
+      "A": "Tertiary zonular fibers",
+      "B": "Subretinal fluid channel",
+      "C": "Secondary avascular vitreous collagen",
+      "D": "Anterior chamber aqueous pathway",
+      "E": "Primary vitreous containing fetal hyaloid artery remnant"
+    },
+    "correct_option": "E",
+    "rationale": "Cloquet's canal is the central transparent vestigial pathway in the vitreous body representing the original canal occupied\nby the fetal hyaloid artery (primary vitreous)."
+  },
+  {
+    "question_number": 55,
+    "stem": "Which anatomical site represents the STRONGEST physiological attachment of the vitreous body to the\nunderlying retina?",
+    "options": {
+      "A": "Ligament of Weiger at posterior lens capsule",
+      "B": "Retinal vascular arcades",
+      "C": "Optic nerve head margin",
+      "D": "Macula / Fovea",
+      "E": "Vitreous base across the ora serrata"
+    },
+    "correct_option": "E",
+    "rationale": "The vitreous base (straddling the ora serrata and posterior pars plana) is the firmest and strongest anatomical attachment\nof the vitreous."
+  },
+  {
+    "question_number": 56,
+    "stem": "A systemic patient with subacute bacterial endocarditis (SBE) presents with retinal hemorrhages featuring\npale or white central spots composed of platelet-fibrin thrombi. What are these hemorrhages called?",
+    "options": {
+      "A": "Preretinal boat-shaped hemorrhages",
+      "B": "Dot and blot hemorrhages",
+      "C": "Subhyaloid hemorrhages",
+      "D": "Roth's spots",
+      "E": "Flame-shaped hemorrhages"
+    },
+    "correct_option": "D",
+    "rationale": "Roth's spots are retinal hemorrhages with pale white centers (leukemic cells or fibrin thrombi) classically associated with\nSubacute Bacterial Endocarditis (SBE) and leukemia."
+  },
+  {
+    "question_number": 57,
+    "stem": "What is the fundamental mechanism of visual loss in Central Retinal Vein Occlusion (CRVO)?",
+    "options": {
+      "A": "Corneal clouding",
+      "B": "Vitreous liquefaction without edema",
+      "C": "Lens displacement",
+      "D": "Posterior capsular thickening",
+      "E": "Macular edema and ischemia"
+    },
+    "correct_option": "E",
+    "rationale": "Macular edema (along with macular ischemia) is the leading cause of reduced visual acuity in both branch and central\nretinal vein occlusions."
+  },
+  {
+    "question_number": 58,
+    "stem": "What is the EARLIEST clinical hallmark of active anterior uveitis observed during slit-lamp biomicroscopy?",
+    "options": {
+      "A": "Iris roseola",
+      "B": "Keratic Precipitates (KPs)",
+      "C": "Hypopyon",
+      "D": "Posterior synechiae",
+      "E": "Aqueous flare (Tyndall effect)"
+    },
+    "correct_option": "E",
+    "rationale": "Breakdown of the blood-aqueous barrier allows protein leakage into the anterior chamber, appearing as aqueous flare\n(scattering of light beam / Tyndall effect), which is the earliest sign of anterior uveitis."
+  },
+  {
+    "question_number": 59,
+    "stem": "Large, greasy 'mutton-fat' Keratic Precipitates (KPs) on the corneal endothelium composed of epithelioid\ncells and macrophages are pathognomonic for:",
+    "options": {
+      "A": "Nongranulomatous anterior uveitis",
+      "B": "Fuchs' heterochromic iridocyclitis",
+      "C": "Posner-Schlossman syndrome",
+      "D": "Granulomatous uveitis",
+      "E": "HLA-B27 acute iridocyclitis"
+    },
+    "correct_option": "D",
+    "rationale": "Mutton-fat KPs are large inflammatory deposits composed of epithelioid histiocytes and macrophages, pathognomonic for\nGranulomatous uveitis (e.g., Sarcoidosis, TB, Syphilis)."
+  },
+  {
+    "question_number": 60,
+    "stem": "Small inflammatory nodules located specifically at the pupillary margin of the iris in uveitis are known as:",
+    "options": {
+      "A": "Koeppe nodules",
+      "B": "Berlin's nodules",
+      "C": "Dalen-Fuchs nodules",
+      "D": "Lisch nodules",
+      "E": "Busacca nodules"
+    },
+    "correct_option": "A",
+    "rationale": "Koeppe nodules occur at the pupillary border, whereas Busacca nodules occur on the anterior surface/stroma of the iris\nin granulomatous uveitis."
+  },
+  {
+    "question_number": 61,
+    "stem": "A 30-year-old patient presents with chronic unilateral low-grade iridocyclitis, heterochromia iridis (affected\neye paler), stellate KPs scattered across the entire endothelium, and early cataract formation, but completely\nLACKS posterior synechiae. What is the diagnosis?",
+    "options": {
+      "A": "Vogt-Koyanagi-Harada syndrome",
+      "B": "Beh\u00e7et's disease",
+      "C": "Sympathetic Ophthalmitis",
+      "D": "Ankylosing spondylitis uveitis",
+      "E": "Fuchs' Heterochromic Iridocyclitis (FHI)"
+    },
+    "correct_option": "E",
+    "rationale": "Fuchs' Heterochromic Iridocyclitis is characteristically unilateral, asymptomatic/mild, with iris heterochromia, diffusely\ndistributed stellate KPs, cataract, glaucoma, and notable ABSENCE of posterior synechiae."
+  },
+  {
+    "question_number": 62,
+    "stem": "A immunocompromised AIDS patient presents with severe vision loss. Ophthalmoscopy reveals extensive\nfull-thickness yellow-white retinal necrosis accompanied by prominent hemorrhages, described as a 'pizza-pie'\nor 'splashed tomato' fundus. What is the causative pathogen?",
+    "options": {
+      "A": "Treponema pallidum",
+      "B": "Toxoplasma gondii",
+      "C": "Herpes simplex virus 1",
+      "D": "Mycobacterium tuberculosis",
+      "E": "Cytomegalovirus (CMV)"
+    },
+    "correct_option": "E",
+    "rationale": "CMV retinitis in advanced HIV/AIDS presents with necrotizing retinitis with hemorrhage, classically described as\n'pizza-pie' or 'crushed tomato' appearance."
+  },
+  {
+    "question_number": 63,
+    "stem": "A patient with focal retinochoroiditis presents with a severe vitreous haze overlying a yellowish retinal\nlesion, described as the classic 'headlight in the fog' sign on fundoscopy. What is the primary diagnosis?",
+    "options": {
+      "A": "Sympathetic ophthalmitis",
+      "B": "Ocular Toxoplasmosis",
+      "C": "Cytomegalovirus retinitis",
+      "D": "Ocular Histoplasmosis",
+      "E": "Sarcoidosis"
+    },
+    "correct_option": "B",
+    "rationale": "Ocular toxoplasmosis (recurrent congenital infection) produces focal necrotizing retinochoroiditis with intense local vitritis,\ngiving the 'headlight in the fog' appearance."
+  },
+  {
+    "question_number": 64,
+    "stem": "A patient sustains a penetrating injury to the ciliary body of the left eye. Four weeks later, BOTH eyes\ndevelop severe granulomatous panuveitis. What is this life-threatening autoimmune condition called?",
+    "options": {
+      "A": "Sympathetic Ophthalmitis",
+      "B": "Beh\u00e7et's syndrome",
+      "C": "Vogt-Koyanagi-Harada disease",
+      "D": "Phacoanaphylactic endophthalmitis",
+      "E": "Eales disease"
+    },
+    "correct_option": "A",
+    "rationale": "Sympathetic Ophthalmitis is a bilateral granulomatous panuveitis occurring after penetrating trauma to one eye (exciting\neye) exposing uveoretinal autoantigens, which triggers autoimmune attack in the uninjured eye (sympathizing eye)."
+  },
+  {
+    "question_number": 65,
+    "stem": "Multiple retinal perivascular exudates resembling 'candle-wax drippings' (taches de bougie) on fundus\nexamination are characteristic of ocular involvement in:",
+    "options": {
+      "A": "Tuberculosis",
+      "B": "Syphilis",
+      "C": "Sarcoidosis",
+      "D": "Ankylosing spondylitis",
+      "E": "Lyme disease"
+    },
+    "correct_option": "C",
+    "rationale": "Sarcoidosis produces retinal periphlebitis with waxy, candle-wax dripping exudates ('taches de bougie') along retinal\nveins."
+  },
+  {
+    "question_number": 66,
+    "stem": "A 2-day-old neonate presents with severe hyperacute bilateral purulent conjunctivitis, marked eyelid\nedema, and chemosis. Gram stain of the discharge shows intracellular Gram-negative diplococci. What is the\ncausative organism?",
+    "options": {
+      "A": "Pseudomonas aeruginosa",
+      "B": "Staphylococcus aureus",
+      "C": "Chlamydia trachomatis",
+      "D": "Neisseria gonorrhoeae",
+      "E": "Herpes simplex virus 2"
+    },
+    "correct_option": "D",
+    "rationale": "Neisseria gonorrhoeae causes hyperacute ophthalmia neonatorum within 2-5 days of birth, featuring profuse purulent\ndischarge and Gram-negative intracellular diplococci."
+  },
+  {
+    "question_number": 67,
+    "stem": "What is the single most common cause of neonatal conjunctivitis (Ophthalmia Neonatorum) presenting\nbetween 5 to 14 days after birth?",
+    "options": {
+      "A": "Adenovirus",
+      "B": "Streptococcus pneumoniae",
+      "C": "Neisseria gonorrhoeae",
+      "D": "Chlamydia trachomatis (serovars D-K)",
+      "E": "Chemical silver nitrate reaction"
+    },
+    "correct_option": "D",
+    "rationale": "Chlamydia trachomatis (serovars D-K) is the commonest infectious cause of ophthalmia neonatorum, typically\nmanifesting 5 to 14 days post-delivery."
+  },
+  {
+    "question_number": 68,
+    "stem": "A 10-year-old boy presents with intense bilateral itching, ropy mucous discharge, and photophobia during\nsummer months. Slit-lamp exam reveals giant 'cobblestone' papillae on the superior tarsal conjunctiva and\nHorner-Trantas spots at the limbus. What is the diagnosis?",
+    "options": {
+      "A": "Atopic keratoconjunctivitis",
+      "B": "Phlyctenular keratoconjunctivitis",
+      "C": "Trachoma",
+      "D": "Vernal Keratoconjunctivitis (VKC)",
+      "E": "Epidemic keratoconjunctivitis"
+    },
+    "correct_option": "D",
+    "rationale": "Vernal Keratoconjunctivitis (VKC / Spring catarrh) affects young males seasonally, featuring cobblestone papillae on\nupper tarsal conjunctiva and Horner-Trantas spots (eosinophil dots at limbus)."
+  },
+  {
+    "question_number": 69,
+    "stem": "In Trachoma (caused by Chlamydia trachomatis serovars A, B, Ba, C), healed shallow limbal depressions\nremaining after regression of limbal follicles are known as:",
+    "options": {
+      "A": "Horner-Trantas spots",
+      "B": "Bitot's spots",
+      "C": "Herbert's pits",
+      "D": "Vogt's limbal girdles",
+      "E": "Arlt's line"
+    },
+    "correct_option": "C",
+    "rationale": "Herbert's pits are pathognomonic cicatricial oval depressions at the limbus resulting from healed lymphoid follicles in\nchronic trachoma."
+  },
+  {
+    "question_number": 70,
+    "stem": "What is 'Arlt's line' in the context of chronic Trachoma staging?",
+    "options": {
+      "A": "A line of pigment on corneal endothelium",
+      "B": "A row of iron deposits in the cornea",
+      "C": "A linear corneal abrasion",
+      "D": "A vascular pannus extending across upper cornea",
+      "E": "A horizontal band of conjunctival scarring at the sulcus subtarsalis of the upper eyelid"
+    },
+    "correct_option": "E",
+    "rationale": "Arlt's line is a linear band of conjunctival scar tissue located at the sulcus subtarsalis parallel to the upper eyelid margin in\ntrachoma stage 3."
+  },
+  {
+    "question_number": 71,
+    "stem": "Triangular, foamy, silvery-white keratinized patches located on the bulbar conjunctiva near the limbus in a\nmalnourished child are called:",
+    "options": {
+      "A": "Phlyctenules",
+      "B": "Xanthelasma",
+      "C": "Bitot's spots",
+      "D": "Pterygium",
+      "E": "Pinguecula"
+    },
+    "correct_option": "C",
+    "rationale": "Bitot's spots are foamy keratinized conjunctival deposits caused by Corynebacterium xerosis buildup, pathognomonic for\nVitamin A deficiency (Xerophthalmia stage X1B)."
+  },
+  {
+    "question_number": 72,
+    "stem": "A wing-shaped fibrovascular growth of conjunctiva extending onto the medial limbus and cornea,\ndestroying Bowman's membrane, is termed a:",
+    "options": {
+      "A": "Pterygium",
+      "B": "Symblepharon",
+      "C": "Pinguecula",
+      "D": "Pseudopterygium",
+      "E": "Phlyctenule"
+    },
+    "correct_option": "A",
+    "rationale": "Pterygium is a triangular wing-shaped fibrovascular conjunctival encroachment onto the cornea caused by UV light\nexposure and elastotic degeneration."
+  },
+  {
+    "question_number": 73,
+    "stem": "What is the fundamental clinical difference between a true Pterygium and a Pseudopterygium?",
+    "options": {
+      "A": "True pterygium is caused by trauma; pseudopterygium by UV light",
+      "B": "A probe CAN be passed under the neck of a pseudopterygium, but CANNOT be passed under a true pterygium",
+      "C": "Pseudopterygium contains Stocker's line",
+      "D": "Pseudopterygium progresses rapidly across cornea; true pterygium never moves",
+      "E": "Pterygium only occurs on temporal side; pseudopterygium on nasal side"
+    },
+    "correct_option": "B",
+    "rationale": "A probe test distinguishes them: a probe CAN easily pass under the neck of a pseudopterygium (adhesion of conjunctiva\nfollowing burn/ulcer), whereas it CANNOT pass under a true pterygium due to adherence throughout."
+  },
+  {
+    "question_number": 74,
+    "stem": "A 48-year-old male presents with gradual peripheral vision loss. Visual field perimetry demonstrates a\nclassic bitemporal hemianopia. Where is the lesion located?",
+    "options": {
+      "A": "Left parietal optic radiation",
+      "B": "Optic chiasm (e.g., Pituitary macroadenoma)",
+      "C": "Left optic nerve",
+      "D": "Right optic tract",
+      "E": "Calcarine cortex"
+    },
+    "correct_option": "B",
+    "rationale": "A lesion compressing the optic chiasm (such as a pituitary adenoma) interrupts decussating nasal retinal nerve fibers,\nproducing a bitemporal hemianopia."
+  },
+  {
+    "question_number": 75,
+    "stem": "A patient involved in a motor vehicle accident suffers a complete transection of the Right Optic Tract. What\nvisual field defect is produced?",
+    "options": {
+      "A": "Binasal hemianopia",
+      "B": "Right homonymous hemianopia",
+      "C": "Left upper quadrantanopia",
+      "D": "Bitemporal hemianopia",
+      "E": "Left homonymous hemianopia"
+    },
+    "correct_option": "E",
+    "rationale": "A right optic tract lesion carrying temporal fibers from right eye and nasal fibers from left eye causes a contralateral (Left)\nHomonymous Hemianopia."
+  },
+  {
+    "question_number": 76,
+    "stem": "A lesion located specifically in 'Meyer's loop' of the temporal optic radiation produces which visual field\ndefect?",
+    "options": {
+      "A": "Homonymous superior quadrantanopia ('pie in the sky')",
+      "B": "Binasal hemianopia",
+      "C": "Central scotoma",
+      "D": "Bitemporal hemianopia",
+      "E": "Homonymous inferior quadrantanopia ('pie on the floor')"
+    },
+    "correct_option": "A",
+    "rationale": "Meyer's loop fibers travel forward in the temporal lobe; lesions here cause a contralateral Homonymous Superior\nQuadrantanopia ('pie in the sky')."
+  },
+  {
+    "question_number": 77,
+    "stem": "During the Swinging Flashlight Test, shining light into the right eye causes moderate pupillary constriction,\nbut swinging light directly to the left eye causes BOTH pupils to paradoxically dilate. What is this sign?",
+    "options": {
+      "A": "Adie's tonic pupil",
+      "B": "Horner's syndrome",
+      "C": "Argyll Robertson pupil",
+      "D": "Marcus Gunn pupil (Relative Afferent Pupillary Defect - RAPD)",
+      "E": "Anisocoria"
+    },
+    "correct_option": "D",
+    "rationale": "Relative Afferent Pupillary Defect (RAPD / Marcus Gunn pupil) indicates incomplete optic nerve or severe retinal lesion in\nthe affected eye, resulting in paradoxical dilation during swinging flashlight test."
+  },
+  {
+    "question_number": 78,
+    "stem": "Bilateral small, irregular pupils that demonstrate Light-Near Dissociation (pupils constrict during\naccommodation/near reflex, but do NOT react to light) are pathognomonic for neurosyphilis. What are these\npupils called?",
+    "options": {
+      "A": "Hutchinson's pupils",
+      "B": "Adie's tonic pupil",
+      "C": "Marcus Gunn pupils",
+      "D": "Horner's pupils",
+      "E": "Argyll Robertson pupils"
+    },
+    "correct_option": "E",
+    "rationale": "Argyll Robertson pupils are small, bilateral, irregular pupils that accommodate but do NOT react to light ('ARP =\nAccommodation Reflex Present, Light Reflex Absent'), pathognomonic for neurosyphilis."
+  },
+  {
+    "question_number": 79,
+    "stem": "A 30-year-old female presents with a unilateral dilated pupil that reacts very slowly (tonically) to near stimuli\nand demonstrates cholinergic supersensitivity (constricting to 0.125% dilute pilocarpine). What is the\ndiagnosis?",
+    "options": {
+      "A": "Adie's Tonic Pupil",
+      "B": "Third nerve palsy",
+      "C": "Pharmacological dilation",
+      "D": "Horner's pupil",
+      "E": "Argyll Robertson pupil"
+    },
+    "correct_option": "A",
+    "rationale": "Adie's tonic pupil (ciliary ganglion denervation) features a light-near dissociated dilated pupil showing denervation\nsupersensitivity to weak (0.125%) pilocarpine."
+  },
+  {
+    "question_number": 80,
+    "stem": "What is the classic clinical triad of Horner's Syndrome (caused by disruption of sympathetic nerve supply\nto the eye)?",
+    "options": {
+      "A": "Mydriasis, exophthalmos, hyperhidrosis",
+      "B": "Lid retraction, lagophthalmos, miosis",
+      "C": "Complete ptosis, mydriasis, anhidrosis",
+      "D": "Proptosis, ophthalmoplegia, papilledema",
+      "E": "Partial ptosis, miosis, ipsilateral facial anhidrosis"
+    },
+    "correct_option": "E",
+    "rationale": "Horner's syndrome triad consists of: (1) partial ptosis (Muller's muscle paralysis), (2) miosis (pupillodilator paralysis), and\n(3) ipsilateral facial anhidrosis (sweat gland loss)."
+  },
+  {
+    "question_number": 81,
+    "stem": "A 6-year-old child presents with severe congenital ptosis of the upper eyelid covering the pupil. On\nexamination, Levator Palpebrae Superioris (LPS) action is measured at 2 mm (poor levator function). Bell's\nphenomenon is normal. What is the surgical procedure of choice?",
+    "options": {
+      "A": "Levator muscle resection",
+      "B": "Frontalis fascia lata sling operation",
+      "C": "Tarsorrhaphy",
+      "D": "Blaskovics operation",
+      "E": "Fasanella-Servat operation"
+    },
+    "correct_option": "B",
+    "rationale": "In severe ptosis with poor LPS function (<4 mm), levator resection is ineffective; a Frontalis Sling operation connecting\ntarsal plate to frontalis muscle is indicated."
+  },
+  {
+    "question_number": 82,
+    "stem": "A 35-year-old patient presents with a painless, hard, non-tender nodule in the upper eyelid of 3 months\nduration. Biopsy shows chronic lipogranulomatous inflammation of a Meibomian gland. What is this lesion\ncalled?",
+    "options": {
+      "A": "External hordeolum (Stye)",
+      "B": "Internal hordeolum",
+      "C": "Chalazion",
+      "D": "Xanthelasma",
+      "E": "Molluscum contagiosum"
+    },
+    "correct_option": "C",
+    "rationale": "A Chalazion is a chronic sterile lipogranulomatous inflammation of a Meibomian gland resulting from duct obstruction."
+  },
+  {
+    "question_number": 83,
+    "stem": "An acute focal purulent infection of a Zeis or Moll gland located at the lash margin of the eyelid, presenting\nas a painful, red swelling, is called a:",
+    "options": {
+      "A": "External Hordeolum (Stye)",
+      "B": "Blepharochalasis",
+      "C": "Chalazion",
+      "D": "Internal Hordeolum",
+      "E": "Dacryocystitis"
+    },
+    "correct_option": "A",
+    "rationale": "An External Hordeolum (Stye) is an acute suppurative inflammation of an eyelash follicle and its associated Zeis\n(sebaceous) or Moll (sweat) gland."
+  },
+  {
+    "question_number": 84,
+    "stem": "A 10-month-old infant is brought with persistent epiphora and sticky discharge from the right eye since\nbirth. Crigler digital massage has failed. What is the most common anatomical site of obstruction in Congenital\nNasolacrimal Duct Obstruction (CNLDO)?",
+    "options": {
+      "A": "Nasal septum",
+      "B": "Valve of Hasner at lower end of nasolacrimal duct",
+      "C": "Valve of Rosenmuller",
+      "D": "Upper lacrimal punctum",
+      "E": "Common lacrimal canaliculus"
+    },
+    "correct_option": "B",
+    "rationale": "CNLDO is most commonly caused by delayed recanalization or persistent mucosal membrane at the Valve of Hasner at\nthe inferior meatal opening of the NLD."
+  },
+  {
+    "question_number": 85,
+    "stem": "What is the next management step for Congenital Nasolacrimal Duct Obstruction in a 12-month-old infant\nwhen lacrimal massage has proven unsuccessful?",
+    "options": {
+      "A": "Dacryocystectomy",
+      "B": "Intubation with silicon tube at 20 years",
+      "C": "Immediate External DCR",
+      "D": "Topical steroid drops alone",
+      "E": "Nasolacrimal duct probing under general anesthesia"
+    },
+    "correct_option": "E",
+    "rationale": "If CNLDO fails to resolve with digital massage by 10-12 months of age, nasolacrimal duct probing under general\nanesthesia is the treatment of choice (90%+ success)."
+  },
+  {
+    "question_number": 86,
+    "stem": "A 45-year-old female presents with acute pain, redness, and swelling over the medial canthus area below\nthe medial palpebral ligament. Pressing over the lacrimal sac produces purulent discharge from the puncta.\nWhat is the diagnosis?",
+    "options": {
+      "A": "Acute Dacryocystitis",
+      "B": "Acute Canaliculitis",
+      "C": "Acute Dacryoadenitis",
+      "D": "Preseptal Cellulitis",
+      "E": "Orbital Cellulitis"
+    },
+    "correct_option": "A",
+    "rationale": "Acute Dacryocystitis is acute inflammation/infection of the lacrimal sac, presenting with pain, erythema, and swelling at\nthe inner canthus below medial palpebral ligament."
+  },
+  {
+    "question_number": 87,
+    "stem": "What is the surgical procedure of choice for Chronic Dacryocystitis with nasolacrimal duct obstruction in\nan adult, which restores tear drainage into the middle nasal meatus?",
+    "options": {
+      "A": "Frontalis sling",
+      "B": "Dacryocystectomy (DCT)",
+      "C": "Dacryocystorhinostomy (DCR)",
+      "D": "Simple canalicular probing",
+      "E": "Evisceration"
+    },
+    "correct_option": "C",
+    "rationale": "Dacryocystorhinostomy (DCR) creates a surgical anastomosis between the lacrimal sac and nasal mucosa of the middle\nnasal meatus to bypass an obstructed NLD."
+  },
+  {
+    "question_number": 88,
+    "stem": "A female patient presents with axial proptosis, lid retraction in primary gaze (Dalrymple's sign), and lid lag\non downgaze (Von Graefe's sign). What is the underlying condition?",
+    "options": {
+      "A": "Cavernous sinus thrombosis",
+      "B": "Capillary hemangioma",
+      "C": "Idiopathic Orbital Inflammatory Disease",
+      "D": "Orbital Cellulitis",
+      "E": "Thyroid Eye Disease (Graves' Orbitopathy)"
+    },
+    "correct_option": "E",
+    "rationale": "Thyroid Eye Disease (Graves' orbitopathy) is the commonest cause of adult bilateral/unilateral proptosis, featuring\nDalrymple's sign (lid retraction) and Von Graefe's sign (lid lag)."
+  },
+  {
+    "question_number": 89,
+    "stem": "What is the most common cause of proptosis in children accompanied by fever, severe pain, restricted\npainful ocular movements, and RAPD?",
+    "options": {
+      "A": "Thyroid eye disease",
+      "B": "Retinoblastoma",
+      "C": "Preseptal Cellulitis",
+      "D": "Orbital Cellulitis",
+      "E": "Rhabdomyosarcoma"
+    },
+    "correct_option": "D",
+    "rationale": "Orbital cellulitis (often secondary to ethmoid sinusitis) is an ophthalmic emergency presenting in children with painful\nproptosis, fever, ophthalmoplegia, and decreased vision."
+  },
+  {
+    "question_number": 90,
+    "stem": "What anatomical landmark separates Preseptal Cellulitis from true Orbital Cellulitis?",
+    "options": {
+      "A": "Tenon's capsule",
+      "B": "Orbital Septum",
+      "C": "Tarso-orbital fascia",
+      "D": "Whitnall's ligament",
+      "E": "Lockwood's ligament"
+    },
+    "correct_option": "B",
+    "rationale": "The Orbital Septum is a key fibrous barrier extending from orbital margins to tarsal plates; infections anterior to it are\npreseptal, whereas those posterior are orbital cellulitis."
+  },
+  {
+    "question_number": 91,
+    "stem": "A 20-year-old student experiences blurred distant vision, but clear near vision. Parallel rays of light entering\nthe unaccommodated eye focus in FRONT of the retina. What is this refractive error?",
+    "options": {
+      "A": "Hypermetropia",
+      "B": "Myopia",
+      "C": "Presbyopia",
+      "D": "Aphakia",
+      "E": "Astigmatism"
+    },
+    "correct_option": "B",
+    "rationale": "Myopia (nearsightedness) occurs when parallel light rays focus in front of the retina, corrected using concave (minus)\nspherical lenses."
+  },
+  {
+    "question_number": 92,
+    "stem": "What type of optical lens is used to correct Hypermetropia (farsightedness), where parallel rays focus\nbehind the retina?",
+    "options": {
+      "A": "Bifocal lens",
+      "B": "Concave spherical lens",
+      "C": "Prism lens",
+      "D": "Cylindrical lens",
+      "E": "Convex spherical lens"
+    },
+    "correct_option": "E",
+    "rationale": "Hypermetropia is corrected with converging Convex (plus) spherical lenses that shift the focal point forward onto the\nretina."
+  },
+  {
+    "question_number": 93,
+    "stem": "A 48-year-old patient reports difficulty reading small print at normal reading distance. This age-related\nphysiological loss of accommodation due to decreased lens elasticity is termed:",
+    "options": {
+      "A": "Astigmatism",
+      "B": "Amblyopia",
+      "C": "Anisometropia",
+      "D": "Presbyopia",
+      "E": "Hypermetropia"
+    },
+    "correct_option": "D",
+    "rationale": "Presbyopia is the progressive age-related decline in accommodative amplitude due to sclerosis of crystalline lens and\nciliary muscle weakening, corrected with convex plus add lenses."
+  },
+  {
+    "question_number": 94,
+    "stem": "What type of lens is required to correct Astigmatism, a condition where light rays passing through different\nmeridians fail to focus at a single focal point?",
+    "options": {
+      "A": "Spherical concave lens",
+      "B": "Prism lens",
+      "C": "Tinted lens",
+      "D": "Spherical convex lens",
+      "E": "Cylindrical or Toric lens"
+    },
+    "correct_option": "E",
+    "rationale": "Astigmatism (unequal corneal curvature in different meridians) is corrected using Cylindrical or Toric lenses."
+  },
+  {
+    "question_number": 95,
+    "stem": "A worker accidentally splashes sodium hydroxide (alkali/quicklime) into his right eye. What is the\nimmediate, mandatory FIRST AID intervention required at the workplace/emergency room?",
+    "options": {
+      "A": "Perform immediate, copious eye irrigation with water or saline for 15-30 minutes",
+      "B": "Instill topical antibiotic drops",
+      "C": "Check intraocular pressure",
+      "D": "Apply pressure patch",
+      "E": "Instill atropine drops"
+    },
+    "correct_option": "A",
+    "rationale": "Alkali burns cause rapid liquefactive necrosis penetrating deep tissues. Immediate, prolonged irrigation for 15-30 minutes\ntakes priority over all diagnostic procedures."
+  },
+  {
+    "question_number": 96,
+    "stem": "Following a blow-out fracture of the orbital floor (maxillary bone) from a fist injury, which extraocular\nmuscle is most commonly trapped in the fracture site, restricting upward gaze?",
+    "options": {
+      "A": "Lateral rectus muscle",
+      "B": "Superior rectus muscle",
+      "C": "Medial rectus muscle",
+      "D": "Inferior oblique muscle",
+      "E": "Inferior rectus muscle"
+    },
+    "correct_option": "E",
+    "rationale": "Orbital floor blowout fractures commonly trap the Inferior Rectus muscle (and inferior oblique), causing diplopia on\nvertical gaze and restricted elevation."
+  },
+  {
+    "question_number": 97,
+    "stem": "A patient presents with vertical diplopia that worsens on downgaze and tilt to the affected side. On\nexamination, the eye is hypertropic. Which cranial nerve is paralyzed?",
+    "options": {
+      "A": "Fifth cranial nerve (Trigeminal)",
+      "B": "Seventh cranial nerve (Facial)",
+      "C": "Sixth cranial nerve (Abducens)",
+      "D": "Fourth cranial nerve (Trochlear - Superior Oblique)",
+      "E": "Third cranial nerve (Oculomotor)"
+    },
+    "correct_option": "D",
+    "rationale": "Trochlear (CN IV) nerve palsy causes weakness of the Superior Oblique muscle, presenting with vertical diplopia that\nworsens on downgaze and tilting head toward affected side."
+  },
+  {
+    "question_number": 98,
+    "stem": "A child is diagnosed with non-paralytic convergent squint (Esotropia). What is the primary cause of\n'Accommodative Esotropia' in young children?",
+    "options": {
+      "A": "Uncorrected Myopia",
+      "B": "Medial rectus muscle laceration",
+      "C": "Orbital wall fracture",
+      "D": "Uncorrected High Hypermetropia",
+      "E": "Lateral rectus muscle palsy"
+    },
+    "correct_option": "D",
+    "rationale": "Uncorrected high hypermetropia requires excessive accommodation to clear images, triggering excessive AC/A ratio\naccommodation-convergence and inward deviation (Esotropia)."
+  },
+  {
+    "question_number": 99,
+    "stem": "Using the high-yield embryology mnemonic LEVL, which ocular structure is derived from SURFACE\nECTODERM during embryonic development?",
+    "options": {
+      "A": "Choroid",
+      "B": "Epithelium of cornea and Crystalline Lens",
+      "C": "Iris sphincter muscle",
+      "D": "Sensory retina",
+      "E": "Optic nerve fibers"
+    },
+    "correct_option": "B",
+    "rationale": "Surface ectoderm gives rise to the crystalline lens, corneal/conjunctival epithelium, lacrimal gland, and eyelid epidermis\n(Mnemonic LEVL: Lens, Epithelium, Vitreous, Lacrimal)."
+  },
+  {
+    "question_number": 100,
+    "stem": "The sphincter and dilator pupillae muscles of the iris originate from which embryonic germ layer?",
+    "options": {
+      "A": "Neural Crest cells",
+      "B": "Neural Ectoderm (Optic Cup)",
+      "C": "Mesoderm",
+      "D": "Endoderm",
+      "E": "Surface ectoderm"
+    },
+    "correct_option": "B",
+    "rationale": "Uniquely, the sphincter and dilator pupillae muscles are derived from Neural Ectoderm of the optic cup (unlike most\nintraocular muscles which derive from neural crest/mesoderm)."
+  }
+]
