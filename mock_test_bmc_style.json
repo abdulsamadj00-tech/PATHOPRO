@@ -1,0 +1,1402 @@
+[
+  {
+    "q": "Which structure of the eye is derived from the Surface Ectoderm according to the LEVL mnemonic?",
+    "opts": [
+      "Sensory retina",
+      "Retinal pigment epithelium",
+      "Crystalline lens",
+      "Sclera",
+      "Ciliary body stroma"
+    ],
+    "a": 2,
+    "exp": "The crystalline lens, corneal/conjunctival epithelium, lacrimal apparatus, and vitreous (partly) originate from the surface ectoderm (Mnemonic: LEVL).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The Retinal Pigment Epithelium (RPE) and neurosensory retina develop from which embryonic structure?",
+    "opts": [
+      "Lens placode",
+      "Neural crest cells",
+      "Outer and inner layers of the optic cup",
+      "Mesectoderm",
+      "Surface ectoderm"
+    ],
+    "a": 2,
+    "exp": "The optic cup is a double-walled neuroectodermal structure; its outer layer forms the RPE and inner layer forms the neurosensory retina.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Failure of complete closure of the embryonic fissure at the 6-week stage typically results in:",
+    "opts": [
+      "Congenital cataract",
+      "Congenital glaucoma",
+      "Cryptophthalmos",
+      "Persistent pupillary membrane",
+      "Ocular coloboma"
+    ],
+    "a": 4,
+    "exp": "Failure of embryonic fissure closure causes ocular coloboma, typically involving the inferonasal quadrant of the iris, ciliary body, choroid, or optic disc.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The corneal endothelium and corneal stroma are embryologically derived from:",
+    "opts": [
+      "Neural crest cells",
+      "Surface ectoderm",
+      "Neuroectoderm",
+      "Lateral plate mesoderm",
+      "Endoderm"
+    ],
+    "a": 0,
+    "exp": "While corneal epithelium comes from surface ectoderm, the corneal stroma and endothelium are derived from neural crest mesenchyme.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "In ocular embryology, the Sphincter pupillae and Dilator pupillae muscles of the iris originate from:",
+    "opts": [
+      "Neural crest",
+      "Mesoderm",
+      "Surface ectoderm",
+      "Neuroectoderm of optic cup",
+      "Visceral arch mesoderm"
+    ],
+    "a": 3,
+    "exp": "Uniquely, the sphincter and dilator pupillae muscles are smooth muscles that originate from the neuroectoderm of the optic cup.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Incomplete regression of the fetal hyaloid arterial system within the primary vitreous leads to:",
+    "opts": [
+      "Familial Exudative Vitreoretinopathy",
+      "Coats disease",
+      "Persistent Hyperplastic Primary Vitreous (PHPV)",
+      "Gyrate atrophy",
+      "Retinopathy of prematurity"
+    ],
+    "a": 2,
+    "exp": "PHPV (or PFV) occurs when the primary fetal hyaloid vascular system fails to regress, manifesting as leukocoria and microphthalmos.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The extraocular muscles (EOMs) are derived embryologically from which germ tissue?",
+    "opts": [
+      "Head mesoderm (periocular somitomeres)",
+      "Neuroectoderm",
+      "Surface ectoderm",
+      "Neural crest mesenchyme",
+      "Visceral branchial arches"
+    ],
+    "a": 0,
+    "exp": "Extraocular muscles develop from the periocular mesoderm (somitomeres).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The optic vesicle invaginates at the 4-week gestational stage to form the two-layered optic cup. Which germ layer forms the optic vesicle?",
+    "opts": [
+      "Axial mesoderm",
+      "Surface ectoderm",
+      "Neural crest",
+      "Neuroectoderm (diencephalon)",
+      "Paraxial mesoderm"
+    ],
+    "a": 3,
+    "exp": "The optic vesicle projects laterally from the forebrain (diencephalon) and is entirely neuroectodermal.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The lens vesicle separates completely from the surface ectoderm by which week of embryonic life?",
+    "opts": [
+      "5th week",
+      "8th week",
+      "12th week",
+      "3rd week",
+      "16th week"
+    ],
+    "a": 0,
+    "exp": "By approximately the 5th week (33 days), the lens vesicle detaches from the surface ectoderm.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which structure forms the tertiary vitreous during the 3rd month of gestation?",
+    "opts": [
+      "Hyaloid vessel walls",
+      "Cloquet's canal sheath",
+      "Primary lens fibers",
+      "Zonules of Zinn",
+      "Lamilla cribrosa"
+    ],
+    "a": 3,
+    "exp": "Tertiary vitreous differentiates from neuroectoderm at the ciliary region to form the suspensory zonules of Zinn.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The sclera and choroid are formed by condensation of surrounding tissue derived from:",
+    "opts": [
+      "Surface ectoderm alone",
+      "Diencephalic neuroectoderm",
+      "Endoderm",
+      "Neural crest and mesoderm",
+      "Notochordal mesoderm"
+    ],
+    "a": 3,
+    "exp": "The outer tunic (sclera) and vascular coat (choroid) condense from periocular neural crest mesenchyme and mesoderm.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Secondary lens fibers continue to be laid down throughout human life. They originate from:",
+    "opts": [
+      "Anterior lens epithelial cells at the equator",
+      "Primary vitreous hyalocytes",
+      "Ciliary non-pigmented epithelium",
+      "Iris stroma",
+      "Posterior lens capsule"
+    ],
+    "a": 0,
+    "exp": "Epithelial cells at the lens equator elongate and differentiate into secondary lens fibers continuously throughout life.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A Mittendorf dot seen on the posterior lens capsule represents a remnant of:",
+    "opts": [
+      "Pupillary membrane",
+      "Bergmeister's papilla",
+      "Anterior hyaloid artery attachment",
+      "Embryonic fissure ridge",
+      "Lens placode stalk"
+    ],
+    "a": 2,
+    "exp": "Mittendorf's dot is a benign small opacity on the posterior lens capsule representing the attachment remnant of the hyaloid artery.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Bergmeister's papilla represents a persistent fibrous remnant of the hyaloid artery at the:",
+    "opts": [
+      "Anterior chamber angle",
+      "Foveola",
+      "Optic disc",
+      "Ciliary processes",
+      "Lower eyelid margin"
+    ],
+    "a": 2,
+    "exp": "Bergmeister's papilla is a fibrous tuft over the optic nerve head resulting from incomplete regression of the hyaloid sheath.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The lacrimal gland develops as an outgrowth from the surface ectoderm of the:",
+    "opts": [
+      "Inferior nasal meatus",
+      "Tarsal plate margin",
+      "Plica semilunaris",
+      "Superior conjunctival fornix",
+      "Ethmoidal sinus roof"
+    ],
+    "a": 3,
+    "exp": "The lacrimal gland originates as multiple ectodermal solid buds from the superolateral aspect of the superior conjunctival fornix.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which orbital wall is the thinnest and most commonly injured in blunt blow-out fractures?",
+    "opts": [
+      "Roof (Frontal bone)",
+      "Lateral wall (Zygomatic bone)",
+      "Floor (Maxillary bone)",
+      "Medial wall (Ethmoid lamina papyracea)",
+      "Apex (Sphenoid bone)"
+    ],
+    "a": 2,
+    "exp": "The orbital floor (posteromedial maxillary bone) is thin and most commonly ruptures in blow-out trauma.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "What is the total overall refractive power of the normal human eye, and how much is contributed by the cornea?",
+    "opts": [
+      "Total ~43 D; Cornea ~19 D",
+      "Total ~70 D; Cornea ~30 D",
+      "Total ~60 D; Cornea ~43 D",
+      "Total ~60 D; Cornea ~19 D",
+      "Total ~50 D; Cornea ~25 D"
+    ],
+    "a": 2,
+    "exp": "The eye's total power is ~60 D; the anterior corneal surface contributes ~43 D (about two-thirds) and the lens ~19\u201320 D.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which extraocular muscle is innervated by the Trochlear nerve (CN IV)?",
+    "opts": [
+      "Levator palpebrae superioris",
+      "Lateral rectus",
+      "Inferior oblique",
+      "Superior rectus",
+      "Superior oblique"
+    ],
+    "a": 4,
+    "exp": "CN IV innervates the Superior Oblique (SO4); CN VI innervates Lateral Rectus (LR6); CN III supplies the rest (LR6SO4R3).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "In the eyelid, the 'Gray Line' seen at the lid margin corresponds anatomically to the:",
+    "opts": [
+      "Tarsal glands of Meibom",
+      "Glands of Zeis",
+      "Cilia follicles",
+      "Muscle of Riolan (pretarsal orbicularis)",
+      "Levator aponeurosis junction"
+    ],
+    "a": 3,
+    "exp": "The gray line marks the avascular plane separating anterior (skin/orbicularis) and posterior (tarsus/conjunctiva) lid structures, corresponding to Riolan's muscle.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The nasolacrimal duct opens beneath the inferior nasal concha into the:",
+    "opts": [
+      "Superior meatus",
+      "Inferior meatus",
+      "Middle meatus",
+      "Sphenoethmoidal recess",
+      "Nasopharynx"
+    ],
+    "a": 1,
+    "exp": "The NLD drains into the inferior nasal meatus beneath the inferior turbinate, guarded by the Valve of Hasner.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which retinal layer contains the cell bodies of the first-order visual neurons (photoreceptors)?",
+    "opts": [
+      "Inner nuclear layer",
+      "Outer nuclear layer",
+      "Ganglion cell layer",
+      "Outer plexiform layer",
+      "Nerve fiber layer"
+    ],
+    "a": 1,
+    "exp": "The outer nuclear layer contains the nuclei/cell bodies of rods and cones; inner nuclear layer contains bipolar/amacrine/horizontal cells.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The intraorbital segment of the optic nerve measures approximately how long?",
+    "opts": [
+      "1 mm",
+      "25 to 30 mm",
+      "45 mm",
+      "60 mm",
+      "10 mm"
+    ],
+    "a": 1,
+    "exp": "The optic nerve has 4 parts: intraocular (1mm), intraorbital (25-30mm, S-shaped), intracanalicular (6-10mm), intracranial (10-15mm).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which structure passes through the Superior Orbital Fissure OUTSIDE the annulus of Zinn?",
+    "opts": [
+      "Nasociliary nerve",
+      "Frontal nerve",
+      "Oculomotor nerve superior division",
+      "Abducens nerve (CN VI)",
+      "Oculomotor nerve inferior division"
+    ],
+    "a": 1,
+    "exp": "Structures passing outside the tendon ring (annulus of Zinn) are: Frontal, Lacrimal, Trochlear nerves, and Superior Ophthalmic Vein (FLT).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The central retinal artery is a direct branch of which major vessel?",
+    "opts": [
+      "External carotid artery",
+      "Middle meningeal artery",
+      "Anterior cerebral artery",
+      "Infraorbital artery",
+      "Ophthalmic artery"
+    ],
+    "a": 4,
+    "exp": "The central retinal artery arises from the ophthalmic artery (a branch of the internal carotid artery) ~10mm behind the globe.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which corneal layer does NOT regenerate when injured and heals by scarring?",
+    "opts": [
+      "Epithelium",
+      "Descemet's membrane",
+      "Tear film layer",
+      "Endothelium",
+      "Bowman's layer"
+    ],
+    "a": 4,
+    "exp": "Bowman's layer is an acellular stromal membrane that cannot regenerate; damage leads to permanent stromal scarring.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The visual pathway fibers originating from the nasal retina cross over to the contralateral optic tract at the:",
+    "opts": [
+      "Lateral geniculate nucleus",
+      "Optic nerve head",
+      "Optic chiasm",
+      "Superior colliculus",
+      "Primary visual cortex"
+    ],
+    "a": 2,
+    "exp": "At the optic chiasm, ~53% of fibers (nasal retinal fibers detecting temporal visual fields) decussate to the opposite optic tract.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "How many layers compose the human sensory retina histological structure?",
+    "opts": [
+      "3 layers",
+      "5 layers",
+      "12 layers",
+      "8 layers",
+      "10 layers"
+    ],
+    "a": 4,
+    "exp": "The retina is organized into 10 distinct histological layers from RPE outward to Internal Limiting Membrane inward.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The primary action of the Inferior Oblique muscle is:",
+    "opts": [
+      "Depression",
+      "Excyclotorsion",
+      "Incyclotorsion",
+      "Elevation",
+      "Abduction"
+    ],
+    "a": 1,
+    "exp": "Obliques are EXTORSORS (Inferior Oblique primary = Excyclotorsion, secondary = Elevation, tertiary = Abduction).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which landmark forms the posterior boundary of the anterior chamber angle during gonioscopy?",
+    "opts": [
+      "Schwalbe's line",
+      "Trabecular meshwork",
+      "Scleral spur",
+      "Iris root",
+      "Ciliary body band"
+    ],
+    "a": 4,
+    "exp": "From anterior to posterior, angle structures are: Schwalbe's line, Trabecular meshwork, Scleral spur, Ciliary body band, Iris root.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The crystalline lens capsule is thickest at the:",
+    "opts": [
+      "Anterior pole",
+      "Pre-equatorial / anterior zone",
+      "Equator",
+      "Nucleus",
+      "Posterior pole"
+    ],
+    "a": 1,
+    "exp": "The lens capsule is thickest at the anterior/posterior pre-equatorial zones (~21 \u00b5m) and thinnest at the posterior pole (~2-4 \u00b5m).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Aqueous humor is actively secreted into the posterior chamber primarily by the non-pigmented epithelium of the:",
+    "opts": [
+      "Pars plicata ciliary processes",
+      "Pars plana",
+      "Iris stroma",
+      "Trabecular meshwork",
+      "Choroidal stroma"
+    ],
+    "a": 0,
+    "exp": "Aqueous humor is produced by active secretion (~70%) and ultrafiltration by non-pigmented epithelial cells of pars plicata ciliary processes.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The majority (~80-90%) of aqueous humor drains out of the anterior chamber via which anatomical pathway?",
+    "opts": [
+      "Uveoscleral pathway",
+      "Trans-corneal route",
+      "Trabecular meshwork -> Canal of Schlemm",
+      "Vitreoretinal pathway",
+      "Subconjunctival lymphatics"
+    ],
+    "a": 2,
+    "exp": "The conventional (trabecular) outflow accounts for ~85-90% of aqueous drainage; uveoscleral outflow accounts for 10-15%.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Endothelial Na+/K+ ATPase pumps maintain corneal hydration at ~78%, preventing edema. This state of relative dehydration is termed:",
+    "opts": [
+      "Imbibition",
+      "Turgescence",
+      "Deturgescence",
+      "Imbibition pressure",
+      "Hypotony"
+    ],
+    "a": 2,
+    "exp": "Corneal transparency requires deturgescence (relative dehydration), maintained by an active endothelial pump and barrier function.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "According to Maurice's lattice theory, corneal stromal transparency is preserved because collagen fibrils are:",
+    "opts": [
+      "Irregularly interwoven with high hydration",
+      "Completely devoid of keratocytes",
+      "Pigmented to absorb scattered light",
+      "Uniform in diameter and spaced less than half a wavelength of light apart",
+      "Oriented parallel to Descemet's membrane only"
+    ],
+    "a": 3,
+    "exp": "Maurice's theory states stromal clarity depends on uniform collagen fibril diameter and lattice spacing <\u03bb/2 (light wavelength).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "During ocular accommodation for near vision, contraction of the ciliary muscle results in:",
+    "opts": [
+      "Flattening of the anterior lens capsule",
+      "Increased zonular tension and flattening of the lens",
+      "Pupil dilation and lens displacement backward",
+      "Relaxation of zonular fibers and increased lens curvature",
+      "Hyperopic shift in refractive power"
+    ],
+    "a": 3,
+    "exp": "According to Helmholtz theory, ciliary muscle contraction moves the ciliary ring forward/inward, relaxing zonules so the lens thickens.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The outer lipid layer of the precorneal tear film is secreted by the:",
+    "opts": [
+      "Main lacrimal gland",
+      "Conjunctival Goblet cells",
+      "Meibomian glands",
+      "Glands of Krause",
+      "Glands of Wolfring"
+    ],
+    "a": 2,
+    "exp": "Tear film layers: Lipid layer (Meibomian glands, prevents evaporation), Aqueous layer (Lacrimal glands), Mucin layer (Goblet cells).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "In the phototransduction cascade, absorption of a photon by rhodopsin causes isomerisation of 11-cis retinal into:",
+    "opts": [
+      "11-trans retinol",
+      "Metarhodopsin I",
+      "9-cis retinal",
+      "All-trans opsin",
+      "All-trans retinal"
+    ],
+    "a": 4,
+    "exp": "Light converts 11-cis retinal to all-trans retinal, activating transducin, reducing cGMP, and hyperpolarizing the photoreceptor.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The afferent nerve fibers mediating the direct and consensual pupillary light reflexes travel via CN II to synapse in the:",
+    "opts": [
+      "Lateral geniculate nucleus",
+      "Edinger-Westphal nucleus",
+      "Pretectal nucleus of midbrain",
+      "Superior colliculus",
+      "Visual cortex (Area 17)"
+    ],
+    "a": 2,
+    "exp": "Pupillary light reflex afferents exit the optic tract before the LGN to synapse in the pretectal nuclei of the rostral midbrain.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "In electroretinography (ERG), the 'a-wave' specifically reflects the electrical activity of the:",
+    "opts": [
+      "Pigment epithelium pump",
+      "Bipolar cells",
+      "Ganglion cells",
+      "M\u00fcller glial cells",
+      "Photoreceptors (rods and cones)"
+    ],
+    "a": 4,
+    "exp": "In standard ERG, the initial negative a-wave originates from photoreceptors; the positive b-wave reflects bipolar and M\u00fcller cell responses.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Foveal vision provides high visual acuity and daylight color perception primarily because the foveola contains exclusively:",
+    "opts": [
+      "Densely packed cones with 1:1 ganglion cell wiring",
+      "High density of rods",
+      "Amacrine cells",
+      "Myelinated nerve fibers",
+      "Large receptive field bipolar cells"
+    ],
+    "a": 0,
+    "exp": "The foveola contains only cones with no overlying inner retinal layers, connected 1:1 to midget bipolar and ganglion cells.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 30-year-old man presents with painful branching corneal ulcer with terminal bulbs and reduced corneal sensation. What is the drug of choice?",
+    "opts": [
+      "Topical Natamycin 5%",
+      "Topical Acyclovir 3% ointment",
+      "Topical Chlorhexidine",
+      "Oral Ketoconazole",
+      "Topical Corticosteroids"
+    ],
+    "a": 1,
+    "exp": "Active HSV dendritic keratitis is treated with topical Acyclovir 3% ointment 5 times daily. Topical steroids are strictly contraindicated.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A contact lens user presents with severe eye pain out of proportion to clinical signs and radial perineural infiltrates. What is the diagnosis?",
+    "opts": [
+      "Fungal keratitis",
+      "Acanthamoeba keratitis",
+      "Bacterial corneal ulcer",
+      "Marginal keratitis",
+      "Neurotrophic keratopathy"
+    ],
+    "a": 1,
+    "exp": "Acanthamoeba keratitis classically affects contact lens wearers, causing severe pain disproportionate to early physical signs.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 18-year-old patient presents with progressive astigmatism. Slit-lamp shows Munson's sign and Fleischer's ring. What is the diagnosis?",
+    "opts": [
+      "Pellucid marginal degeneration",
+      "Keratoconus",
+      "Keratoglobus",
+      "Fuchs endothelial dystrophy",
+      "Terrien marginal degeneration"
+    ],
+    "a": 1,
+    "exp": "Munson's sign (V-shaped lower lid fold on downgaze) and Fleischer's iron ring at the cone base are pathognomonic for Keratoconus.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A faint corneal opacity involving Bowman's layer and superficial stroma that allows partial visibility of iris details is classified as a:",
+    "opts": [
+      "Macula",
+      "Leucoma",
+      "Nebula",
+      "Adherent leucoma",
+      "Kysertop scar"
+    ],
+    "a": 2,
+    "exp": "Corneal scar grading: Nebula = faint opacity (superficial stroma); Macula = semi-dense opacity; Leucoma = dense white opaque scar.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "An adherent leucoma is defined as a dense corneal scar with vascularization and posterior adherence of the:",
+    "opts": [
+      "Iris",
+      "Lens capsule",
+      "Ciliary body",
+      "Vitreous humor",
+      "Descemet's membrane"
+    ],
+    "a": 0,
+    "exp": "Adherent leucoma occurs following a perforated corneal ulcer where the iris plugs the defect and becomes permanently incarcerated in the scar.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Corneal guttae seen on specular microscopy as 'beaten bronze' endothelial deposits are pathognomonic for:",
+    "opts": [
+      "Lattice corneal dystrophy",
+      "Macular corneal dystrophy",
+      "Granular corneal dystrophy",
+      "Fuchs' Endothelial Dystrophy",
+      "Reis-B\u00fccklers dystrophy"
+    ],
+    "a": 3,
+    "exp": "Fuchs' Endothelial Dystrophy features loss of endothelial cells and guttae formation, leading to stromal/epithelial edema.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which bacterial pathogen is classically known to penetrate an INTACT, healthy corneal epithelium?",
+    "opts": [
+      "Staphylococcus aureus",
+      "Streptococcus pneumoniae",
+      "Pseudomonas aeruginosa",
+      "Neisseria gonorrhoeae",
+      "Escherichia coli"
+    ],
+    "a": 3,
+    "exp": "Organisms capable of penetrating intact corneal epithelium include: Neisseria gonorrhoeae, Corynebacterium diphtheriae, Haemophilus, and Listeria.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 40-year-old farmer presents with a corneal ulcer following trauma with a sugarcane branch showing feathery margins and hypopyon. First-line therapy is:",
+    "opts": [
+      "Topical Ciprofloxacin",
+      "Topical Dexamethasone",
+      "Topical Acyclovir",
+      "Topical Natamycin 5%",
+      "Oral Fluconazole alone"
+    ],
+    "a": 3,
+    "exp": "Topical Natamycin 5% suspension is the first-line drug of choice for filamentous fungal keratitis (Aspergillus/Fusarium).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A patient complains of severe glare when looking toward headlights at night, but near vision is preserved. Slit-lamp reveals an opacity at the posterior nodal point. Diagnosis:",
+    "opts": [
+      "Posterior Subcapsular Cataract (PSC)",
+      "Cortical cataract",
+      "Developmental zonular cataract",
+      "Nuclear sclerosis",
+      "Coronary cataract"
+    ],
+    "a": 0,
+    "exp": "PSC lies directly at the visual axis / posterior nodal point, causing severe glare in bright light and reduced near vision due to miosis.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 'snowflake' or 'snowstorm' appearance in the lens cortex is classically associated with:",
+    "opts": [
+      "Wilson's disease",
+      "Uncontrolled Diabetes Mellitus",
+      "Galactosemia",
+      "Myotonic dystrophy",
+      "Atopic dermatitis"
+    ],
+    "a": 1,
+    "exp": "Diabetic cataract classically presents as acute cortical 'snowflake' opacities due to sorbitol accumulation.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 'sunflower' cataract characterized by copper deposition under the anterior lens capsule is diagnostic of:",
+    "opts": [
+      "Siderosis bulbi",
+      "Argyrosis",
+      "Hemochromatosis",
+      "Fabry disease",
+      "Wilson's disease (Hepatolenticular degeneration)"
+    ],
+    "a": 4,
+    "exp": "Wilson's disease causes chalcosis / copper deposition resulting in a sunflower cataract and Kayser-Fleischer (K-F) ring.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The single most common late complication following uncomplicated phacoemulsification with posterior chamber IOL implantation is:",
+    "opts": [
+      "Endophthalmitis",
+      "Retinal detachment",
+      "Posterior Capsule Opacification (PCO)",
+      "Cystoid macular edema",
+      "Corneal decompensation"
+    ],
+    "a": 2,
+    "exp": "PCO (after-cataract) due to Elschnig pearls or Sommering ring proliferation is the most frequent late complication (~20-30%).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Definitive non-invasive outpatient treatment for Posterior Capsule Opacification (PCO) is:",
+    "opts": [
+      "Nd:YAG laser capsulotomy",
+      "Argon laser trabeculoplasty",
+      "Intravitreal Anti-VEGF",
+      "Surgical capsusectomy",
+      "Topical NSAID drops"
+    ],
+    "a": 0,
+    "exp": "Nd:YAG laser capsulotomy is the gold standard quick non-invasive treatment to create a clear central opening in an opacified posterior capsule.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A hypermature cataract where the cortex undergoes liquefaction and the brown dense nucleus sinks to the bottom of the capsular bag is called a:",
+    "opts": [
+      "Immature cataract",
+      "Intumescent cataract",
+      "Morgagnian cataract",
+      "Complicated cataract",
+      "Black cataract"
+    ],
+    "a": 2,
+    "exp": "In a Morgagnian cataract, the liquefied cortex becomes milky white and the solid nucleus sinks inferiorly.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which metabolic disorder presents in neonates with an 'oil-droplet' lens opacity and reducing substances in urine?",
+    "opts": [
+      "Galactosemia",
+      "Homocystinuria",
+      "Fabry disease",
+      "Alkaptonuria",
+      "Tay-Sachs disease"
+    ],
+    "a": 0,
+    "exp": "Galactosemia (galactose-1-phosphate uridyl transferase deficiency) causes accumulation of dulcitol in lens, creating an oil-drop opacity.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Ectopia lentis (lens subluxation) occurring UPWARD and TEMPORALLY is classically seen in:",
+    "opts": [
+      "Homocystinuria",
+      "Marfan syndrome",
+      "Weil-Marchesani syndrome",
+      "Ehlers-Danlos syndrome",
+      "Trauma"
+    ],
+    "a": 1,
+    "exp": "Marfan syndrome causes bilateral upward/temporal lens subluxation; Homocystinuria causes downward/nasal lens subluxation.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 60-year-old female presents with acute severe eye pain, halos around lights, fixed mid-dilated pupil, and IOP of 65 mmHg. The mandatory first intravenous emergency drug is:",
+    "opts": [
+      "Topical Pilocarpine",
+      "Oral Timolol",
+      "Intravenous Mannitol 20%",
+      "Topical Atropine",
+      "Intravitreal Acetazolamide"
+    ],
+    "a": 2,
+    "exp": "IV Mannitol 20% (1.5-2 g/kg) acts rapidly as an hyperosmotic agent to shrink vitreous volume and lower IOP in acute angle-closure glaucoma.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Definitive surgical or laser management for acute primary angle-closure glaucoma in BOTH the affected and fellow eye is:",
+    "opts": [
+      "Trabeculectomy",
+      "Cyclocryotherapy",
+      "Goniotomy",
+      "Laser Peripheral Iridotomy (LPI)",
+      "Selective Laser Trabeculoplasty"
+    ],
+    "a": 3,
+    "exp": "Laser Peripheral Iridotomy (LPI) relieves pupillary block by creating a bypass between posterior and anterior chambers. Fellow eye must receive prophylactic LPI.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Which topical anti-glaucoma medication is STRICTLY CONTRAINDICATED in patients with bronchial asthma or cardiac heart block?",
+    "opts": [
+      "Latanoprost",
+      "Timolol maleate",
+      "Brimonidine",
+      "Dorzolamide",
+      "Pilocarpine"
+    ],
+    "a": 1,
+    "exp": "Timolol is a non-selective beta-blocker that can cause severe bronchospasm in asthmatics and bradycardia/heart block.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Infantile glaucoma (Buphthalmos) presents with the classic symptom triad of:",
+    "opts": [
+      "Pain, redness, discharge",
+      "Ptosis, miosis, anhidrosis",
+      "Proptosis, diplopia, chemosis",
+      "Epiphora, photophobia, blepharospasm",
+      "Strabismus, amblyopia, leukocoria"
+    ],
+    "a": 3,
+    "exp": "Primary Congenital Glaucoma presents with epiphora (watering), photophobia, and blepharospasm due to corneal stretching.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Horizontal curvilinear breaks in Descemet's membrane caused by corneal stretching in congenital glaucoma are named:",
+    "opts": [
+      "Vogt's striae",
+      "Haab's striae",
+      "Fleischer's ring",
+      "Krukenberg's spindle",
+      "Arlt's line"
+    ],
+    "a": 1,
+    "exp": "Haab's striae are pathognomonic horizontal/concentric breaks in Descemet's membrane resulting from buphthalmic corneal enlargement.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Initial surgical treatment of choice for primary congenital glaucoma with a CLEAR cornea is:",
+    "opts": [
+      "Goniotomy",
+      "Cyclodiode laser",
+      "Trabeculectomy",
+      "Evisceration",
+      "Irididectomy"
+    ],
+    "a": 0,
+    "exp": "Goniotomy is the primary procedure if the cornea is clear enough to visualize angle structures; if cloudy, Trabeculotomy is performed.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A vertical line of brown pigment deposited on the posterior corneal endothelium in pigmentary glaucoma is called:",
+    "opts": [
+      "Krukenberg's spindle",
+      "Hudson-Stahli line",
+      "Stocker's line",
+      "Sampaolesi line",
+      "Ferry's line"
+    ],
+    "a": 0,
+    "exp": "Krukenberg's spindle is a vertical pigment line on corneal endothelium created by convection currents in pigment dispersion syndrome.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Prostaglandin analogs (e.g., Latanoprost) lower intraocular pressure primarily by increasing:",
+    "opts": [
+      "Episscleral venous pressure",
+      "Trabecular outflow",
+      "Aqueous suppression",
+      "Uveoscleral outflow",
+      "Vitreous dehydration"
+    ],
+    "a": 3,
+    "exp": "Prostaglandin analogs remodel extracellular matrix in the ciliary muscle to enhance uveoscleral aqueous outflow.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 65-year-old hypertensive patient presents with sudden profound painless vision loss. Fundoscopy shows a pale, milky retina with a 'cherry-red spot' at the fovea. Diagnosis:",
+    "opts": [
+      "Central Retinal Vein Occlusion (CRVO)",
+      "Retinal Detachment",
+      "Diabetic Macular Edema",
+      "Vitreous Hemorrhage",
+      "Central Retinal Artery Occlusion (CRAO)"
+    ],
+    "a": 4,
+    "exp": "CRAO causes ischemic retinal opacification; thin foveola transmits underlying choroidal redness, appearing as a cherry-red spot.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 'blood-and-thunder' or 'splashed tomato' fundus appearance characterized by widespread flame hemorrhages in all 4 quadrants is pathognomonic for:",
+    "opts": [
+      "Central Retinal Vein Occlusion (CRVO)",
+      "Central Retinal Artery Occlusion",
+      "Hypertensive Retinopathy Grade I",
+      "Retinitis Pigmentosa",
+      "Ocular Ischemic Syndrome"
+    ],
+    "a": 0,
+    "exp": "CRVO presents with severe venous engorgement, cotton wool spots, and widespread flame hemorrhages throughout all 4 quadrants.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The primary presenting clinical sign of Retinoblastoma in an infant is a white pupillary reflex termed:",
+    "opts": [
+      "Marcus Gunn pupil",
+      "Argyll Robertson pupil",
+      "Anisocoria",
+      "Amaurotic cat's eye reflex (Leukocoria)",
+      "Polycoria"
+    ],
+    "a": 3,
+    "exp": "Leukocoria (white pupillary reflex) is the single most common presentation (~60%) of Retinoblastoma in young children.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The classic fundus triad of Retinitis Pigmentosa consists of bone-spicule intraretinal pigmentation, arteriolar attenuation, and:",
+    "opts": [
+      "Flame hemorrhages",
+      "Cherry-red spot",
+      "Waxy disc pallor",
+      "Subretinal exudates",
+      "Roth's spots"
+    ],
+    "a": 2,
+    "exp": "Retinitis Pigmentosa classic triad: 1. Bone-spicule pigment deposits in mid-periphery, 2. Arteriolar attenuation, 3. Waxy disc pallor.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Pigment granules seen floating in the anterior vitreous following a rhegmatogenous retinal tear are known as:",
+    "opts": [
+      "Mittendorf's dot",
+      "Vossius' ring",
+      "Elschnig's pearls",
+      "Soemmering's ring",
+      "Shaffer's sign (Tobacco dust)"
+    ],
+    "a": 4,
+    "exp": "Shaffer's sign ('tobacco dust') refers to RPE cells liberated into the vitreous body after a full-thickness retinal tear.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Roth's spots, defined as retinal micro-hemorrhages with pale white centers, are classically associated with:",
+    "opts": [
+      "Toxoplasmosis",
+      "Subacute Bacterial Endocarditis (SBE)",
+      "Retinitis pigmentosa",
+      "Glaucoma",
+      "Keratoconus"
+    ],
+    "a": 1,
+    "exp": "Roth's spots are white-centered retinal hemorrhages seen in Subacute Bacterial Endocarditis, leukemia, and severe anemia.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Proliferative Diabetic Retinopathy (PDR) is defined by the hallmark presence of:",
+    "opts": [
+      "Neovascularization (NVD / NVE)",
+      "Microaneurysms alone",
+      "Hard exudates",
+      "Cotton wool spots alone",
+      "Dot hemorrhages"
+    ],
+    "a": 0,
+    "exp": "PDR is distinguished from NPDR by retinal ischemia driving neovascularization at the disc (NVD) or elsewhere (NVE).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The main modality of laser treatment used to regress retinal neovascularization in Proliferative Diabetic Retinopathy is:",
+    "opts": [
+      "Focal laser photocoagulation",
+      "Nd:YAG laser capsulotomy",
+      "Cyclophotocoagulation",
+      "Excimer PRK",
+      "Panretinal Photocoagulation (PRP)"
+    ],
+    "a": 4,
+    "exp": "Panretinal Photocoagulation (PRP) ablates ischemic peripheral retina to reduce VEGF production and regress neovascular vessels.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Screening for Retinopathy of Prematurity (ROP) is mandatory in premature infants born at a gestational age of less than:",
+    "opts": [
+      "36 weeks",
+      "38 weeks",
+      "32 weeks (or birth weight <1500g)",
+      "40 weeks",
+      "28 weeks"
+    ],
+    "a": 2,
+    "exp": "ROP screening guidelines mandate dilated fundus exam for infants born at \u226431-32 weeks gestational age or birth weight \u22641500 grams.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The breakdown of the blood-aqueous barrier leading to protein leakage into the anterior chamber is visible on slit-lamp as:",
+    "opts": [
+      "Keratic Precipitates",
+      "Hypopyon",
+      "Iris bomb\u00e9",
+      "Hyphema",
+      "Aqueous flare"
+    ],
+    "a": 4,
+    "exp": "Aqueous flare (Tyndall phenomenon) represents protein leakage into the AC and is the earliest sign of anterior uveitis.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Large, greasy 'mutton-fat' Keratic Precipitates (KPs) on the corneal endothelium indicate:",
+    "opts": [
+      "Non-granulomatous anterior uveitis",
+      "Fuchs' heterochromic iridocyclitis",
+      "Granulomatous anterior uveitis",
+      "Viral conjunctivitis",
+      "Fungal keratitis"
+    ],
+    "a": 2,
+    "exp": "Mutton-fat KPs (composed of epithelioid cells and macrophages) are pathognomonic for granulomatous uveitis (e.g., Sarcoidosis, TB).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 30-year-old patient with chronic unilateral anterior uveitis presents with iris heterochromia, stellate KPs, cataract, and NO posterior synechiae. Diagnosis:",
+    "opts": [
+      "Ankylosing spondylitis uveitis",
+      "Behcet's disease",
+      "Sympathetic Ophthalmitis",
+      "Vogt-Koyanagi-Harada syndrome",
+      "Fuchs' Heterochromic Iridocyclitis (FHI)"
+    ],
+    "a": 4,
+    "exp": "Fuchs' Heterochromic Iridocyclitis is characteristically asymptomatic, unilateral, with diffuse stellate KPs, heterochromia, and NO posterior synechiae.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Focal retinochoroiditis with severe overlying vitreous haze producing a classic 'headlight in the fog' fundus appearance is diagnostic of:",
+    "opts": [
+      "Cytomegalovirus (CMV) retinitis",
+      "Ocular Toxoplasmosis",
+      "Ocular Histoplasmosis",
+      "Syphilitic retinitis",
+      "Toxocariasis"
+    ],
+    "a": 1,
+    "exp": "Toxoplasmosis is the most common cause of posterior uveitis, presenting as a yellowish-white active lesion near an old scar with dense vitreous inflammation.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A bilateral granulomatous panuveitis occurring weeks after penetrating ocular trauma to the opposite eye is known as:",
+    "opts": [
+      "Endophthalmitis",
+      "Phacoanaphylactic endophthalmitis",
+      "VKH syndrome",
+      "Sympathetic Ophthalmitis",
+      "Eales disease"
+    ],
+    "a": 3,
+    "exp": "Sympathetic Ophthalmitis is an autoimmune bilateral granulomatous uveitis triggered by exposure of uveal auto-antigens in a traumatized 'exciting' eye.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A neonate develops hyperacute purulent conjunctivitis on the 3rd day of life. Gram stain reveals Gram-negative intracellular diplococci. Diagnosis:",
+    "opts": [
+      "Chlamydia trachomatis",
+      "HSV type 2",
+      "Chemical conjunctivitis",
+      "Staphylococcus aureus",
+      "Gonococcal ophthalmia neonatorum"
+    ],
+    "a": 4,
+    "exp": "Gonococcal ophthalmia neonatorum manifests early (1-3 days) with hyperacute purulent discharge and can perforate the cornea rapidly.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Ophthalmia neonatorum occurring between 5 to 14 days after birth with mucopurulent discharge is most commonly caused by:",
+    "opts": [
+      "Pseudomonas aeruginosa",
+      "Neisseria gonorrhoeae",
+      "Herpes simplex type 1",
+      "Chlamydia trachomatis (serotypes D-K)",
+      "Streptococcus pneumoniae"
+    ],
+    "a": 3,
+    "exp": "Chlamydia trachomatis is the most frequent cause of neonatal conjunctivitis, presenting between 5\u201314 days after delivery.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Healed limbal depressions resulting from regressed follicles in late Trachoma are pathognomonic and named:",
+    "opts": [
+      "Arlt's line",
+      "Bitot's spots",
+      "Horner-Trantas spots",
+      "Herbert's pits",
+      "Vera's dots"
+    ],
+    "a": 3,
+    "exp": "Herbert's pits are row of shallow cicatricial depressions at the limbus representing resolved trachomatous follicles.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A linear horizontal scar on the superior tarsal conjunctiva parallel to the lid margin in late Trachoma is termed:",
+    "opts": [
+      "Herbert's pits",
+      "Arlt's line",
+      "Sampaolesi line",
+      "Stocker's line",
+      "Vossius' line"
+    ],
+    "a": 1,
+    "exp": "Arlt's line is a linear conjunctival scar in the subterminal groove of the upper tarsus seen in Cicatricial Trachoma (Stage 3).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Foamy triangular keratinized patches on the bulbar conjunctiva associated with night blindness are diagnostic of:",
+    "opts": [
+      "Horner-Trantas spots",
+      "Bitot's spots (Vitamin A deficiency)",
+      "Pinguecula",
+      "Pterygium",
+      "Phlyctenular conjunctivitis"
+    ],
+    "a": 1,
+    "exp": "Bitot's spots (foamy keratin collections produced by Corynebacterium xerosis on dry conjunctiva) indicate Vitamin A deficiency (Xerophthalmia stage X1B).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A pituitary macroadenoma compressing the decussating fibers at the center of the optic chiasm produces which visual field defect?",
+    "opts": [
+      "Central scotoma",
+      "Left homonymous hemianopia",
+      "Homonymous superior quadrantanopia",
+      "Binasal hemianopia",
+      "Bitemporal hemianopia"
+    ],
+    "a": 4,
+    "exp": "Chiasmal compression damages decussating nasal retinal fibers from both eyes, causing bitemporal hemianopia.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A lesion of the Temporal optic radiation (Meyer's loop) results in which specific visual field deficit?",
+    "opts": [
+      "Bitemporal hemianopia",
+      "Homonymous inferior quadrantanopia ('Pie on the floor')",
+      "Altitudinal defect",
+      "Ipsilateral blindness",
+      "Homonymous superior quadrantanopia ('Pie in the sky')"
+    ],
+    "a": 4,
+    "exp": "Temporal lobe lesions affect Meyer's loop, producing a contralateral homonymous superior quadrantanopia ('pie in the sky').",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "During the swinging flashlight test, light swung from the normal eye to the affected eye causes paradoxical bilateral pupillary DILATION. This sign is:",
+    "opts": [
+      "Relative Afferent Pupillary Defect (RAPD / Marcus Gunn pupil)",
+      "Adie's tonic pupil",
+      "Argyll Robertson pupil",
+      "Horner's syndrome",
+      "Fixed dilated pupil"
+    ],
+    "a": 0,
+    "exp": "RAPD (Marcus Gunn pupil) indicates asymmetric optic nerve conduction loss; swinging light to the affected side causes dilation.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Bilateral small, irregular pupils that react to Near accommodation but fail to react to Light (Light-Near Dissociation) are diagnostic of:",
+    "opts": [
+      "Adie's tonic pupil",
+      "Horner's syndrome",
+      "Argyll Robertson pupil (Neurosyphilis)",
+      "Marcus Gunn jaw winking",
+      "Third nerve palsy"
+    ],
+    "a": 2,
+    "exp": "Argyll Robertson pupils (ARP = Accommodation Reflex Present) are bilateral, small, irregular, and show light-near dissociation classically in neurosyphilis.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The classic clinical triad of Horner's syndrome consists of ipsilateral ptosis, miosis, and:",
+    "opts": [
+      "Exophthalmos",
+      "Mydriasis",
+      "Epiphora",
+      "Anhidrosis",
+      "Chemosis"
+    ],
+    "a": 3,
+    "exp": "Horner's syndrome (sympathetic disruption) triad: 1. Mild ptosis (M\u00fcller muscle), 2. Miosis (pupil dilator), 3. Facial anhidrosis.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Upper eyelid retraction in primary gaze seen in Thyroid Eye Disease (Graves' Orbitopathy) is named:",
+    "opts": [
+      "Dalrymple's sign",
+      "Von Graefe's sign",
+      "Stellwag's sign",
+      "Mobius' sign",
+      "Gifford's sign"
+    ],
+    "a": 0,
+    "exp": "Dalrymple's sign is upper lid retraction causing scleral show above the superior limbus in primary gaze (most common sign of TED).",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A 6-year-old child presents with severe congenital ptosis. Levator function is measured at 2 mm (poor). Bell's phenomenon is normal. Procedure of choice:",
+    "opts": [
+      "Fasanella-Servat procedure",
+      "Tarsorrhaphy",
+      "Levator resection",
+      "Frontalis fascia lata sling surgery",
+      "Blepharoplasty"
+    ],
+    "a": 3,
+    "exp": "Severe ptosis with poor levator action (<4 mm) requires a Frontalis sling operation to suspend the lid from the frontalis muscle.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Congenital Nasolacrimal Duct Obstruction (CNLDO) is most commonly caused by delayed canalization of the membranous obstruction at the:",
+    "opts": [
+      "Valve of Rosenm\u00fcller",
+      "Lacrimal punctum",
+      "Common canaliculus",
+      "Lacrimal sac neck",
+      "Valve of Hasner (at inferior meatus)"
+    ],
+    "a": 4,
+    "exp": "CNLDO is most commonly due to persistent mucosal membrane at the Valve of Hasner at the lower end of the NLD.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "In an acute alkali chemical burn to the eye, the mandatory immediate emergency first-aid intervention is:",
+    "opts": [
+      "Copious eye irrigation with saline or clean water for 15-30 mins",
+      "Neutralize with weak acid",
+      "Instill steroid drops",
+      "Apply eye patch",
+      "Measure IOP"
+    ],
+    "a": 0,
+    "exp": "Immediate continuous flushing with water/saline is critical to dilute the chemical and stop liquefactive tissue necrosis.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A patient struck in the eye with a tennis ball presents with double vision on upward gaze and enophthalmos. CT shows orbital floor fracture. Diagnosis:",
+    "opts": [
+      "Blow-out orbital fracture",
+      "Zygomaticomaxillary fracture",
+      "Superior orbital fissure syndrome",
+      "Le Fort III fracture",
+      "Orbital apex syndrome"
+    ],
+    "a": 0,
+    "exp": "Blunt impact causes blow-out fracture of the thin floor, entrapping the inferior rectus/oblique and causing vertical diplopia.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Surgical treatment of choice for chronic dacryocystitis in an adult with blocked nasolacrimal duct is:",
+    "opts": [
+      "Probing",
+      "Dacryocystorhinostomy (DCR)",
+      "Syringing alone",
+      "Intubation alone",
+      "Dacryocystectomy (DCT)"
+    ],
+    "a": 1,
+    "exp": "DCR restores lacrimal drainage by creating a direct surgical anastomosis between the lacrimal sac and middle nasal meatus.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A refractive error where parallel rays of light focus in FRONT of the retina when accommodation is at rest is:",
+    "opts": [
+      "Hypermetropia",
+      "Myopia",
+      "Astigmatism",
+      "Presbyopia",
+      "Aphakia"
+    ],
+    "a": 1,
+    "exp": "Myopia (nearsightedness) occurs when light rays focus in front of the retina due to long axial length or steep cornea. Corrected by concave (-) lenses.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "A refractive error corrected using CONCAVE (minus) spherical lenses is:",
+    "opts": [
+      "Hypermetropia",
+      "Myopia",
+      "Presbyopia",
+      "Aphakia",
+      "Simple astigmatism"
+    ],
+    "a": 1,
+    "exp": "Myopia requires diverging concave (-) lenses to shift the focal point backward onto the retina.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Age-related physiological loss of accommodation leading to difficulty with near work starting around age 40 is called:",
+    "opts": [
+      "Hypermetropia",
+      "Myopia",
+      "Aniseikonia",
+      "Amblyopia",
+      "Presbyopia"
+    ],
+    "a": 4,
+    "exp": "Presbyopia is sclerotic hardening of the crystalline lens and ciliary muscle weakening over age 40, corrected with convex (+) reading glasses.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "Total absence of the crystalline lens from the eye (e.g., post-surgery or trauma) is termed:",
+    "opts": [
+      "Aphakia",
+      "Ectopia lentis",
+      "Microphakia",
+      "Pseudophakia",
+      "Aniridia"
+    ],
+    "a": 0,
+    "exp": "Aphakia is the condition of being without a lens, leading to high hypermetropia (~+10 D to +12 D) and deep anterior chamber.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "In a 6th cranial nerve (Abducens) palsy, the affected eye presents with an inability to perform:",
+    "opts": [
+      "Abduction",
+      "Adduction",
+      "Elevation",
+      "Depression",
+      "Incyclotorsion"
+    ],
+    "a": 0,
+    "exp": "CN VI innervates the Lateral Rectus muscle; palsy leads to loss of abduction and a convergent esotropia.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  },
+  {
+    "q": "The classic visual symptom of Optic Neuritis that involves worsening of visual blurring with elevated body temperature or physical exercise is:",
+    "opts": [
+      "Pulfrich phenomenon",
+      "Riddoch phenomenon",
+      "Charles Bonnet syndrome",
+      "Foster Kennedy syndrome",
+      "Uhthoff's phenomenon"
+    ],
+    "a": 4,
+    "exp": "Uhthoff's phenomenon is a transient worsening of neurological vision deficits with rise in body temperature in optic neuritis / MS.",
+    "cat": "BMC Style Mock",
+    "chapter": "Ophthalmology"
+  }
+]
